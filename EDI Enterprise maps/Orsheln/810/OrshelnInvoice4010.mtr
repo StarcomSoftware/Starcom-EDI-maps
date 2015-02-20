@@ -2380,7 +2380,7 @@ Data at offset 36 ('InterchangeContr') was found to be of TYPE
    X'0100' (InterchangeControl# Fields Variable_Table).
 
 (Level 1: Offset 56, len 1, comp 6 of 16, #1, DI 00000006:)
-Data at offset 56 ('1') was found to be of TYPE
+Data at offset 56 ('2') was found to be of TYPE
    X'0101' (Answer3 Fields Variable_Table).
 
 (Level 1: Offset 59, len 13, comp 7 of 16, #1, DI 00000007:)
@@ -2396,7 +2396,7 @@ Data at offset 76 ('GroupControl#') was found to be of TYPE
    X'0104' (GroupControl# Fields Variable_Table).
 
 (Level 1: Offset 90, len 1, comp 10 of 16, #1, DI 0000000A:)
-Data at offset 90 ('1') was found to be of TYPE
+Data at offset 90 ('2') was found to be of TYPE
    X'0105' (Answer5 Fields Variable_Table).
 
 (Level 1: Offset 93, len 10, comp 11 of 16, #1, DI 0000000B:)
