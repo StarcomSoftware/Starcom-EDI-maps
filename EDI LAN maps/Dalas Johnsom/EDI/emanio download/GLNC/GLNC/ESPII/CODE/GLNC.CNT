@@ -1,0 +1,18 @@
+:Base GLNC.hlp
+1 GLNC
+2 Contents=id_top
+2 Installation Checklist=id_ic
+2 General Information=id_gi
+2 Tasks and Files=id_ctafi
+2 Receive Mail=id_receive_mail
+2 Send Mail=id_send_mail
+2 Send and Receive=id_send_and_receive
+2 Sort Mail=id_sort_mail
+2 Send, Receive and Sort=id_send_receive_and_sort
+2 IN.NEW=id_innew
+2 OUT.NEW=id_outnew
+2 UNKNOWN.TP=id_unknowntp
+2 UNKNOWN.MOD=id_unknownmod
+2 How to configure=id_ctnc
+2 How to start=id_sct
+2 Update Network=id_update_network

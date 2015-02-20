@@ -1,0 +1,116 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080519*1611*U*00401*000000877*0*P*>
+GS*TX*006203210*7123660407*20080519*1611*25*X*004010
+ST*864*0001
+BMG*18*99192
+MIT*FARG72500526*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622111 Sequence: 2
+MSG*PO Price:$6.500  Invoice Price:$6.650
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0001
+ST*864*0002
+BMG*18*98017
+MIT*DANV72501877*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2622032 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0002
+ST*864*0003
+BMG*18*98737
+MIT*PNFD72501606*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2622156 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0003
+GE*3*25
+IEA*1*000000877
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080519*1758*U*00401*000000879*0*P*>
+GS*FA*006203210*7123660407*20080519*1758*74*X*004010
+ST*997*0001
+AK1*IN*329
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK2*810*0007
+AK5*A
+AK9*A*7*7*7
+SE*18*0001
+ST*997*0002
+AK1*IN*329
+AK2*810*0001
+AK5*R
+AK2*810*0002
+AK5*R
+AK2*810*0003
+AK5*R
+AK2*810*0004
+AK5*R
+AK2*810*0005
+AK5*R
+AK2*810*0006
+AK5*R
+AK2*810*0007
+AK5*R
+AK9*R*7*7*0
+SE*18*0002
+GE*2*74
+IEA*1*000000879
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080519*1756*U*00401*000000878*0*P*>
+GS*PO*006203210*7123660407*20080519*1756*780*X*004010
+ST*850*0001
+BEG*00*SA*PEOR72770102**20080519
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080524
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3248*92*PEOR
+N2*Menard, Inc.*PEORIA
+N3*2627 W TOWNLINE ROAD
+N4*PEORIA*IL*61615
+PER*CN**TE*3096930416*FX*3096930619
+N1*OB*3248*92*PEOR
+N2*Menard, Inc.*PEORIA
+N3*2627 W TOWNLINE ROAD
+N4*PEORIA*IL*61615
+PER*CN**TE*3096930416*FX*3096930619
+PO1*1*1944*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*100*EA*5*FX*SK*2622144
+PID*F****10" SELECT BASKETS
+PID*F****WHITE HANG BSKT
+PO1*3*100*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+PO1*4*420*EA*2.95*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****ASSTD VARIETIES
+PO1*5*1008*EA*.95*FX*SK*2622190
+PID*F****PREM ACCENT
+PID*F****864/RACK
+CTT*5
+SE*40*0001
+GE*1*780
+IEA*1*000000878
+                                                                                                                   

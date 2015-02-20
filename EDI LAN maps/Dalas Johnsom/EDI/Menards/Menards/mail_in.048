@@ -1,0 +1,234 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080610*1441*U*00401*000000940*0*P*>
+GS*PO*006203210*7123660407*20080610*1441*797*X*004010
+ST*850*0001
+BEG*00*SA*JOLI72792887**20080610
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080614
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3073*92*JOLI
+N2*Menard, Inc.*JOLIET
+N3*2524 W JEFFERSON STREET
+N4*JOLIET*IL*60435
+PER*CN**TE*8157445824*FX*8157445872
+N1*OB*3073*92*JOLI
+N2*Menard, Inc.*JOLIET
+N3*2524 W JEFFERSON STREET
+N4*JOLIET*IL*60435
+PER*CN**TE*8157445824*FX*8157445872
+PO1*1*50*EA*5.35*FX*SK*2621803
+PID*F****2POT TEA ROSE
+PID*F****2POT TEA ROSE
+PO1*2*50*EA*7.3*FX*SK*2621913
+PID*F****#2 GROUNDCOVER ROSE
+PID*F****84/RACK
+PO1*3*288*EA*.6*FX*SK*2622013
+PID*F****4" STRAWBERRY
+PID*F****12 PER FLAT
+PO1*4*1944*EA*.65*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*5*360*EA*2.15*FX*SK*2622090
+PID*F****8" PREM ANNUALS
+PID*F****120/RACK
+PO1*6*200*EA*4.25*FX*SK*2622144
+PID*F****10" SELECT BASKETS
+PID*F****WHITE HANG BSKT
+PO1*7*100*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+PO1*8*192*EA*1.55*FX*SK*2622812
+PID*F****QUART PERENNIALS
+PID*F****500/RACK
+PO1*9*210*EA*2.95*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****ASSTD VARIETIES
+PO1*10*210*EA*3.5*FX*SK*2625862
+PID*F****#1 PREMIUM DAYLILY
+PID*F****ASSTD
+PO1*11*288*EA*.8*FX*SK*2626005
+PID*F****4IN GARDEN MUM
+PID*F****4IN GARDEN MUM
+CTT*11
+SE*58*0001
+ST*850*0002
+BEG*00*SA*HODG72792888**20080610
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080614
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3206*92*HODG
+N2*Menard, Inc.*HODGKINS
+N3*6100 EAST AVENUE
+N4*HODGKINS*IL*60525
+PER*CN**TE*7085793425*FX*7085793465
+N1*OB*3206*92*HODG
+N2*Menard, Inc.*HODGKINS
+N3*6100 EAST AVENUE
+N4*HODGKINS*IL*60525
+PER*CN**TE*7085793425*FX*7085793465
+PO1*1*50*EA*5.35*FX*SK*2621803
+PID*F****2POT TEA ROSE
+PID*F****2POT TEA ROSE
+PO1*2*50*EA*7.3*FX*SK*2621913
+PID*F****#2 GROUNDCOVER ROSE
+PID*F****84/RACK
+PO1*3*648*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*4*100*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+PO1*5*630*EA*2.95*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****ASSTD VARIETIES
+PO1*6*1008*EA*.8*FX*SK*2626005
+PID*F****4IN GARDEN MUM
+PID*F****4IN GARDEN MUM
+CTT*6
+SE*43*0002
+ST*850*0003
+BEG*00*SA*NAPE72792889**20080610
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080614
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3505*92*NAPE
+N2*Menard, Inc.*NAPERVILLE
+N3*715 FORT HILL DRIVE
+N4*NAPERVILLE*IL*60540
+PER*CN**TE*6307786710*FX*6307786711
+N1*OB*3505*92*NAPE
+N2*Menard, Inc.*NAPERVILLE
+N3*715 FORT HILL DRIVE
+N4*NAPERVILLE*IL*60540
+PER*CN**TE*6307786710*FX*6307786711
+PO1*1*1296*EA*.65*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*192*EA*1.75*FX*SK*2622070
+PID*F****5" PREM ANNUALS
+PID*F****384/RACK
+PO1*3*720*EA*.75*FX*SK*2622190
+PID*F****PREM ACCENT
+PID*F****864/RACK
+PO1*4*256*EA*1.55*FX*SK*2622812
+PID*F****QUART PERENNIALS
+PID*F****500/RACK
+PO1*5*420*EA*2.95*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****ASSTD VARIETIES
+PO1*6*288*EA*.8*FX*SK*2626005
+PID*F****4IN GARDEN MUM
+PID*F****4IN GARDEN MUM
+CTT*6
+SE*43*0003
+GE*3*797
+IEA*1*000000940
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080610*1443*U*00401*000000941*0*P*>
+GS*TX*006203210*7123660407*20080610*1443*43*X*004010
+ST*864*0001
+BMG*18*98049
+MIT*DOLT72500912*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622144 Sequence: 3
+MSG*Qty Invoiced: 500.000 does NOT match our Qty Received: 0.000
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 3
+MSG*PO Price:$4.000  Invoice Price:$5.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0001
+ST*864*0002
+BMG*18*98199
+MIT*GLBG72596853*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625860 Sequence: 5
+MSG*Qty Invoiced: 360.000 does NOT match our Qty Received: 210.000
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625860 Sequence: 5
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0002
+ST*864*0003
+BMG*18*99113
+MIT*CHAM72500614*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622070 Sequence: 10
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0003
+ST*864*0004
+BMG*18*98378
+MIT*LINN72501717*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2626005 Sequence: 6
+MSG*Quantity Received: 1,008.000 Quantity Invoiced: 1,008.000
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2626005 Sequence: 6
+MSG*PO Price:$0.750  Invoice Price:$0.800
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0004
+ST*864*0005
+BMG*18*98613
+MIT*MTGO72501349*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625860 Sequence: 4
+MSG*Sku: 2625866 Sequence: 5
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0005
+ST*864*0006
+BMG*18*98574
+MIT*MSCA72501735*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2622040 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0006
+ST*864*0007
+BMG*18*102287
+MIT*LAFS72746960*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622032 Sequence: 1
+MSG*PO Price:$3.000  Invoice Price:$3.300
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0007
+ST*864*0008
+BMG*18*98132
+MIT*EHRN72605619*Invoice has been payment refused
+MSG*NEED CREDIT OF $50.40 FOR PRICING ERROR ON SKU 2622034. COST IS 3.00 EACH AND NOT 3.30 AS BILLED.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*7*0008
+GE*8*43
+IEA*1*000000941
+                                                          

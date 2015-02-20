@@ -1,0 +1,75 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *090409*1512*U*00401*000002294*0*P*>
+GS*FA*006203210*7123660407*20090409*1512*1213*X*004010
+ST*997*0001
+AK1*IN*505
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK2*810*0007
+AK5*A
+AK2*810*0008
+AK5*A
+AK9*A*8*8*8
+SE*20*0001
+GE*1*1213
+IEA*1*000002294
+ISA*00*          *00*          *08*9254291001     *12*7123660407     *090409*2230*U*00400*000000683*0*P*>
+GS*RC*9254291001*7123660407*20090409*2230*683*X*004010
+ST*861*0001
+BRA*200904090000023500*20090409*00*1
+REF*IA*SBT00000102
+DTM*097*20090409
+N1*FR*KMART*1*008965873
+RCD**1*CT
+DTM*995*20090409
+MAN*GM*00147359460001217630
+N1*RL**92*04156
+CTT*1
+SE*11*0001
+GE*1*683
+IEA*1*000000683
+ISA*00*          *00*          *08*9254291001     *12*7123660407     *090410*0421*U*00400*000000684*0*P*>
+GS*PD*9254291001*7123660407*20090410*0421*684*X*004010
+ST*852*0001
+XQ*H*20090410
+N9*AD*T00000102
+LIN**IN*052659011*ZZ*43*UP*735946300609*****DG*1*VS*00000
+ZA*QS***006*20090409
+CTP**UCP*2.45
+SDQ*EA*ZZ*4156*3
+CTT*1
+SE*9*0001
+GE*1*684
+IEA*1*000000684
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *090410*1056*U*00401*000002295*0*P*>
+GS*TX*006203210*7123660407*20090410*1056*1195*X*004010
+ST*864*0001
+BMG*18*117979
+MIT*BELL73046053*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2622034 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0001
+ST*864*0002
+BMG*18*118872
+MIT*WASH73046693*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2623132 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0002
+GE*2*1195
+IEA*1*000002295
+                           

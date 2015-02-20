@@ -1,0 +1,899 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080526*1408*U*00401*000000902*0*P*>
+GS*TX*006203210*7123660407*20080526*1408*32*X*004010
+ST*864*0001
+BMG*18*98482
+MIT*MINO72501718*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622190 Sequence: 7
+MSG*Qty Invoiced: 576.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0001
+ST*864*0002
+BMG*18*98154
+MIT*FORS72501489*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625862 Sequence: 4
+MSG*Qty Invoiced: 210.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0002
+ST*864*0003
+BMG*18*98404
+MIT*LINS72501887*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625866 Sequence: 8
+MSG*Qty Invoiced: 420.000 does NOT match our Qty Received: 0.000
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622040 Sequence: 9
+MSG*Quantity Received: 360.000 Quantity Invoiced: 360.000
+MSG*Sku: 2622070 Sequence: 10
+MSG*Quantity Received: 448.000 Quantity Invoiced: 448.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*15*0003
+ST*864*0004
+BMG*18*98322
+MIT*KEWA72501374*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622040 Sequence: 1
+MSG*Qty Invoiced: 648.000 does NOT match our Qty Received: 618.000
+MSG*Sku: 2622146 Sequence: 3
+MSG*Qty Invoiced: 100.000 does NOT match our Qty Received: 90.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*11*0004
+ST*864*0005
+BMG*18*99338
+MIT*OMAH72500681*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625862 Sequence: 4
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0005
+ST*864*0006
+BMG*18*99277
+MIT*MATT72500725*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622144 Sequence: 2
+MSG*Qty Invoiced: 300.000 does NOT match our Qty Received: 100.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0006
+ST*864*0007
+BMG*18*98815
+MIT*SCTY72501501*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622812 Sequence: 11
+MSG*Qty Invoiced: 192.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0007
+ST*864*0008
+BMG*18*98049
+MIT*DOLT72500912*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 3
+MSG*PO Price:$4.000  Invoice Price:$5.000
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622144 Sequence: 3
+MSG*Qty Invoiced: 500.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0008
+ST*864*0009
+BMG*18*98199
+MIT*GLBG72596853*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625860 Sequence: 5
+MSG*Qty Invoiced: 360.000 does NOT match our Qty Received: 210.000
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625860 Sequence: 5
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0009
+ST*864*0010
+BMG*18*98359
+MIT*LINN72500855*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622146 Sequence: 5
+MSG*Qty Invoiced: 100.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0010
+ST*864*0011
+BMG*18*98386
+MIT*LINS72501127*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622034 Sequence: 2
+MSG*PO Price:$3.000  Invoice Price:$3.300
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622034 Sequence: 2
+MSG*Qty Invoiced: 168.000 does NOT match our Qty Received: 120.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0011
+ST*864*0012
+BMG*18*98643
+MIT*NPLA72501226*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622034 Sequence: 2
+MSG*PO Price:$3.000  Invoice Price:$3.300
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622034 Sequence: 2
+MSG*Qty Invoiced: 168.000 does NOT match our Qty Received: 100.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0012
+ST*864*0013
+BMG*18*98766
+MIT*RAPC72500969*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622034 Sequence: 7
+MSG*Qty Invoiced: 96.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0013
+ST*864*0014
+BMG*18*99133
+MIT*COUB72500690*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622040 Sequence: 1
+MSG*Qty Invoiced: 648.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2622812 Sequence: 3
+MSG*Qty Invoiced: 448.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2622146 Sequence: 4
+MSG*Qty Invoiced: 200.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0014
+ST*864*0015
+BMG*18*99148
+MIT*CRWD72500735*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622040 Sequence: 1
+MSG*Qty Invoiced: 288.000 does NOT match our Qty Received: 228.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0015
+ST*864*0016
+BMG*18*99272
+MIT*MATT72500720*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622146 Sequence: 4
+MSG*Qty Invoiced: 200.000 does NOT match our Qty Received: 100.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0016
+ST*864*0017
+BMG*18*98137
+MIT*EHRN72605624*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622001 Sequence: 17
+MSG*Quantity Received: 648.000 Quantity Invoiced: 648.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0017
+ST*864*0018
+BMG*18*98206
+MIT*GLBG72596860*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625860 Sequence: 15
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0018
+ST*864*0019
+BMG*18*98376
+MIT*LINN72501549*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622111 Sequence: 9
+MSG*Sku: 2622144 Sequence: 10
+MSG*Sku: 2622146 Sequence: 11
+MSG*Sku: 2622001 Sequence: 7
+MSG*Sku: 2622040 Sequence: 8
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0019
+ST*864*0020
+BMG*18*99102
+MIT*CERS72500831*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622190 Sequence: 7
+MSG*Sku: 2622070 Sequence: 5
+MSG*Sku: 2622111 Sequence: 6
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*11*0020
+ST*864*0021
+BMG*18*98964
+MIT*TINP72501819*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625860 Sequence: 9
+MSG*Quantity Received: 210.000 Quantity Invoiced: 210.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0021
+ST*864*0022
+BMG*18*99038
+MIT*WYOM72501032*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622165 Sequence: 11
+MSG*Quantity Received: 770.000 Quantity Invoiced: 770.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0022
+ST*864*0023
+BMG*18*97859
+MIT*BOLI72501389*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625860 Sequence: 7
+MSG*Sku: 2622070 Sequence: 4
+MSG*Sku: 2622190 Sequence: 6
+MSG*Quantity Received: 1,008.000 Quantity Invoiced: 1,008.000
+MSG*Sku: 2622111 Sequence: 5
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0023
+ST*864*0024
+BMG*18*98622
+MIT*MTGO72501652*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622040 Sequence: 7
+MSG*Sku: 2622111 Sequence: 8
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0024
+ST*864*0025
+BMG*18*99111
+MIT*CHAM72500612*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622190 Sequence: 5
+MSG*Quantity Received: 1,008.000 Quantity Invoiced: 1,008.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0025
+ST*864*0026
+BMG*18*103605
+MIT*BISM72765575*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2622146 Sequence: 0
+MSG*Sku: 2622165 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0026
+ST*864*0027
+BMG*18*97811
+MIT*BATA72500934*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622165 Sequence: 13
+MSG*Sku: 2622111 Sequence: 11
+MSG*Sku: 2622190 Sequence: 14
+MSG*Sku: 2622070 Sequence: 10
+MSG*Sku: 2622113 Sequence: 12
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0027
+ST*864*0028
+BMG*18*97967
+MIT*COLT72600115*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2622156 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0028
+ST*864*0029
+BMG*18*98033
+MIT*DETL72501317*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622812 Sequence: 7
+MSG*PO Price:$1.500  Invoice Price:$1.550
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0029
+ST*864*0030
+BMG*18*98095
+MIT*DUND72501745*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622034 Sequence: 9
+MSG*Quantity Received: 432.000 Quantity Invoiced: 432.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*10*0030
+ST*864*0031
+BMG*18*98585
+MIT*MTCH72501402*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622001 Sequence: 7
+MSG*Sku: 2625866 Sequence: 10
+MSG*Sku: 2622070 Sequence: 8
+MSG*Sku: 2622190 Sequence: 9
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0031
+ST*864*0032
+BMG*18*98784
+MIT*RAPC72501732*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2625866 Sequence: 9
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0032
+ST*864*0033
+BMG*18*98821
+MIT*SCTY72501810*Invoice has been payment refused
+MSG*Invoice line items do not match purchase order.
+MSG*A purchase order line item was not found for the corresponding line item.
+MSG*Sku: 2621906 Sequence: 0
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0033
+GE*33*32
+IEA*1*000000902
+ISA*00*          *00*          *08*9254291001     *12*7123660407     *080526*2232*U*00400*000000392*0*P*>
+GS*RC*9254291001*7123660407*20080526*2232*392*X*004010
+ST*861*0001
+BRA*200805260000020801*20080526*00*1
+REF*IA*SBT00000102
+DTM*097*20080526
+N1*FR*KMART*1*008965873
+RCD**1*CT
+DTM*995*20080526
+MAN*GM*00147359460001002267
+N1*RL**92*03971
+CTT*1
+SE*11*0001
+GE*1*392
+IEA*1*000000392
+ISA*00*          *00*          *08*9254291001     *12*7123660407     *080527*0421*U*00400*000000393*0*P*>
+GS*PD*9254291001*7123660407*20080527*0421*393*X*004010
+ST*852*0001
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*025062911*ZZ*43*UP*735946115326*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3907*2*9309*23
+CTT*1
+SE*9*0001
+ST*852*0002
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*025063211*ZZ*43*UP*735946040406*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*11
+SDQ*EA*ZZ*3907*2*4289*13*7002*2*9222*2*9233*1
+LIN**IN*025063211*ZZ*43*UP*735946040406*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*11
+SDQ*EA*ZZ*4289*1
+CTT*2
+SE*13*0002
+ST*852*0003
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*040216711*ZZ*43*UP*735946040413*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*13
+SDQ*EA*ZZ*4156*5*7002*1
+CTT*1
+SE*9*0003
+ST*852*0004
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*040245911*ZZ*43*UP*735946300739*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.25
+SDQ*EA*ZZ*3052*2*4156*9*4272*2
+LIN**IN*040245911*ZZ*43*UP*735946300739*****DG*8*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.25
+SDQ*EA*ZZ*3585*3
+CTT*2
+SE*13*0004
+ST*852*0005
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052611911*ZZ*43*UP*735946101480*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4.1
+SDQ*EA*ZZ*4156*4*4289*1*4315*1*7002*5
+CTT*1
+SE*9*0005
+ST*852*0006
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052615311*ZZ*43*UP*735946300180*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.4
+SDQ*EA*ZZ*4156*1*4289*39*4314*10*7579*5
+CTT*1
+SE*9*0006
+ST*852*0007
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052616611*ZZ*43*UP*735946300166*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.4
+SDQ*EA*ZZ*3097*204*3447*124*3585*300*3814*67*3907*122*3971*295*4130*251*4156*927*4158*103*4160*374
+SDQ*EA*ZZ*4289*197*4314*171*4315*170*4465*222*4485*21*7002*140*7161*49*7484*117*7493*248*7579*314
+SDQ*EA*ZZ*7583*209*7767*82*9220*201*9222*130*9233*74*9243*73*9309*218
+LIN**IN*052616611*ZZ*43*UP*735946300166*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.4
+SDQ*EA*ZZ*4160*1
+CTT*2
+SE*15*0007
+ST*852*0008
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052625811*ZZ*43*UP*735946306939*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*6.5
+SDQ*EA*ZZ*3097*15*3447*3*3585*4*3814*1*3907*4*3971*7*4130*13*4156*18*4158*2*4160*12
+SDQ*EA*ZZ*4289*5*4314*5*4315*10*4465*3*4485*6*7002*2*7161*4*7484*1*7493*9*7579*6
+SDQ*EA*ZZ*7583*5*7767*9*9220*6*9222*4*9233*2*9243*2*9309*3
+CTT*1
+SE*11*0008
+ST*852*0009
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052635711*ZZ*43*UP*735946212346*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*7.9
+SDQ*EA*ZZ*3097*16*3585*12*3814*6*3907*10*4130*21*4158*20*4289*40*4314*17*4315*8*4465*30
+SDQ*EA*ZZ*4485*12*7002*13*7161*11*7484*14*7493*19*7579*25*7583*27*7767*23*9220*26*9233*7
+SDQ*EA*ZZ*9309*24
+CTT*1
+SE*11*0009
+ST*852*0010
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052646311*ZZ*43*UP*735946300227*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*8.87
+SDQ*EA*ZZ*3097*4*3585*11*4130*5*4315*5*4465*4*7002*1*7161*1*7484*1*7493*8*7579*10
+SDQ*EA*ZZ*7767*2*9233*7*9309*2
+CTT*1
+SE*10*0010
+ST*852*0011
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052648311*ZZ*43*UP*735946072407*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*6
+SDQ*EA*ZZ*3097*6*4158*1*4289*3*7002*2*7161*1*7484*2
+LIN**IN*052648311*ZZ*43*UP*735946072407*****DG*6*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*6
+SDQ*EA*ZZ*4314*3
+LIN**IN*052648311*ZZ*43*UP*735946072407*****DG*8*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*6
+SDQ*EA*ZZ*3907*1
+CTT*3
+SE*17*0011
+ST*852*0012
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052651611*ZZ*43*UP*735946012045*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.48
+SDQ*EA*ZZ*7493*2
+CTT*1
+SE*9*0012
+ST*852*0013
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052652611*ZZ*43*UP*735946121457*****DG*1*VS*00000
+ZA*QS***006*20080525
+CTP**UCP*3.8
+SDQ*EA*ZZ*5063*2
+LIN**IN*052652611*ZZ*43*UP*735946121563*****DG*1*VS*00000
+ZA*QS***006*20080525
+CTP**UCP*3.8
+SDQ*EA*ZZ*5063*5
+LIN**IN*052652611*ZZ*43*UP*735946121457*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3024*6*3031*10*3034*9*3045*12*3052*14*3059*11*3097*20*3190*16*3447*5*3541*8
+SDQ*EA*ZZ*3578*3*3585*13*3735*12*3750*14*3769*13*3775*4*3777*14*3778*5*3779*33*3780*11
+SDQ*EA*ZZ*3781*1*3814*11*3832*2*3833*9*3893*6*3897*14*3907*22*3971*21*4022*2*4051*18
+SDQ*EA*ZZ*4057*11*4089*49*4130*14*4156*118*4158*5*4160*14*4170*2*4219*3*4272*30*4289*10
+SDQ*EA*ZZ*4314*3*4315*14*4351*29*4353*24*4465*15*4485*7*4704*26*4735*3*4882*5*7002*12
+SDQ*EA*ZZ*7010*26*7023*17*7031*7*7106*46*7161*5*7189*15*7206*1*7214*11*7216*1*7306*7
+SDQ*EA*ZZ*7326*4*7328*1*7484*5*7493*21*7579*10*7583*10*7620*12*7632*1*7648*57*7649*37
+SDQ*EA*ZZ*9065*19*9184*3*9204*5*9220*31*9222*7*9233*22*9243*7*9273*1*9309*21*9383*38
+SDQ*EA*ZZ*9397*14*9534*13*9537*7*9564*14*9600*6*9689*7*9704*10
+LIN**IN*052652611*ZZ*43*UP*735946121457*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*7318*3
+LIN**IN*052652611*ZZ*43*UP*735946121457*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*7306*3
+LIN**IN*052652611*ZZ*43*UP*735946121457*****DG*8*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3907*2
+LIN**IN*052652611*ZZ*43*UP*735946121471*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3190*2*4272*3
+LIN**IN*052652611*ZZ*43*UP*735946121495*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3585*3*3779*5*4089*5*4351*4*7214*1*7579*3*7648*2*7649*2
+LIN**IN*052652611*ZZ*43*UP*735946121501*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*4051*2*4089*1
+LIN**IN*052652611*ZZ*43*UP*735946121525*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3045*1*3052*3*3541*2*3585*2*3971*1*4089*1*4156*4*4160*2*4272*5*4351*1
+SDQ*EA*ZZ*7002*3*7106*4*7484*1*7579*1*7620*10*7648*3*7649*3*9220*2*9383*4*9397*3
+SDQ*EA*ZZ*9564*1*9600*1
+LIN**IN*052652611*ZZ*43*UP*735946121525*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*7318*1
+LIN**IN*052652611*ZZ*43*UP*735946121549*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*4156*3*4272*1*4289*3*7579*3
+LIN**IN*052652611*ZZ*43*UP*735946121556*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3024*1*3031*4*3034*2*3097*6*3585*1*3735*1*3769*2*3780*1*3833*8*3866*2
+SDQ*EA*ZZ*3897*2*3907*2*4089*2*4156*1*4160*2*4170*3*4353*1*4704*1*4735*5*4882*3
+SDQ*EA*ZZ*7031*2*7206*3*7493*6*7579*1*7583*1*7649*3*7656*1*9065*1*9243*3*9383*3
+SDQ*EA*ZZ*9397*3*9534*1*9537*2*9564*2
+LIN**IN*052652611*ZZ*43*UP*735946121563*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3031*2*3045*2*3405*1*3578*3*3735*6*3769*3*3777*3*3897*3*4022*4*4219*1
+SDQ*EA*ZZ*4704*9*4735*4*4882*1*7010*1*7023*2*7031*2*7206*1*7214*3*7216*5*7306*6
+SDQ*EA*ZZ*7632*1*7656*3*9065*1*9184*1*9204*3*9233*3*9309*1*9383*2*9397*1*9534*1
+SDQ*EA*ZZ*9537*3*9564*1*9704*2
+LIN**IN*052652611*ZZ*43*UP*735946121563*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*7318*2
+LIN**IN*052652611*ZZ*43*UP*735946121587*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3541*4*3780*5*4022*2*4057*3*4089*1*4130*2*4156*11*4272*2*4351*1*4353*1
+SDQ*EA*ZZ*4704*6*7023*6*7106*4*7493*1*7579*1*7648*2*9243*1*9397*1*9564*7
+LIN**IN*052652611*ZZ*43*UP*735946121617*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3031*5*3045*10*3052*7*3541*6*3578*3*3735*3*3750*4*3769*1*3779*6*3780*4
+SDQ*EA*ZZ*3814*7*3907*3*3971*8*4022*1*4089*11*4130*11*4156*11*4160*7*4289*5*4314*12
+SDQ*EA*ZZ*4315*17*4351*1*4353*15*4465*2*4704*1*4735*1*4882*6*7002*3*7010*1*7031*1
+SDQ*EA*ZZ*7106*2*7214*12*7484*3*7579*1*7583*5*7648*6*7656*3*9184*1*9220*7*9233*1
+SDQ*EA*ZZ*9309*10*9383*8*9534*1*9564*6*9600*5*9704*6
+LIN**IN*052652611*ZZ*43*UP*735946121624*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3045*6*3832*2*4022*1*4160*2*4315*1*7620*5*9204*1*9689*3*9704*4
+LIN**IN*052652611*ZZ*43*UP*735946121631*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*3.8
+SDQ*EA*ZZ*3097*2*4704*1
+CTT*19
+SE*102*0013
+ST*852*0014
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052652911*ZZ*43*UP*735946121655*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*3034*3*3052*2*3059*6*3097*2*3190*2*3405*1*3447*3*3541*1*3578*1*3750*3
+SDQ*EA*ZZ*3769*1*3775*8*3778*4*3779*3*3780*2*3893*6*3897*6*3971*2*4022*2*4089*1
+SDQ*EA*ZZ*4130*2*4160*2*4170*9*4219*3*4272*9*4289*1*4315*4*4351*2*4353*1*4465*1
+SDQ*EA*ZZ*4704*3*4735*5*4813*2*7010*11*7031*9*7106*7*7161*2*7189*4*7214*1*7216*4
+SDQ*EA*ZZ*7306*8*7493*3*7579*10*7583*5*7648*5*7649*7*7656*2*9065*1*9222*7*9233*3
+SDQ*EA*ZZ*9309*18*9534*7*9564*4*9600*2
+LIN**IN*052652911*ZZ*43*UP*735946121655*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*4156*20*7318*6*9383*8*9704*2
+LIN**IN*052652911*ZZ*43*UP*735946121655*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*4735*3
+LIN**IN*052652911*ZZ*43*UP*735946121655*****DG*8*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*4130*5
+CTT*4
+SE*26*0014
+ST*852*0015
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052653711*ZZ*43*UP*735946121648*****DG*1*VS*00000
+ZA*QS***006*20080525
+CTP**UCP*4
+SDQ*EA*ZZ*5063*4
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*3034*1*3405*1*3447*3*3541*5*3750*5*3778*6*3779*3*3780*3*3833*2*3897*1
+SDQ*EA*ZZ*3907*4*3971*1*4022*4*4089*5*4156*3*4160*1*4170*2*7031*4*7161*2*7189*2
+SDQ*EA*ZZ*7484*4*7632*1*7648*9*7649*4*9184*4*9204*3*9222*3*9233*7*9243*1*9309*14
+SDQ*EA*ZZ*9689*2
+LIN**IN*052653711*ZZ*43*UP*735946121648*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*9564*2
+CTT*2
+SE*19*0015
+ST*852*0016
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052654611*ZZ*43*UP*735946777463*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*3097*2*3585*1*3907*2*3971*2*4022*3*4057*1*4130*6*4156*35*4160*7*4314*12
+SDQ*EA*ZZ*7161*1*7189*2*7484*10*7493*2*7579*1*7583*5*9204*1*9222*3*9233*1*9243*3
+LIN**IN*052654611*ZZ*43*UP*735946777463*****DG*8*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*7484*1
+CTT*2
+SE*14*0016
+ST*852*0017
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052655911*ZZ*43*UP*735946382100*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*.95
+SDQ*EA*ZZ*4315*18*9220*15*9233*3
+CTT*1
+SE*9*0017
+ST*852*0018
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052656211*ZZ*43*UP*735946305352*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*.88
+SDQ*EA*ZZ*3097*49*3585*90*3814*26*3907*20*4130*65*4156*177*4158*34*4289*4*4314*37*4315*11
+SDQ*EA*ZZ*4465*55*4485*15*7002*14*7161*9*7484*27*7493*39*7579*92*7583*61*7767*25*9220*113
+SDQ*EA*ZZ*9233*23*9309*25
+CTT*1
+SE*11*0018
+ST*852*0019
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052656711*ZZ*43*UP*735946315641*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.5
+SDQ*EA*ZZ*3097*63*3585*77*3814*26*3907*17*4130*83*4158*15*4289*27*4314*24*4315*49*4465*47
+SDQ*EA*ZZ*7002*16*7161*8*7484*38*7493*57*7579*63*7583*36*7767*36*9220*88*9233*12*9309*67
+CTT*1
+SE*10*0019
+ST*852*0020
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052657311*ZZ*43*UP*735946350437*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*.95
+SDQ*EA*ZZ*3097*42*3585*43*3814*12*3907*15*4130*19*4158*14*4289*35*4314*12*4315*27*4465*51
+SDQ*EA*ZZ*7002*2*7161*15*7484*18*7493*33*7579*56*7583*8*9220*23*9233*32*9309*21
+LIN**IN*052657311*ZZ*43*UP*735946350437*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*.95
+SDQ*EA*ZZ*3907*10
+CTT*2
+SE*14*0020
+ST*852*0021
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052657511*ZZ*43*UP*735946030308*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.25
+SDQ*EA*ZZ*3097*3*3585*21*3814*2*3907*10*4130*13*4156*121*4158*15*4289*22*4314*5*4315*36
+SDQ*EA*ZZ*4465*10*4485*1*7002*5*7161*21*7484*33*7493*21*7579*62*7583*10*7767*11*9220*8
+SDQ*EA*ZZ*9233*2*9309*27
+CTT*1
+SE*11*0021
+ST*852*0022
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052657711*ZZ*43*UP*735946030315*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.2
+SDQ*EA*ZZ*3097*7*4130*7*4156*2*4289*5*4315*3*4465*3*7161*5*7484*3*7493*2*7579*1
+SDQ*EA*ZZ*7583*8*9220*8*9233*2*9309*1
+CTT*1
+SE*10*0022
+ST*852*0023
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052657811*ZZ*43*UP*735946305802*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.2
+SDQ*EA*ZZ*3585*34*3814*1*4130*7*4158*1*4289*6*4315*8*4465*20*7002*10*7161*13*7493*3
+SDQ*EA*ZZ*7579*6*7583*4*7767*3*9220*14*9233*1*9309*19
+LIN**IN*052657811*ZZ*43*UP*735946305802*****DG*5*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.2
+SDQ*EA*ZZ*4158*2
+CTT*2
+SE*14*0023
+ST*852*0024
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052658011*ZZ*43*UP*735946100117*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.5
+SDQ*EA*ZZ*4130*11*4160*24*4289*14*4314*11*4485*7*7484*12*7583*32*9220*22*9243*5
+CTT*1
+SE*9*0024
+ST*852*0025
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*052659011*ZZ*43*UP*735946300609*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3024*1*3034*4*3052*54*3097*11*3447*3*3541*26*3585*26*3750*3*3832*8*3907*7
+SDQ*EA*ZZ*3971*16*4051*20*4089*49*4156*56*4158*7*4160*7*4170*14*4272*30*4289*4*4314*8
+SDQ*EA*ZZ*4315*13*4351*3*7002*4*7161*5*7189*9*7484*8*7493*4*7579*22*7583*16*7620*1
+SDQ*EA*ZZ*7648*4*7649*4*9222*5*9233*33*9243*2
+LIN**IN*052659011*ZZ*43*UP*735946300630*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3585*1*4465*1
+LIN**IN*052659011*ZZ*43*UP*735946300647*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*4314*2
+LIN**IN*052659011*ZZ*43*UP*735946300654*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*9222*1
+LIN**IN*052659011*ZZ*43*UP*735946300661*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3052*2*3097*1*3585*2*3971*5*4051*1*4089*1*4156*7*7579*2*7648*9*9233*3
+LIN**IN*052659011*ZZ*43*UP*735946300685*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3024*6*3097*1*3541*9*3585*14*3832*4*3971*5*4051*2*4272*1*4351*1*7579*1
+SDQ*EA*ZZ*7583*1*9233*2
+LIN**IN*052659011*ZZ*43*UP*735946300715*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*4089*1*4272*1*9233*1
+LIN**IN*052659011*ZZ*43*UP*735946300722*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3052*1*3750*2*4272*1*9233*9
+LIN**IN*052659011*ZZ*43*UP*735946300746*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*2.45
+SDQ*EA*ZZ*3024*4*3447*4*3585*15*3750*1*3832*7*4051*11*4089*5*4156*22*4272*13*4289*2
+SDQ*EA*ZZ*4351*5*7189*2*7579*15*7583*1*7620*1*7649*11*9233*8
+CTT*9
+SE*46*0025
+ST*852*0026
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*054550511*ZZ*43*UP*735946030322*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*1.1
+SDQ*EA*ZZ*3971*10
+CTT*1
+SE*9*0026
+ST*852*0027
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*054552411*ZZ*43*UP*735946031237*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4.8
+SDQ*EA*ZZ*4160*1
+CTT*1
+SE*9*0027
+ST*852*0028
+XQ*H*20080527
+N9*AD*T00000102
+LIN**IN*059226311*ZZ*43*UP*735946121679*****DG*1*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*4156*10*9233*1
+LIN**IN*059226311*ZZ*43*UP*735946121679*****DG*3*VS*00000
+ZA*QS***006*20080526
+CTP**UCP*4
+SDQ*EA*ZZ*4051*8
+CTT*2
+SE*13*0028
+GE*28*393
+IEA*1*000000393
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080527*0731*U*00401*000000903*0*P*>
+GS*PO*006203210*7123660407*20080527*0731*788*X*004010
+ST*850*0001
+BEG*00*SA*HODG72776134**20080527
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080529
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3206*92*HODG
+N2*Menard, Inc.*HODGKINS
+N3*6100 EAST AVENUE
+N4*HODGKINS*IL*60525
+PER*CN**TE*7085793425*FX*7085793465
+N1*OB*3206*92*HODG
+N2*Menard, Inc.*HODGKINS
+N3*6100 EAST AVENUE
+N4*HODGKINS*IL*60525
+PER*CN**TE*7085793425*FX*7085793465
+PO1*1*1296*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*200*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+PO1*3*420*EA*2.95*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****ASSTD VARIETIES
+CTT*3
+SE*34*0001
+ST*850*0002
+BEG*00*SA*JOLI72776137**20080527
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080529
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3073*92*JOLI
+N2*Menard, Inc.*JOLIET
+N3*2524 W JEFFERSON STREET
+N4*JOLIET*IL*60435
+PER*CN**TE*8157445824*FX*8157445872
+N1*OB*3073*92*JOLI
+N2*Menard, Inc.*JOLIET
+N3*2524 W JEFFERSON STREET
+N4*JOLIET*IL*60435
+PER*CN**TE*8157445824*FX*8157445872
+PO1*1*1296*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*448*EA*1.75*FX*SK*2622070
+PID*F****5" PREM ANNUALS
+PID*F****384/RACK
+CTT*2
+SE*31*0002
+GE*2*788
+IEA*1*000000903
+                                                             

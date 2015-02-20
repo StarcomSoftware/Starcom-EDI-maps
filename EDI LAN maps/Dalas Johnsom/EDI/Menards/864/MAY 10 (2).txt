@@ -1,0 +1,22 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100510*1338*U*00401*000002929*0*P*>
+GS*TX*006203210*7123660407*20100510*1338*1420*X*004010
+ST*864*0001
+BMG*18*140322
+MIT*WTWN73580240*Invoice has been payment refused
+MSG*2ND REQUEST NEED CREDIT OF $219.66, DID NOT RECEIVE 42-2625870, PER POD PROVIDED THIS IS A CONCEALED SHORTAGE.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*7*0001
+GE*1*1420
+IEA*1*000002929
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100510*1443*U*00401*000002930*0*P*>
+GS*TX*006203210*7123660407*20100510*1443*1421*X*004010
+ST*864*0001
+BMG*18*137899
+MIT*GISL73580242*Invoice has been payment refused
+MSG*2ND REQUEST NEED CREDIT OF $168.75, DID NOT RECEIVE 25-2622911, PER POD PROVIDED THIS IS A CONCEALED SHORTAGE.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*7*0001
+GE*1*1421
+IEA*1*000002930

@@ -1,0 +1,320 @@
+;
+; Functional Acknowlegment Report Map
+;
+;     September 1991; revised apr 92
+;
+;       T.S.L.
+;
+
+
+
+HEADER
+     TX,      0, 0,  1, "Functional Acknowledgment Report for "
+     SPECIAL, 0, 0, 38, TP
+     TX,      0, 0, 46, "as of: "
+     SPECIAL, 0, 0, 54, DATE
+     TX,      0, 0, 74, "Pg:"
+     SPECIAL, 0, 1, 78, SETPAGE
+     TX,      0, 0,  1, "Transmit Control Number: "
+     SPECIAL, 0, 0, 26, CONTROL
+     TX,      0, 0, 37, "FOR "
+DATEFORMAT,"MM/DD/YY"
+
+     SPECIAL, 0, 0, 41, ENVDATE
+     TX, 0, 0, 52, "AT "
+TIMEFORMAT,"HH:MM"
+
+     SPECIAL, 0, 0, 55, ENVTIME
+     TX,      0, 0,  1,"============================================================================="
+ENDHEADER
+
+TX, 0, 0, 1,"Functional ID Code : "
+FD, 0, 0, 0, 1, 10, 2, LJBF, 0
+
+LOOP, 2
+	TX, 0, 0,  1, "Transaction Set : "
+	FD, 0, 0,  0, 2, 10, 3, LJBF, 0
+	TX, 0, 0, 35, "Transaction Set Control Number : "
+	FD, 0, 0,  0, 2, 13, 9, LJBF, 0
+
+	LOOP, 3
+		TX, 0, 0, 1,"Segment Information"
+		TX, 0, 0, 1,"Segment ID : "
+		FD, 0, 0, 0, 3, 10, 3, LJBF, 0
+		TX, 0, 0, 1,"Position in Transaction Set : "
+		FD, 0, 0, 0, 3, 13, 7, LJBF, 0
+		TX, 0, 0, 1, "Loop ID : "
+		FD, 0, 0, 0, 3, 20, 4, LJBF, 0
+		
+		TX, 1, 0, 1, "Segment Syntax Errors"
+		TX, 0, 0, 1, "====================="
+		FD, 0, 0, 1, 3, 24, 1, LJBF, 0
+			CODE, "1", "Unrecognized segment ID"
+			CODE, "2", "Unexpected Segment"
+			CODE, "3", "Mandatory segment MISSING"
+			CODE, "4", "Loop occurs OVER MAXIMUM times"
+			CODE, "5", "Segment Exceeds Maximum Use"
+			CODE, "6", "Segment Not in defined Transaction Set"
+			CODE, "7", "Segment not in proper Sequence"
+	IFNE, 3, 27, 3, "   "		
+		FD, 0, 0, 1, 3, 27, 1, LJBF, 0
+			CODE, "1", "Unrecognized segment ID"
+			CODE, "2", "Unexpected Segment"
+			CODE, "3", "Mandatory segment MISSING"
+			CODE, "4", "Loop occurs OVER MAXIMUM times"
+			CODE, "5", "Segment Exceeds Maximum Use"
+			CODE, "6", "Segment Not in defined Transaction Set"
+			CODE, "7", "Segment not in proper Sequence"
+	ENDIF
+	IFNE, 3, 30, 3, "   "		
+		FD, 0, 0, 1, 3, 30, 1, LJBF, 0
+			CODE, "1", "Unrecognized segment ID"
+			CODE, "2", "Unexpected Segment"
+			CODE, "3", "Mandatory segment MISSING"
+			CODE, "4", "Loop occurs OVER MAXIMUM times"
+			CODE, "5", "Segment Exceeds Maximum Use"
+			CODE, "6", "Segment Not in defined Transaction Set"
+			CODE, "7", "Segment not in proper Sequence"
+	ENDIF
+	IFNE, 3, 33, 3, "   "
+		FD, 0, 0, 1, 3, 33, 1, LJBF, 0
+			CODE, "1", "Unrecognized segment ID"
+			CODE, "2", "Unexpected Segment"
+			CODE, "3", "Mandatory segment MISSING"
+			CODE, "4", "Loop occurs OVER MAXIMUM times"
+			CODE, "5", "Segment Exceeds Maximum Use"
+			CODE, "6", "Segment Not in defined Transaction Set"
+			CODE, "7", "Segment not in proper Sequence"		
+	ENDIF
+	IFNE, 3, 36, 3, "   "
+		FD, 0, 0, 1, 3, 36, 1, LJBF, 0
+			CODE, "1", "Unrecognized segment ID"
+			CODE, "2", "Unexpected Segment"
+			CODE, "3", "Mandatory segment MISSING"
+			CODE, "4", "Loop occurs OVER MAXIMUM times"
+			CODE, "5", "Segment Exceeds Maximum Use"
+			CODE, "6", "Segment Not in defined Transaction Set"
+			CODE, "7", "Segment not in proper Sequence"		
+	ENDIF
+
+		LOOP,4
+			TX, 1, 0, 1, "Data Element Information"
+			TX, 0, 0, 1, "========================"
+			TX, 0, 0, 1, "Element Position in Segment : "
+			FD, 0, 0, 0, 4, 10, 3, LJBF, 0
+			TX, 0, 0, 1, "Element Reference Number : "
+			FD, 0, 0, 0, 4, 13, 5, LJBF, 0
+			TX, 1, 0, 1, "Syntax Error"
+			TX, 0, 0, 1, "============"
+			FD, 0, 0, 1, 4, 18, 2, LJBF, 0
+				CODE, "1 ", "Mandatory Data Element Missing"
+				CODE, "2 ", "Conditional Required Data Element Missing"
+				CODE, "3 ", "Too Many Data Elements"
+				CODE, "4 ", "Data Element too short"
+				CODE, "5 ", "Data Element too long"
+				CODE, "6 ", "Invalid character in Data Element"
+				CODE, "7 ", "Invalid Code Value"
+				CODE, "8 ", "Invalid Date"
+				CODE, "9 ", "Invalid Time"
+				CODE, "10", "Exclusion Condition Violated"
+			TX, 0, 0, 1, "   "
+			TX, 0, 0, 1, "BAD DATA ELEMENT : "
+			FD, 0, 0, 0,  4, 21, 99, LJBF, 0
+		ENDLOOP
+	ENDLOOP
+	IFEQ, 5, 0, 4, "0005"
+		TX, 0, 0, 1, "Transaction Set Response Trail"
+		TX, 0, 0, 1, "=============================="
+		TX, 0, 0, 1, "Transaction set was "
+		FD, 0, 0, 0, 5, 10, 1, LJBF, 0
+			CODE, "A", "ACCEPTED."
+			CODE, "E", "ACCEPTED but ERRORs were noted."
+			CODE, "R", "REJECTED."
+			CODE, "P", "Partially Accepted, at least 1 Trans. Set was REJECTED."
+			CODE, "X", "REJECTED, contents after Decrypt couldnt be analyzed."
+			CODE, "M", "REJECTED, (MAC) failed."
+	IFNE, 5, 11, 1, " "
+
+		TX, 1, 0, 1, "ERROR NOTE"
+		TX, 0, 0, 1, "=========="
+		FD, 0, 0, 1, 5, 11, 1, LJBF, 0
+			CODE, "1", "Transaction Set not supported."
+			CODE, "2", "Transaction Set trailer missing."
+			CODE, "3", "Transaction Set control number in Header and Trailer do not match."
+			CODE, "4", "Number of included segments DOES NOT match actual count."
+			CODE, "5", "One or more segments are in ERROR."
+			CODE, "6", "Missing or Invalid Transaction Set Identifier."
+			CODE, "7", "Missing or Invalid Transaction Set control number"
+	ENDIF
+	IFNE, 5, 14, 3, "   "
+		FD, 0, 0, 1, 5, 14, 1, LJBF, 0
+			CODE, "1", "Transaction Set not supported."
+			CODE, "2", "Transaction Set trailer missing."
+			CODE, "3", "Transaction Set control number in Header and Trailer do not match."
+			CODE, "4", "Number of included segments DOES NOT match actual count."
+			CODE, "5", "One or more segments are in ERROR."
+			CODE, "6", "Missing or Invalid Transaction Set Identifier."
+			CODE, "7", "Missing or Invalid Transaction Set control number"
+	ENDIF
+	IFNE, 5, 17, 3, "   "
+		FD, 0, 0, 1, 5, 17, 1, LJBF, 0
+			CODE, "1", "Transaction Set not supported."
+			CODE, "2", "Transaction Set trailer missing."
+			CODE, "3", "Transaction Set control number in Header and Trailer do not match."
+			CODE, "4", "Number of included segments DOES NOT match actual count."
+			CODE, "5", "One or more segments are in ERROR."
+			CODE, "6", "Missing or Invalid Transaction Set Identifier."
+			CODE, "7", "Missing or Invalid Transaction Set control number"
+	ENDIF
+	IFNE, 5, 20, 3, "   "
+		FD, 0, 0, 1, 5, 20, 1, LJBF, 0
+			CODE, "1", "Transaction Set not supported."
+			CODE, "2", "Transaction Set trailer missing."
+			CODE, "3", "Transaction Set control number in Header and Trailer do not match."
+			CODE, "4", "Number of included segments DOES NOT match actual count."
+			CODE, "5", "One or more segments are in ERROR."
+			CODE, "6", "Missing or Invalid Transaction Set Identifier."
+			CODE, "7", "Missing or Invalid Transaction Set control number"
+	ENDIF
+	IFNE, 5, 23, 3, "   "
+		FD, 0, 0, 1, 5, 23, 1, LJBF, 0
+			CODE, "1", "Transaction Set not supported."
+			CODE, "2", "Transaction Set trailer missing."
+			CODE, "3", "Transaction Set control number in Header and Trailer do not match."
+			CODE, "4", "Number of included segments DOES NOT match actual count."
+			CODE, "5", "One or more segments are in ERROR."
+			CODE, "6", "Missing or Invalid Transaction Set Identifier."
+			CODE, "7", "Missing or Invalid Transaction Set control number"
+	ENDIF
+	ENDIF
+
+
+ENDLOOP
+TX, 0, 0, 1, "============================================================================="
+
+TX, 0, 0, 1, "Functional Group is "
+FD, 0, 0, 0, 6, 10, 1, LJBF, 0
+	CODE, "A","ACCEPTED."
+	CODE, "E","ACCEPTED but ERRORS are noted."
+	CODE, "P","ACCEPTED in part."
+	CODE, "R","REJECTED."
+	CODE, "X", "REJECTED, contents after Decrypt couldnt be analyzed."
+	CODE, "M", "REJECTED, (MAC) failed."
+
+TX, 0, 0, 1, "Included Sets: "
+FD, 0, 0, 0, 6, 11, 7, LJBF, 0
+TX, 0, 0, 1, "Received Sets: "
+FD, 0, 0, 0, 6, 18, 7, LJBF, 0
+TX, 0, 0, 1, "Accepted Sets: "
+FD, 0, 0, 0, 6, 25, 7, LJBF, 0
+ 
+	IFNE, 6, 32, 3, "   "
+		FD, 0, 0, 1, 6, 32, 2, LJBF, 0
+			CODE, "1 ", "Functional Group not supported."
+			CODE, "2 ", "Functional Group Version not supported."
+			CODE, "3 ", "Functional Group trailer missing."
+			CODE, "4 ", "Group Control Number in the Functional Group header & trailer DO NOT AGREE."
+			CODE, "5 ", "Number of included transaction sets does not match actual count."
+			CODE, "6 ", "Group Control Number violates Syntax."
+			CODE, "10", "Authentication key name unknown.."
+			CODE, "11", "Encryption key name unknown.."
+			CODE, "12", "Encryption or Authentication not available."
+			CODE, "13", "Unknown security recipient."
+			CODE, "14", "Unknown security originator."
+			CODE, "15", "Syntax error in decryt txt."
+			CODE, "16", "Security not supported."
+			CODE, "17", "incorrect msg length."
+			CODE, "18", "msg authentication code failed."
+			CODE, "19", "S1E security end seg missing for S1S security start seg."
+			CODE, "20", "S1S security start seg missing for S1E security end seg."
+			CODE, "21", "S2E security end seg missing for S2S security start seg."
+			CODE, "22", "S2S security start seg missing for S2E security end seg."
+	ENDIF
+	IFNE, 6, 35, 3, "   "
+		FD, 0, 0, 1, 6, 35, 2, LJBF, 0
+			CODE, "1 ", "Functional Group not supported."
+			CODE, "2 ", "Functional Group Version not supported."
+			CODE, "3 ", "Functional Group trailer missing."
+			CODE, "4 ", "Group Control Number in the Functional Group header & trailer DO NOT AGREE."
+			CODE, "5 ", "Number of included transaction sets does not match actual count."
+			CODE, "6 ", "Group Control Number violates Syntax."
+			CODE, "10", "Authentication key name unknown.."
+			CODE, "11", "Encryption key name unknown.."
+			CODE, "12", "Encryption or Authentication not available."
+			CODE, "13", "Unknown security recipient."
+			CODE, "14", "Unknown security originator."
+			CODE, "15", "Syntax error in decryt txt."
+			CODE, "16", "Security not supported."
+			CODE, "17", "incorrect msg length."
+			CODE, "18", "msg authentication code failed."
+			CODE, "19", "S1E security end seg missing for S1S security start seg."
+			CODE, "20", "S1S security start seg missing for S1E security end seg."
+			CODE, "21", "S2E security end seg missing for S2S security start seg."
+			CODE, "22", "S2S security start seg missing for S2E security end seg."
+	ENDIF
+	IFNE, 6, 38, 3, "   "
+		FD, 0, 0, 1, 6, 38, 2, LJBF, 0
+			CODE, "1 ", "Functional Group not supported."
+			CODE, "2 ", "Functional Group Version not supported."
+			CODE, "3 ", "Functional Group trailer missing."
+			CODE, "4 ", "Group Control Number in the Functional Group header & trailer DO NOT AGREE."
+			CODE, "5 ", "Number of included transaction sets does not match actual count."
+			CODE, "6 ", "Group Control Number violates Syntax."
+			CODE, "10", "Authentication key name unknown.."
+			CODE, "11", "Encryption key name unknown.."
+			CODE, "12", "Encryption or Authentication not available."
+			CODE, "13", "Unknown security recipient."
+			CODE, "14", "Unknown security originator."
+			CODE, "15", "Syntax error in decryt txt."
+			CODE, "16", "Security not supported."
+			CODE, "17", "incorrect msg length."
+			CODE, "18", "msg authentication code failed."
+			CODE, "19", "S1E security end seg missing for S1S security start seg."
+			CODE, "20", "S1S security start seg missing for S1E security end seg."
+			CODE, "21", "S2E security end seg missing for S2S security start seg."
+			CODE, "22", "S2S security start seg missing for S2E security end seg."
+	ENDIF
+	IFNE, 6, 41, 3, "   "
+		FD, 0, 0, 1, 6, 41, 2, LJBF, 0
+			CODE, "1 ", "Functional Group not supported."
+			CODE, "2 ", "Functional Group Version not supported."
+			CODE, "3 ", "Functional Group trailer missing."
+			CODE, "4 ", "Group Control Number in the Functional Group header & trailer DO NOT AGREE."
+			CODE, "5 ", "Number of included transaction sets does not match actual count."
+			CODE, "6 ", "Group Control Number violates Syntax."
+			CODE, "10", "Authentication key name unknown.."
+			CODE, "11", "Encryption key name unknown.."
+			CODE, "12", "Encryption or Authentication not available."
+			CODE, "13", "Unknown security recipient."
+			CODE, "14", "Unknown security originator."
+			CODE, "15", "Syntax error in decryt txt."
+			CODE, "16", "Security not supported."
+			CODE, "17", "incorrect msg length."
+			CODE, "18", "msg authentication code failed."
+			CODE, "19", "S1E security end seg missing for S1S security start seg."
+			CODE, "20", "S1S security start seg missing for S1E security end seg."
+			CODE, "21", "S2E security end seg missing for S2S security start seg."
+			CODE, "22", "S2S security start seg missing for S2E security end seg."
+	ENDIF
+	IFNE, 6, 44, 3, "   "
+		FD, 0, 0, 1, 6, 44, 2, LJBF, 0
+			CODE, "1 ", "Functional Group not supported."
+			CODE, "2 ", "Functional Group Version not supported."
+			CODE, "3 ", "Functional Group trailer missing."
+			CODE, "4 ", "Group Control Number in the Functional Group header & trailer DO NOT AGREE."
+			CODE, "5 ", "Number of included transaction sets does not match actual count."
+			CODE, "6 ", "Group Control Number violates Syntax."
+			CODE, "10", "Authentication key name unknown.."
+			CODE, "11", "Encryption key name unknown.."
+			CODE, "12", "Encryption or Authentication not available."
+			CODE, "13", "Unknown security recipient."
+			CODE, "14", "Unknown security originator."
+			CODE, "15", "Syntax error in decryt txt."
+			CODE, "16", "Security not supported."
+			CODE, "17", "incorrect msg length."
+			CODE, "18", "msg authentication code failed."
+			CODE, "19", "S1E security end seg missing for S1S security start seg."
+			CODE, "20", "S1S security start seg missing for S1E security end seg."
+			CODE, "21", "S2E security end seg missing for S2S security start seg."
+			CODE, "22", "S2S security start seg missing for S2E security end seg."
+	ENDIF

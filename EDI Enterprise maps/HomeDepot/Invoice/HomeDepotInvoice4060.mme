@@ -1,0 +1,12 @@
+M200	WARNING:
+	Map: HomeDepotInvoice4060   Output: GroupCtrl# Element:GS Segment V4060:#810<>F4060<>Outbound Partner Funct'lGroup ANSI [1]:HD_810_Out
+	Size of input item is greater than size of output item.
+
+M200	WARNING:
+	Map: F_810Transaction   Output: TermsNetDays Element:ITD Segment [1]:Transaction_Out
+	Size of input item is greater than size of output item.
+
+M200	WARNING:
+	Map: HomeDepotInvoice4060   Output: GroupCtrl# Element:GE Segment V4060:#810<>F4060<>Outbound Partner Funct'lGroup ANSI [1]:HD_810_Out
+	Size of input item is greater than size of output item.
+

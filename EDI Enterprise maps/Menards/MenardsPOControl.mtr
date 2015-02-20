@@ -1,0 +1,4030 @@
+
+(Level 2: Offset 3, len 0, comp 1 of 6, #1, DI 00000001:)
+Type X'000F' (Partner Inbound ISA Segment Control ANSI EDI) is known to exist.
+
+(Level 3: Offset 3, len 1, comp 1 of 4, #1, DI 00000001:)
+Data at offset 3 ('*') was found to be of TYPE
+   X'0011' (Element Delimiter Control ANSI EDI).
+
+(Level 4: Offset 4, len 2, comp 1 of 15, #1, DI 00000002:)
+Data at offset 4 ('03') was found to be of TYPE
+   X'0014' (Auth'nInfoQual'r Element Control ANSI EDI).
+
+(Level 4: Offset 7, len 10, comp 2 of 15, #1, DI 00000003:)
+Data at offset 7 ('DALLA005  ') was found to be of TYPE
+   X'0015' (Auth'nInfo Element Control ANSI EDI).
+
+(Level 4: Offset 18, len 2, comp 3 of 15, #1, DI 00000004:)
+Data at offset 18 ('01') was found to be of TYPE
+   X'0016' (SecurityInfoQual'r Element Control ANSI EDI).
+
+(Level 4: Offset 21, len 10, comp 4 of 15, #1, DI 00000005:)
+Data at offset 21 ('DALLA005  ') was found to be of TYPE
+   X'0017' (SecurityInfo Element Control ANSI EDI).
+
+(Level 4: Offset 32, len 2, comp 5 of 15, #1, DI 00000006:)
+Data at offset 32 ('01') was found to be of TYPE
+   X'0019' (Sender InterchangeIDQual'r Element Control ANSI EDI).
+
+(Level 4: Offset 35, len 15, comp 6 of 15, #1, DI 00000007:)
+Data at offset 35 ('006203210P     ') was found to be of TYPE
+   X'001A' (InterchangeSenderID Element Control ANSI EDI).
+
+(Level 4: Offset 51, len 2, comp 7 of 15, #1, DI 00000008:)
+Data at offset 51 ('12') was found to be of TYPE
+   X'001B' (Receiver InterchangeIDQual'r Element Control ANSI EDI).
+
+(Level 4: Offset 54, len 15, comp 8 of 15, #1, DI 00000009:)
+Data at offset 54 ('7123660407     ') was found to be of TYPE
+   X'001C' (InterchangeRcv'rID Element Control ANSI EDI).
+
+(Level 4: Offset 70, len 6, comp 9 of 15, #1, DI 0000000A:)
+Data at offset 70 ('141104') was found to be of TYPE
+   X'001D' (InterchangeDate Element Control ANSI EDI).
+
+(Level 4: Offset 77, len 4, comp 10 of 15, #1, DI 0000000B:)
+Data at offset 77 ('1421') was found to be of TYPE
+   X'001E' (InterchangeTime Element Control ANSI EDI).
+
+(Level 4: Offset 82, len 1, comp 11 of 15, #1, DI 0000000C:)
+Data at offset 82 ('U') was found to be of TYPE
+   X'0020' (InterchangeCtrlStandardsID ISA11 Delimiter Control ANSI EDI).
+
+(Level 4: Offset 82, len 1, comp 11 of 15, #1, DI 0000000D:)
+Data at offset 82 ('U') was found to be of TYPE
+   X'001F' (ISA11 Delimiter Control ANSI EDI).
+
+(Level 4: Offset 84, len 5, comp 12 of 15, #1, DI 0000000E:)
+Data at offset 84 ('00401') was found to be of TYPE
+   X'0022' (InterchangeCtrlVersion# Element Control ANSI EDI).
+
+(Level 4: Offset 90, len 9, comp 13 of 15, #1, DI 0000000F:)
+Data at offset 90 ('000005065') was found to be of TYPE
+   X'0023' (InterchangeCtrl# Element Control ANSI EDI).
+
+(Level 4: Offset 100, len 1, comp 14 of 15, #1, DI 00000010:)
+Data at offset 100 ('0') was found to be of TYPE
+   X'0024' (Ack'tRequested Element Control ANSI EDI).
+
+(Level 4: Offset 102, len 1, comp 15 of 15, #1, DI 00000011:)
+Data at offset 102 ('P') was found to be of TYPE
+   X'0025' (TestIndicator Element Control ANSI EDI).
+
+(Level 3: Offset 4, len 100, comp 2 of 4, #1, DI 00000012:)
+Data at offset 4 ('03*DALLA005  *01') was found to be of TYPE
+   X'0012' (ISAPartnerInfo Control ANSI EDI).
+
+(Level 3: Offset 104, len 1, comp 3 of 4, #1, DI 00000013:)
+Data at offset 104 ('>') was found to be of TYPE
+   X'0026' (Composite Delimiter Control ANSI EDI).
+
+(Level 3: Offset 105, len 2, comp 4 of 4, #1, DI 00000014:)
+Data at offset 105 ('<CR><LF>') was found to be of TYPE
+   X'0027' (Terminator Delimiter Control ANSI EDI).
+
+(Level 2: Offset 3, len 104, comp 1 of 6, #1, DI 00000015:)
+Data at offset 3 ('*03*DALLA005  *0') was found to be of TYPE
+   X'000F' (Partner Inbound ISA Segment Control ANSI EDI).
+
+(Level 2: Offset 3, len 104, comp 1 of 6, #1, DI 00000016:)
+Data at offset 3 ('*03*DALLA005  *0') was found to be of TYPE
+   X'000E' (Inbound ISA Segment Control ANSI EDI).
+
+(Level 2: Offset 3, len 104, comp 1 of 6, #1, DI 00000016:)
+Data at offset 3 ('*03*DALLA005  *0') was found to be of TYPE
+   X'000D' (ISA Segment Control ANSI EDI).
+
+(Level 2: Offset 3, len 104, comp 1 of 6, #1, DI 00000016:)
+Data at offset 3 ('*03*DALLA005  *0') was found to be of TYPE
+   X'000C' (Segment Control ANSI EDI).
+
+(Level 2: Offset 3, len 104, comp 1 of 6, #1, DI 00000016:)
+Type X'0009' (Partner X12 Inbound Interchange EDI) is known to exist.
+
+(Level 2: Offset 107, len 0, comp 2 of 6, #1, DI 00000016:)
+Data at offset 107 ('GS*PO*006203210*...') does not match INITIATOR 'ISB'
+  of TYPE X'0028' (ISB Segment Control ANSI EDI).
+
+(Level 2: Offset 107, len 0, comp 2 of 6, #1, DI 00000016:)
+COMPONENT number 2 of TYPE X'0009' (Partner X12 Inbound Interchange EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 2: Offset 107, len 0, comp 3 of 6, #1, DI 00000016:)
+Data at offset 107 ('GS*PO*006203210*...') does not match INITIATOR 'ISE'
+  of TYPE X'002A' (ISE Segment Control ANSI EDI).
+
+(Level 2: Offset 107, len 0, comp 3 of 6, #1, DI 00000016:)
+COMPONENT number 3 of TYPE X'0009' (Partner X12 Inbound Interchange EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 2: Offset 107, len 0, comp 4 of 6, #1, DI 00000016:)
+Data at offset 107 ('GS*PO*006203210*...') does not match INITIATOR 'TA1'
+  of TYPE X'002E' (TA1 Segment Control ANSI EDI).
+
+(Level 2: Offset 107, len 0, comp 4 of 6, #1, DI 00000016:)
+COMPONENT number 4 of TYPE X'0009' (Partner X12 Inbound Interchange EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Type X'0034' (F4010 Inbound Partner Funct'lGroup ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'004C' (#812 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'00FE' (#816 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'0116' (#820 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'01BD' (#824 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'01D7' (#830 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'0258' (#832 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Data at offset 109 ('*PO*006203210*71...') failed COMPONENT RULE test
+   for component number 1, TYPE X'02CA' (#845 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 4: Offset 110, len 0, comp 1 of 8, #1, DI 00000016:)
+Type X'0037' (GS Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 110, len 2, comp 1 of 8, #1, DI 00000016:)
+Data at offset 110 ('PO') was found to be of TYPE
+   X'0039' (Funct'lIDCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 113, len 9, comp 2 of 8, #1, DI 00000017:)
+Data at offset 113 ('006203210') was found to be of TYPE
+   X'003A' (App'nSenderCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 123, len 10, comp 3 of 8, #1, DI 00000018:)
+Data at offset 123 ('7123660407') was found to be of TYPE
+   X'003B' (App'nRcv'rCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 134, len 8, comp 4 of 8, #1, DI 00000019:)
+Data at offset 134 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 6, comp 1 of 2, #1, DI 0000001A:)
+Data at offset 143 ('1421*2...') failed item presentation test for TYPE
+   X'0040' (HHMMSS Element V4010 ANSI EDI).
+
+(Level 5: Offset 143, len 4, comp 1 of 1, #1, DI 0000001A:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0043' (HHMM Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001B:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'0042' (Short #337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 143, len 4, comp 5 of 8, #1, DI 0000001C:)
+Data at offset 143 ('1421') was found to be of TYPE
+   X'003E' (#337 Time Element V4010 ANSI EDI).
+
+(Level 4: Offset 148, len 4, comp 6 of 8, #1, DI 0000001D:)
+Data at offset 148 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 153, len 1, comp 7 of 8, #1, DI 0000001E:)
+Data at offset 153 ('X') was found to be of TYPE
+   X'0045' (RspAgencyCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 155, len 6, comp 8 of 8, #1, DI 0000001F:)
+Data at offset 155 ('004010') was found to be of TYPE
+   X'0046' (VersionReleaseIndustryIDCd Element V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000020:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000021:)
+Data at offset 109 ('*PO*006203210*71') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 109, len 52, comp 1 of 3, #1, DI 00000022:)
+Type X'02DF' (#850 F4010 Inbound Partner Funct'lGroup ANSI EDI) is known to exist.
+
+(Level 5: Offset 166, len 0, comp 1 of 2, #1, DI 00000022:)
+Type X'004F' (ST Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 166, len 3, comp 1 of 2, #1, DI 00000022:)
+Data at offset 166 ('850') was found to be of TYPE
+   X'0050' (TSIDCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 170, len 4, comp 2 of 2, #1, DI 00000023:)
+Data at offset 170 ('0001') was found to be of TYPE
+   X'0051' (TSCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 165, len 9, comp 1 of 40, #1, DI 00000024:)
+Data at offset 165 ('*850*0001') was found to be of TYPE
+   X'004F' (ST Segment V4010 ANSI EDI).
+
+(Level 4: Offset 165, len 9, comp 1 of 40, #1, DI 00000025:)
+Data at offset 165 ('*850*0001') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 165, len 9, comp 1 of 40, #1, DI 00000026:)
+Type X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 180, len 0, comp 1 of 12, #1, DI 00000026:)
+Type X'02E2' (BEG Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 180, len 2, comp 1 of 12, #1, DI 00000026:)
+Data at offset 180 ('00') was found to be of TYPE
+   X'005D' (TSPurpCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 183, len 2, comp 2 of 12, #1, DI 00000027:)
+Data at offset 183 ('SA') was found to be of TYPE
+   X'02E3' (POTypeCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 186, len 12, comp 3 of 12, #1, DI 00000028:)
+Data at offset 186 ('DKNS75763098') was found to be of TYPE
+   X'005C' (PO# Element V4010 ANSI EDI).
+
+(Level 5: Offset 199, len 0, comp 4 of 12, #1, DI 00000029:)
+COMPONENT number 4 of TYPE X'02E2' (BEG Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 200, len 8, comp 5 of 12, #1, DI 00000029:)
+Data at offset 200 ('20141104') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 4: Offset 179, len 29, comp 2 of 40, #1, DI 0000002A:)
+Data at offset 179 ('*00*SA*DKNS75763') was found to be of TYPE
+   X'02E2' (BEG Segment V4010 ANSI EDI).
+
+(Level 4: Offset 179, len 29, comp 2 of 40, #1, DI 0000002B:)
+Data at offset 179 ('*00*SA*DKNS75763') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 210, len 0, comp 3 of 40, #1, DI 0000002C:)
+Data at offset 210 ('REF*VR*DALLA005*...') does not match INITIATOR 'CUR'
+  of TYPE X'0064' (CUR Segment V4010 ANSI EDI).
+
+(Level 4: Offset 210, len 0, comp 3 of 40, #1, DI 0000002C:)
+COMPONENT number 3 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 214, len 0, comp 1 of 4, #1, DI 0000002C:)
+Type X'0103' (REF Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 214, len 2, comp 1 of 4, #1, DI 0000002C:)
+Data at offset 214 ('VR') was found to be of TYPE
+   X'0061' (Ref#Qual'r Element V4010 ANSI EDI).
+
+(Level 5: Offset 217, len 8, comp 2 of 4, #1, DI 0000002D:)
+Data at offset 217 ('DALLA005') was found to be of TYPE
+   X'0062' (Ref# Element V4010 ANSI EDI).
+
+(Level 5: Offset 226, len 26, comp 3 of 4, #1, DI 0000002E:)
+Data at offset 226 ('DALLAS JOHNSON G') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 4: Offset 213, len 39, comp 4 of 40, #1, DI 0000002F:)
+Data at offset 213 ('*VR*DALLA005*DAL') was found to be of TYPE
+   X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 4: Offset 213, len 39, comp 4 of 40, #1, DI 00000030:)
+Data at offset 213 ('*VR*DALLA005*DAL') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 254, len 0, comp 4 of 40, #2, DI 00000031:)
+Data at offset 254 ('PER*OC*Bill Dowl...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 4: Offset 254, len 0, comp 4 of 40, #2, DI 00000031:)
+COMPONENT number 4 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 5: Offset 258, len 0, comp 1 of 4, #1, DI 00000031:)
+Type X'0072' (PER Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 258, len 2, comp 1 of 4, #1, DI 00000031:)
+Data at offset 258 ('OC') was found to be of TYPE
+   X'0073' (ContactFunctionCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 261, len 12, comp 2 of 4, #1, DI 00000032:)
+Data at offset 261 ('Bill Dowling') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 6: Offset 274, len 2, comp 1 of 2, #1, DI 00000033:)
+Data at offset 274 ('TE') was found to be of TYPE
+   X'0076' (Comm'n#Qual'r Element V4010 ANSI EDI).
+
+(Level 6: Offset 277, len 10, comp 2 of 2, #1, DI 00000034:)
+Data at offset 277 ('7158762078') was found to be of TYPE
+   X'0077' (Comm'n# Element V4010 ANSI EDI).
+
+(Level 5: Offset 274, len 13, comp 3 of 4, #1, DI 00000035:)
+Data at offset 274 ('TE*7158762078') was found to be of TYPE
+   X'0075' (Comm'n MComposite V4010 ANSI EDI).
+
+(Level 4: Offset 257, len 30, comp 5 of 40, #1, DI 00000036:)
+Data at offset 257 ('*OC*Bill Dowling') was found to be of TYPE
+   X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 4: Offset 257, len 30, comp 5 of 40, #1, DI 00000037:)
+Data at offset 257 ('*OC*Bill Dowling') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 289, len 0, comp 5 of 40, #2, DI 00000038:)
+Data at offset 289 ('FOB*PP*DE*MENARD...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 4: Offset 289, len 0, comp 5 of 40, #2, DI 00000038:)
+COMPONENT number 5 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 289, len 0, comp 6 of 40, #1, DI 00000038:)
+Data at offset 289 ('FOB*PP*DE*MENARD...') does not match INITIATOR 'TAX'
+  of TYPE X'01E1' (TAX Segment V4010 ANSI EDI).
+
+(Level 4: Offset 289, len 0, comp 6 of 40, #1, DI 00000038:)
+COMPONENT number 6 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 293, len 0, comp 1 of 9, #1, DI 00000038:)
+Type X'008D' (FOB Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 293, len 2, comp 1 of 9, #1, DI 00000038:)
+Data at offset 293 ('PP') was found to be of TYPE
+   X'008E' (Ship'tMthdOfPay't Element V4010 ANSI EDI).
+
+(Level 5: Offset 296, len 2, comp 2 of 9, #1, DI 00000039:)
+Data at offset 296 ('DE') was found to be of TYPE
+   X'0090' (Trans LocQual'r Element V4010 ANSI EDI).
+
+(Level 5: Offset 299, len 13, comp 3 of 9, #1, DI 0000003A:)
+Data at offset 299 ('MENARDS STORE') was found to be of TYPE
+   X'0091' (Trans Desc'n Element V4010 ANSI EDI).
+
+(Level 4: Offset 292, len 20, comp 7 of 40, #1, DI 0000003B:)
+Data at offset 292 ('*PP*DE*MENARDS S') was found to be of TYPE
+   X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 4: Offset 292, len 20, comp 7 of 40, #1, DI 0000003C:)
+Data at offset 292 ('*PP*DE*MENARDS S') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 314, len 0, comp 7 of 40, #2, DI 0000003D:)
+Data at offset 314 ('CSH*SP<CR><LF>ITD*****...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 4: Offset 314, len 0, comp 7 of 40, #2, DI 0000003D:)
+COMPONENT number 7 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 314, len 0, comp 8 of 40, #1, DI 0000003D:)
+Data at offset 314 ('CSH*SP<CR><LF>ITD*****...') does not match INITIATOR 'CTP'
+  of TYPE X'01E4' (CTP Segment V4010 ANSI EDI).
+
+(Level 4: Offset 314, len 0, comp 8 of 40, #1, DI 0000003D:)
+COMPONENT number 8 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 314, len 0, comp 9 of 40, #1, DI 0000003D:)
+Data at offset 314 ('CSH*SP<CR><LF>ITD*****...') does not match INITIATOR 'PAM'
+  of TYPE X'02BA' (PAM Segment V4010 ANSI EDI).
+
+(Level 4: Offset 314, len 0, comp 9 of 40, #1, DI 0000003D:)
+COMPONENT number 9 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 318, len 0, comp 1 of 8, #1, DI 0000003D:)
+Type X'01E9' (CSH Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 318, len 2, comp 1 of 8, #1, DI 0000003D:)
+Data at offset 318 ('SP') was found to be of TYPE
+   X'01EA' (SalesReq'tCd Element V4010 ANSI EDI).
+
+(Level 4: Offset 317, len 3, comp 10 of 40, #1, DI 0000003E:)
+Data at offset 317 ('*SP') was found to be of TYPE
+   X'01E9' (CSH Segment V4010 ANSI EDI).
+
+(Level 4: Offset 317, len 3, comp 10 of 40, #1, DI 0000003F:)
+Data at offset 317 ('*SP') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 322, len 0, comp 10 of 40, #2, DI 00000040:)
+Data at offset 322 ('ITD************N...') does not match INITIATOR 'CSH'
+  of TYPE X'01E9' (CSH Segment V4010 ANSI EDI).
+
+(Level 4: Offset 322, len 0, comp 10 of 40, #2, DI 00000040:)
+COMPONENT number 10 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 322, len 0, comp 11 of 40, #1, DI 00000040:)
+Data at offset 322 ('ITD************N...') does not match INITIATOR 'TC2'
+  of TYPE X'0280' (TC2 Segment V4010 ANSI EDI).
+
+(Level 4: Offset 322, len 0, comp 11 of 40, #1, DI 00000040:)
+COMPONENT number 11 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 322, len 0, comp 1 of 2, #1, DI 00000040:)
+Data at offset 322 ('ITD************N...') does not match INITIATOR 'SAC'
+  of TYPE X'00A5' (SAC Segment V4010 ANSI EDI).
+
+(Level 5: Offset 322, len 0, comp 1 of 2, #1, DI 00000040:)
+COMPONENT number 1 of TYPE X'02E8' (LoopSAC_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 322, len 0, comp 12 of 40, #1, DI 00000040:)
+COMPONENT number 12 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 326, len 0, comp 1 of 15, #1, DI 00000040:)
+Type X'0079' (ITD Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 326, len 0, comp 1 of 15, #1, DI 00000040:)
+COMPONENT number 1 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 327, len 0, comp 2 of 15, #1, DI 00000040:)
+COMPONENT number 2 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 328, len 0, comp 3 of 15, #1, DI 00000040:)
+COMPONENT number 3 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 329, len 0, comp 4 of 15, #1, DI 00000040:)
+COMPONENT number 4 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 330, len 0, comp 5 of 15, #1, DI 00000040:)
+COMPONENT number 5 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 331, len 0, comp 6 of 15, #1, DI 00000040:)
+COMPONENT number 6 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 332, len 0, comp 7 of 15, #1, DI 00000040:)
+COMPONENT number 7 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 333, len 0, comp 8 of 15, #1, DI 00000040:)
+COMPONENT number 8 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 334, len 0, comp 9 of 15, #1, DI 00000040:)
+COMPONENT number 9 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 335, len 0, comp 10 of 15, #1, DI 00000040:)
+COMPONENT number 10 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 336, len 0, comp 11 of 15, #1, DI 00000040:)
+COMPONENT number 11 of TYPE X'0079' (ITD Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 337, len 11, comp 12 of 15, #1, DI 00000040:)
+Data at offset 337 ('NET 30 DAYS') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 4: Offset 325, len 23, comp 13 of 40, #1, DI 00000041:)
+Data at offset 325 ('************NET ') was found to be of TYPE
+   X'0079' (ITD Segment V4010 ANSI EDI).
+
+(Level 4: Offset 325, len 23, comp 13 of 40, #1, DI 00000042:)
+Data at offset 325 ('************NET ') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 350, len 0, comp 13 of 40, #2, DI 00000043:)
+Data at offset 350 ('DTM*106*20141114...') does not match INITIATOR 'ITD'
+  of TYPE X'0079' (ITD Segment V4010 ANSI EDI).
+
+(Level 4: Offset 350, len 0, comp 13 of 40, #2, DI 00000043:)
+COMPONENT number 13 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 350, len 0, comp 14 of 40, #1, DI 00000043:)
+Data at offset 350 ('DTM*106*20141114...') does not match INITIATOR 'DIS'
+  of TYPE X'02E9' (DIS Segment V4010 ANSI EDI).
+
+(Level 4: Offset 350, len 0, comp 14 of 40, #1, DI 00000043:)
+COMPONENT number 14 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 350, len 0, comp 15 of 40, #1, DI 00000043:)
+Data at offset 350 ('DTM*106*20141114...') does not match INITIATOR 'INC'
+  of TYPE X'02EF' (INC Segment V4010 ANSI EDI).
+
+(Level 4: Offset 350, len 0, comp 15 of 40, #1, DI 00000043:)
+COMPONENT number 15 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 354, len 0, comp 1 of 5, #1, DI 00000043:)
+Type X'0089' (DTM Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 354, len 3, comp 1 of 5, #1, DI 00000043:)
+Data at offset 354 ('106') was found to be of TYPE
+   X'006A' (DateTimeQual'r Element V4010 ANSI EDI).
+
+(Level 5: Offset 358, len 8, comp 2 of 5, #1, DI 00000044:)
+Data at offset 358 ('20141114') was found to be of TYPE
+   X'003C' (Date Element V4010 ANSI EDI).
+
+(Level 4: Offset 353, len 13, comp 16 of 40, #1, DI 00000045:)
+Data at offset 353 ('*106*20141114') was found to be of TYPE
+   X'0089' (DTM Segment V4010 ANSI EDI).
+
+(Level 4: Offset 353, len 13, comp 16 of 40, #1, DI 00000046:)
+Data at offset 353 ('*106*20141114') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 16 of 40, #2, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'DTM'
+  of TYPE X'0089' (DTM Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 16 of 40, #2, DI 00000047:)
+COMPONENT number 16 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 17 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'LDT'
+  of TYPE X'022C' (LDT Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 17 of 40, #1, DI 00000047:)
+COMPONENT number 17 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 18 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'LIN'
+  of TYPE X'00DD' (LIN Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 18 of 40, #1, DI 00000047:)
+COMPONENT number 18 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 19 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 19 of 40, #1, DI 00000047:)
+COMPONENT number 19 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 20 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'PID'
+  of TYPE X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 20 of 40, #1, DI 00000047:)
+COMPONENT number 20 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 21 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 21 of 40, #1, DI 00000047:)
+COMPONENT number 21 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 22 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'PWK'
+  of TYPE X'01F7' (PWK Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 22 of 40, #1, DI 00000047:)
+COMPONENT number 22 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 23 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 23 of 40, #1, DI 00000047:)
+COMPONENT number 23 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 368, len 0, comp 24 of 40, #1, DI 00000047:)
+Data at offset 368 ('TD5****SR*SUPPLI...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 4: Offset 368, len 0, comp 24 of 40, #1, DI 00000047:)
+COMPONENT number 24 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 372, len 0, comp 1 of 15, #1, DI 00000047:)
+Type X'0206' (TD5 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 372, len 0, comp 1 of 15, #1, DI 00000047:)
+COMPONENT number 1 of TYPE X'0206' (TD5 Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 373, len 0, comp 2 of 15, #1, DI 00000047:)
+COMPONENT number 2 of TYPE X'0206' (TD5 Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 374, len 0, comp 3 of 15, #1, DI 00000047:)
+COMPONENT number 3 of TYPE X'0206' (TD5 Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 5: Offset 375, len 2, comp 4 of 15, #1, DI 00000047:)
+Data at offset 375 ('SR') was found to be of TYPE
+   X'00A2' (Transp'nMthdTypeCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 378, len 14, comp 5 of 15, #1, DI 00000048:)
+Data at offset 378 ('SUPPLIER TRUCK') was found to be of TYPE
+   X'0208' (Routing Element V4010 ANSI EDI).
+
+(Level 4: Offset 371, len 21, comp 25 of 40, #1, DI 00000049:)
+Data at offset 371 ('****SR*SUPPLIER ') was found to be of TYPE
+   X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 4: Offset 371, len 21, comp 25 of 40, #1, DI 0000004A:)
+Data at offset 371 ('****SR*SUPPLIER ') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 25 of 40, #2, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 25 of 40, #2, DI 0000004B:)
+COMPONENT number 25 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 394, len 0, comp 26 of 40, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 26 of 40, #1, DI 0000004B:)
+COMPONENT number 26 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 394, len 0, comp 27 of 40, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 27 of 40, #1, DI 0000004B:)
+COMPONENT number 27 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 394, len 0, comp 28 of 40, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'MAN'
+  of TYPE X'021C' (MAN Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 28 of 40, #1, DI 0000004B:)
+COMPONENT number 28 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 394, len 0, comp 29 of 40, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'PCT'
+  of TYPE X'00F9' (PCT Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 29 of 40, #1, DI 0000004B:)
+COMPONENT number 29 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 394, len 0, comp 30 of 40, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'CTB'
+  of TYPE X'026B' (CTB Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 30 of 40, #1, DI 0000004B:)
+COMPONENT number 30 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 394, len 0, comp 31 of 40, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'TXI'
+  of TYPE X'014E' (TXI Segment V4010 ANSI EDI).
+
+(Level 4: Offset 394, len 0, comp 31 of 40, #1, DI 0000004B:)
+COMPONENT number 31 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 394, len 0, comp 1 of 5, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'AMT'
+  of TYPE X'00C4' (AMT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 394, len 0, comp 1 of 5, #1, DI 0000004B:)
+COMPONENT number 1 of TYPE X'02F0' (LoopAMT_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 394, len 0, comp 32 of 40, #1, DI 0000004B:)
+COMPONENT number 32 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 394, len 0, comp 1 of 3, #1, DI 0000004B:)
+Data at offset 394 ('N1*BS*3313*92*DK...') does not match INITIATOR 'N9'
+  of TYPE X'006C' (N9 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 394, len 0, comp 1 of 3, #1, DI 0000004B:)
+COMPONENT number 1 of TYPE X'02F2' (LoopN9_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 394, len 0, comp 33 of 40, #1, DI 0000004B:)
+COMPONENT number 33 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 397, len 0, comp 1 of 4, #1, DI 0000004B:)
+Type X'00B5' (N1 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 397, len 2, comp 1 of 4, #1, DI 0000004B:)
+Data at offset 397 ('BS') was found to be of TYPE
+   X'0066' (EntityIDCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 400, len 4, comp 2 of 4, #1, DI 0000004C:)
+Data at offset 400 ('3313') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 7: Offset 405, len 2, comp 1 of 2, #1, DI 0000004D:)
+Data at offset 405 ('92') was found to be of TYPE
+   X'00B7' (IDCdQual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 408, len 4, comp 2 of 2, #1, DI 0000004E:)
+Data at offset 408 ('DKNS') was found to be of TYPE
+   X'00B8' (IDCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 405, len 7, comp 3 of 4, #1, DI 0000004F:)
+Data at offset 405 ('92*DKNS') was found to be of TYPE
+   X'00B6' (IDCd MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 396, len 16, comp 1 of 14, #1, DI 00000050:)
+Data at offset 396 ('*BS*3313*92*DKNS') was found to be of TYPE
+   X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 396, len 16, comp 1 of 14, #1, DI 00000051:)
+Data at offset 396 ('*BS*3313*92*DKNS') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 417, len 0, comp 1 of 1, #1, DI 00000052:)
+Type X'00BB' (N2 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 417, len 12, comp 1 of 1, #1, DI 00000052:)
+Data at offset 417 ('Menard, Inc.') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 6: Offset 430, len 9, comp 1 of 1, #2, DI 00000053:)
+Data at offset 430 ('DICKINSON') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 5: Offset 416, len 23, comp 2 of 14, #1, DI 00000054:)
+Data at offset 416 ('*Menard, Inc.*DI') was found to be of TYPE
+   X'00BB' (N2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 416, len 23, comp 2 of 14, #1, DI 00000055:)
+Data at offset 416 ('*Menard, Inc.*DI') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 441, len 0, comp 2 of 14, #2, DI 00000056:)
+Data at offset 441 ('N3*4411 WEST RID...') does not match INITIATOR 'N2'
+  of TYPE X'00BB' (N2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 441, len 0, comp 2 of 14, #2, DI 00000056:)
+COMPONENT number 2 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 6: Offset 444, len 0, comp 1 of 1, #1, DI 00000056:)
+Type X'00BC' (N3 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 444, len 21, comp 1 of 1, #1, DI 00000056:)
+Data at offset 444 ('4411 WEST RIDGE ') was found to be of TYPE
+   X'00BD' (AddressInfo Element V4010 ANSI EDI).
+
+(Level 5: Offset 443, len 22, comp 3 of 14, #1, DI 00000057:)
+Data at offset 443 ('*4411 WEST RIDGE') was found to be of TYPE
+   X'00BC' (N3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 443, len 22, comp 3 of 14, #1, DI 00000058:)
+Data at offset 443 ('*4411 WEST RIDGE') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 467, len 0, comp 3 of 14, #2, DI 00000059:)
+Data at offset 467 ('N4*DICKINSON*ND*...') does not match INITIATOR 'N3'
+  of TYPE X'00BC' (N3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 467, len 0, comp 3 of 14, #2, DI 00000059:)
+COMPONENT number 3 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 6: Offset 470, len 0, comp 1 of 6, #1, DI 00000059:)
+Type X'00BE' (N4 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 470, len 9, comp 1 of 6, #1, DI 00000059:)
+Data at offset 470 ('DICKINSON') was found to be of TYPE
+   X'00BF' (CityName Element V4010 ANSI EDI).
+
+(Level 6: Offset 480, len 2, comp 2 of 6, #1, DI 0000005A:)
+Data at offset 480 ('ND') was found to be of TYPE
+   X'00C0' (StateProvinceCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 483, len 5, comp 3 of 6, #1, DI 0000005B:)
+Data at offset 483 ('58601') was found to be of TYPE
+   X'00C1' (PostalCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 469, len 19, comp 4 of 14, #1, DI 0000005C:)
+Data at offset 469 ('*DICKINSON*ND*58') was found to be of TYPE
+   X'00BE' (N4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 469, len 19, comp 4 of 14, #1, DI 0000005D:)
+Data at offset 469 ('*DICKINSON*ND*58') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 490, len 0, comp 4 of 14, #2, DI 0000005E:)
+Data at offset 490 ('PER*CN**TE*70148...') does not match INITIATOR 'N4'
+  of TYPE X'00BE' (N4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 490, len 0, comp 4 of 14, #2, DI 0000005E:)
+COMPONENT number 4 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 5: Offset 490, len 0, comp 5 of 14, #1, DI 0000005E:)
+Data at offset 490 ('PER*CN**TE*70148...') does not match INITIATOR 'NX2'
+  of TYPE X'02F5' (NX2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 490, len 0, comp 5 of 14, #1, DI 0000005E:)
+COMPONENT number 5 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 490, len 0, comp 6 of 14, #1, DI 0000005E:)
+Data at offset 490 ('PER*CN**TE*70148...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 5: Offset 490, len 0, comp 6 of 14, #1, DI 0000005E:)
+COMPONENT number 6 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 494, len 0, comp 1 of 4, #1, DI 0000005E:)
+Type X'0072' (PER Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 494, len 2, comp 1 of 4, #1, DI 0000005E:)
+Data at offset 494 ('CN') was found to be of TYPE
+   X'0073' (ContactFunctionCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 497, len 0, comp 2 of 4, #1, DI 0000005F:)
+COMPONENT number 2 of TYPE X'0072' (PER Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 498, len 2, comp 1 of 2, #1, DI 0000005F:)
+Data at offset 498 ('TE') was found to be of TYPE
+   X'0076' (Comm'n#Qual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 501, len 10, comp 2 of 2, #1, DI 00000060:)
+Data at offset 501 ('7014838830') was found to be of TYPE
+   X'0077' (Comm'n# Element V4010 ANSI EDI).
+
+(Level 6: Offset 498, len 13, comp 3 of 4, #1, DI 00000061:)
+Data at offset 498 ('TE*7014838830') was found to be of TYPE
+   X'0075' (Comm'n MComposite V4010 ANSI EDI).
+
+(Level 7: Offset 512, len 2, comp 1 of 2, #1, DI 00000062:)
+Data at offset 512 ('FX') was found to be of TYPE
+   X'0076' (Comm'n#Qual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 515, len 10, comp 2 of 2, #1, DI 00000063:)
+Data at offset 515 ('7014563460') was found to be of TYPE
+   X'0077' (Comm'n# Element V4010 ANSI EDI).
+
+(Level 6: Offset 512, len 13, comp 3 of 4, #2, DI 00000064:)
+Data at offset 512 ('FX*7014563460') was found to be of TYPE
+   X'0075' (Comm'n MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 493, len 32, comp 7 of 14, #1, DI 00000065:)
+Data at offset 493 ('*CN**TE*70148388') was found to be of TYPE
+   X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 493, len 32, comp 7 of 14, #1, DI 00000066:)
+Data at offset 493 ('*CN**TE*70148388') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 7 of 14, #2, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 7 of 14, #2, DI 00000067:)
+COMPONENT number 7 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 8 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 8 of 14, #1, DI 00000067:)
+COMPONENT number 8 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 9 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 9 of 14, #1, DI 00000067:)
+COMPONENT number 9 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 10 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 10 of 14, #1, DI 00000067:)
+COMPONENT number 10 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 11 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 11 of 14, #1, DI 00000067:)
+COMPONENT number 11 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 12 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 12 of 14, #1, DI 00000067:)
+COMPONENT number 12 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 13 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 13 of 14, #1, DI 00000067:)
+COMPONENT number 13 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 527, len 0, comp 14 of 14, #1, DI 00000067:)
+Data at offset 527 ('N1*OB*3313*92*DK...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 5: Offset 527, len 0, comp 14 of 14, #1, DI 00000067:)
+COMPONENT number 14 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 394, len 133, comp 34 of 40, #1, DI 00000067:)
+Data at offset 394 ('N1*BS*3313*92*DK') was found to be of TYPE
+   X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 530, len 0, comp 1 of 4, #1, DI 00000068:)
+Type X'00B5' (N1 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 530, len 2, comp 1 of 4, #1, DI 00000068:)
+Data at offset 530 ('OB') was found to be of TYPE
+   X'0066' (EntityIDCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 533, len 4, comp 2 of 4, #1, DI 00000069:)
+Data at offset 533 ('3313') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 7: Offset 538, len 2, comp 1 of 2, #1, DI 0000006A:)
+Data at offset 538 ('92') was found to be of TYPE
+   X'00B7' (IDCdQual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 541, len 4, comp 2 of 2, #1, DI 0000006B:)
+Data at offset 541 ('DKNS') was found to be of TYPE
+   X'00B8' (IDCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 538, len 7, comp 3 of 4, #1, DI 0000006C:)
+Data at offset 538 ('92*DKNS') was found to be of TYPE
+   X'00B6' (IDCd MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 529, len 16, comp 1 of 14, #1, DI 0000006D:)
+Data at offset 529 ('*OB*3313*92*DKNS') was found to be of TYPE
+   X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 529, len 16, comp 1 of 14, #1, DI 0000006E:)
+Data at offset 529 ('*OB*3313*92*DKNS') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 550, len 0, comp 1 of 1, #1, DI 0000006F:)
+Type X'00BB' (N2 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 550, len 12, comp 1 of 1, #1, DI 0000006F:)
+Data at offset 550 ('Menard, Inc.') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 6: Offset 563, len 9, comp 1 of 1, #2, DI 00000070:)
+Data at offset 563 ('DICKINSON') was found to be of TYPE
+   X'0074' (Name Element V4010 ANSI EDI).
+
+(Level 5: Offset 549, len 23, comp 2 of 14, #1, DI 00000071:)
+Data at offset 549 ('*Menard, Inc.*DI') was found to be of TYPE
+   X'00BB' (N2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 549, len 23, comp 2 of 14, #1, DI 00000072:)
+Data at offset 549 ('*Menard, Inc.*DI') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 574, len 0, comp 2 of 14, #2, DI 00000073:)
+Data at offset 574 ('N3*4411 WEST RID...') does not match INITIATOR 'N2'
+  of TYPE X'00BB' (N2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 574, len 0, comp 2 of 14, #2, DI 00000073:)
+COMPONENT number 2 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 6: Offset 577, len 0, comp 1 of 1, #1, DI 00000073:)
+Type X'00BC' (N3 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 577, len 21, comp 1 of 1, #1, DI 00000073:)
+Data at offset 577 ('4411 WEST RIDGE ') was found to be of TYPE
+   X'00BD' (AddressInfo Element V4010 ANSI EDI).
+
+(Level 5: Offset 576, len 22, comp 3 of 14, #1, DI 00000074:)
+Data at offset 576 ('*4411 WEST RIDGE') was found to be of TYPE
+   X'00BC' (N3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 576, len 22, comp 3 of 14, #1, DI 00000075:)
+Data at offset 576 ('*4411 WEST RIDGE') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 600, len 0, comp 3 of 14, #2, DI 00000076:)
+Data at offset 600 ('N4*DICKINSON*ND*...') does not match INITIATOR 'N3'
+  of TYPE X'00BC' (N3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 600, len 0, comp 3 of 14, #2, DI 00000076:)
+COMPONENT number 3 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 6: Offset 603, len 0, comp 1 of 6, #1, DI 00000076:)
+Type X'00BE' (N4 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 603, len 9, comp 1 of 6, #1, DI 00000076:)
+Data at offset 603 ('DICKINSON') was found to be of TYPE
+   X'00BF' (CityName Element V4010 ANSI EDI).
+
+(Level 6: Offset 613, len 2, comp 2 of 6, #1, DI 00000077:)
+Data at offset 613 ('ND') was found to be of TYPE
+   X'00C0' (StateProvinceCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 616, len 5, comp 3 of 6, #1, DI 00000078:)
+Data at offset 616 ('58601') was found to be of TYPE
+   X'00C1' (PostalCd Element V4010 ANSI EDI).
+
+(Level 5: Offset 602, len 19, comp 4 of 14, #1, DI 00000079:)
+Data at offset 602 ('*DICKINSON*ND*58') was found to be of TYPE
+   X'00BE' (N4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 602, len 19, comp 4 of 14, #1, DI 0000007A:)
+Data at offset 602 ('*DICKINSON*ND*58') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 623, len 0, comp 4 of 14, #2, DI 0000007B:)
+Data at offset 623 ('PER*CN**TE*70148...') does not match INITIATOR 'N4'
+  of TYPE X'00BE' (N4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 623, len 0, comp 4 of 14, #2, DI 0000007B:)
+COMPONENT number 4 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 5: Offset 623, len 0, comp 5 of 14, #1, DI 0000007B:)
+Data at offset 623 ('PER*CN**TE*70148...') does not match INITIATOR 'NX2'
+  of TYPE X'02F5' (NX2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 623, len 0, comp 5 of 14, #1, DI 0000007B:)
+COMPONENT number 5 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 623, len 0, comp 6 of 14, #1, DI 0000007B:)
+Data at offset 623 ('PER*CN**TE*70148...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 5: Offset 623, len 0, comp 6 of 14, #1, DI 0000007B:)
+COMPONENT number 6 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 627, len 0, comp 1 of 4, #1, DI 0000007B:)
+Type X'0072' (PER Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 627, len 2, comp 1 of 4, #1, DI 0000007B:)
+Data at offset 627 ('CN') was found to be of TYPE
+   X'0073' (ContactFunctionCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 630, len 0, comp 2 of 4, #1, DI 0000007C:)
+COMPONENT number 2 of TYPE X'0072' (PER Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 631, len 2, comp 1 of 2, #1, DI 0000007C:)
+Data at offset 631 ('TE') was found to be of TYPE
+   X'0076' (Comm'n#Qual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 634, len 10, comp 2 of 2, #1, DI 0000007D:)
+Data at offset 634 ('7014838830') was found to be of TYPE
+   X'0077' (Comm'n# Element V4010 ANSI EDI).
+
+(Level 6: Offset 631, len 13, comp 3 of 4, #1, DI 0000007E:)
+Data at offset 631 ('TE*7014838830') was found to be of TYPE
+   X'0075' (Comm'n MComposite V4010 ANSI EDI).
+
+(Level 7: Offset 645, len 2, comp 1 of 2, #1, DI 0000007F:)
+Data at offset 645 ('FX') was found to be of TYPE
+   X'0076' (Comm'n#Qual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 648, len 10, comp 2 of 2, #1, DI 00000080:)
+Data at offset 648 ('7014563460') was found to be of TYPE
+   X'0077' (Comm'n# Element V4010 ANSI EDI).
+
+(Level 6: Offset 645, len 13, comp 3 of 4, #2, DI 00000081:)
+Data at offset 645 ('FX*7014563460') was found to be of TYPE
+   X'0075' (Comm'n MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 626, len 32, comp 7 of 14, #1, DI 00000082:)
+Data at offset 626 ('*CN**TE*70148388') was found to be of TYPE
+   X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 626, len 32, comp 7 of 14, #1, DI 00000083:)
+Data at offset 626 ('*CN**TE*70148388') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 7 of 14, #2, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 7 of 14, #2, DI 00000084:)
+COMPONENT number 7 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 8 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 8 of 14, #1, DI 00000084:)
+COMPONENT number 8 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 9 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 9 of 14, #1, DI 00000084:)
+COMPONENT number 9 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 10 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 10 of 14, #1, DI 00000084:)
+COMPONENT number 10 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 11 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 11 of 14, #1, DI 00000084:)
+COMPONENT number 11 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 12 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 12 of 14, #1, DI 00000084:)
+COMPONENT number 12 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 13 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 13 of 14, #1, DI 00000084:)
+COMPONENT number 13 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 14 of 14, #1, DI 00000084:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 14 of 14, #1, DI 00000084:)
+COMPONENT number 14 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 527, len 133, comp 34 of 40, #2, DI 00000084:)
+Data at offset 527 ('N1*OB*3313*92*DK') was found to be of TYPE
+   X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 1 of 14, #1, DI 00000085:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'N1'
+  of TYPE X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 1 of 14, #1, DI 00000085:)
+COMPONENT number 1 of TYPE X'02F4' (LoopN1_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 660, len 0, comp 34 of 40, #3, DI 00000085:)
+COMPONENT number 34 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 3 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 1 of 2, #1, DI 00000085:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'LM'
+  of TYPE X'00C8' (LM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 1 of 2, #1, DI 00000085:)
+COMPONENT number 1 of TYPE X'02F8' (LoopLM_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 660, len 0, comp 35 of 40, #1, DI 00000085:)
+COMPONENT number 35 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 1 of 6, #1, DI 00000085:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'SPI'
+  of TYPE X'02FA' (SPI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 1 of 6, #1, DI 00000085:)
+COMPONENT number 1 of TYPE X'02F9' (LoopSPI #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 660, len 0, comp 36 of 40, #1, DI 00000085:)
+COMPONENT number 36 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 660, len 0, comp 1 of 3, #1, DI 00000085:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F...') does not match INITIATOR 'ADV'
+  of TYPE X'0309' (ADV Segment V4010 ANSI EDI).
+
+(Level 5: Offset 660, len 0, comp 1 of 3, #1, DI 00000085:)
+COMPONENT number 1 of TYPE X'0308' (LoopADV #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 660, len 0, comp 37 of 40, #1, DI 00000085:)
+COMPONENT number 37 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 664, len 0, comp 1 of 6, #1, DI 00000085:)
+Type X'0278' (PO1 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 664, len 1, comp 1 of 6, #1, DI 00000085:)
+Data at offset 664 ('1') was found to be of TYPE
+   X'00D5' (AssignedID Element V4010 ANSI EDI).
+
+(Level 6: Offset 666, len 1, comp 2 of 6, #1, DI 00000086:)
+Data at offset 666 ('8') was found to be of TYPE
+   X'0279' (QtyOrdered Element V4010 ANSI EDI).
+
+(Level 6: Offset 668, len 2, comp 3 of 6, #1, DI 00000087:)
+Data at offset 668 ('EA') was found to be of TYPE
+   X'009B' (UOMCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 671, len 3, comp 4 of 6, #1, DI 00000088:)
+Data at offset 671 ('4.5') was found to be of TYPE
+   X'00DC' (UnitPrice Element V4010 ANSI EDI).
+
+(Level 6: Offset 675, len 2, comp 5 of 6, #1, DI 00000089:)
+Data at offset 675 ('FX') was found to be of TYPE
+   X'014B' (BasisOfUnitPriceCd Element V4010 ANSI EDI).
+
+(Level 7: Offset 678, len 2, comp 1 of 2, #1, DI 0000008A:)
+Data at offset 678 ('SK') was found to be of TYPE
+   X'00DF' (ProdServiceIDQual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 681, len 7, comp 2 of 2, #1, DI 0000008B:)
+Data at offset 681 ('2624902') was found to be of TYPE
+   X'00E0' (ProdServiceID Element V4010 ANSI EDI).
+
+(Level 6: Offset 678, len 10, comp 6 of 6, #1, DI 0000008C:)
+Data at offset 678 ('SK*2624902') was found to be of TYPE
+   X'00DE' (ProdServiceID MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 663, len 25, comp 1 of 45, #1, DI 0000008D:)
+Data at offset 663 ('*1*8*EA*4.5*FX*S') was found to be of TYPE
+   X'0278' (PO1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 663, len 25, comp 1 of 45, #1, DI 0000008E:)
+Data at offset 663 ('*1*8*EA*4.5*FX*S') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 2 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'LIN'
+  of TYPE X'00DD' (LIN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 2 of 45, #1, DI 0000008F:)
+COMPONENT number 2 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 0, comp 3 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 3 of 45, #1, DI 0000008F:)
+COMPONENT number 3 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 0, comp 4 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'CUR'
+  of TYPE X'0064' (CUR Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 4 of 45, #1, DI 0000008F:)
+COMPONENT number 4 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 0, comp 5 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'CN1'
+  of TYPE X'030B' (CN1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 5 of 45, #1, DI 0000008F:)
+COMPONENT number 5 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 0, comp 6 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'PO3'
+  of TYPE X'0228' (PO3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 6 of 45, #1, DI 0000008F:)
+COMPONENT number 6 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 690, len 0, comp 1 of 2, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'CTP'
+  of TYPE X'01E4' (CTP Segment V4010 ANSI EDI).
+
+(Level 6: Offset 690, len 0, comp 1 of 2, #1, DI 0000008F:)
+COMPONENT number 1 of TYPE X'030D' (LoopCTP #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 690, len 0, comp 7 of 45, #1, DI 0000008F:)
+COMPONENT number 7 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 0, comp 8 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'PAM'
+  of TYPE X'02BA' (PAM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 8 of 45, #1, DI 0000008F:)
+COMPONENT number 8 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 0, comp 9 of 45, #1, DI 0000008F:)
+Data at offset 690 ('PID*F****6.5"  F...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 5: Offset 690, len 0, comp 9 of 45, #1, DI 0000008F:)
+COMPONENT number 9 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 7: Offset 694, len 0, comp 1 of 9, #1, DI 0000008F:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 694, len 1, comp 1 of 9, #1, DI 0000008F:)
+Data at offset 694 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 696, len 0, comp 2 of 9, #1, DI 00000090:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 697, len 0, comp 3 of 9, #1, DI 00000090:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 698, len 0, comp 4 of 9, #1, DI 00000090:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 699, len 23, comp 5 of 9, #1, DI 00000090:)
+Data at offset 699 ('6.5"  FLORAL POI') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 693, len 29, comp 1 of 2, #1, DI 00000091:)
+Data at offset 693 ('*F****6.5"  FLOR') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 693, len 29, comp 1 of 2, #1, DI 00000092:)
+Data at offset 693 ('*F****6.5"  FLOR') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 724, len 0, comp 2 of 2, #1, DI 00000093:)
+Data at offset 724 ('PID*F****2PPP/HO...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 724, len 0, comp 2 of 2, #1, DI 00000093:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 690, len 34, comp 10 of 45, #1, DI 00000093:)
+Data at offset 690 ('PID*F****6.5"  F') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 7: Offset 728, len 0, comp 1 of 9, #1, DI 00000094:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 728, len 1, comp 1 of 9, #1, DI 00000094:)
+Data at offset 728 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 730, len 0, comp 2 of 9, #1, DI 00000095:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 731, len 0, comp 3 of 9, #1, DI 00000095:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 732, len 0, comp 4 of 9, #1, DI 00000095:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 733, len 12, comp 5 of 9, #1, DI 00000095:)
+Data at offset 733 ('2PPP/HOLIDAY') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 727, len 18, comp 1 of 2, #1, DI 00000096:)
+Data at offset 727 ('*F****2PPP/HOLID') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 727, len 18, comp 1 of 2, #1, DI 00000097:)
+Data at offset 727 ('*F****2PPP/HOLID') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 2 of 2, #1, DI 00000098:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 2 of 2, #1, DI 00000098:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 724, len 23, comp 10 of 45, #2, DI 00000098:)
+Data at offset 724 ('PID*F****2PPP/HO') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'PID'
+  of TYPE X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 10 of 45, #3, DI 00000099:)
+COMPONENT number 10 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 3 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 11 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'PWK'
+  of TYPE X'01F7' (PWK Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 11 of 45, #1, DI 00000099:)
+COMPONENT number 11 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 12 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'PO4'
+  of TYPE X'00E1' (PO4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 12 of 45, #1, DI 00000099:)
+COMPONENT number 12 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 13 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 13 of 45, #1, DI 00000099:)
+COMPONENT number 13 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 14 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 14 of 45, #1, DI 00000099:)
+COMPONENT number 14 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'SAC'
+  of TYPE X'00A5' (SAC Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'030F' (LoopSAC_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 15 of 45, #1, DI 00000099:)
+COMPONENT number 15 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 16 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'IT8'
+  of TYPE X'0310' (IT8 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 16 of 45, #1, DI 00000099:)
+COMPONENT number 16 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 17 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'CSH'
+  of TYPE X'01E9' (CSH Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 17 of 45, #1, DI 00000099:)
+COMPONENT number 17 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 18 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'ITD'
+  of TYPE X'0079' (ITD Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 18 of 45, #1, DI 00000099:)
+COMPONENT number 18 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 19 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'DIS'
+  of TYPE X'02E9' (DIS Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 19 of 45, #1, DI 00000099:)
+COMPONENT number 19 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 20 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'INC'
+  of TYPE X'02EF' (INC Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 20 of 45, #1, DI 00000099:)
+COMPONENT number 20 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 21 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TAX'
+  of TYPE X'01E1' (TAX Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 21 of 45, #1, DI 00000099:)
+COMPONENT number 21 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 22 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 22 of 45, #1, DI 00000099:)
+COMPONENT number 22 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 23 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'SDQ'
+  of TYPE X'0244' (SDQ Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 23 of 45, #1, DI 00000099:)
+COMPONENT number 23 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 24 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'IT3'
+  of TYPE X'0311' (IT3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 24 of 45, #1, DI 00000099:)
+COMPONENT number 24 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 25 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'DTM'
+  of TYPE X'0089' (DTM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 25 of 45, #1, DI 00000099:)
+COMPONENT number 25 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 26 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TC2'
+  of TYPE X'0280' (TC2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 26 of 45, #1, DI 00000099:)
+COMPONENT number 26 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 27 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 27 of 45, #1, DI 00000099:)
+COMPONENT number 27 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 28 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 28 of 45, #1, DI 00000099:)
+COMPONENT number 28 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 29 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 29 of 45, #1, DI 00000099:)
+COMPONENT number 29 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 30 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 30 of 45, #1, DI 00000099:)
+COMPONENT number 30 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 31 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'PCT'
+  of TYPE X'00F9' (PCT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 31 of 45, #1, DI 00000099:)
+COMPONENT number 31 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 32 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'MAN'
+  of TYPE X'021C' (MAN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 32 of 45, #1, DI 00000099:)
+COMPONENT number 32 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 33 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'MSG'
+  of TYPE X'02F3' (MSG Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 33 of 45, #1, DI 00000099:)
+COMPONENT number 33 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 34 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'SPI'
+  of TYPE X'02FA' (SPI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 34 of 45, #1, DI 00000099:)
+COMPONENT number 34 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 35 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'TXI'
+  of TYPE X'014E' (TXI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 35 of 45, #1, DI 00000099:)
+COMPONENT number 35 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 747, len 0, comp 36 of 45, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'CTB'
+  of TYPE X'026B' (CTB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 747, len 0, comp 36 of 45, #1, DI 00000099:)
+COMPONENT number 36 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'QTY'
+  of TYPE X'010C' (QTY Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0314' (LoopQTY_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 37 of 45, #1, DI 00000099:)
+COMPONENT number 37 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 6, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'SCH'
+  of TYPE X'0316' (SCH Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 6, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0315' (LoopSCH #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 38 of 45, #1, DI 00000099:)
+COMPONENT number 38 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0318' (LoopPKG #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 39 of 45, #1, DI 00000099:)
+COMPONENT number 39 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'LS'
+  of TYPE X'031B' (LS Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') failed COMPONENT RULE test
+   for component number 1, TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 40 of 45, #1, DI 00000099:)
+COMPONENT number 40 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 4, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'N9'
+  of TYPE X'006C' (N9 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 4, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0320' (LoopN9_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 41 of 45, #1, DI 00000099:)
+COMPONENT number 41 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 18, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'N1'
+  of TYPE X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 18, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0321' (LoopN1_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 42 of 45, #1, DI 00000099:)
+COMPONENT number 42 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 16, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'SLN'
+  of TYPE X'0158' (SLN Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 16, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0323' (LoopSLN #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 43 of 45, #1, DI 00000099:)
+COMPONENT number 43 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'AMT'
+  of TYPE X'00C4' (AMT Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 3, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0328' (LoopAMT_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 44 of 45, #1, DI 00000099:)
+COMPONENT number 44 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+Data at offset 747 ('PO1*2*32*EA*7.5*...') does not match INITIATOR 'LM'
+  of TYPE X'00C8' (LM Segment V4010 ANSI EDI).
+
+(Level 6: Offset 747, len 0, comp 1 of 2, #1, DI 00000099:)
+COMPONENT number 1 of TYPE X'0329' (LoopLM_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 747, len 0, comp 45 of 45, #1, DI 00000099:)
+COMPONENT number 45 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 660, len 87, comp 38 of 40, #1, DI 00000099:)
+Data at offset 660 ('PO1*1*8*EA*4.5*F') was found to be of TYPE
+   X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 751, len 0, comp 1 of 6, #1, DI 0000009A:)
+Type X'0278' (PO1 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 751, len 1, comp 1 of 6, #1, DI 0000009A:)
+Data at offset 751 ('2') was found to be of TYPE
+   X'00D5' (AssignedID Element V4010 ANSI EDI).
+
+(Level 6: Offset 753, len 2, comp 2 of 6, #1, DI 0000009B:)
+Data at offset 753 ('32') was found to be of TYPE
+   X'0279' (QtyOrdered Element V4010 ANSI EDI).
+
+(Level 6: Offset 756, len 2, comp 3 of 6, #1, DI 0000009C:)
+Data at offset 756 ('EA') was found to be of TYPE
+   X'009B' (UOMCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 759, len 3, comp 4 of 6, #1, DI 0000009D:)
+Data at offset 759 ('7.5') was found to be of TYPE
+   X'00DC' (UnitPrice Element V4010 ANSI EDI).
+
+(Level 6: Offset 763, len 2, comp 5 of 6, #1, DI 0000009E:)
+Data at offset 763 ('FX') was found to be of TYPE
+   X'014B' (BasisOfUnitPriceCd Element V4010 ANSI EDI).
+
+(Level 7: Offset 766, len 2, comp 1 of 2, #1, DI 0000009F:)
+Data at offset 766 ('SK') was found to be of TYPE
+   X'00DF' (ProdServiceIDQual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 769, len 7, comp 2 of 2, #1, DI 000000A0:)
+Data at offset 769 ('2624904') was found to be of TYPE
+   X'00E0' (ProdServiceID Element V4010 ANSI EDI).
+
+(Level 6: Offset 766, len 10, comp 6 of 6, #1, DI 000000A1:)
+Data at offset 766 ('SK*2624904') was found to be of TYPE
+   X'00DE' (ProdServiceID MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 750, len 26, comp 1 of 45, #1, DI 000000A2:)
+Data at offset 750 ('*2*32*EA*7.5*FX*') was found to be of TYPE
+   X'0278' (PO1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 750, len 26, comp 1 of 45, #1, DI 000000A3:)
+Data at offset 750 ('*2*32*EA*7.5*FX*') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 2 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'LIN'
+  of TYPE X'00DD' (LIN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 2 of 45, #1, DI 000000A4:)
+COMPONENT number 2 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 0, comp 3 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 3 of 45, #1, DI 000000A4:)
+COMPONENT number 3 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 0, comp 4 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'CUR'
+  of TYPE X'0064' (CUR Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 4 of 45, #1, DI 000000A4:)
+COMPONENT number 4 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 0, comp 5 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'CN1'
+  of TYPE X'030B' (CN1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 5 of 45, #1, DI 000000A4:)
+COMPONENT number 5 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 0, comp 6 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'PO3'
+  of TYPE X'0228' (PO3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 6 of 45, #1, DI 000000A4:)
+COMPONENT number 6 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 778, len 0, comp 1 of 2, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'CTP'
+  of TYPE X'01E4' (CTP Segment V4010 ANSI EDI).
+
+(Level 6: Offset 778, len 0, comp 1 of 2, #1, DI 000000A4:)
+COMPONENT number 1 of TYPE X'030D' (LoopCTP #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 778, len 0, comp 7 of 45, #1, DI 000000A4:)
+COMPONENT number 7 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 0, comp 8 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'PAM'
+  of TYPE X'02BA' (PAM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 8 of 45, #1, DI 000000A4:)
+COMPONENT number 8 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 0, comp 9 of 45, #1, DI 000000A4:)
+Data at offset 778 ('PID*F****8" POIN...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 5: Offset 778, len 0, comp 9 of 45, #1, DI 000000A4:)
+COMPONENT number 9 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 7: Offset 782, len 0, comp 1 of 9, #1, DI 000000A4:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 782, len 1, comp 1 of 9, #1, DI 000000A4:)
+Data at offset 782 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 784, len 0, comp 2 of 9, #1, DI 000000A5:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 785, len 0, comp 3 of 9, #1, DI 000000A5:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 786, len 0, comp 4 of 9, #1, DI 000000A5:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 787, len 13, comp 5 of 9, #1, DI 000000A5:)
+Data at offset 787 ('8" POINSETTIA') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 781, len 19, comp 1 of 2, #1, DI 000000A6:)
+Data at offset 781 ('*F****8" POINSET') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 781, len 19, comp 1 of 2, #1, DI 000000A7:)
+Data at offset 781 ('*F****8" POINSET') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 802, len 0, comp 2 of 2, #1, DI 000000A8:)
+Data at offset 802 ('PID*F****3PPP/HO...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 802, len 0, comp 2 of 2, #1, DI 000000A8:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 778, len 24, comp 10 of 45, #1, DI 000000A8:)
+Data at offset 778 ('PID*F****8" POIN') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 7: Offset 806, len 0, comp 1 of 9, #1, DI 000000A9:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 806, len 1, comp 1 of 9, #1, DI 000000A9:)
+Data at offset 806 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 808, len 0, comp 2 of 9, #1, DI 000000AA:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 809, len 0, comp 3 of 9, #1, DI 000000AA:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 810, len 0, comp 4 of 9, #1, DI 000000AA:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 811, len 12, comp 5 of 9, #1, DI 000000AA:)
+Data at offset 811 ('3PPP/HOLIDAY') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 805, len 18, comp 1 of 2, #1, DI 000000AB:)
+Data at offset 805 ('*F****3PPP/HOLID') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 805, len 18, comp 1 of 2, #1, DI 000000AC:)
+Data at offset 805 ('*F****3PPP/HOLID') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 2 of 2, #1, DI 000000AD:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 2 of 2, #1, DI 000000AD:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 802, len 23, comp 10 of 45, #2, DI 000000AD:)
+Data at offset 802 ('PID*F****3PPP/HO') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'PID'
+  of TYPE X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 10 of 45, #3, DI 000000AE:)
+COMPONENT number 10 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 3 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 11 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'PWK'
+  of TYPE X'01F7' (PWK Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 11 of 45, #1, DI 000000AE:)
+COMPONENT number 11 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 12 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'PO4'
+  of TYPE X'00E1' (PO4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 12 of 45, #1, DI 000000AE:)
+COMPONENT number 12 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 13 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 13 of 45, #1, DI 000000AE:)
+COMPONENT number 13 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 14 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 14 of 45, #1, DI 000000AE:)
+COMPONENT number 14 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'SAC'
+  of TYPE X'00A5' (SAC Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'030F' (LoopSAC_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 15 of 45, #1, DI 000000AE:)
+COMPONENT number 15 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 16 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'IT8'
+  of TYPE X'0310' (IT8 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 16 of 45, #1, DI 000000AE:)
+COMPONENT number 16 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 17 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'CSH'
+  of TYPE X'01E9' (CSH Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 17 of 45, #1, DI 000000AE:)
+COMPONENT number 17 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 18 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'ITD'
+  of TYPE X'0079' (ITD Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 18 of 45, #1, DI 000000AE:)
+COMPONENT number 18 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 19 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'DIS'
+  of TYPE X'02E9' (DIS Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 19 of 45, #1, DI 000000AE:)
+COMPONENT number 19 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 20 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'INC'
+  of TYPE X'02EF' (INC Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 20 of 45, #1, DI 000000AE:)
+COMPONENT number 20 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 21 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TAX'
+  of TYPE X'01E1' (TAX Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 21 of 45, #1, DI 000000AE:)
+COMPONENT number 21 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 22 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 22 of 45, #1, DI 000000AE:)
+COMPONENT number 22 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 23 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'SDQ'
+  of TYPE X'0244' (SDQ Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 23 of 45, #1, DI 000000AE:)
+COMPONENT number 23 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 24 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'IT3'
+  of TYPE X'0311' (IT3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 24 of 45, #1, DI 000000AE:)
+COMPONENT number 24 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 25 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'DTM'
+  of TYPE X'0089' (DTM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 25 of 45, #1, DI 000000AE:)
+COMPONENT number 25 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 26 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TC2'
+  of TYPE X'0280' (TC2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 26 of 45, #1, DI 000000AE:)
+COMPONENT number 26 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 27 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 27 of 45, #1, DI 000000AE:)
+COMPONENT number 27 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 28 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 28 of 45, #1, DI 000000AE:)
+COMPONENT number 28 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 29 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 29 of 45, #1, DI 000000AE:)
+COMPONENT number 29 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 30 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 30 of 45, #1, DI 000000AE:)
+COMPONENT number 30 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 31 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'PCT'
+  of TYPE X'00F9' (PCT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 31 of 45, #1, DI 000000AE:)
+COMPONENT number 31 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 32 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'MAN'
+  of TYPE X'021C' (MAN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 32 of 45, #1, DI 000000AE:)
+COMPONENT number 32 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 33 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'MSG'
+  of TYPE X'02F3' (MSG Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 33 of 45, #1, DI 000000AE:)
+COMPONENT number 33 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 34 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'SPI'
+  of TYPE X'02FA' (SPI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 34 of 45, #1, DI 000000AE:)
+COMPONENT number 34 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 35 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'TXI'
+  of TYPE X'014E' (TXI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 35 of 45, #1, DI 000000AE:)
+COMPONENT number 35 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 825, len 0, comp 36 of 45, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'CTB'
+  of TYPE X'026B' (CTB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 825, len 0, comp 36 of 45, #1, DI 000000AE:)
+COMPONENT number 36 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'QTY'
+  of TYPE X'010C' (QTY Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0314' (LoopQTY_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 37 of 45, #1, DI 000000AE:)
+COMPONENT number 37 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 6, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'SCH'
+  of TYPE X'0316' (SCH Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 6, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0315' (LoopSCH #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 38 of 45, #1, DI 000000AE:)
+COMPONENT number 38 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0318' (LoopPKG #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 39 of 45, #1, DI 000000AE:)
+COMPONENT number 39 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'LS'
+  of TYPE X'031B' (LS Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') failed COMPONENT RULE test
+   for component number 1, TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 40 of 45, #1, DI 000000AE:)
+COMPONENT number 40 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 4, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'N9'
+  of TYPE X'006C' (N9 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 4, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0320' (LoopN9_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 41 of 45, #1, DI 000000AE:)
+COMPONENT number 41 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 18, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'N1'
+  of TYPE X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 18, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0321' (LoopN1_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 42 of 45, #1, DI 000000AE:)
+COMPONENT number 42 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 16, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'SLN'
+  of TYPE X'0158' (SLN Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 16, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0323' (LoopSLN #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 43 of 45, #1, DI 000000AE:)
+COMPONENT number 43 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'AMT'
+  of TYPE X'00C4' (AMT Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 3, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0328' (LoopAMT_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 44 of 45, #1, DI 000000AE:)
+COMPONENT number 44 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 825 ('PO1*3*8*EA*5.75*...') does not match INITIATOR 'LM'
+  of TYPE X'00C8' (LM Segment V4010 ANSI EDI).
+
+(Level 6: Offset 825, len 0, comp 1 of 2, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'0329' (LoopLM_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 825, len 0, comp 45 of 45, #1, DI 000000AE:)
+COMPONENT number 45 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 747, len 78, comp 38 of 40, #2, DI 000000AE:)
+Data at offset 747 ('PO1*2*32*EA*7.5*') was found to be of TYPE
+   X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 829, len 0, comp 1 of 6, #1, DI 000000AF:)
+Type X'0278' (PO1 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 829, len 1, comp 1 of 6, #1, DI 000000AF:)
+Data at offset 829 ('3') was found to be of TYPE
+   X'00D5' (AssignedID Element V4010 ANSI EDI).
+
+(Level 6: Offset 831, len 1, comp 2 of 6, #1, DI 000000B0:)
+Data at offset 831 ('8') was found to be of TYPE
+   X'0279' (QtyOrdered Element V4010 ANSI EDI).
+
+(Level 6: Offset 833, len 2, comp 3 of 6, #1, DI 000000B1:)
+Data at offset 833 ('EA') was found to be of TYPE
+   X'009B' (UOMCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 836, len 4, comp 4 of 6, #1, DI 000000B2:)
+Data at offset 836 ('5.75') was found to be of TYPE
+   X'00DC' (UnitPrice Element V4010 ANSI EDI).
+
+(Level 6: Offset 841, len 2, comp 5 of 6, #1, DI 000000B3:)
+Data at offset 841 ('FX') was found to be of TYPE
+   X'014B' (BasisOfUnitPriceCd Element V4010 ANSI EDI).
+
+(Level 7: Offset 844, len 2, comp 1 of 2, #1, DI 000000B4:)
+Data at offset 844 ('SK') was found to be of TYPE
+   X'00DF' (ProdServiceIDQual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 847, len 7, comp 2 of 2, #1, DI 000000B5:)
+Data at offset 847 ('2624907') was found to be of TYPE
+   X'00E0' (ProdServiceID Element V4010 ANSI EDI).
+
+(Level 6: Offset 844, len 10, comp 6 of 6, #1, DI 000000B6:)
+Data at offset 844 ('SK*2624907') was found to be of TYPE
+   X'00DE' (ProdServiceID MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 828, len 26, comp 1 of 45, #1, DI 000000B7:)
+Data at offset 828 ('*3*8*EA*5.75*FX*') was found to be of TYPE
+   X'0278' (PO1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 828, len 26, comp 1 of 45, #1, DI 000000B8:)
+Data at offset 828 ('*3*8*EA*5.75*FX*') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 2 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'LIN'
+  of TYPE X'00DD' (LIN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 2 of 45, #1, DI 000000B9:)
+COMPONENT number 2 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 0, comp 3 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 3 of 45, #1, DI 000000B9:)
+COMPONENT number 3 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 0, comp 4 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'CUR'
+  of TYPE X'0064' (CUR Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 4 of 45, #1, DI 000000B9:)
+COMPONENT number 4 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 0, comp 5 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'CN1'
+  of TYPE X'030B' (CN1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 5 of 45, #1, DI 000000B9:)
+COMPONENT number 5 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 0, comp 6 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'PO3'
+  of TYPE X'0228' (PO3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 6 of 45, #1, DI 000000B9:)
+COMPONENT number 6 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 856, len 0, comp 1 of 2, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'CTP'
+  of TYPE X'01E4' (CTP Segment V4010 ANSI EDI).
+
+(Level 6: Offset 856, len 0, comp 1 of 2, #1, DI 000000B9:)
+COMPONENT number 1 of TYPE X'030D' (LoopCTP #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 856, len 0, comp 7 of 45, #1, DI 000000B9:)
+COMPONENT number 7 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 0, comp 8 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'PAM'
+  of TYPE X'02BA' (PAM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 8 of 45, #1, DI 000000B9:)
+COMPONENT number 8 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 0, comp 9 of 45, #1, DI 000000B9:)
+Data at offset 856 ('PID*F****6.5" PA...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 5: Offset 856, len 0, comp 9 of 45, #1, DI 000000B9:)
+COMPONENT number 9 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 7: Offset 860, len 0, comp 1 of 9, #1, DI 000000B9:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 860, len 1, comp 1 of 9, #1, DI 000000B9:)
+Data at offset 860 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 862, len 0, comp 2 of 9, #1, DI 000000BA:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 863, len 0, comp 3 of 9, #1, DI 000000BA:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 864, len 0, comp 4 of 9, #1, DI 000000BA:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 865, len 23, comp 5 of 9, #1, DI 000000BA:)
+Data at offset 865 ('6.5" PAINTED POI') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 859, len 29, comp 1 of 2, #1, DI 000000BB:)
+Data at offset 859 ('*F****6.5" PAINT') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 859, len 29, comp 1 of 2, #1, DI 000000BC:)
+Data at offset 859 ('*F****6.5" PAINT') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 890, len 0, comp 2 of 2, #1, DI 000000BD:)
+Data at offset 890 ('PID*F****2PPP/HO...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 890, len 0, comp 2 of 2, #1, DI 000000BD:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 856, len 34, comp 10 of 45, #1, DI 000000BD:)
+Data at offset 856 ('PID*F****6.5" PA') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 7: Offset 894, len 0, comp 1 of 9, #1, DI 000000BE:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 894, len 1, comp 1 of 9, #1, DI 000000BE:)
+Data at offset 894 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 896, len 0, comp 2 of 9, #1, DI 000000BF:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 897, len 0, comp 3 of 9, #1, DI 000000BF:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 898, len 0, comp 4 of 9, #1, DI 000000BF:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 899, len 12, comp 5 of 9, #1, DI 000000BF:)
+Data at offset 899 ('2PPP/HOLIDAY') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 893, len 18, comp 1 of 2, #1, DI 000000C0:)
+Data at offset 893 ('*F****2PPP/HOLID') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 893, len 18, comp 1 of 2, #1, DI 000000C1:)
+Data at offset 893 ('*F****2PPP/HOLID') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 2 of 2, #1, DI 000000C2:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 2 of 2, #1, DI 000000C2:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 890, len 23, comp 10 of 45, #2, DI 000000C2:)
+Data at offset 890 ('PID*F****2PPP/HO') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'PID'
+  of TYPE X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 10 of 45, #3, DI 000000C3:)
+COMPONENT number 10 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 3 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 11 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'PWK'
+  of TYPE X'01F7' (PWK Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 11 of 45, #1, DI 000000C3:)
+COMPONENT number 11 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 12 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'PO4'
+  of TYPE X'00E1' (PO4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 12 of 45, #1, DI 000000C3:)
+COMPONENT number 12 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 13 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 13 of 45, #1, DI 000000C3:)
+COMPONENT number 13 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 14 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 14 of 45, #1, DI 000000C3:)
+COMPONENT number 14 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'SAC'
+  of TYPE X'00A5' (SAC Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'030F' (LoopSAC_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 15 of 45, #1, DI 000000C3:)
+COMPONENT number 15 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 16 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'IT8'
+  of TYPE X'0310' (IT8 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 16 of 45, #1, DI 000000C3:)
+COMPONENT number 16 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 17 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'CSH'
+  of TYPE X'01E9' (CSH Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 17 of 45, #1, DI 000000C3:)
+COMPONENT number 17 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 18 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'ITD'
+  of TYPE X'0079' (ITD Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 18 of 45, #1, DI 000000C3:)
+COMPONENT number 18 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 19 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'DIS'
+  of TYPE X'02E9' (DIS Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 19 of 45, #1, DI 000000C3:)
+COMPONENT number 19 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 20 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'INC'
+  of TYPE X'02EF' (INC Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 20 of 45, #1, DI 000000C3:)
+COMPONENT number 20 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 21 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TAX'
+  of TYPE X'01E1' (TAX Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 21 of 45, #1, DI 000000C3:)
+COMPONENT number 21 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 22 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 22 of 45, #1, DI 000000C3:)
+COMPONENT number 22 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 23 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'SDQ'
+  of TYPE X'0244' (SDQ Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 23 of 45, #1, DI 000000C3:)
+COMPONENT number 23 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 24 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'IT3'
+  of TYPE X'0311' (IT3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 24 of 45, #1, DI 000000C3:)
+COMPONENT number 24 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 25 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'DTM'
+  of TYPE X'0089' (DTM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 25 of 45, #1, DI 000000C3:)
+COMPONENT number 25 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 26 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TC2'
+  of TYPE X'0280' (TC2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 26 of 45, #1, DI 000000C3:)
+COMPONENT number 26 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 27 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 27 of 45, #1, DI 000000C3:)
+COMPONENT number 27 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 28 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 28 of 45, #1, DI 000000C3:)
+COMPONENT number 28 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 29 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 29 of 45, #1, DI 000000C3:)
+COMPONENT number 29 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 30 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 30 of 45, #1, DI 000000C3:)
+COMPONENT number 30 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 31 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'PCT'
+  of TYPE X'00F9' (PCT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 31 of 45, #1, DI 000000C3:)
+COMPONENT number 31 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 32 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'MAN'
+  of TYPE X'021C' (MAN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 32 of 45, #1, DI 000000C3:)
+COMPONENT number 32 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 33 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'MSG'
+  of TYPE X'02F3' (MSG Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 33 of 45, #1, DI 000000C3:)
+COMPONENT number 33 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 34 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'SPI'
+  of TYPE X'02FA' (SPI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 34 of 45, #1, DI 000000C3:)
+COMPONENT number 34 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 35 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'TXI'
+  of TYPE X'014E' (TXI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 35 of 45, #1, DI 000000C3:)
+COMPONENT number 35 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 913, len 0, comp 36 of 45, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'CTB'
+  of TYPE X'026B' (CTB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 913, len 0, comp 36 of 45, #1, DI 000000C3:)
+COMPONENT number 36 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'QTY'
+  of TYPE X'010C' (QTY Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0314' (LoopQTY_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 37 of 45, #1, DI 000000C3:)
+COMPONENT number 37 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 6, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'SCH'
+  of TYPE X'0316' (SCH Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 6, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0315' (LoopSCH #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 38 of 45, #1, DI 000000C3:)
+COMPONENT number 38 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0318' (LoopPKG #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 39 of 45, #1, DI 000000C3:)
+COMPONENT number 39 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'LS'
+  of TYPE X'031B' (LS Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') failed COMPONENT RULE test
+   for component number 1, TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 40 of 45, #1, DI 000000C3:)
+COMPONENT number 40 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 4, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'N9'
+  of TYPE X'006C' (N9 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 4, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0320' (LoopN9_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 41 of 45, #1, DI 000000C3:)
+COMPONENT number 41 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 18, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'N1'
+  of TYPE X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 18, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0321' (LoopN1_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 42 of 45, #1, DI 000000C3:)
+COMPONENT number 42 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 16, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'SLN'
+  of TYPE X'0158' (SLN Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 16, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0323' (LoopSLN #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 43 of 45, #1, DI 000000C3:)
+COMPONENT number 43 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'AMT'
+  of TYPE X'00C4' (AMT Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 3, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0328' (LoopAMT_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 44 of 45, #1, DI 000000C3:)
+COMPONENT number 44 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F...') does not match INITIATOR 'LM'
+  of TYPE X'00C8' (LM Segment V4010 ANSI EDI).
+
+(Level 6: Offset 913, len 0, comp 1 of 2, #1, DI 000000C3:)
+COMPONENT number 1 of TYPE X'0329' (LoopLM_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 913, len 0, comp 45 of 45, #1, DI 000000C3:)
+COMPONENT number 45 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 825, len 88, comp 38 of 40, #3, DI 000000C3:)
+Data at offset 825 ('PO1*3*8*EA*5.75*') was found to be of TYPE
+   X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 917, len 0, comp 1 of 6, #1, DI 000000C4:)
+Type X'0278' (PO1 Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 917, len 1, comp 1 of 6, #1, DI 000000C4:)
+Data at offset 917 ('4') was found to be of TYPE
+   X'00D5' (AssignedID Element V4010 ANSI EDI).
+
+(Level 6: Offset 919, len 1, comp 2 of 6, #1, DI 000000C5:)
+Data at offset 919 ('8') was found to be of TYPE
+   X'0279' (QtyOrdered Element V4010 ANSI EDI).
+
+(Level 6: Offset 921, len 2, comp 3 of 6, #1, DI 000000C6:)
+Data at offset 921 ('EA') was found to be of TYPE
+   X'009B' (UOMCd Element V4010 ANSI EDI).
+
+(Level 6: Offset 924, len 3, comp 4 of 6, #1, DI 000000C7:)
+Data at offset 924 ('5.5') was found to be of TYPE
+   X'00DC' (UnitPrice Element V4010 ANSI EDI).
+
+(Level 6: Offset 928, len 2, comp 5 of 6, #1, DI 000000C8:)
+Data at offset 928 ('FX') was found to be of TYPE
+   X'014B' (BasisOfUnitPriceCd Element V4010 ANSI EDI).
+
+(Level 7: Offset 931, len 2, comp 1 of 2, #1, DI 000000C9:)
+Data at offset 931 ('SK') was found to be of TYPE
+   X'00DF' (ProdServiceIDQual'r Element V4010 ANSI EDI).
+
+(Level 7: Offset 934, len 7, comp 2 of 2, #1, DI 000000CA:)
+Data at offset 934 ('2624908') was found to be of TYPE
+   X'00E0' (ProdServiceID Element V4010 ANSI EDI).
+
+(Level 6: Offset 931, len 10, comp 6 of 6, #1, DI 000000CB:)
+Data at offset 931 ('SK*2624908') was found to be of TYPE
+   X'00DE' (ProdServiceID MComposite V4010 ANSI EDI).
+
+(Level 5: Offset 916, len 25, comp 1 of 45, #1, DI 000000CC:)
+Data at offset 916 ('*4*8*EA*5.5*FX*S') was found to be of TYPE
+   X'0278' (PO1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 916, len 25, comp 1 of 45, #1, DI 000000CD:)
+Data at offset 916 ('*4*8*EA*5.5*FX*S') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 2 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'LIN'
+  of TYPE X'00DD' (LIN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 2 of 45, #1, DI 000000CE:)
+COMPONENT number 2 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 0, comp 3 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'SI'
+  of TYPE X'027A' (SI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 3 of 45, #1, DI 000000CE:)
+COMPONENT number 3 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 0, comp 4 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'CUR'
+  of TYPE X'0064' (CUR Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 4 of 45, #1, DI 000000CE:)
+COMPONENT number 4 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 0, comp 5 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'CN1'
+  of TYPE X'030B' (CN1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 5 of 45, #1, DI 000000CE:)
+COMPONENT number 5 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 0, comp 6 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'PO3'
+  of TYPE X'0228' (PO3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 6 of 45, #1, DI 000000CE:)
+COMPONENT number 6 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 943, len 0, comp 1 of 2, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'CTP'
+  of TYPE X'01E4' (CTP Segment V4010 ANSI EDI).
+
+(Level 6: Offset 943, len 0, comp 1 of 2, #1, DI 000000CE:)
+COMPONENT number 1 of TYPE X'030D' (LoopCTP #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 943, len 0, comp 7 of 45, #1, DI 000000CE:)
+COMPONENT number 7 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 0, comp 8 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'PAM'
+  of TYPE X'02BA' (PAM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 8 of 45, #1, DI 000000CE:)
+COMPONENT number 8 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 0, comp 9 of 45, #1, DI 000000CE:)
+Data at offset 943 ('PID*F****6.5" GL...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 5: Offset 943, len 0, comp 9 of 45, #1, DI 000000CE:)
+COMPONENT number 9 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 7: Offset 947, len 0, comp 1 of 9, #1, DI 000000CE:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 947, len 1, comp 1 of 9, #1, DI 000000CE:)
+Data at offset 947 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 949, len 0, comp 2 of 9, #1, DI 000000CF:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 950, len 0, comp 3 of 9, #1, DI 000000CF:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 951, len 0, comp 4 of 9, #1, DI 000000CF:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 952, len 25, comp 5 of 9, #1, DI 000000CF:)
+Data at offset 952 ('6.5" GLITTERED P') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 946, len 31, comp 1 of 2, #1, DI 000000D0:)
+Data at offset 946 ('*F****6.5" GLITT') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 946, len 31, comp 1 of 2, #1, DI 000000D1:)
+Data at offset 946 ('*F****6.5" GLITT') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 979, len 0, comp 2 of 2, #1, DI 000000D2:)
+Data at offset 979 ('PID*F****2PPP/HO...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 979, len 0, comp 2 of 2, #1, DI 000000D2:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 943, len 36, comp 10 of 45, #1, DI 000000D2:)
+Data at offset 943 ('PID*F****6.5" GL') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 7: Offset 983, len 0, comp 1 of 9, #1, DI 000000D3:)
+Type X'01B5' (PID Segment V4010 ANSI EDI) is known to exist.
+
+(Level 7: Offset 983, len 1, comp 1 of 9, #1, DI 000000D3:)
+Data at offset 983 ('F') was found to be of TYPE
+   X'01B6' (ItemDesc'nType Element V4010 ANSI EDI).
+
+(Level 7: Offset 985, len 0, comp 2 of 9, #1, DI 000000D4:)
+COMPONENT number 2 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 986, len 0, comp 3 of 9, #1, DI 000000D4:)
+COMPONENT number 3 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 987, len 0, comp 4 of 9, #1, DI 000000D4:)
+COMPONENT number 4 of TYPE X'01B5' (PID Segment V4010 ANSI EDI):
+occurrence 1 is optional and has no content.
+
+(Level 7: Offset 988, len 12, comp 5 of 9, #1, DI 000000D4:)
+Data at offset 988 ('2PPP/HOLIDAY') was found to be of TYPE
+   X'0085' (Desc'n Element V4010 ANSI EDI).
+
+(Level 6: Offset 982, len 18, comp 1 of 2, #1, DI 000000D5:)
+Data at offset 982 ('*F****2PPP/HOLID') was found to be of TYPE
+   X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 982, len 18, comp 1 of 2, #1, DI 000000D6:)
+Data at offset 982 ('*F****2PPP/HOLID') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 2 of 2, #1, DI 000000D7:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'MEA'
+  of TYPE X'01EF' (MEA Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 2 of 2, #1, DI 000000D7:)
+COMPONENT number 2 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 979, len 23, comp 10 of 45, #2, DI 000000D7:)
+Data at offset 979 ('PID*F****2PPP/HO') was found to be of TYPE
+   X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PID'
+  of TYPE X'01B5' (PID Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'030E' (LoopPID #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 10 of 45, #3, DI 000000D8:)
+COMPONENT number 10 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 3 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 11 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PWK'
+  of TYPE X'01F7' (PWK Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 11 of 45, #1, DI 000000D8:)
+COMPONENT number 11 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 12 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PO4'
+  of TYPE X'00E1' (PO4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 12 of 45, #1, DI 000000D8:)
+COMPONENT number 12 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 13 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'REF'
+  of TYPE X'0103' (REF Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 13 of 45, #1, DI 000000D8:)
+COMPONENT number 13 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 14 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PER'
+  of TYPE X'0072' (PER Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 14 of 45, #1, DI 000000D8:)
+COMPONENT number 14 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'SAC'
+  of TYPE X'00A5' (SAC Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'030F' (LoopSAC_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 15 of 45, #1, DI 000000D8:)
+COMPONENT number 15 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 16 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'IT8'
+  of TYPE X'0310' (IT8 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 16 of 45, #1, DI 000000D8:)
+COMPONENT number 16 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 17 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'CSH'
+  of TYPE X'01E9' (CSH Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 17 of 45, #1, DI 000000D8:)
+COMPONENT number 17 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 18 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'ITD'
+  of TYPE X'0079' (ITD Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 18 of 45, #1, DI 000000D8:)
+COMPONENT number 18 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 19 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'DIS'
+  of TYPE X'02E9' (DIS Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 19 of 45, #1, DI 000000D8:)
+COMPONENT number 19 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 20 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'INC'
+  of TYPE X'02EF' (INC Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 20 of 45, #1, DI 000000D8:)
+COMPONENT number 20 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 21 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TAX'
+  of TYPE X'01E1' (TAX Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 21 of 45, #1, DI 000000D8:)
+COMPONENT number 21 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 22 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'FOB'
+  of TYPE X'008D' (FOB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 22 of 45, #1, DI 000000D8:)
+COMPONENT number 22 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 23 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'SDQ'
+  of TYPE X'0244' (SDQ Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 23 of 45, #1, DI 000000D8:)
+COMPONENT number 23 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 24 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'IT3'
+  of TYPE X'0311' (IT3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 24 of 45, #1, DI 000000D8:)
+COMPONENT number 24 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 25 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'DTM'
+  of TYPE X'0089' (DTM Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 25 of 45, #1, DI 000000D8:)
+COMPONENT number 25 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 26 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TC2'
+  of TYPE X'0280' (TC2 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 26 of 45, #1, DI 000000D8:)
+COMPONENT number 26 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 27 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TD1'
+  of TYPE X'0201' (TD1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 27 of 45, #1, DI 000000D8:)
+COMPONENT number 27 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 28 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TD5'
+  of TYPE X'0206' (TD5 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 28 of 45, #1, DI 000000D8:)
+COMPONENT number 28 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 29 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TD3'
+  of TYPE X'0210' (TD3 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 29 of 45, #1, DI 000000D8:)
+COMPONENT number 29 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 30 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TD4'
+  of TYPE X'0218' (TD4 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 30 of 45, #1, DI 000000D8:)
+COMPONENT number 30 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 31 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PCT'
+  of TYPE X'00F9' (PCT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 31 of 45, #1, DI 000000D8:)
+COMPONENT number 31 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 32 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'MAN'
+  of TYPE X'021C' (MAN Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 32 of 45, #1, DI 000000D8:)
+COMPONENT number 32 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 33 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'MSG'
+  of TYPE X'02F3' (MSG Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 33 of 45, #1, DI 000000D8:)
+COMPONENT number 33 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 34 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'SPI'
+  of TYPE X'02FA' (SPI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 34 of 45, #1, DI 000000D8:)
+COMPONENT number 34 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 35 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'TXI'
+  of TYPE X'014E' (TXI Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 35 of 45, #1, DI 000000D8:)
+COMPONENT number 35 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 5: Offset 1002, len 0, comp 36 of 45, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'CTB'
+  of TYPE X'026B' (CTB Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 36 of 45, #1, DI 000000D8:)
+COMPONENT number 36 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'QTY'
+  of TYPE X'010C' (QTY Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0314' (LoopQTY_1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 37 of 45, #1, DI 000000D8:)
+COMPONENT number 37 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 6, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'SCH'
+  of TYPE X'0316' (SCH Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 6, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0315' (LoopSCH #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 38 of 45, #1, DI 000000D8:)
+COMPONENT number 38 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PKG'
+  of TYPE X'01FD' (PKG Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0318' (LoopPKG #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 39 of 45, #1, DI 000000D8:)
+COMPONENT number 39 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'LS'
+  of TYPE X'031B' (LS Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') failed COMPONENT RULE test
+   for component number 1, TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'031A' (LoopLDT_1 Block #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 40 of 45, #1, DI 000000D8:)
+COMPONENT number 40 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 4, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'N9'
+  of TYPE X'006C' (N9 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 4, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0320' (LoopN9_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 41 of 45, #1, DI 000000D8:)
+COMPONENT number 41 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 18, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'N1'
+  of TYPE X'00B5' (N1 Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 18, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0321' (LoopN1_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 42 of 45, #1, DI 000000D8:)
+COMPONENT number 42 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 16, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'SLN'
+  of TYPE X'0158' (SLN Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 16, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0323' (LoopSLN #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 43 of 45, #1, DI 000000D8:)
+COMPONENT number 43 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'AMT'
+  of TYPE X'00C4' (AMT Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 3, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0328' (LoopAMT_2 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 44 of 45, #1, DI 000000D8:)
+COMPONENT number 44 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'LM'
+  of TYPE X'00C8' (LM Segment V4010 ANSI EDI).
+
+(Level 6: Offset 1002, len 0, comp 1 of 2, #1, DI 000000D8:)
+COMPONENT number 1 of TYPE X'0329' (LoopLM_3 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 5: Offset 1002, len 0, comp 45 of 45, #1, DI 000000D8:)
+COMPONENT number 45 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 913, len 89, comp 38 of 40, #4, DI 000000D8:)
+Data at offset 913 ('PO1*4*8*EA*5.5*F') was found to be of TYPE
+   X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 1 of 45, #1, DI 000000D9:)
+Data at offset 1002 ('CTT*4<CR><LF>SE*33*000...') does not match INITIATOR 'PO1'
+  of TYPE X'0278' (PO1 Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1002, len 0, comp 1 of 45, #1, DI 000000D9:)
+COMPONENT number 1 of TYPE X'030A' (LoopPO1 #850 Inbound Partner Set V4010 ANSI EDI)
+  is required, but does not exist.
+
+(Level 4: Offset 1002, len 0, comp 38 of 40, #5, DI 000000D9:)
+COMPONENT number 38 of TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 5 is optional and does not exist.
+
+(Level 6: Offset 1006, len 0, comp 1 of 5, #1, DI 000000D9:)
+Type X'0255' (CTT Segment V4010 ANSI EDI) is known to exist.
+
+(Level 6: Offset 1006, len 1, comp 1 of 5, #1, DI 000000D9:)
+Data at offset 1006 ('4') was found to be of TYPE
+   X'0256' (LineItems Element V4010 ANSI EDI).
+
+(Level 5: Offset 1005, len 2, comp 1 of 2, #1, DI 000000DA:)
+Data at offset 1005 ('*4') was found to be of TYPE
+   X'0255' (CTT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1005, len 2, comp 1 of 2, #1, DI 000000DB:)
+Data at offset 1005 ('*4') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1009, len 0, comp 2 of 2, #1, DI 000000DC:)
+Data at offset 1009 ('SE*33*0001<CR><LF>GE*1...') does not match INITIATOR 'AMT'
+  of TYPE X'00C4' (AMT Segment V4010 ANSI EDI).
+
+(Level 5: Offset 1009, len 0, comp 2 of 2, #1, DI 000000DC:)
+COMPONENT number 2 of TYPE X'032A' (LoopCTT #850 Inbound Partner Set V4010 ANSI EDI):
+occurrence 1 is optional and does not exist.
+
+(Level 4: Offset 1002, len 7, comp 39 of 40, #1, DI 000000DC:)
+Data at offset 1002 ('CTT*4<CR><LF>') was found to be of TYPE
+   X'032A' (LoopCTT #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 5: Offset 1012, len 0, comp 1 of 2, #1, DI 000000DD:)
+Type X'00FC' (SE Segment V4010 ANSI EDI) is known to exist.
+
+(Level 5: Offset 1012, len 2, comp 1 of 2, #1, DI 000000DD:)
+Data at offset 1012 ('33') was found to be of TYPE
+   X'00FD' (InclSegments Element V4010 ANSI EDI).
+
+(Level 5: Offset 1015, len 4, comp 2 of 2, #1, DI 000000DE:)
+Data at offset 1015 ('0001') was found to be of TYPE
+   X'0051' (TSCtrl# Element V4010 ANSI EDI).
+
+(Level 4: Offset 1011, len 8, comp 40 of 40, #1, DI 000000DF:)
+Data at offset 1011 ('*33*0001') was found to be of TYPE
+   X'00FC' (SE Segment V4010 ANSI EDI).
+
+(Level 4: Offset 1011, len 8, comp 40 of 40, #1, DI 000000E0:)
+Data at offset 1011 ('*33*0001') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 3: Offset 163, len 858, comp 2 of 3, #1, DI 000000E1:)
+Data at offset 163 ('ST*850*0001<CR><LF>BEG') was found to be of TYPE
+   X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 4: Offset 1021, len 0, comp 1 of 40, #1, DI 000000E2:)
+Data at offset 1021 ('GE*1*2609<CR><LF>IEA*1...') does not match INITIATOR 'ST'
+  of TYPE X'004F' (ST Segment V4010 ANSI EDI).
+
+(Level 4: Offset 1021, len 0, comp 1 of 40, #1, DI 000000E2:)
+Data at offset 1021 ('GE*1*2609<CR><LF>IEA*1...') failed COMPONENT RULE test
+   for component number 1, TYPE X'02E1' (Transaction #850 Inbound Partner Set V4010 ANSI EDI).
+
+(Level 3: Offset 1021, len 0, comp 2 of 3, #2, DI 000000E2:)
+COMPONENT number 2 of TYPE X'02DF' (#850 F4010 Inbound Partner Funct'lGroup ANSI EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 4: Offset 1024, len 0, comp 1 of 2, #1, DI 000000E2:)
+Type X'004A' (GE Segment V4010 ANSI EDI) is known to exist.
+
+(Level 4: Offset 1024, len 1, comp 1 of 2, #1, DI 000000E2:)
+Data at offset 1024 ('1') was found to be of TYPE
+   X'004B' (TSIncl Element V4010 ANSI EDI).
+
+(Level 4: Offset 1026, len 4, comp 2 of 2, #1, DI 000000E3:)
+Data at offset 1026 ('2609') was found to be of TYPE
+   X'0044' (GroupCtrl# Element V4010 ANSI EDI).
+
+(Level 3: Offset 1023, len 7, comp 3 of 3, #1, DI 000000E4:)
+Data at offset 1023 ('*1*2609') was found to be of TYPE
+   X'004A' (GE Segment V4010 ANSI EDI).
+
+(Level 3: Offset 1023, len 7, comp 3 of 3, #1, DI 000000E5:)
+Data at offset 1023 ('*1*2609') was found to be of TYPE
+   X'0036' (Segment V4010 ANSI EDI).
+
+(Level 2: Offset 107, len 925, comp 5 of 6, #1, DI 000000E6:)
+Data at offset 107 ('GS*PO*006203210*') was found to be of TYPE
+   X'02DF' (#850 F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 2: Offset 107, len 925, comp 5 of 6, #1, DI 000000E7:)
+Data at offset 107 ('GS*PO*006203210*') was found to be of TYPE
+   X'0034' (F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 2: Offset 107, len 925, comp 5 of 6, #1, DI 000000E8:)
+Data at offset 107 ('GS*PO*006203210*') was found to be of TYPE
+   X'0033' (Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') does not match INITIATOR 'GS'
+  of TYPE X'0037' (GS Segment V4010 ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') failed COMPONENT RULE test
+   for component number 1, TYPE X'0034' (F4010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') does not match INITIATOR 'GS'
+  of TYPE X'03BA' (GS Segment V4030 ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') failed COMPONENT RULE test
+   for component number 1, TYPE X'03B7' (F4030 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') does not match INITIATOR 'GS'
+  of TYPE X'0737' (GS Segment V4060 ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') failed COMPONENT RULE test
+   for component number 1, TYPE X'0734' (F4060 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') does not match INITIATOR 'GS'
+  of TYPE X'0AE8' (GS Segment V5010 ANSI EDI).
+
+(Level 3: Offset 1032, len 0, comp 1 of 3, #1, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') failed COMPONENT RULE test
+   for component number 1, TYPE X'0AE5' (F5010 Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 2: Offset 1032, len 0, comp 5 of 6, #2, DI 000000E9:)
+Data at offset 1032 ('IEA*1*000005065<CR>...') failed PARTITIONing for TYPE
+   X'0033' (Inbound Partner Funct'lGroup ANSI EDI).
+
+(Level 2: Offset 1032, len 0, comp 5 of 6, #2, DI 000000E9:)
+COMPONENT number 5 of TYPE X'0009' (Partner X12 Inbound Interchange EDI):
+occurrence 2 is optional and does not exist.
+
+(Level 3: Offset 1036, len 0, comp 1 of 2, #1, DI 000000E9:)
+Type X'0D68' (IEA Segment Control ANSI EDI) is known to exist.
+
+(Level 3: Offset 1036, len 1, comp 1 of 2, #1, DI 000000E9:)
+Data at offset 1036 ('1') was found to be of TYPE
+   X'0D69' (#InclFunct'lGroups Element Control ANSI EDI).
+
+(Level 3: Offset 1038, len 9, comp 2 of 2, #1, DI 000000EA:)
+Data at offset 1038 ('000005065') was found to be of TYPE
+   X'0023' (InterchangeCtrl# Element Control ANSI EDI).
+
+(Level 2: Offset 1035, len 12, comp 6 of 6, #1, DI 000000EB:)
+Data at offset 1035 ('*1*000005065') was found to be of TYPE
+   X'0D68' (IEA Segment Control ANSI EDI).
+
+(Level 2: Offset 1035, len 12, comp 6 of 6, #1, DI 000000EC:)
+Data at offset 1035 ('*1*000005065') was found to be of TYPE
+   X'000C' (Segment Control ANSI EDI).
+
+(Level 1: Offset 0, len 1049, comp 1 of 3, #1, DI 000000EC:)
+Data at offset 0 ('ISA*03*DALLA005 ') was found to be of TYPE
+   X'0009' (Partner X12 Inbound Interchange EDI).
+
+(Level 1: Offset 0, len 1049, comp 1 of 3, #1, DI 000000ED:)
+Data at offset 0 ('ISA*03*DALLA005 ') was found to be of TYPE
+   X'0008' (X12 Inbound Interchange EDI).
+
+(Level 1: Offset 0, len 1049, comp 1 of 3, #1, DI 000000ED:)
+Data at offset 0 ('ISA*03*DALLA005 ') was found to be of TYPE
+   X'0007' (Inbound Interchange EDI).
+
+(Level 0: Offset 0, len 1049, comp 1 of 0, #1, DI 000000ED:)
+Data at offset 0 ('ISA*03*DALLA005 ') was found to be of TYPE
+   X'0005' (Partner X12 Inbound Transmission EDI).
+
+   INPUT 1 was valid.
+
+   End of Validation messages for INPUT CARD 1.
+
+
+   End of Execution messages.

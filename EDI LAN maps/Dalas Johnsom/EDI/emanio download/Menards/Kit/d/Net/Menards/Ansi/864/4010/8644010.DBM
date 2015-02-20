@@ -1,0 +1,159 @@
+V,{[0-1][0-9]|2[0-3]}[0-5][0-9]{{[0-5][0-9]}|{[0-5][0-9][0-9][0-9]}|%},TM
+V,{19|20}[0-9][0-9]{0[1-9]|1[0-2]}{0[1-9]|1[0-9]|2[0-9]|3[0-1]},DT
+R,0001,(BMG)Text Message,1,1,0
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,2,C,Transaction Set Purpose Code,,,2,353,1,1,
+F,80,A,Description,,,80,352,1,1,
+F,2,C,Transaction Type Code,,,2,640,1,0,
+A,8,A,Post Date,,,,,,,1,
+A,8,A,Reformatted Date,,,,,,,2,
+F,6,D,Receipt Date,,,,,,0,
+F,4,T,Receipt Time,,,,,,0,
+F,9,A,Network,,,,,,0,
+F,9,A,Trading Partner,,,,,,0,
+F,15,A,Their Envelope Address,,,,,,0,
+F,15,A,Your Envelope Address,,,,,,0,
+F,15,A,Envelope Control No.,,,,,,0,
+F,6,D,Send Date,,,,,,0,
+F,4,T,Send Time,,,,,,0,
+F,3,A,Transaction Set,,,,,,1,
+F,12,A,Version,,,,,,1,
+F,2,A,Functional Group,,,,,,1,
+F,15,A,Their Group Address,,,,,,0,
+F,15,A,Your Group Address,,,,,,0,
+F,15,A,Set Control No.,,,,,,0,
+F,15,A,Group Control No.,,,,,,0,
+F,6,D,Send Date,,,,,,0,
+F,4,T,Send Time,,,,,,0,
+F,9,A,Status,,,,,,0,
+R,0002,(DTM)Date/Time Ref.,1,0,10
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,3,C,Date/Time Qualifier,,,3,374,1,1,
+F,8,D,Date,,,8,373,1,1,
+F,8,T,Time,,,8,337,1,1,
+F,2,C,Time Code,,,2,623,1,1,
+F,3,C,Date Time Period Format Qualifier,,,3,1250,1,1,
+F,35,A,Date Time Period,,,35,1251,1,1,
+E
+R,0003,(N1)Name,1,0,200
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,3,C,Entity Identifier Code,,,3,98,1,1,
+F,60,A,Name,,,60,93,1,1,
+F,2,C,ID Code Qualifier,,,2,66,1,1,
+F,80,A,ID Code,,,80,67,1,1,
+F,2,C,Entity Relationship Code,,,2,706,1,1,
+F,3,C,Entity Identifier Code,,,3,98,1,1,
+R,0004,(N2)Addl Name Info.,1,0,2
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,60,A,Name,,,60,93,1,1,
+F,60,A,Name,,,60,93,1,1,
+E
+R,0005,(N3)Address Info.,1,0,2
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,55,A,Address Info.,,,55,166,1,1,
+F,55,A,Address Info.,,,55,166,1,1,
+E
+R,0006,(N4)Geographic Location,1,0,1
+F,6,S,Seq. No.,RJZF,,6,,1,1,
+F,30,A,City Name,,,30,19,1,1,
+F,2,C,State or Province Code,,,2,156,1,1,
+F,15,C,Postal Code,,,15,116,1,1,
+F,3,C,Country Code,,,3,26,1,1,
+F,2,C,Location Qualifier,,,2,309,1,1,
+F,30,A,Location Identifier,,,30,310,1,1,
+E
+R,0007,(REF)Reference ID,1,0,12
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,80,A,Description,,,80,352,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+E
+R,0008,(PER)Administrative Comm. Contact,1,0,3
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,2,C,Contact Function Code,,,2,366,1,1,
+F,60,A,Name,,,60,93,1,1,
+F,2,C,Communication No. Qualifier,,,2,365,1,1,
+F,80,A,Communication No.,,,80,364,1,1,
+F,2,C,Communication No. Qualifier,,,2,365,1,1,
+F,80,A,Communication No.,,,80,364,1,1,
+F,2,C,Communication No. Qualifier,,,2,365,1,1,
+F,80,A,Communication No.,,,80,364,1,1,
+F,20,A,Contact Inquiry Ref.,,,20,443,1,1,
+E
+E
+R,0009,(MIT)Message ID,1,1,250000000
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,80,A,Description,,,80,352,1,1,
+F,4,I,Page Width,,,4,931,1,0,
+F,4,I,Page Length Lines,,,4,932,1,0,
+R,0010,(N1)Name,1,0,200
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,3,C,Entity Identifier Code,,,3,98,1,1,
+F,60,A,Name,,,60,93,1,1,
+F,2,C,ID Code Qualifier,,,2,66,1,1,
+F,80,A,ID Code,,,80,67,1,1,
+F,2,C,Entity Relationship Code,,,2,706,1,1,
+F,3,C,Entity Identifier Code,,,3,98,1,1,
+R,0011,(N2)Addl Name Info.,1,0,2
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,60,A,Name,,,60,93,1,1,
+F,60,A,Name,,,60,93,1,1,
+E
+R,0012,(N3)Address Info.,1,0,2
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,55,A,Address Info.,,,55,166,1,1,
+F,55,A,Address Info.,,,55,166,1,1,
+E
+R,0013,(N4)Geographic Location,1,0,1
+F,6,S,Seq. No.,RJZF,,6,,1,1,
+F,30,A,City Name,,,30,19,1,1,
+F,2,C,State or Province Code,,,2,156,1,1,
+F,15,C,Postal Code,,,15,116,1,1,
+F,3,C,Country Code,,,3,26,1,1,
+F,2,C,Location Qualifier,,,2,309,1,1,
+F,30,A,Location Identifier,,,30,310,1,1,
+E
+R,0014,(REF)Reference ID,1,0,12
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,80,A,Description,,,80,352,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+F,3,C,Ref. ID Qualifier,,,3,128,1,1,
+F,30,A,Ref. ID,,,30,127,1,1,
+E
+R,0015,(PER)Administrative Comm. Contact,1,0,3
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,2,C,Contact Function Code,,,2,366,1,1,
+F,60,A,Name,,,60,93,1,1,
+F,2,C,Communication No. Qualifier,,,2,365,1,1,
+F,80,A,Communication No.,,,80,364,1,1,
+F,2,C,Communication No. Qualifier,,,2,365,1,1,
+F,80,A,Communication No.,,,80,364,1,1,
+F,2,C,Communication No. Qualifier,,,2,365,1,1,
+F,80,A,Communication No.,,,80,364,1,1,
+F,20,A,Contact Inquiry Ref.,,,20,443,1,1,
+E
+E
+R,0016,(MSG)Message Text,1,1,100000
+K,6,S,Seq. No.,RJZF,,6,,1,1,
+F,88,A,Free-Form Message Text,,,88,933,1,1,
+F,88,A,Free-Form Message Text (cont.),,,88,933,1,0,
+F,88,A,Free-Form Message Text (cont.),,,88,933,1,0,
+F,2,C,Printer Carriage Control Code,,,2,934,1,0,
+F,10,I,No.,,,10,1470,1,0,
+E
+E
+R,9999,Dummy,0,0,0
+E
+E

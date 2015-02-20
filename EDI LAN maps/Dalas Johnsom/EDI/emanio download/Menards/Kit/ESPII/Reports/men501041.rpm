@@ -1,0 +1,453 @@
+; Menard's 850 4010 to 810 4010 Doc-Turn Created 1/06/2006 CHS
+
+REGSET,1,9
+REGADD,9,10
+IFREQ,10,1
+	TX,0,0,1,";Reformatted"
+	TX,0,0,1,";"
+ENDIF
+
+ ;The Network= is where you will enter the name of the communication network you are
+ ;using. The network name is case sensitive and should be entered as it appears within the system.
+
+TX,0,0,1,";ENVELOPE MAIL Receipt Tag="
+TX,0,0,1,";Network="
+SPECIAL,0,0,0,NETWORK
+TX,0,0,1,";TP="
+SPECIAL,0,0,0,TP
+
+ ;The TP= is where the Trading Partner Name should be entered TP= is case sensitive
+ ;so you must enterthe name as it appears within the system.(,,,)This will reflect
+ ;the addresses contained within the Trading Partner configuration screen. The order
+ ;in which it appears is - (COMM ID,PASSWORD,PARTNERS ADRRESS,YOUR ADDRESS). If the 
+ ;COMMID and PASSWORD are not used it will look like this -(,,PARTNERS ADDRESS,YOUR ADDRESS)
+
+TX,1,0,0,";Env Control="
+SPECIAL,0,0,14,CONTROL
+TX,0,0,23,","
+SPECIAL,0,0,24,ENVDATE
+TX,0,0,30,","
+SPECIAL,0,0,31,ENVTIME
+TX,1,0,0,";Env Tag1="
+TX,1,0,0,";Env Tag2="
+TX,1,0,0,";"
+TX,1,0,0,";START SET 810 VERSION=004010 GROUP=IN"
+TX,1,0,0,";Module=(,)"
+
+ ;Module= is where you will enter the Trading Partners Module address and your Module
+ ;address found within the Transaction Set configuration screen.
+
+TX,1,0,0,";Set Control="
+SPECIAL,0,0,14,SETCONTROL
+TX,1,0,0,";Grp Control="
+SPECIAL,0,0,14,GROUPCONTROL 
+TX,1,0,0,";Grp Tag1="
+TX,1,0,0,";Grp Tag2="
+TX,1,0,0,";Accept+Turnaround"
+
+;
+;***************************
+;This is where the actual turn-around data from PO to Invoice begins.
+
+;----- BEG  Seg # 0001  Level 0 --------------------------------------------
+;----- Beginning Segment for Purchase Order --------------------------------
+;----- BIG  Seg # 0001  Level 0 --------------------------------------------
+;----- Beginning Segment for Invoice ---------------------------------------
+
+;BIG01  D      0001  10  8        Invoice Date
+
+	TX,0,0,1,"0001000001"
+	TX,0,0,11,"?"
+
+;BIG02  A      0001  18 22        Invoice Number
+
+	TX,0,0,19,"?"
+
+;BEG05  D      0001  66  8        Purchase Order Date
+;BIG03  D      0001  40  8        Purchase Order Date
+
+	FD,0,0,41,0001,66,8,LJBF,0
+
+;BEG03  A      0001  14 22        Purchase Order Number
+;BIG04  A      0001  48 22        Purchase Order Number
+
+	FD,0,0,49,0001,14,22,LJBF,0
+
+  ;***********************************
+  ;REF Segment 0003 TO 0004
+  ;***********************************
+LOOP,0003
+    IFEQ,0003,10,2,"VR"
+
+	TX,1,0,1,"0004000001"
+		
+	IFNE,0003,10,1," "
+		FD,0,0,0,0003,10,3,ASIS,0
+	ENDIF
+
+	IFNE,0003,13,1," "
+		FD,0,0,0,0003,13,30,ASIS,0
+	ENDIF
+
+	IFNE,0003,43,1," "
+		FD,0,0,0,0003,43,80,ASIS,0
+	ENDIF
+
+    ENDIF
+;    IFEQ,0003,10,2,"IA"
+;
+;	TX,1,0,1,"0004000001"
+;		
+;	IFNE,0003,10,1," "
+;		FD,0,0,0,0003,10,3,ASIS,0
+;	ENDIF
+;
+;	IFNE,0003,13,1," "
+;		FD,0,0,0,0003,13,30,ASIS,0
+;	ENDIF
+;
+;	IFNE,0003,43,1," "
+;		FD,0,0,0,0003,43,80,ASIS,0
+;	ENDIF
+;
+;   ENDIF
+ENDLOOP
+
+
+
+  ;***********************************
+  ;FOB Segment 0006 to 0016
+  ;***********************************
+;TREGSET,"X",50
+;
+;IFEQ,0006,0,4,"0006"
+;	TREGSAVE,0006,10,84,50			;FOB01,2,3 TO TR 50
+;ENDIF
+
+
+
+;***************************
+;   ITD SEG 13 TO ITD SEG 14
+;***************************
+
+FSWITCH,1
+IFEQ,0013,0,4,"0013"
+	TX,1,0,1,"0014000001"
+	FD,0,0,0,0013,10,36,ASIS,0	;ITD1-7
+	FD,0,0,58,0013,57,8,ASIS,0	;ITD09
+	FD,0,0,77,0013,76,87,ASIS,0	;ITD11/12
+	FD,0,0,164,0013,163,3,ASIS,0	;ITD13
+ENDIF
+FSWITCH,0
+
+
+;----- N1  Seg # 0041  Level 1 ---------------------------------------------
+;----- Name ----------------------------------------------------------------
+;----- N1  Seg # 0007  Level 1 ---------------------------------------------
+;----- Name ----------------------------------------------------------------
+;***  we will loop on the PO 'ship to' address and bring across to Invoice
+REGZERO,11
+LOOP,0041
+REGSET,1,10
+; N101  C      0041  10  3        Entity Identifier Code
+; N101  C      0007  10  3        Entity Identifier Code
+; N102  A      0041  13 60        Name
+; N102  A      0007  13 60        Name
+; N103  C      0041  73  2        ID Code Qualifier
+; N103  C      0007  73  2        ID Code Qualifier
+; N104  A      0041  75 80        ID Code
+; N104  A      0007  75 80        ID Code
+
+;Bringing over the N1
+	IFEQ,0041,10,2,"ST"
+;		REGADD,10,11
+		TX,1,0,1,"0007000001"
+;		REGPRINTZ,0,0,0,6,0,11		;SEQUENCE #
+		TX,0,0,11,"ST"			;Hardcoding the ST
+		;FD,0,0,11,0041,10,3,LJBF,0	;dump all N101 data to Invoice
+		FD,0,0,14,0041,13,60,SQUEEZE,0	;BRING N102
+		TX,0,0,74,"92"			;Hardcoding the 92
+		FD,0,0,76,0041,75,80,LJBF,0	;Bringing over the rest
+	ENDIF
+	IFEQ,0041,10,2,"BT"
+;		REGADD,10,11
+		TX,1,0,1,"0007000001"
+;		REGPRINTZ,0,0,0,6,0,11		;SEQUENCE #
+		TX,0,0,11,"BT"			;Hardcoding the BT
+		;FD,0,0,11,0041,10,3,LJBF,0	;dump all N101 data to Invoice
+		FD,0,0,14,0041,13,60,SQUEEZE,0	;BRING N102
+		TX,0,0,74,"92"			;Hardcoding the 92
+		FD,0,0,76,0041,75,80,LJBF,0	;Bringing over the rest
+	ENDIF
+	IFEQ,0041,10,2,"BS"
+;		REGADD,10,11
+		TX,1,0,1,"0007000001"
+;		REGPRINTZ,0,0,0,6,0,11		;SEQUENCE #
+		TX,0,0,11,"BS"			;Hardcoding the BS
+		;FD,0,0,11,0041,10,3,LJBF,0	;dump all N101 data to Invoice
+		FD,0,0,14,0041,13,60,SQUEEZE,0	;BRING N102
+		TX,0,0,74,"92"			;Hardcoding the 92
+		FD,0,0,76,0041,75,80,LJBF,0	;Bringing over the rest
+	ENDIF
+	IFEQ,0041,10,2,"OB"
+;		REGADD,10,11
+		TX,1,0,1,"0007000001"
+;		REGPRINTZ,0,0,0,6,0,11		;SEQUENCE #
+		TX,0,0,11,"OB"			;Hardcoding the OB
+		;FD,0,0,11,0041,10,3,LJBF,0	;dump all N101 data to Invoice
+		FD,0,0,14,0041,13,60,SQUEEZE,0	;BRING N102
+		TX,0,0,74,"92"			;Hardcoding the 92
+		FD,0,0,76,0041,75,80,LJBF,0	;Bringing over the rest
+
+;ENDLOOP		;N1
+REGZERO,11
+REGSET,1,10
+;Bringing over the N2
+;	IFNE,0042,10,2," "
+;		;REGADD,10,11
+;		TX,1,0,1,"0008000001"
+;		;REGPRINTZ,0,0,0,6,0,13		;Sequence #
+;		FD,0,0,11,0042,10,120,LJBF,0	;Dump all N2 data to INV
+;	ENDIF	
+;REGZERO,11
+;REGSET,1,10	
+;Bringing over the N3
+;	IFNE,0043,10,2,"  "
+;		;REGADD,10,11
+;		TX,1,0,1,"0009000001"	
+;		;REGPRINTZ,0,0,0,6,0,15		;Sequence #
+;		FD,0,0,11,0043,10,110,LJBF,0	;Dump all N3 data to INV
+;	ENDIF
+;REGZERO,11
+;REGSET,1,10
+;Bringing over the N4
+;	IFNE,0044,10,2,"  "
+;		;REGADD,10,11
+;		TX,1,0,1,"0010000001"
+;		;REGPRINTZ,0,0,0,6,0,17		;Sequence #
+;		FD,0,0,11,0044,10,80,LJBF,0	;Dump all N4 data to INV
+;		
+;	ENDIF
+ENDIF
+
+ENDLOOP
+
+
+;	;N1 Remit To
+; TX,0,0,1,"0007000001"			;We are making a N1 segment
+; TX,0,0,11,"RE"				;N101 Remit to Code-don't change
+; TX,0,0,14,"Remit to name here"		;This is N102 max. 35 characters
+; TX,0,0,74,"9"				;N103 Code 
+; TX,0,0,76,"DUNS"	 		;N104 Put in you exact DUNS                                        
+					;     usually 13 characters No.
+;N3 Remit To Address
+;LOOP,0009
+
+ ;TX,0,0,1,"0009000001"			;We are making a N3 segment
+ ;TX,0,0,11,"?"				;N301 Remit to address-max 35 chars
+; TX,0,0,66,"?" 				;N302 Address Info.
+
+;ENDLOOP
+	;N4 remit to City state zip
+;TX,0,0,1,"0010000001"			;We are making a N4 segment
+;TX,0,0,11,"Your CITY"			;N401 Remit to CITY-max 35 chars.
+;TX,0,0,41,"?"				;N402 Remit to STATE-max 2 chars.
+;TX,0,0,43,"?"				;N403 Remit to ZIP-max 9 chars.
+;TX,0,0,58,"?"				;N404 Country Code
+
+FCOPY,1
+;-----------DTM ------------
+;;**************************************************************************
+;;if you wish to have an DTM always present in the turnaround, change the
+;;text values in double quotes in the next 4 or so lines, and delete the
+;;semicolon in column 1 only for those 4 lines.
+;;**************************************************************************
+;
+;	;DTM 
+;TX,0,0,1,"0015000001"			;We are making a DTM segment
+;TX,0,0,11,"011" 			;DTM01 011=shipped date
+;TX,0,0,14,"?"	 			;date
+;
+
+;-----------FOB ------------
+;PRINT FOB
+;IFTRNE,50,"X"
+;	TX,1,0,1,"0016000001"
+;	TREGPRINT,0,0,0,84,50
+;ENDIF
+
+;----- PO1  Seg # 0076  Level 1 --------------------------------------------
+;----- Purchase Order Baseline Item Data -----------------------------------
+;----- IT1  Seg # 0034 Level 1 --------------------------------------------
+;----- Baseline Item Data (Invoice) ----------------------------------------
+LOOP,0076
+
+TX,0,0,1,"0034"
+FD,0,0,5,0076,4,6,LJBF,0
+
+;PO102  R      0076  30 17        Quantity Ordered
+;IT102  R      0034  30 12        Quantity Invoiced
+
+	FD,0,0,31,0076,30,12,LJBF,0				;PO102
+
+;PO103  C      0076  47  2        Unit of Measurement Code
+;IT103  C      0034  42  2        Unit of Measurement Code
+
+	FD,0,0,43,0076,47,2,LJBF,0				;PO103
+
+;PO104  R      0076  49 19        Unit Price
+;IT104  R      0034  44 19        Unit Price
+
+	IFNE,0076,49,1," "
+		FD,0,0,45,0076,49,19,LJBF,0			;PO104
+	ENDIF
+
+;PO106  C      0076  70  2        Product/Service ID Qualifier
+;IT106  C      0034  65  2        Product/Service ID Qualifier
+;PO107  A      0076  72 48        Product/Service ID
+;IT107  A      0034  67 48        Product/Service ID
+
+		FD,0,0,66,0076,70,50,LJBF,0				;PO107
+
+;IT108  A      0034 115  2        Product/Service ID Qualifier
+;IT109  A      0034 117 48        Product/Service ID
+
+		FD,0,0,116,0076,120,50,LJBF,0				;PO107
+		FD,0,0,166,0076,170,50,LJBF,0				;PO110/11
+
+
+;********************************
+;PID SEGMENT 0043
+;********************************
+;TX,1,0,1,"0043000001"		;Making the segment
+;
+;PID01  C      0043  10  1        Item Desc. Type
+;
+;	TX,0,0,11,"F"		;F- Free form
+;
+;;PID05  A      0043  28 80        Description
+;
+;	;TX,0,0,29,"?"		;Free form item description
+;	FD,0,0,29,0086,28,80,ASIS,0
+;
+;********************************
+;PO4 SEGMENT 89 TO PO4 SEGMENT 47
+;********************************
+;IFEQ,0089,0,4,"0089"			;IF PO4 EXISTS, TURN PO401 AROUND
+;	TX,1,0,1,"0047000001"		
+;	FD,0,0,0,0089,10,7,LJBF,0
+;ENDIF
+;
+;IF YOU DO NOT WISH TO TURN AROUND THE SAC SEGMENT
+;PLACE THE COMMENT CHARACTER ; IN FRONT OF EACH OF THE NEXT
+;6 LINES.
+;*********************************
+;SAC SEGMENT 0092 TO SEGMENT 0057
+;*********************************
+;IFEQ,0092,0,4,"0092"
+;	TX,1,0,1,"0057000001"
+;	FD,0,0,0,0092,10,5,LJBF,0	;SAC1,2
+;	FD,0,0,53,0092,27,55,LJBF,0	;SAC05-10
+;	FD,0,0,100,0092,99,32,LJBF,0	;SAC12,13
+;	FD,0,0,152,0092,151,80,LJBF,0	;SAC15
+
+;ENDIF
+
+
+ENDLOOP ;*** PO1
+
+;----- TDS  Seg # 0080 Level 1 ---------------------------------------------
+;----- Total Monetary Value Summary ----------------------------------------
+
+
+TX,0,0,1,"0080000001"
+
+;TDS01  N      0080  10 16        Total Invoice Amount
+
+	TX,0,0,11,"Total $ Amount"
+
+;TDS02  N      0080  26 16        Amount Subject to Terms Discount
+;uncomment next line if necessary
+ 	TX,0,0,27,"?"
+
+;TDS03  N      0080  42 16        Discounted Amount Due
+;uncomment next line if necessary
+	TX,0,0,43,"?"
+
+;TDS04  N      0080  58 16        Terms Discount Amount
+;uncomment next line if necessary
+	TX,0,0,59,"?"
+
+;-----------CAD ------------
+;;**************************************************************************
+;;if you wish to have an CAD always present in the turnaround, change the
+;;text values in double quotes in the next 6 or so lines, and delete the
+;;semicolon in column 1 only for those 6 lines.
+;;**************************************************************************
+;
+;	;CAD 
+TX,0,0,1,"0082000001"		;We are making a CAD segment(do not change)
+;TX,0,0,11,"M "	 		;CAD01 M=motor LT=less than truck, etc.
+ ;TX,0,0,27,"?"			;CAD04 Standard Carrier Alpha Code
+TX,0,0,31,"Carrier name"	;CAD05=Carrier max 35 chars 
+;TX,0,0,68,"CN"			;CAD07 code for Pro Number(do not change)
+;TX,0,0,71,"?"			;CAD08 = Pro Number max 30 chars 
+;
+
+;**************************************************
+; AN SAC SEGMENT IS OPTIONAL HERE PUT IN IF NEED IT
+;**************************************************
+
+;TX,1,0,1,"0084000001"
+
+;SAC01  C      0057  10  1        Allowance or Charge Indicator
+;	TX,0,0,11,"?"
+
+;SAC02  C      0057  11  4        Servc/Promo/Allownc/Charg Code, This 
+				;segment is mandatory if used
+;	TX,0,0,12,"?"
+
+;SAC05  N      0057  27 16        Amt(2 decimal implied)
+;	TX,0,0,28,"?"
+
+;SAC12  C      0057  99  2        Allowance or Charge Method of Handling
+					;Code
+;	TX,0,0,100,"?"
+
+;SAC15  A      0057 151 80        Description
+;	TX,0,0,152,"?"
+
+
+;**************************************************************************
+;
+; ISS segment in the turn-around
+;
+;**************************************************************************
+;
+;	TX,0,0,1,"0086000001"			;We are making a ISS segment
+;	TX,0,0,11,"?"				;ISS01 Total Units shipped
+;	TX,0,0,23,"CA"	 			;ISS02 
+;	TX,0,0,25,"?"				;ISS03 Weight ISS segment
+;	TX,0,0,37,"LB" 				;ISS04 Weight Unit of Measure
+;	TX,0,0,39,"?"				;Volume ISS segment
+;	TX,0,0,49,"CF" 				;cubic feet
+
+;*********************************
+;CTT SEGMENT 0193 TO CTT 0088
+;*********************************
+
+TX,1,0,1,"0088000001"
+FD,0,0,11,0193,10,7,LJBF,0
+
+
+ ;This next section will create the Envelope required at the end of each ;Document. 
+ ;This is so the fiile can be processed thru the server!!
+
+TX,1,0,0,";END SET 810 VERSION=004010 GROUP=IN"
+TX,1,0,0,";Module=(,)"
+TX,1,0,0,";Set Control="
+SPECIAL,0,0,14, SETCONTROL
+TX,1,0,0,";Grp Control="
+SPECIAL,0,0,14, GROUPCONTROL
+TX,1,0,0,";Grp Tag1="
+TX,1,0,0,";Grp Tag2="

@@ -1,0 +1,70 @@
+R,0001,Funct. Ack Group Header(AK1),1,1,1
+F,6,S,Funct. Group Seq.,,,6,,1,1,
+F,2,C,Functional ID Code,,,2,479,1,1,
+K,10,N,Group Control No.,,,10,28,1,1,
+A,8,A,Post Date,,,,,,,1
+A,8,A,Reformatted Date,,,,,,,2
+F,6,D,Receipt Date,,,,,,1,
+F,4,T,Receipt Time,,,,,,1,
+F,9,A,Network,,,,,,1,
+F,9,A,Trading Partner,,,,,,1,
+F,15,A,Their Address,,,,,,1,
+F,15,A,Your Address,,,,,,1,
+F,15,A,Control No.,,,,,,1,
+F,6,D,Send Date,,,,,,1,
+F,4,T,Send Time,,,,,,1,
+F,3,A,Standard,,,,,,1,
+F,12,A,Version,,,,,,1,
+F,2,A,Group,,,,,,1,
+F,15,A,Their Address,,,,,,1,
+F,15,A,Your Address,,,,,,1,
+F,15,A,Set Control No.,,,,,,1,
+F,15,A,Group Control No.,,,,,,1,
+F,6,D,Send Date,,,,,,1,
+F,4,T,Send Time,,,,,,1,
+F,9,A,Status,,,,,,1,
+R,0002,T/Set Response (AK2),1,1,99999
+K,6,S,T/Set Response Seq.,,,6,,1,1,
+F,3,C,Transaction Set ID Cd.,,,3,143,1,1,
+F,9,A,Trans. Set Control No..,,,9,329,1,1,
+R,0003,Data Segment Note(AK3),1,1,99999
+K,6,S,Data Segment Nte Seq.,,,6,,1,1,
+F,3,C,Seg ID Code,,,3,721,1,1,
+F,7,N,Seg Position in TS,,,7,719,1,1,
+F,4,C,Loop ID Code,,,4,447,1,1,
+F,3,C,Seg Syntax Error Code,,,3,720,1,1,
+F,3,C,Seg Syntax Error Code,,,3,720,1,1,
+F,3,C,Seg Syntax Error Code,,,3,720,1,1,
+F,3,C,Seg Syntax Error Code,,,3,720,1,1,
+F,3,C,Seg Syntax Error Code,,,3,720,1,1,
+R,0004,Data Elem. Note(AK4),1,1,99
+K,6,S,Data Elem. Nte Seq.,,,6,,1,1,
+F,3,N,Elem. Position in Seg,,,3,722,1,1,
+F,5,N,Data Elem. Ref. No.,,,5,725,1,1,
+F,3,C,Data Elem. Syn. Err. Cd.,,,3,723,1,1,
+F,99,A,Copy of Bad Data Elem.,,,99,724,1,1,
+E
+E
+R,0005,T/Set Response Trail(AK5),1,1,1
+K,6,S,T/Set Trail Seq.,,,6,,1,1,
+F,1,C,Trans. Set Ack Code,,,1,717,1,1,
+F,3,C,Trans. Set Note Code,,,3,718,1,1,
+F,3,C,Trans. Set Note Code,,,3,718,1,1,
+F,3,C,Trans. Set Note Code,,,3,718,1,1,
+F,3,C,Trans. Set Note Code,,,3,718,1,1,
+F,3,C,Trans. Set Note Code,,,3,718,1,1,
+E
+E
+R,0006,Group Response Trail(AK9),1,1,1
+K,6,S,Func. Group Trail Seq.,,,6,,1,1,
+F,1,C,Func Group Ack Code,,,1,715,1,1,
+F,7,N,No. of Incl. Sets,,,7,97,1,1,
+F,7,N,No. of Recvd. Sets,,,7,123,1,1,
+F,7,N,No. of Accept Sets,,,7,2,1,1,
+F,3,C,Func Group Syntax Err Cd,,,3,716,1,1,
+F,3,C,Func Group Syntax Err Cd,,,3,716,1,1,
+F,3,C,Func Group Syntax Err Cd,,,3,716,1,1,
+F,3,C,Func Group Syntax Err Cd,,,3,716,1,1,
+F,3,C,Func Group Syntax Err Cd,,,3,716,1,1,
+E
+E

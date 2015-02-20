@@ -1,0 +1,111 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100409*1143*U*00401*000002823*0*P*>
+GS*TX*006203210*7123660407*20100409*1143*1394*X*004010
+ST*864*0001
+BMG*18*139821
+MIT*FOXL73574047*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0001
+ST*864*0002
+BMG*18*139823
+MIT*MUND73574053*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0002
+ST*864*0003
+BMG*18*139826
+MIT*WCHI73574049*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0003
+ST*864*0004
+BMG*54*137860
+MIT*HAST73553313*Matched
+MSG*Matched
+SE*5*0004
+ST*864*0005
+BMG*54*137895
+MIT*LINS73580256*Matched
+MSG*Matched
+SE*5*0005
+ST*864*0006
+BMG*54*137902
+MIT*EHRN73580269*Matched
+MSG*Matched
+SE*5*0006
+ST*864*0007
+BMG*54*137891
+MIT*OTTM73580258*Matched
+MSG*Matched
+SE*5*0007
+ST*864*0008
+BMG*54*138243
+MIT*BOLI73580281*Matched
+MSG*Matched
+SE*5*0008
+ST*864*0009
+BMG*54*138244
+MIT*BRID73580247*Matched
+MSG*Matched
+SE*5*0009
+ST*864*0010
+BMG*54*138246
+MIT*CICR73580263*Matched
+MSG*Matched
+SE*5*0010
+ST*864*0011
+BMG*54*138253
+MIT*HMGL73580259*Matched
+MSG*Matched
+SE*5*0011
+ST*864*0012
+BMG*54*138257
+MIT*MATT73580236*Matched
+MSG*Matched
+SE*5*0012
+ST*864*0013
+BMG*54*138258
+MIT*MELP73580246*Matched
+MSG*Matched
+SE*5*0013
+ST*864*0014
+BMG*54*138265
+MIT*SCTY73580232*Matched
+MSG*Matched
+SE*5*0014
+ST*864*0015
+BMG*54*138267
+MIT*SUFW73580231*Matched
+MSG*Matched
+SE*5*0015
+ST*864*0016
+BMG*54*138268
+MIT*SPNC73580265*Matched
+MSG*Matched
+SE*5*0016
+ST*864*0017
+BMG*54*138270
+MIT*TINP73580235*Matched
+MSG*Matched
+SE*5*0017
+ST*864*0018
+BMG*54*138274
+MIT*NOKO73580274*Matched
+MSG*Matched
+SE*5*0018
+ST*864*0019
+BMG*54*138830
+MIT*MCTY73580239*Matched
+MSG*Matched
+SE*5*0019
+GE*19*1394
+IEA*1*000002823

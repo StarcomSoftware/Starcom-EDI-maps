@@ -1,0 +1,24 @@
+N;
+^111212;159216;110712;test   EDI  tes
+T&L Nursery, Inc.;195965934
+0;Invoice;110712;Order;delivery;_NEW;425-806-7714;BH
+;;;225.00;0.00;0.00;225.00;0.00;0.00;
+s747;0
+cos747;Costco - Woodinville;24008 Sno-Woodinville RD;;Woodinville;WA;98072      ;1033918430747
+cos2;Costco Wholesale;Vendor Number: 36098-0;PO Box 34622;Seattle;WA;98124-1622 
+;;;;;;;;;x
+13245 Woodinville Redmond Rd.;Redmond;WA;98052      
+24008 Sno-Woodinville RD;;Woodinville;WA;98072      
+36098
+0.0;121212;121212;30;30;NET 30
+121112
+^10;22.50;339125;797106111005;4"Heather
+;4inHeath;4"Heather;1;solfla;1;225.00;0.00;0.00;;Y;;;;25805
+;                                                                                
+T&L Nursery, Inc.;159216
+^N;0.00;;
+225.00
+10.00;0.40;10
+1;10.00
+@
+|

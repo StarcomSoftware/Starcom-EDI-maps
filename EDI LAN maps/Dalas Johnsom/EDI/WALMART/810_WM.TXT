@@ -1,0 +1,1475 @@
+N;
+^041312;192364;041112;2803121221
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041112;Posted;VENDOR TRUCK;MARYLYNN;402-564-1668;DE
+;;;1171.20;0.00;0.00;934.60;0.00;0.00;
+0774;test
+W0774;WALMART     #0774  COLUMBUS;818 EAST 23RD ST.;;COLUMBUS;NE;68601      ;0078742007533
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+818 EAST 23RD ST.;;COLUMBUS;NE;68601      
+919183560
+0.0;041312;052812;0;45;NET 45
+120413
+^60;4.50;005662463;735946011673;10" BASIC HANGING BASKETS;
+;10" HB BAS;10" BASIC HB PETUNIA;1;EA;1;270.00;0.00;0.00;;Y;;;;3450;
+;                                                                                
+^40;6.80;005687206;735946011574;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB FUCHSIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3407;
+;                                                                                
+^40;6.80;005662504;735946330033;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERANIUM;1;EA;1;272.00;0.00;0.00;;Y;;;;3420;
+;                                                                                
+^16;7.25;005662864;735946030841;12" FLEX TUB;
+;12" FLXTUB;12" FLX TUB BEACH BALL GERB;1;EA;1;116.00;0.00;0.00;;N;;;;9930;
+;                                                                                
+^12;10.05;005651349;735946031749;12" HELIX HB;
+;12" HEX HB;12" HELIX HB PET GLOW;1;EA;1;120.60;0.00;0.00;;Y;;;;9070;
+;                                                                                
+^12;10.05;005662813;735946040505;12" HELIX HB;
+;12" HEX HB;12" HELIX HB SUNPATIENS;1;EA;1;120.60;0.00;0.00;;N;;;;9901;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192364
+^N;0.00;;
+1171.20
+180.00;2.05;180
+6;180.00
+@
+N;
+^041312;192365;041112;2803121221
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041112;Posted;VENDOR TRUCK;MARYLYNN;402-727-0414;DE
+;;;1545.20;0.00;0.00;649.20;0.00;0.00;
+0776;test
+W0776;WALMART     #0776  FREMONT;3010 EAST 23RD AVENUE N.;;FREMONT;NE;68025      ;0078742007557
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+3010 EAST 23RD AVENUE N.;;FREMONT;NE;68025      
+919183560
+0.0;041312;052812;0;45;NET 45
+120413
+^60;6.80;005662504;735946330033;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERANIUM;1;EA;1;408.00;0.00;0.00;;Y;;;;3420;
+;                                                                                
+^32;7.25;005662864;735946030841;12" FLEX TUB;
+;12" FLXTUB;12" FLX TUB BEACH BALL GERB;1;EA;1;232.00;0.00;0.00;;N;;;;9930;
+;                                                                                
+^24;10.05;005651349;735946031749;12" HELIX HB;
+;12" HEX HB;12" HELIX HB PET GLOW;1;EA;1;241.20;0.00;0.00;;Y;;;;9070;
+;                                                                                
+^16;6.50;005639154;735946002930;12" VEGETABLE CAGE;
+;12" VEG CA;12" OPEN BEEFSTEAK;1;EA;1;104.00;0.00;0.00;;N;;;;10231;
+;                                                                                
+^16;6.50;005639032;735946002947;12" VEGETABLE CAGE;
+;12" VEG CA;12" OPEN CELEBRITY;1;EA;1;104.00;0.00;0.00;;N;;;;10232;
+;                                                                                
+^16;6.50;005639041;735946002954;12" VEGETABLE CAGE;
+;12" VEG CA;12" OPEN ROMA;1;EA;1;104.00;0.00;0.00;;N;;;;10234;
+;                                                                                
+^440;0.80;005639169;735946003104;PINT VEG;
+;PINT VEG;PINT VEG TOMATO;1;EA;1;352.00;0.00;0.00;;N;;;;10068;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192365
+^N;0.00;;
+1545.20
+604.00;3.07;604
+7;604.00
+@
+N;
+^041312;192375;041112;2803121221
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041112;Posted;VENDOR TRUCK;MARYLYNN;402-289-9238;DE
+;;;1751.50;0.00;0.00;678.00;0.00;0.00;
+5141;test
+W5141;WALMART     #5141   W. MAPLE RD;16960 WEST MAPLE ROAD;;OMAHA;NE;68116      ;0078742051857
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+16960 WEST MAPLE ROAD;;OMAHA;NE;68116      
+919183560
+0.0;041312;052812;0;45;NET 45
+120413
+^60;4.50;005662481;735946011666;10" BASIC HANGING BASKETS;
+;10" HB BAS;10" BASIC HB PANSY;1;EA;1;270.00;0.00;0.00;;Y;;;;3408;
+;                                                                                
+^60;6.80;005662504;735946330033;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERANIUM;1;EA;1;408.00;0.00;0.00;;Y;;;;3420;
+;                                                                                
+^32;7.25;005662864;735946030841;12" FLEX TUB;
+;12" FLXTUB;12" FLX TUB BEACH BALL GERB;1;EA;1;232.00;0.00;0.00;;N;;;;9930;
+;                                                                                
+^24;10.05;005662702;735946040444;12" HELIX HB;
+;12" HEX HB;12" HELIX HB PEPPERMINT SURP;1;EA;1;241.20;0.00;0.00;;N;;;;9904;
+;                                                                                
+^24;10.05;005662813;735946040505;12" HELIX HB;
+;12" HEX HB;12" HELIX HB SUNPATIENS;1;EA;1;241.20;0.00;0.00;;N;;;;9901;
+;                                                                                
+^84;3.25;005638878;735946002176;1POT STRAWBERRY;
+;1POT STRWB;1POT STRAWBERRY;1;EA;1;273.00;0.00;0.00;;N;;;;10192;
+;                                                                                
+^42;2.05;005638885;735946002152;1POT VEG;
+;1POT VEG;1POT VEG PEPPER;1;EA;1;86.10;0.00;0.00;;N;;;;10190;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192375
+^N;0.00;;
+1751.50
+326.00;3.10;326
+7;326.00
+@
+N;
+^041312;192378;041112;2803121221
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041112;Posted;VENDOR TRUCK;MARYLYNN;402-371-6601;
+;;;1344.60;0.00;0.00;1344.60;0.00;0.00;
+0645;test
+W0645;WALMART     #0645  NORFOLK;2400 PASEWALK AVENUE;;NORFOLK;NE;68701      ;0078742006291
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+2400 PASEWALK AVENUE;;NORFOLK;NE;68701      
+919183560
+0.0;041312;052812;0;45;NET 45
+120413
+^40;6.80;005687206;735946011574;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB FUCHSIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3407;
+;                                                                                
+^60;6.80;005662504;735946330033;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERANIUM;1;EA;1;408.00;0.00;0.00;;Y;;;;3420;
+;                                                                                
+^40;6.80;005662556;735946011581;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB IVY GERANIUM;1;EA;1;272.00;0.00;0.00;;Y;;;;3435;
+;                                                                                
+^40;6.80;005662564;735946011628;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB LOBELIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3466;
+;                                                                                
+^12;10.05;005651349;735946031749;12" HELIX HB;
+;12" HEX HB;12" HELIX HB PET GLOW;1;EA;1;120.60;0.00;0.00;;Y;;;;9070;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192378
+^N;0.00;;
+1344.60
+192.00;2.00;192
+5;192.00
+@
+N;
+^041712;192569;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;308-234-8448;DE
+;;;8394.30;0.00;0.00;3632.84;0.00;0.00;
+0598;test
+W0598;WALMART     #0598  KEARNEY;5411 SECOND AVENUE;;KEARNEY;NE;68847      ;0078742005829
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+5411 SECOND AVENUE;;KEARNEY;NE;68847      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^40;7.80;005661816;735946305864;10" ANNUAL GARDEN;
+;10" ANN GA;10" ANN GARD GERAN;1;EA;1;312.00;0.00;0.00;;Y;;;;3495;
+;                                                                                
+^20;7.80;005662933;735946031275;10" ANNUAL GARDEN;
+;10" ANN GA;10" ANN GARD GERBERA;1;EA;1;156.00;0.00;0.00;;Y;;;;3244;
+;                                                                                
+^40;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;310.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^20;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;136.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^14;6.00;550067359;735946004095;11" COLOR BOWL;
+;11" COLBWL;11" COLOR BOWL EARLY #2;1;EA;1;84.00;0.00;0.00;;N;;;;10317;
+;                                                                                
+^36;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;361.80;0.00;0.00;;N;;;;10334;
+;                                                                                
+^36;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;361.80;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^16;6.50;550018710;735946003883;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED HABANERO;1;EA;1;104.00;0.00;0.00;;N;;;;10347;
+;                                                                                
+^16;6.50;005639079;735946003913;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED JAPEPENO;1;EA;1;104.00;0.00;0.00;;N;;;;10220;
+;                                                                                
+^12;10.35;005651386;735946031633;12" HELIX;
+;12" HELIX;12" HELIX SUMMER ROMANCE;1;EA;1;124.20;0.00;0.00;;Y;;;;9508;
+;                                                                                
+^16;6.50;005639032;735946002947;12" VEGETABLE CAGE;
+;12" VEG CA;12" OPEN CELEBRITY;1;EA;1;104.00;0.00;0.00;;N;;;;10232;
+;                                                                                
+^168;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;562.80;0.00;0.00;;N;;;;9698;
+;                                                                                
+^84;3.25;005638878;735946002176;1POT STRAWBERRY;
+;1POT STRWB;1POT STRAWBERRY;1;EA;1;273.00;0.00;0.00;;N;;;;10192;
+;                                                                                
+^42;2.05;005638885;735946002152;1POT VEG;
+;1POT VEG;1POT VEG PEPPER;1;EA;1;86.10;0.00;0.00;;N;;;;10190;
+;                                                                                
+^72;3.58;550041291;735946003692;306 POTUNIA;
+;306 POTUNA;306 POTUNIA;1;EA;1;257.76;0.00;0.00;;N;;;;10361;
+;                                                                                
+^128;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;480.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^128;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;300.80;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^22;3.80;005675508;735946000240;9 PACK;
+;9PK;9PACK IMPATIENS;1;EA;1;83.60;0.00;0.00;;N;;;;920;
+;                                                                                
+^66;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;250.80;0.00;0.00;;N;;;;930;
+;                                                                                
+^44;3.80;005675524;735946000264;9 PACK;
+;9PK;9PACK PETUNIA;1;EA;1;167.20;0.00;0.00;;N;;;;940;
+;                                                                                
+^216;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^144;1.08;005675421;735946300050;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DIANTHUS 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2129;
+;                                                                                
+^144;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^144;1.08;005675486;735946300128;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SNAPDRAGON 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2649;
+;                                                                                
+^64;2.10;550109195;735946004729;QT ACCENT;
+;QT ACCENT;QT ACCENT FIELD O DREAMS;1;EA;1;134.40;0.00;0.00;;N;;;;10392;
+;                                                                                
+^64;2.10;005675762;735946301200;QT ACCENT;
+;QT ACCENT;QT ACCENT ISOLEPSIS;1;EA;1;134.40;0.00;0.00;;N;;;;9232;
+;                                                                                
+^64;2.05;005624910;735946001742;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL BEGONIA GOGO;1;EA;1;131.20;0.00;0.00;;N;;;;10112;
+;                                                                                
+^64;2.05;005675694;735946115333;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL IMPATIENS DOUBLE;1;EA;1;131.20;0.00;0.00;;N;;;;9352;
+;                                                                                
+^64;2.05;005675716;735946300852;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL LOBELIA PREMIUM;1;EA;1;131.20;0.00;0.00;;N;;;;9372;
+;                                                                                
+^64;2.05;005675730;735946300876;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL OSTEO;1;EA;1;131.20;0.00;0.00;;N;;;;9382;
+;                                                                                
+^128;3.25;005661938;735946300753;QT CALLA LILY;
+;QT CALLA;QT CALLA LILY;1;EA;1;416.00;0.00;0.00;;Y;;;;430;
+;                                                                                
+^128;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;185.60;0.00;0.00;;Y;;;;5210;
+;                                                                                
+^192;1.45;005674487;735946300746;QT HOSTA;
+;QT HOSTA;QT PEREN HOSTA;1;EA;1;278.40;0.00;0.00;;Y;;;;5550;
+;                                                                                
+^320;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;496.00;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192569
+^N;0.00;;
+8394.30
+2976.00;12.69;2976
+38;2976.00
+@
+N;
+^041712;192570;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;308-345-1800;DE
+;;;7651.46;0.00;0.00;3732.84;0.00;0.00;
+0790;test
+W0790;WALMART     #0790  MC COOK;1902 WEST "B";;MC COOK;NE;69001      ;0078742007694
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+1902 WEST "B";;MC COOK;NE;69001      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^20;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;136.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662564;735946011628;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB LOBELIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3466;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^36;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;361.80;0.00;0.00;;N;;;;10334;
+;                                                                                
+^24;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;6.50;550018710;735946003883;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED HABANERO;1;EA;1;104.00;0.00;0.00;;N;;;;10347;
+;                                                                                
+^16;6.50;005639079;735946003913;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED JAPEPENO;1;EA;1;104.00;0.00;0.00;;N;;;;10220;
+;                                                                                
+^16;6.50;005639097;735946003036;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED PATIO;1;EA;1;104.00;0.00;0.00;;N;;;;10230;
+;                                                                                
+^12;10.05;005651349;735946031749;12" HELIX HB;
+;12" HEX HB;12" HELIX HB PET GLOW;1;EA;1;120.60;0.00;0.00;;Y;;;;9070;
+;                                                                                
+^12;10.35;005662619;735946061616;12" HELIX;
+;12" HELIX;12" HELIX MIDNIGHT SURPRISE;1;EA;1;124.20;0.00;0.00;;N;;;;9771;
+;                                                                                
+^12;10.35;005651386;735946031633;12" HELIX;
+;12" HELIX;12" HELIX SUMMER ROMANCE;1;EA;1;124.20;0.00;0.00;;Y;;;;9508;
+;                                                                                
+^42;3.00;005690807;735946003784;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT COREOPSIS NANA;1;EA;1;126.00;0.00;0.00;;N;;;;10353;
+;                                                                                
+^84;3.25;005674504;735946121655;1GAL HOSTA;
+;1GAL HOST;1POT HOSTA;1;EA;1;273.00;0.00;0.00;;Y;;;;9131;
+;                                                                                
+^84;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;281.40;0.00;0.00;;N;;;;9698;
+;                                                                                
+^42;3.00;005606526;735946121624;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SCABIOSA;1;EA;1;126.00;0.00;0.00;;Y;;;;9145;
+;                                                                                
+^42;3.25;005662395;735946122065;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT VIOLA BLUE MOON;1;EA;1;136.50;0.00;0.00;;N;;;;9648;
+;                                                                                
+^24;3.58;550041291;735946003692;306 POTUNIA;
+;306 POTUNA;306 POTUNIA;1;EA;1;85.92;0.00;0.00;;N;;;;10361;
+;                                                                                
+^440;0.75;550041292;735946305352;4" SEED GERANIUM;
+;4" GERAN;4" GERANIUMS SEED 10PK;1;EA;1;330.00;0.00;0.00;;Y;;;;3214;
+;                                                                                
+^64;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;240.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^64;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;150.40;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^30;5.75;005661978;735946100292;8" PERENNIAL;
+;8" PERENN;8" PEREN DELPHINIUM;1;EA;1;172.50;0.00;0.00;;N;;;;9728;
+;                                                                                
+^30;5.75;005662007;735946100308;8" PERENNIAL;
+;8" PERENN;8" PEREN DICENTRA;1;EA;1;172.50;0.00;0.00;;N;;;;9738;
+;                                                                                
+^22;3.80;005624332;735946001711;9 PACK;
+;9PK;9PACK COLEUS;1;EA;1;83.60;0.00;0.00;;N;;;;10045;
+;                                                                                
+^44;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;167.20;0.00;0.00;;N;;;;930;
+;                                                                                
+^144;1.08;005675412;735946300036;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL BEGONIA  6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2034;
+;                                                                                
+^144;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^144;1.08;005675421;735946300050;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DIANTHUS 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2129;
+;                                                                                
+^144;1.08;005675437;735946300074;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL IMPATIEN 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2149;
+;                                                                                
+^144;1.08;005675451;735946300098;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL MARIGOLD 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2269;
+;                                                                                
+^288;1.08;550041296;735946300005;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL PETUNIA  6PK;1;EA;1;311.04;0.00;0.00;;Y;;;;2454;
+;                                                                                
+^330;0.80;005639176;735946003111;PINT VEG;
+;PINT VEG;PINT VEG PEPPER;1;EA;1;264.00;0.00;0.00;;N;;;;10065;
+;                                                                                
+^64;2.10;550109195;735946004729;QT ACCENT;
+;QT ACCENT;QT ACCENT FIELD O DREAMS;1;EA;1;134.40;0.00;0.00;;N;;;;10392;
+;                                                                                
+^64;2.05;005624910;735946001742;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL BEGONIA GOGO;1;EA;1;131.20;0.00;0.00;;N;;;;10112;
+;                                                                                
+^128;2.05;005675716;735946300852;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL LOBELIA PREMIUM;1;EA;1;262.40;0.00;0.00;;N;;;;9372;
+;                                                                                
+^64;2.05;005675730;735946300876;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL OSTEO;1;EA;1;131.20;0.00;0.00;;N;;;;9382;
+;                                                                                
+^64;1.25;005638941;735946002329;QT HERB;
+;QT HERB;QT HERB BASIL;1;EA;1;80.00;0.00;0.00;;N;;;;10095;
+;                                                                                
+^64;1.25;005638927;735946002343;QT HERB;
+;QT HERB;QT HERB CILANTRO;1;EA;1;80.00;0.00;0.00;;N;;;;10098;
+;                                                                                
+^64;1.25;005639025;735946002893;QT HERB;
+;QT HERB;QT HERB LAVENDER (HERB);1;EA;1;80.00;0.00;0.00;;N;;;;10099;
+;                                                                                
+^64;1.25;005638906;735946002374;QT HERB;
+;QT HERB;QT HERB ROSEMARY;1;EA;1;80.00;0.00;0.00;;N;;;;10105;
+;                                                                                
+^128;1.45;005690815;735946003753;QUART PERENNIAL;
+;QT PEREN;QT PEREN ANEMONE;1;EA;1;185.60;0.00;0.00;;N;;;;10378;
+;                                                                                
+^192;1.45;005661929;735946300944;QUART PERENNIAL;
+;QT PEREN;QT PEREN BELLIS TASSO;1;EA;1;278.40;0.00;0.00;;Y;;;;5270;
+;                                                                                
+^128;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;185.60;0.00;0.00;;Y;;;;5210;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192570
+^N;0.00;;
+7651.46
+3698.00;11.94;3698
+44;3698.00
+@
+N;
+^041712;192579;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;402-564-1668;DE
+;;;6472.08;0.00;0.00;2258.88;0.00;0.00;
+0774;test
+W0774;WALMART     #0774  COLUMBUS;818 EAST 23RD ST.;;COLUMBUS;NE;68601      ;0078742007533
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+818 EAST 23RD ST.;;COLUMBUS;NE;68601      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^80;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;620.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^20;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;136.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^40;6.80;550067384;735946003968;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB OSTEOSPERMUM;1;EA;1;272.00;0.00;0.00;;N;;;;10310;
+;                                                                                
+^14;6.00;550067359;735946004095;11" COLOR BOWL;
+;11" COLBWL;11" COLOR BOWL EARLY #2;1;EA;1;84.00;0.00;0.00;;N;;;;10317;
+;                                                                                
+^48;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;482.40;0.00;0.00;;N;;;;10334;
+;                                                                                
+^12;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;120.60;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^12;10.35;005662619;735946061616;12" HELIX;
+;12" HELIX;12" HELIX MIDNIGHT SURPRISE;1;EA;1;124.20;0.00;0.00;;N;;;;9771;
+;                                                                                
+^110;1.10;005669186;735946350536;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS ENGLISH IVY;1;EA;1;121.00;0.00;0.00;;N;;;;4482;
+;                                                                                
+^576;0.85;005691447;735946350437;4" MUMS;
+;4" MUM;4" MUMS;1;EA;1;489.60;0.00;0.00;;Y;;;;3032;
+;                                                                                
+^64;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;240.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^64;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;150.40;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^22;3.80;005624332;735946001711;9 PACK;
+;9PK;9PACK COLEUS;1;EA;1;83.60;0.00;0.00;;N;;;;10045;
+;                                                                                
+^44;3.80;005675508;735946000240;9 PACK;
+;9PK;9PACK IMPATIENS;1;EA;1;167.20;0.00;0.00;;N;;;;920;
+;                                                                                
+^66;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;250.80;0.00;0.00;;N;;;;930;
+;                                                                                
+^216;1.08;005675429;735946300067;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DUSTY MILLER 6 PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2145;
+;                                                                                
+^128;2.10;005679457;735946003333;QT ACCENT;
+;QT ACCENT;QT ACCENT CORDYLINE;1;EA;1;268.80;0.00;0.00;;N;;;;10265;
+;                                                                                
+^128;2.10;550109195;735946004729;QT ACCENT;
+;QT ACCENT;QT ACCENT FIELD O DREAMS;1;EA;1;268.80;0.00;0.00;;N;;;;10392;
+;                                                                                
+^64;2.10;005675762;735946301200;QT ACCENT;
+;QT ACCENT;QT ACCENT ISOLEPSIS;1;EA;1;134.40;0.00;0.00;;N;;;;9232;
+;                                                                                
+^192;2.05;550041300;735946003944;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL GERB;1;EA;1;393.60;0.00;0.00;;N;;;;10382;
+;                                                                                
+^128;2.05;005675716;735946300852;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL LOBELIA PREMIUM;1;EA;1;262.40;0.00;0.00;;N;;;;9372;
+;                                                                                
+^128;3.25;005661938;735946300753;QT CALLA LILY;
+;QT CALLA;QT CALLA LILY;1;EA;1;416.00;0.00;0.00;;Y;;;;430;
+;                                                                                
+^128;1.45;005661986;735946300975;QUART PERENNIAL;
+;QT PEREN;QT PEREN DIANTHUS;1;EA;1;185.60;0.00;0.00;;Y;;;;5320;
+;                                                                                
+^128;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;198.40;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192579
+^N;0.00;;
+6472.08
+2548.00;8.89;2548
+26;2548.00
+@
+N;
+^041712;192584;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;308-532-5529;DE
+;;;6234.42;0.00;0.00;3659.52;0.00;0.00;
+1585;test
+W1585;WALMART     #1585  NORTH PLATTE;1401 SOUTH DEWEY;;NORTH PLATTE;NE;69101      ;0078742015521
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+1401 SOUTH DEWEY;;NORTH PLATTE;NE;69101      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^40;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;310.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^40;6.80;550067384;735946003968;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB OSTEOSPERMUM;1;EA;1;272.00;0.00;0.00;;N;;;;10310;
+;                                                                                
+^24;6.80;005638870;735946002145;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB STRAWBERRY;1;EA;1;163.20;0.00;0.00;;N;;;;10217;
+;                                                                                
+^40;6.80;005662572;735946011758;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB TRAILING PETUNIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3476;
+;                                                                                
+^24;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10334;
+;                                                                                
+^12;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;120.60;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^16;7.25;005662864;735946030841;12" FLEX TUB;
+;12" FLXTUB;12" FLX TUB BEACH BALL GERB;1;EA;1;116.00;0.00;0.00;;N;;;;9930;
+;                                                                                
+^84;3.25;005638878;735946002176;1POT STRAWBERRY;
+;1POT STRWB;1POT STRAWBERRY;1;EA;1;273.00;0.00;0.00;;N;;;;10192;
+;                                                                                
+^42;2.05;005638885;735946002152;1POT VEG;
+;1POT VEG;1POT VEG PEPPER;1;EA;1;86.10;0.00;0.00;;N;;;;10190;
+;                                                                                
+^110;1.10;005669186;735946350536;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS ENGLISH IVY;1;EA;1;121.00;0.00;0.00;;N;;;;4482;
+;                                                                                
+^220;1.10;005669171;735946350499;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS IPOMEA;1;EA;1;242.00;0.00;0.00;;N;;;;4502;
+;                                                                                
+^576;0.85;005691447;735946350437;4" MUMS;
+;4" MUM;4" MUMS;1;EA;1;489.60;0.00;0.00;;Y;;;;3032;
+;                                                                                
+^64;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;240.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^64;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;150.40;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^288;1.08;005675412;735946300036;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL BEGONIA  6PK;1;EA;1;311.04;0.00;0.00;;Y;;;;2034;
+;                                                                                
+^216;1.08;005675421;735946300050;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DIANTHUS 6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2129;
+;                                                                                
+^360;1.08;005675437;735946300074;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL IMPATIEN 6PK;1;EA;1;388.80;0.00;0.00;;Y;;;;2149;
+;                                                                                
+^288;1.08;005675451;735946300098;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL MARIGOLD 6PK;1;EA;1;311.04;0.00;0.00;;Y;;;;2269;
+;                                                                                
+^360;1.08;550041296;735946300005;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL PETUNIA  6PK;1;EA;1;388.80;0.00;0.00;;Y;;;;2454;
+;                                                                                
+^216;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^216;1.08;005675486;735946300128;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SNAPDRAGON 6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2649;
+;                                                                                
+^128;2.10;005675762;735946301200;QT ACCENT;
+;QT ACCENT;QT ACCENT ISOLEPSIS;1;EA;1;268.80;0.00;0.00;;N;;;;9232;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192584
+^N;0.00;;
+6234.42
+3564.00;9.06;3564
+25;3564.00
+@
+N;
+^041712;192591;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;515-274-6224;
+;;;13426.64;0.00;0.00;5248.14;0.00;0.00;
+1764;test
+W1764;WALMART     #1764  DES MOINES;1001 73rd STREET;;DES MOINES;IA;50311      ;0078742017303
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+1001 73rd STREET;;DES MOINES;IA;50311      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^160;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;1240.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^60;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;408.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^40;6.80;005662556;735946011581;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB IVY GERANIUM;1;EA;1;272.00;0.00;0.00;;Y;;;;3435;
+;                                                                                
+^40;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^60;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;603.00;0.00;0.00;;N;;;;10334;
+;                                                                                
+^96;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;964.80;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;6.50;550018712;735946003890;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED CUTE;1;EA;1;104.00;0.00;0.00;;N;;;;10349;
+;                                                                                
+^16;6.50;550018710;735946003883;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED HABANERO;1;EA;1;104.00;0.00;0.00;;N;;;;10347;
+;                                                                                
+^16;6.50;005639079;735946003913;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED JAPEPENO;1;EA;1;104.00;0.00;0.00;;N;;;;10220;
+;                                                                                
+^42;3.00;005692181;735946032043;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT DIGITALIS;1;EA;1;126.00;0.00;0.00;;Y;;;;9409;
+;                                                                                
+^84;3.25;005674376;735946121761;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT GRASSES PURPLE FNTN;1;EA;1;273.00;0.00;0.00;;Y;;;;420;
+;                                                                                
+^210;3.25;005674504;735946121655;1GAL HOSTA;
+;1GAL HOST;1POT HOSTA;1;EA;1;682.50;0.00;0.00;;Y;;;;9131;
+;                                                                                
+^168;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;562.80;0.00;0.00;;N;;;;9698;
+;                                                                                
+^42;3.25;005662242;735946122041;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT PENSTEMON RED RIDING HOOD;1;EA;1;136.50;0.00;0.00;;N;;;;9628;
+;                                                                                
+^126;3.00;005606526;735946121624;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SCABIOSA;1;EA;1;378.00;0.00;0.00;;Y;;;;9145;
+;                                                                                
+^84;3.00;550376900;735946003258;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT TRADESANTHIA;1;EA;1;252.00;0.00;0.00;;N;;;;10356;
+;                                                                                
+^42;3.25;005662395;735946122065;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT VIOLA BLUE MOON;1;EA;1;136.50;0.00;0.00;;N;;;;9648;
+;                                                                                
+^440;1.10;005669162;735946350451;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS DRACAENA SPIKE;1;EA;1;484.00;0.00;0.00;;Y;;;;4470;
+;                                                                                
+^128;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;480.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^128;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;300.80;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^150;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;562.50;0.00;0.00;;N;;;;10370;
+;                                                                                
+^22;3.80;005624332;735946001711;9 PACK;
+;9PK;9PACK COLEUS;1;EA;1;83.60;0.00;0.00;;N;;;;10045;
+;                                                                                
+^44;3.80;005675508;735946000240;9 PACK;
+;9PK;9PACK IMPATIENS;1;EA;1;167.20;0.00;0.00;;N;;;;920;
+;                                                                                
+^88;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;334.40;0.00;0.00;;N;;;;930;
+;                                                                                
+^44;3.80;005675524;735946000264;9 PACK;
+;9PK;9PACK PETUNIA;1;EA;1;167.20;0.00;0.00;;N;;;;940;
+;                                                                                
+^144;1.08;005675404;735946300029;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL ALYSSUM 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2019;
+;                                                                                
+^72;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;77.76;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^144;1.08;005675421;735946300050;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DIANTHUS 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2129;
+;                                                                                
+^144;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^144;1.08;005675486;735946300128;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SNAPDRAGON 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2649;
+;                                                                                
+^220;0.80;005639176;735946003111;PINT VEG;
+;PINT VEG;PINT VEG PEPPER;1;EA;1;176.00;0.00;0.00;;N;;;;10065;
+;                                                                                
+^64;2.10;550109195;735946004729;QT ACCENT;
+;QT ACCENT;QT ACCENT FIELD O DREAMS;1;EA;1;134.40;0.00;0.00;;N;;;;10392;
+;                                                                                
+^64;2.10;005675762;735946301200;QT ACCENT;
+;QT ACCENT;QT ACCENT ISOLEPSIS;1;EA;1;134.40;0.00;0.00;;N;;;;9232;
+;                                                                                
+^64;2.10;550109194;735946004743;QT ACCENT;
+;QT ACCENT;QT ACCENT TABBY;1;EA;1;134.40;0.00;0.00;;N;;;;10394;
+;                                                                                
+^128;2.05;005624910;735946001742;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL BEGONIA GOGO;1;EA;1;262.40;0.00;0.00;;N;;;;10112;
+;                                                                                
+^128;2.05;005675701;735946300838;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL FUCHSIA;1;EA;1;262.40;0.00;0.00;;N;;;;9332;
+;                                                                                
+^64;2.05;005675694;735946115333;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL IMPATIENS DOUBLE;1;EA;1;131.20;0.00;0.00;;N;;;;9352;
+;                                                                                
+^128;2.05;005675716;735946300852;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL LOBELIA PREMIUM;1;EA;1;262.40;0.00;0.00;;N;;;;9372;
+;                                                                                
+^128;2.05;005675730;735946300876;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL OSTEO;1;EA;1;262.40;0.00;0.00;;N;;;;9382;
+;                                                                                
+^64;1.25;005638941;735946002329;QT HERB;
+;QT HERB;QT HERB BASIL;1;EA;1;80.00;0.00;0.00;;N;;;;10095;
+;                                                                                
+^64;1.25;005638927;735946002343;QT HERB;
+;QT HERB;QT HERB CILANTRO;1;EA;1;80.00;0.00;0.00;;N;;;;10098;
+;                                                                                
+^64;1.25;005639025;735946002893;QT HERB;
+;QT HERB;QT HERB LAVENDER (HERB);1;EA;1;80.00;0.00;0.00;;N;;;;10099;
+;                                                                                
+^128;1.25;005638906;735946002374;QT HERB;
+;QT HERB;QT HERB ROSEMARY;1;EA;1;160.00;0.00;0.00;;N;;;;10105;
+;                                                                                
+^192;1.45;005661929;735946300944;QUART PERENNIAL;
+;QT PEREN;QT PEREN BELLIS TASSO;1;EA;1;278.40;0.00;0.00;;Y;;;;5270;
+;                                                                                
+^128;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;185.60;0.00;0.00;;Y;;;;5210;
+;                                                                                
+^320;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;496.00;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192591
+^N;0.00;;
+13426.64
+5002.00;20.62;5002
+47;5002.00
+@
+N;
+^041712;192604;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;308-381-4970;DE
+;;;2614.70;0.00;0.00;952.00;0.00;0.00;
+3395;test
+W3395;WALMART     #3395  GRAND ISLAND;3501 SOUTH LOCUST STREET;;GRAND ISLAND;NE;68801      ;0078742049724
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+3501 SOUTH LOCUST STREET;;GRAND ISLAND;NE;68801      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^20;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;155.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^40;6.80;550067384;735946003968;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB OSTEOSPERMUM;1;EA;1;272.00;0.00;0.00;;N;;;;10310;
+;                                                                                
+^60;6.80;005662572;735946011758;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB TRAILING PETUNIA;1;EA;1;408.00;0.00;0.00;;Y;;;;3476;
+;                                                                                
+^24;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10334;
+;                                                                                
+^12;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;120.60;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^110;1.10;005669186;735946350536;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS ENGLISH IVY;1;EA;1;121.00;0.00;0.00;;N;;;;4482;
+;                                                                                
+^220;1.10;005669171;735946350499;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS IPOMEA;1;EA;1;242.00;0.00;0.00;;N;;;;4502;
+;                                                                                
+^30;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;112.50;0.00;0.00;;N;;;;10370;
+;                                                                                
+^128;2.05;550041300;735946003944;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL GERB;1;EA;1;262.40;0.00;0.00;;N;;;;10382;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192604
+^N;0.00;;
+2614.70
+740.00;3.90;740
+12;740.00
+@
+N;
+^041712;192613;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;402-727-0414;DE
+;;;7908.54;0.00;0.00;3977.04;0.00;0.00;
+0776;test
+W0776;WALMART     #0776  FREMONT;3010 EAST 23RD AVENUE N.;;FREMONT;NE;68025      ;0078742007557
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+3010 EAST 23RD AVENUE N.;;FREMONT;NE;68025      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^80;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;620.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^20;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;136.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^60;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;603.00;0.00;0.00;;N;;;;10334;
+;                                                                                
+^24;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^12;10.35;005651386;735946031633;12" HELIX;
+;12" HELIX;12" HELIX SUMMER ROMANCE;1;EA;1;124.20;0.00;0.00;;Y;;;;9508;
+;                                                                                
+^84;3.00;005606446;735946121518;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT DIANTHUS;1;EA;1;252.00;0.00;0.00;;Y;;;;9125;
+;                                                                                
+^84;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;281.40;0.00;0.00;;N;;;;9698;
+;                                                                                
+^126;3.00;005606526;735946121624;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SCABIOSA;1;EA;1;378.00;0.00;0.00;;Y;;;;9145;
+;                                                                                
+^330;1.10;005669194;735946350444;4" ACCENTS WALMART;
+;4" ACC WM;4" ACCENTS SPRENGERI;1;EA;1;363.00;0.00;0.00;;Y;;;;4471;
+;                                                                                
+^128;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;480.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^128;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;300.80;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^30;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;112.50;0.00;0.00;;N;;;;10370;
+;                                                                                
+^30;5.75;005661978;735946100292;8" PERENNIAL;
+;8" PERENN;8" PEREN DELPHINIUM;1;EA;1;172.50;0.00;0.00;;N;;;;9728;
+;                                                                                
+^30;5.75;005662007;735946100308;8" PERENNIAL;
+;8" PERENN;8" PEREN DICENTRA;1;EA;1;172.50;0.00;0.00;;N;;;;9738;
+;                                                                                
+^44;3.80;005624332;735946001711;9 PACK;
+;9PK;9PACK COLEUS;1;EA;1;167.20;0.00;0.00;;N;;;;10045;
+;                                                                                
+^66;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;250.80;0.00;0.00;;N;;;;930;
+;                                                                                
+^144;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^144;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^64;2.10;005675762;735946301200;QT ACCENT;
+;QT ACCENT;QT ACCENT ISOLEPSIS;1;EA;1;134.40;0.00;0.00;;N;;;;9232;
+;                                                                                
+^64;2.05;005624910;735946001742;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL BEGONIA GOGO;1;EA;1;131.20;0.00;0.00;;N;;;;10112;
+;                                                                                
+^64;2.05;005675694;735946115333;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL IMPATIENS DOUBLE;1;EA;1;131.20;0.00;0.00;;N;;;;9352;
+;                                                                                
+^64;2.05;005675716;735946300852;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL LOBELIA PREMIUM;1;EA;1;131.20;0.00;0.00;;N;;;;9372;
+;                                                                                
+^128;2.05;005675730;735946300876;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL OSTEO;1;EA;1;262.40;0.00;0.00;;N;;;;9382;
+;                                                                                
+^192;3.25;005661938;735946300753;QT CALLA LILY;
+;QT CALLA;QT CALLA LILY;1;EA;1;624.00;0.00;0.00;;Y;;;;430;
+;                                                                                
+^128;1.45;005690815;735946003753;QUART PERENNIAL;
+;QT PEREN;QT PEREN ANEMONE;1;EA;1;185.60;0.00;0.00;;N;;;;10378;
+;                                                                                
+^128;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;185.60;0.00;0.00;;Y;;;;5210;
+;                                                                                
+^192;1.45;005674487;735946300746;QT HOSTA;
+;QT HOSTA;QT PEREN HOSTA;1;EA;1;278.40;0.00;0.00;;Y;;;;5550;
+;                                                                                
+^128;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;198.40;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192613
+^N;0.00;;
+7908.54
+2812.00;11.03;2812
+31;2812.00
+@
+N;
+^041712;192614;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;402-371-6601;
+;;;6381.40;0.00;0.00;2624.80;0.00;0.00;
+0645;test
+W0645;WALMART     #0645  NORFOLK;2400 PASEWALK AVENUE;;NORFOLK;NE;68701      ;0078742006291
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+2400 PASEWALK AVENUE;;NORFOLK;NE;68701      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^80;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;620.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^40;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;272.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^60;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;603.00;0.00;0.00;;N;;;;10334;
+;                                                                                
+^36;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;361.80;0.00;0.00;;N;;;;10342;
+;                                                                                
+^12;10.35;005651386;735946031633;12" HELIX;
+;12" HELIX;12" HELIX SUMMER ROMANCE;1;EA;1;124.20;0.00;0.00;;Y;;;;9508;
+;                                                                                
+^84;3.25;005674504;735946121655;1GAL HOSTA;
+;1GAL HOST;1POT HOSTA;1;EA;1;273.00;0.00;0.00;;Y;;;;9131;
+;                                                                                
+^168;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;562.80;0.00;0.00;;N;;;;9698;
+;                                                                                
+^126;3.00;005606519;735946121617;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SALVIA;1;EA;1;378.00;0.00;0.00;;Y;;;;9144;
+;                                                                                
+^128;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;480.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^128;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;300.80;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^20;3.80;005624332;735946001711;9 PACK;
+;9PK;9PACK COLEUS;1;EA;1;76.00;0.00;0.00;;N;;;;10045;
+;                                                                                
+^60;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;228.00;0.00;0.00;;N;;;;930;
+;                                                                                
+^216;1.08;005675412;735946300036;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL BEGONIA  6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2034;
+;                                                                                
+^144;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^330;0.80;005639176;735946003111;PINT VEG;
+;PINT VEG;PINT VEG PEPPER;1;EA;1;264.00;0.00;0.00;;N;;;;10065;
+;                                                                                
+^64;1.25;005638941;735946002329;QT HERB;
+;QT HERB;QT HERB BASIL;1;EA;1;80.00;0.00;0.00;;N;;;;10095;
+;                                                                                
+^64;1.25;005638927;735946002343;QT HERB;
+;QT HERB;QT HERB CILANTRO;1;EA;1;80.00;0.00;0.00;;N;;;;10098;
+;                                                                                
+^64;1.25;005639025;735946002893;QT HERB;
+;QT HERB;QT HERB LAVENDER (HERB);1;EA;1;80.00;0.00;0.00;;N;;;;10099;
+;                                                                                
+^64;1.25;005638906;735946002374;QT HERB;
+;QT HERB;QT HERB ROSEMARY;1;EA;1;80.00;0.00;0.00;;N;;;;10105;
+;                                                                                
+^320;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;496.00;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192614
+^N;0.00;;
+6381.40
+2328.00;9.93;2328
+22;2328.00
+@
+N;
+^041712;192615;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;402-462-6000;DE
+;;;7173.60;0.00;0.00;3441.20;0.00;0.00;
+1460;test
+W1460;WALMART     #1460  HASTINGS;3803 OSBORNE DRIVE WEST;;HASTINGS;NE;68901      ;0078742014272
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+3803 OSBORNE DRIVE WEST;;HASTINGS;NE;68901      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^40;7.80;005661816;735946305864;10" ANNUAL GARDEN;
+;10" ANN GA;10" ANN GARD GERAN;1;EA;1;312.00;0.00;0.00;;Y;;;;3495;
+;                                                                                
+^80;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;620.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^20;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;136.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^14;6.00;550067359;735946004095;11" COLOR BOWL;
+;11" COLBWL;11" COLOR BOWL EARLY #2;1;EA;1;84.00;0.00;0.00;;N;;;;10317;
+;                                                                                
+^24;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10334;
+;                                                                                
+^24;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10342;
+;                                                                                
+^32;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;272.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^42;5.25;005677070;735946121679;1GAL CLEMATIS;
+;1GAL CLEM;1POT CLEMATIS;1;EA;1;220.50;0.00;0.00;;N;;;;9210;
+;                                                                                
+^126;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;422.10;0.00;0.00;;N;;;;9698;
+;                                                                                
+^126;3.00;005606526;735946121624;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SCABIOSA;1;EA;1;378.00;0.00;0.00;;Y;;;;9145;
+;                                                                                
+^84;3.00;005692167;735946032104;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SEDUM;1;EA;1;252.00;0.00;0.00;;Y;;;;9389;
+;                                                                                
+^128;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;480.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^128;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;300.80;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^22;3.80;005624332;735946001711;9 PACK;
+;9PK;9PACK COLEUS;1;EA;1;83.60;0.00;0.00;;N;;;;10045;
+;                                                                                
+^66;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;250.80;0.00;0.00;;N;;;;930;
+;                                                                                
+^216;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^144;1.08;005675486;735946300128;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SNAPDRAGON 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2649;
+;                                                                                
+^220;0.80;005639176;735946003111;PINT VEG;
+;PINT VEG;PINT VEG PEPPER;1;EA;1;176.00;0.00;0.00;;N;;;;10065;
+;                                                                                
+^64;1.25;005638941;735946002329;QT HERB;
+;QT HERB;QT HERB BASIL;1;EA;1;80.00;0.00;0.00;;N;;;;10095;
+;                                                                                
+^64;1.25;005638927;735946002343;QT HERB;
+;QT HERB;QT HERB CILANTRO;1;EA;1;80.00;0.00;0.00;;N;;;;10098;
+;                                                                                
+^64;1.25;005639025;735946002893;QT HERB;
+;QT HERB;QT HERB LAVENDER (HERB);1;EA;1;80.00;0.00;0.00;;N;;;;10099;
+;                                                                                
+^128;1.25;005638906;735946002374;QT HERB;
+;QT HERB;QT HERB ROSEMARY;1;EA;1;160.00;0.00;0.00;;N;;;;10105;
+;                                                                                
+^128;1.45;005661929;735946300944;QUART PERENNIAL;
+;QT PEREN;QT PEREN BELLIS TASSO;1;EA;1;185.60;0.00;0.00;;Y;;;;5270;
+;                                                                                
+^128;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;185.60;0.00;0.00;;Y;;;;5210;
+;                                                                                
+^192;1.45;005674487;735946300746;QT HOSTA;
+;QT HOSTA;QT PEREN HOSTA;1;EA;1;278.40;0.00;0.00;;Y;;;;5550;
+;                                                                                
+^320;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;496.00;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192615
+^N;0.00;;
+7173.60
+2764.00;11.07;2764
+29;2764.00
+@
+N;
+^041712;192620;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;402-533-8222;
+;;;5438.22;0.00;0.00;3306.22;0.00;0.00;
+4568;0
+W4568;WALMART     #4568     BLAIR NE;1882 HOLLY STREET;;BLAIR;NE;68008      ;0078742067988
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+1882 HOLLY STREET;;BLAIR;NE;68008      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^40;7.80;005661816;735946305864;10" ANNUAL GARDEN;
+;10" ANN GA;10" ANN GARD GERAN;1;EA;1;312.00;0.00;0.00;;Y;;;;3495;
+;                                                                                
+^20;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;155.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^20;6.80;005662549;735946011536;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB CALIBRACHOA;1;EA;1;136.00;0.00;0.00;;Y;;;;3419;
+;                                                                                
+^40;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;272.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662556;735946011581;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB IVY GERANIUM;1;EA;1;136.00;0.00;0.00;;Y;;;;3435;
+;                                                                                
+^14;6.00;550067359;735946004095;11" COLOR BOWL;
+;11" COLBWL;11" COLOR BOWL EARLY #2;1;EA;1;84.00;0.00;0.00;;N;;;;10317;
+;                                                                                
+^24;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10334;
+;                                                                                
+^12;10.05;550098967;735946004279;12" BHG;
+;12" BHG;12" BHG TWINKLE STAR;1;EA;1;120.60;0.00;0.00;;N;;;;10342;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^16;7.25;005662864;735946030841;12" FLEX TUB;
+;12" FLXTUB;12" FLX TUB BEACH BALL GERB;1;EA;1;116.00;0.00;0.00;;N;;;;9930;
+;                                                                                
+^12;10.35;005651386;735946031633;12" HELIX;
+;12" HELIX;12" HELIX SUMMER ROMANCE;1;EA;1;124.20;0.00;0.00;;Y;;;;9508;
+;                                                                                
+^42;3.00;005690807;735946003784;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT COREOPSIS NANA;1;EA;1;126.00;0.00;0.00;;N;;;;10353;
+;                                                                                
+^42;3.25;005674376;735946121761;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT GRASSES PURPLE FNTN;1;EA;1;136.50;0.00;0.00;;Y;;;;420;
+;                                                                                
+^84;3.35;005662166;735946122027;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT LILY ASIATIC TINY SERIES;1;EA;1;281.40;0.00;0.00;;N;;;;9698;
+;                                                                                
+^42;3.25;005662242;735946122041;1POT PREMIUM PERENNIAL;
+;1POT PREM;1POT PENSTEMON RED RIDING HOOD;1;EA;1;136.50;0.00;0.00;;N;;;;9628;
+;                                                                                
+^84;3.00;005606526;735946121624;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SCABIOSA;1;EA;1;252.00;0.00;0.00;;Y;;;;9145;
+;                                                                                
+^42;3.00;005692167;735946032104;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT SEDUM;1;EA;1;126.00;0.00;0.00;;Y;;;;9389;
+;                                                                                
+^42;3.00;550376900;735946003258;1POT PERENNIAL ASSORTED;
+;1POT PERE;1POT TRADESANTHIA;1;EA;1;126.00;0.00;0.00;;N;;;;10356;
+;                                                                                
+^128;3.75;005669231;735946031589;6" GERANIUM MARTHA WASHINGTON;
+;6" MARTHA;6" GERANIUM MARTHA WASHINGTON;1;EA;1;480.00;0.00;0.00;;Y;;;;9498;
+;                                                                                
+^128;2.35;550041294;735946031343;6" PREMIUM ANNUAL;
+;6" PREM AN;6" ZONAL GERANIUM;1;EA;1;300.80;0.00;0.00;;Y;;;;1810;
+;                                                                                
+^30;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;112.50;0.00;0.00;;N;;;;10370;
+;                                                                                
+^44;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;167.20;0.00;0.00;;N;;;;930;
+;                                                                                
+^144;1.08;005669224;735946300043;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL CELOSIA 6PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2079;
+;                                                                                
+^360;1.08;550041296;735946300005;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL PETUNIA  6PK;1;EA;1;388.80;0.00;0.00;;Y;;;;2454;
+;                                                                                
+^64;2.05;005675716;735946300852;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL LOBELIA PREMIUM;1;EA;1;131.20;0.00;0.00;;N;;;;9372;
+;                                                                                
+^64;3.25;005661938;735946300753;QT CALLA LILY;
+;QT CALLA;QT CALLA LILY;1;EA;1;208.00;0.00;0.00;;Y;;;;430;
+;                                                                                
+^128;1.45;005661986;735946300975;QUART PERENNIAL;
+;QT PEREN;QT PEREN DIANTHUS;1;EA;1;185.60;0.00;0.00;;Y;;;;5320;
+;                                                                                
+^64;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;92.80;0.00;0.00;;Y;;;;5210;
+;                                                                                
+^128;1.55;005662144;735946122126;QT PREMIUM PEREN;
+;QT PRM PER;QT PREM PEREN LILY ASIATIC TIN;1;EA;1;198.40;0.00;0.00;;N;;;;4864;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192620
+^N;0.00;;
+5438.22
+1894.00;7.87;1894
+29;1894.00
+@
+N;
+^041712;192622;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;308-324-0057;DE
+;;;3453.44;0.00;0.00;1787.84;0.00;0.00;
+0637;test
+W0637;WALMART     #0637  LEXINGTON;200 FRONTIER STREET;;LEXINGTON;NE;68850-0497 ;0078742006215
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+200 FRONTIER STREET;;LEXINGTON;NE;68850-0497 
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^20;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;155.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662556;735946011581;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB IVY GERANIUM;1;EA;1;136.00;0.00;0.00;;Y;;;;3435;
+;                                                                                
+^40;6.80;005662564;735946011628;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB LOBELIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3466;
+;                                                                                
+^40;6.80;550067384;735946003968;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB OSTEOSPERMUM;1;EA;1;272.00;0.00;0.00;;N;;;;10310;
+;                                                                                
+^40;6.80;005662572;735946011758;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB TRAILING PETUNIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3476;
+;                                                                                
+^48;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;482.40;0.00;0.00;;N;;;;10334;
+;                                                                                
+^60;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;225.00;0.00;0.00;;N;;;;10370;
+;                                                                                
+^216;1.08;005675404;735946300029;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL ALYSSUM 6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2019;
+;                                                                                
+^216;1.08;005675412;735946300036;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL BEGONIA  6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2034;
+;                                                                                
+^216;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^128;2.10;005679457;735946003333;QT ACCENT;
+;QT ACCENT;QT ACCENT CORDYLINE;1;EA;1;268.80;0.00;0.00;;N;;;;10265;
+;                                                                                
+^128;2.05;550041300;735946003944;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL GERB;1;EA;1;262.40;0.00;0.00;;N;;;;10382;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192622
+^N;0.00;;
+3453.44
+1232.00;5.02;1232
+13;1232.00
+@
+N;
+^041712;192625;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;308-381-0333;DE
+;;;3841.80;0.00;0.00;1854.40;0.00;0.00;
+1326;test
+W1326;WALMART     #1326  GRAND ISLAND;2250 N DIERS AVE;;GRAND ISLAND;NE;68803      ;0078742012957
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+2250 N DIERS AVE;;GRAND ISLAND;NE;68803      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^20;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;155.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^60;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;408.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^24;6.80;005638870;735946002145;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB STRAWBERRY;1;EA;1;163.20;0.00;0.00;;N;;;;10217;
+;                                                                                
+^40;6.80;005662572;735946011758;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB TRAILING PETUNIA;1;EA;1;272.00;0.00;0.00;;Y;;;;3476;
+;                                                                                
+^14;6.00;550067359;735946004095;11" COLOR BOWL;
+;11" COLBWL;11" COLOR BOWL EARLY #2;1;EA;1;84.00;0.00;0.00;;N;;;;10317;
+;                                                                                
+^24;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;241.20;0.00;0.00;;N;;;;10334;
+;                                                                                
+^16;8.50;550067777;73594600418;12" CHELSEA;
+;12" CHELSE;12" CHELSEA HENS & CHICKS;1;EA;1;136.00;0.00;0.00;;N;;;;10346;
+;                                                                                
+^16;6.50;005639112;735946003012;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED BETTER BUSH;1;EA;1;104.00;0.00;0.00;;N;;;;10227;
+;                                                                                
+^16;6.50;005639079;735946003913;12" VEGETABLE CAGE;
+;12" VEG CA;12" CLOSED JAPEPENO;1;EA;1;104.00;0.00;0.00;;N;;;;10220;
+;                                                                                
+^44;3.80;005675508;735946000240;9 PACK;
+;9PK;9PACK IMPATIENS;1;EA;1;167.20;0.00;0.00;;N;;;;920;
+;                                                                                
+^22;3.80;005675516;735946000257;9 PACK;
+;9PK;9PACK MARIGOLD;1;EA;1;83.60;0.00;0.00;;N;;;;930;
+;                                                                                
+^22;3.80;005675524;735946000264;9 PACK;
+;9PK;9PACK PETUNIA;1;EA;1;83.60;0.00;0.00;;N;;;;940;
+;                                                                                
+^144;1.08;005675429;735946300067;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DUSTY MILLER 6 PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2145;
+;                                                                                
+^216;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^128;2.10;005679457;735946003333;QT ACCENT;
+;QT ACCENT;QT ACCENT CORDYLINE;1;EA;1;268.80;0.00;0.00;;N;;;;10265;
+;                                                                                
+^64;2.10;550109195;735946004729;QT ACCENT;
+;QT ACCENT;QT ACCENT FIELD O DREAMS;1;EA;1;134.40;0.00;0.00;;N;;;;10392;
+;                                                                                
+^128;2.05;550041300;735946003944;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL GERB;1;EA;1;262.40;0.00;0.00;;N;;;;10382;
+;                                                                                
+^128;1.45;005661929;735946300944;QUART PERENNIAL;
+;QT PEREN;QT PEREN BELLIS TASSO;1;EA;1;185.60;0.00;0.00;;Y;;;;5270;
+;                                                                                
+^128;1.45;005662089;735946301019;QUART PERENNIAL;
+;QT PEREN;QT PEREN GRASS;1;EA;1;185.60;0.00;0.00;;Y;;;;5210;
+;                                                                                
+^192;1.45;005674487;735946300746;QT HOSTA;
+;QT HOSTA;QT PEREN HOSTA;1;EA;1;278.40;0.00;0.00;;Y;;;;5550;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192625
+^N;0.00;;
+3841.80
+1466.00;6.08;1466
+21;1466.00
+@
+N;
+^041712;192627;041512;2803121222
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041512;Posted;VENDOR TRUCK;MARYLYNN;515-986-1783;
+;;;3020.10;0.00;0.00;796.80;0.00;0.00;
+5748;test
+W5748;WALMART     #5748 GRIMES;2150 EAST 1ST STREET;;GRIMES;IA;50111      ;0078742064710
+WMB;WAL-MART STORES, INC.;CORPORATE OFFICES;1108 S E 10TH STREET;BENTONVILLE;AR;72716      
+;;;test;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+2150 EAST 1ST STREET;;GRIMES;IA;50111      
+919183560
+0.0;041712;060112;0;45;NET 45
+120417
+^40;7.75;005662518;735946122546;10" HB BOSTON FERN;
+;10" HB FER;10" FERN BOSTON;1;EA;1;310.00;0.00;0.00;;N;;;;9907;
+;                                                                                
+^40;6.80;005662511;735946011543;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB GERBERA DAISY;1;EA;1;272.00;0.00;0.00;;Y;;;;3429;
+;                                                                                
+^20;6.80;005662542;735946011567;10" PREM HANGING BASKETS;
+;10" HB PRM;10" PREM HB NONSTOP BEGONIA;1;EA;1;136.00;0.00;0.00;;Y;;;;3445;
+;                                                                                
+^48;10.05;550098980;735946004354;12" BHG HB;
+;12" BHG HB;12" BHG HB TWINKLE STAR;1;EA;1;482.40;0.00;0.00;;N;;;;10334;
+;                                                                                
+^30;3.75;550283104;681131026642;8" BHG;
+;8" BHG;8" BHG TWINKLE STAR;1;EA;1;112.50;0.00;0.00;;N;;;;10370;
+;                                                                                
+^44;3.80;005675508;735946000240;9 PACK;
+;9PK;9PACK IMPATIENS;1;EA;1;167.20;0.00;0.00;;N;;;;920;
+;                                                                                
+^44;3.80;005675524;735946000264;9 PACK;
+;9PK;9PACK PETUNIA;1;EA;1;167.20;0.00;0.00;;N;;;;940;
+;                                                                                
+^144;1.08;005675429;735946300067;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL DUSTY MILLER 6 PK;1;EA;1;155.52;0.00;0.00;;Y;;;;2145;
+;                                                                                
+^216;1.08;005675479;735946300111;JUMBO ANNUALS 6 PACK;
+;ANN606;ANNUAL SALVIA   6PK;1;EA;1;233.28;0.00;0.00;;Y;;;;2629;
+;                                                                                
+^110;0.80;005639176;735946003111;PINT VEG;
+;PINT VEG;PINT VEG PEPPER;1;EA;1;88.00;0.00;0.00;;N;;;;10065;
+;                                                                                
+^220;0.80;005639169;735946003104;PINT VEG;
+;PINT VEG;PINT VEG TOMATO;1;EA;1;176.00;0.00;0.00;;N;;;;10068;
+;                                                                                
+^128;2.10;005679457;735946003333;QT ACCENT;
+;QT ACCENT;QT ACCENT CORDYLINE;1;EA;1;268.80;0.00;0.00;;N;;;;10265;
+;                                                                                
+^64;2.05;550041300;735946003944;QT ANNUAL;
+;QT ANNUAL;QT ANNUAL GERB;1;EA;1;131.20;0.00;0.00;;N;;;;10382;
+;                                                                                
+^64;1.25;005638927;735946002343;QT HERB;
+;QT HERB;QT HERB CILANTRO;1;EA;1;80.00;0.00;0.00;;N;;;;10098;
+;                                                                                
+^64;1.25;005639025;735946002893;QT HERB;
+;QT HERB;QT HERB LAVENDER (HERB);1;EA;1;80.00;0.00;0.00;;N;;;;10099;
+;                                                                                
+^128;1.25;005638906;735946002374;QT HERB;
+;QT HERB;QT HERB ROSEMARY;1;EA;1;160.00;0.00;0.00;;N;;;;10105;
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192627
+^N;0.00;;
+3020.10
+1404.00;4.53;1404
+16;1404.00
+@
+|

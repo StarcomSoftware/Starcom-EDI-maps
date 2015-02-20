@@ -1,0 +1,274 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *090622*1250*U*00401*000002475*0*P*>
+GS*TX*006203210*7123660407*20090622*1250*1261*X*004010
+ST*864*0001
+BMG*18*124288
+MIT*ABER73210589*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2621906 Sequence: 1
+MSG*Qty Invoiced: 126.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2625860 Sequence: 4
+MSG*Qty Invoiced: 84.000 does NOT match our Qty Received: 0.000
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2621906 Sequence: 1
+MSG*PO Price:$4.000  Invoice Price:$5.230
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*14*0001
+ST*864*0002
+BMG*18*124489
+MIT*WASH73210692*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2621906 Sequence: 1
+MSG*Qty Invoiced: 210.000 does NOT match our Qty Received: 0.000
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2621906 Sequence: 1
+MSG*PO Price:$4.000  Invoice Price:$5.230
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0002
+ST*864*0003
+BMG*18*119075
+MIT*FORS73046980*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622111 Sequence: 2
+MSG*Qty Invoiced: 160.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2622190 Sequence: 4
+MSG*Qty Invoiced: 1,008.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2622812 Sequence: 5
+MSG*Qty Invoiced: 448.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2623050 Sequence: 6
+MSG*Qty Invoiced: 42.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2625866 Sequence: 8
+MSG*Qty Invoiced: 168.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*17*0003
+ST*864*0004
+BMG*18*119319
+MIT*MSCA73047093*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622070 Sequence: 3
+MSG*Qty Invoiced: 896.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2623050 Sequence: 6
+MSG*Qty Invoiced: 42.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2625866 Sequence: 8
+MSG*Qty Invoiced: 168.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2622040 Sequence: 9
+MSG*Qty Invoiced: 1,944.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*15*0004
+ST*864*0005
+BMG*18*127337
+MIT*MELP73237745*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622040 Sequence: 1
+MSG*Qty Invoiced: 3,888.000 does NOT match our Qty Received: 1,600.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0005
+ST*864*0006
+BMG*18*118309
+MIT*MINO73046095*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625860 Sequence: 4
+MSG*Qty Invoiced: 378.000 does NOT match our Qty Received: 126.000
+MSG*Sku: 2623072 Sequence: 6
+MSG*Qty Invoiced: 126.000 does NOT match our Qty Received: 42.000
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622120 Sequence: 7
+MSG*Sku: 2623072 Sequence: 6
+MSG*Quantity Received: 42.000 Quantity Invoiced: 126.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*16*0006
+ST*864*0007
+BMG*18*118037
+MIT*CERS73046045*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625860 Sequence: 3
+MSG*Qty Invoiced: 420.000 does NOT match our Qty Received: 402.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0007
+ST*864*0008
+BMG*18*119079
+MIT*GRAN73046945*Invoice has been payment refused
+MSG*NEED CREDIT OF $231.00 SHORT 220-2622190 POD SIGNED SHORT
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*7*0008
+ST*864*0009
+BMG*54*117989
+MIT*BELL73046063*Matched
+MSG*Matched
+SE*5*0009
+ST*864*0010
+BMG*54*118339
+MIT*OMAH73045888*Matched
+MSG*Matched
+SE*5*0010
+GE*10*1261
+IEA*1*000002475
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *090622*1349*U*00401*000002476*0*P*>
+GS*PO*006203210*7123660407*20090622*1349*1934*X*004010
+ST*850*0001
+BEG*00*SA*EVAN73252724**20090622
+REF*VR*DALLA005*DALLAS JOHNSON GREENHOUSE
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20090627
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3257*92*EVAN
+N2*Menard, Inc.*EVANSVILLE
+N3*2808 MENARD DRIVE
+N4*EVANSVILLE*IN*47715
+PER*CN**TE*8124758970*FX*8124759192
+N1*OB*3257*92*EVAN
+N2*Menard, Inc.*EVANSVILLE
+N3*2808 MENARD DRIVE
+N4*EVANSVILLE*IN*47715
+PER*CN**TE*8124758970*FX*8124759192
+PO1*1*100*EA*8.03*FX*SK*2621913
+PID*F****#2 POT SHRUB ROSE
+PID*F****PERENNIAL
+PO1*2*448*EA*1.71*FX*SK*2622812
+PID*F****QUART PERENNIALS
+PID*F****PERENNIAL
+PO1*3*210*EA*3.85*FX*SK*2623072
+PID*F****#1 ORN GRASSES
+PID*F****PERENNIAL
+PO1*4*168*EA*3.85*FX*SK*2623132
+PID*F****ASIATIC LILY
+PID*F****PERENNIAL
+PO1*5*60*EA*8.5*FX*SK*2624033
+PID*F****12" MOSS COMBO BASKET
+PID*F****ANNUAL
+PO1*6*420*EA*3.25*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****PERENNIAL
+PO1*7*105*EA*3.85*FX*SK*2625862
+PID*F****#1 PREMIUM DAYLILY
+PID*F****PERENNIAL
+PO1*8*105*EA*3.85*FX*SK*2625866
+PID*F****#1 PREMIUM HOSTA
+PID*F****PERENNIAL
+CTT*8
+SE*50*0001
+GE*1*1934
+IEA*1*000002476
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *090622*1717*U*00401*000002477*0*P*>
+GS*FA*006203210*7123660407*20090622*1717*1282*X*004010
+ST*997*0001
+AK1*IN*593
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK2*810*0007
+AK5*A
+AK2*810*0008
+AK5*A
+AK2*810*0009
+AK5*A
+AK2*810*0010
+AK5*A
+AK2*810*0011
+AK5*A
+AK2*810*0012
+AK5*A
+AK2*810*0013
+AK5*A
+AK2*810*0014
+AK5*A
+AK2*810*0015
+AK5*A
+AK2*810*0016
+AK5*A
+AK2*810*0017
+AK5*A
+AK2*810*0018
+AK5*A
+AK2*810*0019
+AK5*A
+AK2*810*0020
+AK5*A
+AK2*810*0021
+AK5*A
+AK2*810*0022
+AK5*A
+AK2*810*0023
+AK5*A
+AK2*810*0024
+AK5*A
+AK2*810*0025
+AK5*A
+AK2*810*0026
+AK5*A
+AK2*810*0027
+AK5*A
+AK2*810*0028
+AK5*A
+AK2*810*0029
+AK5*A
+AK2*810*0030
+AK5*A
+AK2*810*0031
+AK5*A
+AK2*810*0032
+AK5*A
+AK2*810*0033
+AK5*A
+AK2*810*0034
+AK5*A
+AK2*810*0035
+AK5*A
+AK2*810*0036
+AK5*A
+AK2*810*0037
+AK5*A
+AK2*810*0038
+AK5*A
+AK2*810*0039
+AK5*A
+AK2*810*0040
+AK5*A
+AK2*810*0041
+AK5*A
+AK2*810*0042
+AK5*A
+AK2*810*0043
+AK5*A
+AK2*810*0044
+AK5*A
+AK2*810*0045
+AK5*A
+AK2*810*0046
+AK5*A
+AK2*810*0047
+AK5*A
+AK2*810*0048
+AK5*A
+AK2*810*0049
+AK5*A
+AK9*A*49*49*49
+SE*102*0001
+GE*1*1282
+IEA*1*000002477
+                               

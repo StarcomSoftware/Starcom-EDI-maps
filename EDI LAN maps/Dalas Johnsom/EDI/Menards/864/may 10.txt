@@ -1,0 +1,152 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100510*1118*U*00401*000002926*0*P*>
+GS*TX*006203210*7123660407*20100510*1118*1419*X*004010
+ST*864*0001
+BMG*18*137952
+MIT*LINN73617400*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2625860 Sequence: 11
+MSG*Qty Invoiced: 336.000 does NOT match our Qty Received: 324.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0001
+ST*864*0002
+BMG*18*138387
+MIT*CICR73623054*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622040 Sequence: 3
+MSG*Qty Invoiced: 1,296.000 does NOT match our Qty Received: 216.000
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622040 Sequence: 3
+MSG*Quantity Received: 216.000 Quantity Invoiced: 1,296.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0002
+ST*864*0003
+BMG*18*138397
+MIT*MION73623007*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622144 Sequence: 4
+MSG*Qty Invoiced: 300.000 does NOT match our Qty Received: 200.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0003
+ST*864*0004
+BMG*18*138414
+MIT*WCHI73623041*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622190 Sequence: 6
+MSG*Qty Invoiced: 432.000 does NOT match our Qty Received: 222.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0004
+ST*864*0005
+BMG*18*144908
+MIT*WBUR73632297*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0005
+ST*864*0006
+BMG*54*137787
+MIT*EVAN73617434*Matched
+MSG*Matched
+SE*5*0006
+ST*864*0007
+BMG*54*138005
+MIT*BELL73632310*Matched
+MSG*Matched
+SE*5*0007
+ST*864*0008
+BMG*54*138007
+MIT*OMAH73632299*Matched
+MSG*Matched
+SE*5*0008
+ST*864*0009
+BMG*54*138013
+MIT*NPLA73632334*Matched
+MSG*Matched
+SE*5*0009
+ST*864*0010
+BMG*54*138016
+MIT*KRNY73632336*Matched
+MSG*Matched
+SE*5*0010
+ST*864*0011
+BMG*54*138021
+MIT*EHRN73632344*Matched
+MSG*Matched
+SE*5*0011
+ST*864*0012
+BMG*54*138441
+MIT*STER73627657*Matched
+MSG*Matched
+SE*5*0012
+ST*864*0013
+BMG*54*138452
+MIT*CERS73632309*Matched
+MSG*Matched
+SE*5*0013
+ST*864*0014
+BMG*54*138457
+MIT*DUBQ73632291*Matched
+MSG*Matched
+SE*5*0014
+ST*864*0015
+BMG*54*138463
+MIT*MION73632281*Matched
+MSG*Matched
+SE*5*0015
+ST*864*0016
+BMG*54*138447
+MIT*ALTO73632322*Matched
+MSG*Matched
+SE*5*0016
+ST*864*0017
+BMG*54*138453
+MIT*CICR73632335*Matched
+MSG*Matched
+SE*5*0017
+ST*864*0018
+BMG*54*138458
+MIT*FTDG73632319*Matched
+MSG*Matched
+SE*5*0018
+ST*864*0019
+BMG*54*138465
+MIT*MELP73632314*Matched
+MSG*Matched
+SE*5*0019
+ST*864*0020
+BMG*54*138473
+MIT*SCTY73632296*Matched
+MSG*Matched
+SE*5*0020
+ST*864*0021
+BMG*54*138876
+MIT*MCTY73632305*Matched
+MSG*Matched
+SE*5*0021
+ST*864*0022
+BMG*54*144902
+MIT*MOLI73632298*Matched
+MSG*Matched
+SE*5*0022
+ST*864*0023
+BMG*54*144903
+MIT*QNCY73632355*Matched
+MSG*Matched
+SE*5*0023
+ST*864*0024
+BMG*54*144908
+MIT*WBUR73632297*Matched
+MSG*Matched
+SE*5*0024
+ST*864*0025
+BMG*54*137777
+MIT*EVAN73592381*Matched
+MSG*Matched
+SE*5*0025
+GE*25*1419
+IEA*1*000002926

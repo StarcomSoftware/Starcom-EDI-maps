@@ -1,0 +1,237 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100412*1121*U*00401*000002831*0*P*>
+GS*PO*006203210*7123660407*20100412*1121*2012*X*004010
+ST*850*0001
+BEG*00*SA*COUB73590517**20100412
+REF*VR*DALLA005*DALLAS JOHNSON GREENHOUSES
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20100414
+TD5****SR*SUPPLIER TRUCK
+N1*BS*3082*92*COUB
+N2*Menard, Inc.*COUNCIL BLUFFS
+N3*3200 MANAWA CENTRE DRIVE
+N4*COUNCIL BLUFFS*IA*515017661
+PER*CN**TE*7123666955*FX*7123666954
+N1*OB*3082*92*COUB
+N2*Menard, Inc.*COUNCIL BLUFFS
+N3*3200 MANAWA CENTRE DRIVE
+N4*COUNCIL BLUFFS*IA*515017661
+PER*CN**TE*7123666955*FX*7123666954
+PO1*1*1944*EA*1.21*FX*SK*2622040
+PID*F****606 FLOWERING ANNUALS
+PID*F****ANNUAL
+PO1*2*448*EA*1.93*FX*SK*2622070
+PID*F****5" PREM ANNUALS
+PID*F****ANNUAL
+PO1*3*80*EA*7.32*FX*SK*2622111
+PID*F****10" COMBO PLANTER
+PID*F****ANNUAL
+PO1*4*200*EA*7.32*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****ANNUAL
+PO1*5*420*EA*3.25*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****PERENNIAL
+CTT*5
+SE*36*0001
+GE*1*2012
+IEA*1*000002831
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100412*1158*U*00401*000002832*0*P*>
+GS*TX*006203210*7123660407*20100412*1158*1395*X*004010
+ST*864*0001
+BMG*18*139499
+MIT*SEDA73567029*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622120 Sequence: 1
+MSG*Qty Invoiced: 140.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2622144 Sequence: 2
+MSG*Qty Invoiced: 40.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2625860 Sequence: 3
+MSG*Qty Invoiced: 126.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*13*0001
+ST*864*0002
+BMG*18*138219
+MIT*KEWA73569875*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622040 Sequence: 1
+MSG*Qty Invoiced: 648.000 does NOT match our Qty Received: 622.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0002
+ST*864*0003
+BMG*18*139820
+MIT*BATA73574048*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0003
+ST*864*0004
+BMG*18*139822
+MIT*MTGO73574050*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0004
+ST*864*0005
+BMG*18*139824
+MIT*NAPE73574052*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0005
+ST*864*0006
+BMG*18*139825
+MIT*QNCY73574051*Invoice has been payment refused
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 1
+MSG*PO Price:$4.250  Invoice Price:$5.500
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*9*0006
+ST*864*0007
+BMG*54*138252
+MIT*HNVR73580276*Matched
+MSG*Matched
+SE*5*0007
+ST*864*0008
+BMG*54*138255
+MIT*KEWA73580280*Matched
+MSG*Matched
+SE*5*0008
+ST*864*0009
+BMG*54*138269
+MIT*STER73580245*Matched
+MSG*Matched
+SE*5*0009
+ST*864*0010
+BMG*54*138273
+MIT*YORK73580253*Matched
+MSG*Matched
+SE*5*0010
+ST*864*0011
+BMG*54*140231
+MIT*DVPT73580230*Matched
+MSG*Matched
+SE*5*0011
+ST*864*0012
+BMG*54*138271
+MIT*WATL73580222*Matched
+MSG*Matched
+SE*5*0012
+ST*864*0013
+BMG*54*137890
+MIT*SPRN73580266*Matched
+MSG*Matched
+SE*5*0013
+ST*864*0014
+BMG*54*137894
+MIT*NPLA73580262*Matched
+MSG*Matched
+SE*5*0014
+ST*864*0015
+BMG*54*137896
+MIT*LINN73580244*Matched
+MSG*Matched
+SE*5*0015
+ST*864*0016
+BMG*54*138251
+MIT*FTDG73580248*Matched
+MSG*Matched
+SE*5*0016
+ST*864*0017
+BMG*54*138261
+MIT*MSCA73580249*Matched
+MSG*Matched
+SE*5*0017
+ST*864*0018
+BMG*54*138264
+MIT*SCTB73580278*Matched
+MSG*Matched
+SE*5*0018
+ST*864*0019
+BMG*54*138826
+MIT*CASP73575068*Matched
+MSG*Matched
+SE*5*0019
+ST*864*0020
+BMG*54*140321
+MIT*MOLI73580234*Matched
+MSG*Matched
+SE*5*0020
+ST*864*0021
+BMG*54*138263
+MIT*PNFD73580257*Matched
+MSG*Matched
+SE*5*0021
+ST*864*0022
+BMG*54*137897
+MIT*KRNY73580264*Matched
+MSG*Matched
+SE*5*0022
+ST*864*0023
+BMG*54*137900
+MIT*GLBG73580272*Matched
+MSG*Matched
+SE*5*0023
+ST*864*0024
+BMG*54*137901
+MIT*FORS73580228*Matched
+MSG*Matched
+SE*5*0024
+ST*864*0025
+BMG*54*137903
+MIT*EFFI73580254*Matched
+MSG*Matched
+SE*5*0025
+ST*864*0026
+BMG*54*137907
+MIT*CHAM73580226*Matched
+MSG*Matched
+SE*5*0026
+ST*864*0027
+BMG*54*140318
+MIT*WBUR73580233*Matched
+MSG*Matched
+SE*5*0027
+ST*864*0028
+BMG*54*140319
+MIT*SPFD73580229*Matched
+MSG*Matched
+SE*5*0028
+ST*864*0029
+BMG*54*140320
+MIT*FREM73585223*Matched
+MSG*Matched
+SE*5*0029
+ST*864*0030
+BMG*54*140570
+MIT*SCTY73585220*Matched
+MSG*Matched
+SE*5*0030
+ST*864*0031
+BMG*54*140608
+MIT*BELL73585222*Matched
+MSG*Matched
+SE*5*0031
+ST*864*0032
+BMG*54*140609
+MIT*OMAH73585221*Matched
+MSG*Matched
+SE*5*0032
+ST*864*0033
+BMG*54*140643
+MIT*COUB73586419*Matched
+MSG*Matched
+SE*5*0033
+GE*33*1395
+IEA*1*000002832

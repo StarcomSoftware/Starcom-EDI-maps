@@ -1,0 +1,15 @@
+1/10/2006: REV A
+---------
+
+Added 2 new Transaction sets (810 and 856) for version 4010.  
+Added doc-turn for 850 to 810.
+
+3/10/2006: REV B
+----------
+
+Added new 870 v4010 Transaction Set.  Includes customized database and report map.
+
+7/6/2006:  REV C
+---------
+
+Added new 864 v4010 Transaction Set.  Includes customized database and report map.

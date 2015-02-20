@@ -1,0 +1,464 @@
+;System Generated ReportWriter Task
+;modified by chs 3/10/06
+HEADER	
+	DATEFORMAT,"MM/DD/CCYY"	
+	SPECIAL,0,0,0,DATE
+	TX,0,0,22,"Menard's Order Status Report "
+	TX,0,0,70,"Pg: "
+	SPECIAL,0,0,74,SETPAGE
+	TX,0,0,17,"Transmit Control Number: "
+	SPECIAL,0,0,0,CONTROL
+	TX,0,1,1,"============================================================================"
+ENDHEADER
+
+;****************************************************************************
+;	0001 (BSR)Order Status Report
+;****************************************************************************
+
+	IFNE,0001,10,1," "
+		FD,0,0,1,0001,10,2,ASIS,0
+		CODE,"3 ","Unsolicited Report"
+		CODE,"1 ","Response to 869"
+	ENDIF
+
+	IFNE,0001,12,1," "
+		FD,0,0,35,0001,12,2,ASIS,0
+		CODE,"PP","Selected Orders - Selected Items"
+		CODE,"CA","Selected Orders - All Items"
+	ENDIF
+
+	IFNE,0001,14,1," "
+		TX,0,0,1,"Ref. ID: "
+		FD,0,0,0,0001,14,30,SQUEEZE,0
+	ENDIF
+
+	IFNE,0001,44,1," "
+		TX,0,0,35,"Date: "
+		DATEFORMAT,"MM/DD/CCYY"
+		FD,0,0,0,0001,44,8,LJBF,0
+	ENDIF
+IFEQ,0006,0,4,"0006"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0006 (REF)Reference ID
+;****************************************************************************
+LOOP,0006
+
+	IFNE,0006,10,1," "
+		FD,0,0,1,0006,10,3,ASIS,0
+		CODE,"IA ","Internal Vendor Number: "
+		CODE,"VR ","      Vendor Id Number: "
+	ENDIF
+
+	IFNE,0006,13,1," "
+		FD,0,0,0,0006,13,30,LJBF,0
+	ENDIF
+
+ENDLOOP
+
+IFEQ,0008,0,4,"0008"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+
+;****************************************************************************
+;	0008 (N1)Name
+;****************************************************************************
+LOOP,0008
+
+	IFNE,0008,10,1," "
+		FD,0,0,1,0008,10,3,ASIS,0
+		 CODE,"ST ","           Ship To: "
+		 CODE,"SN ","             Store: "
+		 CODE,"OB ","        Ordered By: "
+	ENDIF
+
+	IFNE,0008,13,1," "
+		FD,0,0,0,0008,13,60,SQUEEZE,0
+	ENDIF
+
+;	IFNE,0008,73,1," "
+;		FD,0,0,14,0008,73,2,ASIS,0
+;		 CODE,"12","Phone: "
+;		 CODE,"94","   ID: "
+;	ENDIF
+;
+;	IFNE,0008,75,1," "
+;		FD,0,0,0,0008,75,80,SQUEEZE,0
+;	ENDIF
+ENDLOOP
+
+;****************************************************************************
+;	0017 (HL)Hierarchical Level
+;****************************************************************************
+LOOP,0017
+IFEQ,0017,0,4,"0017"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+	IFNE,0017,10,1," "
+		TX,0,0,1,"Hierarchical ID No.: "
+		FD,0,0,0,0017,10,12,SQUEEZE,0
+	ENDIF
+
+	IFNE,0017,34,1," "
+		FD,0,0,30,0017,34,2,ASIS,0
+		CODE,"S ","Shipment"
+		CODE,"O ","Order"
+		CODE,"I ","Item"
+		CODE,"P ","Pack"
+		CODE,"T ","Tare"
+		TX,0,0,0," Level"
+	ENDIF
+
+	IFNE,0017,22,1," "
+		TX,0,0,50,"Parent ID No.: "
+		FD,0,0,0,0017,22,12,SQUEEZE,0
+	ENDIF
+IFEQ,0018,0,4,"0018"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0018 (PRF)PO Ref.
+;****************************************************************************
+IFEQ,0018,0,4,"0018"
+
+	IFNE,0018,10,1," "
+		TX,0,0,1,"PO No.: "
+		FD,0,0,0,0018,10,22,SQUEEZE,0
+	ENDIF
+
+;	IFNE,0018,32,1," "
+;		TX,0,0,35,"Release No.: "
+;		FD,0,0,0,0018,32,30,SQUEEZE,0
+;	ENDIF
+;
+;	IFNE,0018,70,1," "
+;		TX,0,0,1,"PO Date: "
+;		DATEFORMAT,"MM/DD/CCYY"
+;		FD,0,0,0,0018,70,8,LJBF,0
+;	ENDIF
+
+ENDIF
+
+IFEQ,0019,0,4,"0019"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+
+;****************************************************************************
+;	0019 (ISR)Item Status Report
+;****************************************************************************
+LOOP,0019
+
+	IFNE,0019,10,1," "
+		TX,0,0,1,"Shipment/Order Status: "
+		FD,0,0,0,0019,10,2,ASIS,0
+		CODE,"AP","Allocation"
+		CODE,"CC","Shipment Complete"
+		CODE,"DD","Delivered to Destination"
+		CODE,"DE","Deleted Order"
+		CODE,"ED","Expect to Ship By "
+		CODE,"EX","Expect to Deliver By "
+		CODE,"IN","In Process"
+		CODE,"PH","Product on Hold"
+		CODE,"BO","Back Ordered"
+		CODE,"PR","Partial Shipment"
+
+	ENDIF
+
+;	IFNE,0019,12,1," "
+;		DATEFORMAT,"MM/DD/CCYY"
+;		FD,0,0,0,0019,12,8,LJBF,0
+;	ENDIF
+;
+;	IFNE,0019,20,1," "
+;		TX,0,0,1,"Status Reason Code: "
+;		FD,0,0,0,0019,20,3,ASIS,0
+;		CODE,"W01","Out of Stock"
+;		CODE,"W08","Material Storage"
+;		CODE,"REJ","Rejected - Insufficient or Incorrect Information"
+;	;	TREGSAVE,0019,20,3,20					
+;	;	CROSSREF,"$SYSDIR\REPORTS\CODES\641.COD","641",20,19,20
+;	;	TREGPRINT,0,0,0,35,19
+;	ENDIF
+
+ENDLOOP
+
+
+IFEQ,0027,0,4,"0027"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0027 (N1)Name
+;****************************************************************************
+LOOP,0027
+
+	IFNE,0027,10,1," "
+		TX,0,0,1,"Ship To Target Location: "
+	ENDIF
+
+	IFNE,0027,75,1," "
+		FD,0,0,0,0027,75,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+IFEQ,0035,0,4,"0035"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0035 (PO1)Baseline Item Data
+;****************************************************************************
+LOOP,0035
+TX,0,0,1,"Item #"
+TX,0,0,10,"Quantity"
+IFNE,0035,70,1," "
+	FD,0,0,20,0035,70,2,ASIS,0
+	CODE,"CB","Target SKU"
+	CODE,"EN","EAN #"
+	CODE,"UP","UPC #"
+	CODE,"SK","SKU #"
+ENDIF
+IFNE,0035,120,1," "
+	FD,0,0,35,0035,120,2,ASIS,0
+	CODE,"CB","Target SKU"
+	CODE,"EN","EAN #"
+	CODE,"UP","UPC #"
+	CODE,"VP","Seller's Part #"
+ENDIF
+IFNE,0035,170,1," "
+	FD,0,0,50,0035,170,2,ASIS,0
+	CODE,"CB","Target SKU"
+	CODE,"EN","EAN #"
+	CODE,"UP","UPC #"
+ENDIF
+TX,0,0,1,"-------  --------  ------------"
+IFNE,0035,120,1," "
+	TX,0,0,35,"-------------"
+ENDIF
+IFNE,0035,170,1," "
+	TX,0,0,50,"-------------"
+ENDIF
+	IFNE,0035,10,1," "
+		FD,0,0,1,0035,10,20,SQUEEZE,0
+	ENDIF
+
+	IFNE,0035,30,1," "
+		FD,0,0,10,0035,30,17,SQUEEZE,0
+	ENDIF
+
+	IFNE,0035,47,1," "
+		TX,0,0,0," "
+		FD,0,0,0,0035,47,2,ASIS,0
+	ENDIF
+
+	IFNE,0035,72,1," "
+		FD,0,0,20,0035,72,48,SQUEEZE,0
+	ENDIF
+
+	IFNE,0035,122,1," "
+		FD,0,0,35,0035,122,48,SQUEEZE,0
+	ENDIF
+
+	IFNE,0035,172,1," "
+		FD,0,0,50,0035,172,48,SQUEEZE,0
+	ENDIF
+
+IFEQ,0039,0,4,"0039"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0039 (PID)Product/Item Desc.
+;****************************************************************************
+LOOP,0039
+
+	IFNE,0039,10,1," "
+		FD,0,0,1,0039,10,1,ASIS,0
+		CODE,"F","Free Form Description: "
+	ENDIF
+	
+	IFNE,0039,28,1," "
+		FD,0,0,0,0039,28,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+
+IFEQ,0042,0,4,"0042"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0042 (ISR)Item Status Report
+;****************************************************************************
+LOOP,0042
+
+	IFNE,0042,10,1," "
+		TX,0,0,1,"Shipment/Order Status: "
+		FD,0,0,0,0042,10,2,ASIS,0
+		CODE,"AP","Allocation"
+		CODE,"CC","Shipment Complete"
+		CODE,"DD","Delivered to Destination"
+		CODE,"DE","Deleted Order"
+		CODE,"DS","Out of Stock Condition"
+		CODE,"ED","Expect to Ship By "
+		CODE,"EX","Expect to Deliver By "
+		CODE,"IN","In Process"
+		CODE,"NN ","Not in Process - No Shipping Schedule"
+		CODE,"ED","Expect to Ship By "
+		CODE,"AS","Available Now - Scheduled to Ship "
+		CODE,"IC","Item Cancelled"
+		CODE,"NY","No Shipping Schedule"
+		CODE,"PS","In Process, Scheduled to Ship On "
+		CODE,"QP","Quantity Past Due, No Longer Available"
+		CODE,"RD","Revised Expect to Ship By "
+		CODE,"PH","Product on Hold"
+		CODE,"BO","Back Ordered"
+		CODE,"PR","Partial Shipment"
+
+	ENDIF
+
+	IFNE,0042,12,1," "
+		DATEFORMAT,"MM/DD/CCYY"
+		FD,0,0,0,0042,12,8,LJBF,0
+	ENDIF
+
+	IFNE,0042,20,1," "
+		TX,0,0,1,"Status Reason: "
+		;FD,0,0,0,0042,20,3,ASIS,0
+		TREGSAVE,0042,20,3,20					
+		CROSSREF,"$SYSDIR\REPORTS\CODES\641.COD","641",20,19,20
+		TREGPRINT,0,0,0,35,19
+	ENDIF
+IFEQ,0044,0,4,"0044"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0044 (QTY)Quantity
+;****************************************************************************
+LOOP,0044
+
+	IFNE,0044,10,1," "
+		FD,0,0,1,0044,10,2,ASIS,0
+		 CODE,"39","Shipped Quantity: "
+		 CODE,"63","On Order Quantity: "
+		 CODE,"QV","Cancelled Quantity: "
+		 CODE,"A5","Adjusted Quantity: "
+	ENDIF
+
+	IFNE,0044,12,1," "
+		FD,0,0,0,0044,12,17,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+IFEQ,0046,0,4,"0046"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0046 (N1)Name
+;****************************************************************************
+LOOP,0046
+
+	IFNE,0046,10,1," "
+		FD,0,0,1,0046,10,3,ASIS,0
+		CODE,"CN ","General Contact Name: "
+		CODE,"SF ","Ship From "
+		CODE,"ST ","    Ship To "
+	ENDIF
+
+	IFNE,0046,13,1," "
+		FD,0,0,0,0046,13,60,SQUEEZE,0
+	ENDIF
+
+	IFNE,0046,73,1," "
+		FD,0,0,14,0046,73,2,ASIS,0
+		 CODE,"12","Phone: "
+		 CODE,"94","   ID: "
+	ENDIF
+
+	IFNE,0046,75,1," "
+		FD,0,0,0,0046,75,80,SQUEEZE,0
+	ENDIF
+
+	
+
+IFEQ,0051,0,4,"0051"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+    ;****************************************************************************
+    ;	0051 (TD5)Carr Detls(Routng Seqc/Trnst Time)
+    ;****************************************************************************
+LOOP,0051
+
+;	IFNE,0051,12,1," "
+;		FD,0,0,1,0051,12,2,ASIS,0
+;		 CODE,"2 ","SCAC: "
+;	ENDIF
+;
+;	IFNE,0051,14,1," "
+;		FD,0,0,0,0051,14,80,SQUEEZE,0
+;	ENDIF
+
+	IFNE,0051,96,1," "
+		TX,0,0,40,"Routing: "
+		FD,0,0,0,0051,96,35,SQUEEZE,0
+	ENDIF
+
+;	IFNE,0051,94,1," "
+;		TX,0,0,1,"Transportation Method: "
+;		;FD,0,0,0,0051,94,2,ASIS,0
+;		TREGSAVE,0051,94,2,20					
+;		CROSSREF,"$SYSDIR\REPORTS\CODES\91.COD","91",20,19,20
+;		TREGPRINT,0,0,0,35,19
+;	ENDIF
+;
+;
+ENDLOOP
+
+IFEQ,0054,0,4,"0054"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+  ;****************************************************************************
+  ;	0054 (REF)Reference ID
+  ;****************************************************************************
+LOOP,0054
+
+	IFNE,0054,10,1," "
+		FD,0,0,1,0054,10,3,ASIS,0
+		 CODE,"AAO","Carrier Assigned Code: "
+		 CODE,"BM ","Bill of Lading Number: "
+		 CODE,"21 ","      Tracking Number: "
+	ENDIF
+
+	IFNE,0054,13,1," "
+		FD,0,0,0,0054,13,30,SQUEEZE,0
+	ENDIF
+
+;	IFNE,0054,43,1," "
+;		TX,0,0,1,"Description: "
+;		FD,0,0,0,0054,43,80,SQUEEZE,0
+;	ENDIF
+
+ENDLOOP
+
+ENDLOOP
+
+ENDLOOP
+
+ENDLOOP
+
+ENDLOOP
+
+;ENDLOOP
+IFEQ,0064,0,4,"0064"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0064 (CTT)Transaction Totals
+;****************************************************************************
+IFEQ,0064,0,4,"0064"
+
+	IFNE,0064,10,1," "
+		TX,0,0,19,"No. of HL Segments: "
+		FD,0,0,0,0064,10,7,LJBF,0
+	ENDIF
+
+ENDIF

@@ -1,0 +1,500 @@
+M200	WARNING:
+	Map: WalmartReversePOS5010   Output: GroupCtrl# Element:GS Segment V4010:#855<>F4010<>Outbound Partner Funct'lGroup ANSI [1]:Out855
+	Size of input item is greater than size of output item.
+
+M115	ERROR:
+	Map: F_MapTransaction   Output: PO Date Element:BAK Segment:TransactionOut
+	Output argument of rule does not match output item sub-class:
+	= Value:TypeDef CustomDate:ElemDecl Day Comp:Seq:TypeDef DateType Type:ElemDecl CreateDate Comp:Seq:DocumentElementXML
+
+M115	ERROR:
+	Map: F_MapTransaction   Output: Date Element:DTM Segment [1]:TransactionOut
+	Output argument of rule does not match output item sub-class:
+	=Value:TypeDef CustomDate:ElemDecl Day Comp:Seq:TypeDef DateType Type:ElemDecl ShipDate Comp:Seq:DocumentElementXML
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [1]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [1]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [2]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [2]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [3]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [3]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [4]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [4]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [5]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [5]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [6]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [6]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [7]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [7]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [8]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [8]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [9]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [9]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [10]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [10]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [11]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [11]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [12]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [12]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [13]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [13]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [14]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [14]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [15]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [15]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [16]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [16]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [17]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [17]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [18]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [18]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [19]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [19]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [20]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [20]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [21]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [21]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [22]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [22]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [23]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [23]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [24]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [24]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [25]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [25]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [26]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [26]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [27]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [27]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [28]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [28]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [29]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [29]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [30]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [30]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [31]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [31]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [32]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [32]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [33]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [33]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [34]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [34]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [35]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [35]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [36]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [36]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [37]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [37]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [38]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [38]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [39]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [39]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [40]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [40]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [41]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [41]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [42]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [42]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [43]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [43]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [44]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [44]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [45]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [45]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [46]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [46]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [47]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [47]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [48]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [48]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [49]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [49]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [50]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [50]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [51]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [51]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [52]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [52]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [53]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [53]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [54]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [54]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [55]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [55]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [56]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [56]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [57]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [57]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [58]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [58]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [59]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [59]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: IDCd Element:SDQ Segment [60]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M104	ERROR:
+	Map: F_LineItem   Output: Qty Element:SDQ Segment [60]:LineItemOut
+	Empty rule cell.  Rule required.
+
+M200	WARNING:
+	Map: WalmartReversePOS5010   Output: GroupCtrl# Element:GE Segment V4010:#855<>F4010<>Outbound Partner Funct'lGroup ANSI [1]:Out855
+	Size of input item is greater than size of output item.
+
+
+Total errors: 122.   Total warnings: 2.

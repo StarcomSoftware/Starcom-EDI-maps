@@ -1,0 +1,63 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100408*1143*U*00401*000002819*0*P*>
+GS*TX*006203210*7123660407*20100408*1143*1393*X*004010
+ST*864*0001
+BMG*18*132384
+MIT*SPFD73288770*Invoice has been payment refused
+MSG*Final refusal notice.
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2623065 Sequence: 1
+MSG*Qty Invoiced: 80.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2625866 Sequence: 2
+MSG*Qty Invoiced: 84.000 does NOT match our Qty Received: 0.000
+MSG*Sku: 2626015 Sequence: 3
+MSG*Qty Invoiced: 90.000 does NOT match our Qty Received: 0.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*14*0001
+ST*864*0002
+BMG*54*138825
+MIT*ABER73575064*Matched
+MSG*Matched
+SE*5*0002
+ST*864*0003
+BMG*54*138968
+MIT*BISM73575062*Matched
+MSG*Matched
+SE*5*0003
+ST*864*0004
+BMG*54*138969
+MIT*DETL73575066*Matched
+MSG*Matched
+SE*5*0004
+ST*864*0005
+BMG*54*138970
+MIT*FARG73575060*Matched
+MSG*Matched
+SE*5*0005
+ST*864*0006
+BMG*54*138971
+MIT*GRAN73575061*Matched
+MSG*Matched
+SE*5*0006
+ST*864*0007
+BMG*54*138972
+MIT*MINO73575063*Matched
+MSG*Matched
+SE*5*0007
+ST*864*0008
+BMG*54*138973
+MIT*MRHD73575067*Matched
+MSG*Matched
+SE*5*0008
+ST*864*0009
+BMG*54*139866
+MIT*GLBG73582753*Matched
+MSG*Matched
+SE*5*0009
+ST*864*0010
+BMG*54*137628
+MIT*INFA73448202*Matched
+MSG*Matched
+SE*5*0010
+GE*10*1393
+IEA*1*000002819

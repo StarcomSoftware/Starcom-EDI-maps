@@ -1,0 +1,657 @@
+;System Generated ReportWriter Task
+;modified dbs 1/25/99
+;Modified by CHS 1/6/2006
+HEADER
+	SPECIAL,0,0,1,DATE
+	TX,0,0,15,"Menard's Purchase Order Report (850 v4010)"
+	TX,0,0,70,"Pg: "
+	SPECIAL,0,0,74,SETPAGE
+	TX,0,0,15,"PO No.: "
+	FD,0,0,0,0001,14,22,SQUEEZE,0
+	TX,0,0,15,"PO Date: "
+	DATEFORMAT,"MM/DD/CCYY"
+	FD,0,0,0,0001,66,8,LJBF,0
+	TX,0,1,1,"============================================================================"
+ENDHEADER
+
+;****************************************************************************
+;	0001 (BEG)PO
+;****************************************************************************
+
+	IFNE,0001,10,1," "
+		FD,0,0,1,0001,10,2,ASIS,0
+		CODE,"00","Original"
+		CODE,"01","Cancellation"
+		CODE,"02","Add"
+		CODE,"05","Replace"
+	ENDIF
+
+	IFNE,0001,12,1," "
+		TX,0,0,0,", "
+		FD,0,0,0,0001,12,2,ASIS,0
+		CODE,"NS","New Store Opening"
+		CODE,"SA","Stand Alone Order"
+		CODE,"OS","Special Order"
+	ENDIF
+
+	IFNE,0001,14,1," "
+		TX,0,0,1,"PO No.: "
+		FD,0,0,0,0001,14,22,SQUEEZE,0
+	ENDIF
+
+	IFNE,0001,66,1," "
+		TX,0,0,56,"PO Date: "
+		DATEFORMAT,"MM/DD/CCYY"
+		FD,0,0,0,0001,66,8,LJBF,0
+	ENDIF
+
+IFEQ,0003,0,4,"0003"
+  	TX,0,0,1,"____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0003 (REF)Reference ID
+;****************************************************************************
+LOOP,0003
+	IFNE,0003,10,1," "
+		FD,0,0,1,0003,10,3,ASIS,0
+		CODE,"A1 ","Analysis number/Test number: "
+		CODE,"CR ","Credit Card: "
+		CODE,"DP ","Department Number: "
+		CODE,"VN ","Vendor Number: "
+	ENDIF
+
+	IFNE,0003,13,1," "
+		FD,0,0,0,0003,13,30,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+
+IFEQ,0004,0,4,"0004"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0004 (PER)Administrative Comm. Contact
+;****************************************************************************
+LOOP,0004
+
+IFNE,0004,6,4,"0001"
+	TX,0,0,1,"---------------------------------------------------------------------------"
+ENDIF
+
+	IFNE,0004,10,1," "
+		FD,0,0,1,0004,10,2,ASIS,0
+		CODE,"BD","Buyer Name/Department: "
+		CODE,"DC","     Delivery Contact: "
+		CODE,"OC","        Order Contact: "
+	ENDIF
+
+	IFNE,0004,12,1," "
+		FD,0,0,0,0004,12,60,SQUEEZE,0
+	ENDIF
+
+	IFNE,0004,72,1," "
+		FD,0,0,7,0004,72,2,ASIS,0
+		CODE,"EM","Electronic Mail: "
+		CODE,"TE","      Telephone: "
+	ENDIF
+
+	IFNE,0004,74,1," "
+		FD,0,0,0,0004,74,80,SQUEEZE,0
+	ENDIF
+
+
+ENDLOOP
+IFEQ,0006,0,4,"0006"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0006 (FOB)F.O.B. Related Instructions
+;****************************************************************************
+LOOP,0006
+
+	IFNE,0006,10,1," "
+		TX,0,0,1,"Shipment Method of Payment: "
+		;FD,0,0,0,0006,10,2,SQUEEZE,0
+		;CODE,"CC","Collect"
+		;CODE,"CF","Collect, Freight Credited Back to Customer"
+		;CODE,"PC","Prepaid but Charged to Customer"
+		;CODE,"PP","Prepaid (by Seller)"
+		;CODE,"DF","Defined By Buyer and Seller"		
+		TREGSAVE,0006,10,2,20
+		CROSSREF,"$SYSDIR\REPORTS\CODES\148.COD","148",20,19,20
+		TREGPRINT,0,0,0,35,19
+	ENDIF
+	IFNE,0006,12,1," "
+		TX,0,0,1,"FOB: "
+		;FD,0,0,0,0006,12,2,ASIS,0
+		;CODE,"CA","Country of Origin"
+		TREGSAVE,0006,12,2,20
+		CROSSREF,"$SYSDIR\REPORTS\CODES\309.COD","309",20,19,20
+		TREGPRINT,0,0,0,35,19
+	ENDIF
+
+	IFNE,0006,14,1," "
+		TX,0,0,0," - "
+		FD,0,0,0,0006,14,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+IFEQ,0009,0,4,"0009"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0009 (CSH)Sales Requirements
+;****************************************************************************
+LOOP,0009
+
+	IFNE,0009,10,1," "
+		TX,0,0,1,"Sales Requirement: "
+		FD,0,0,0,0009,10,2,ASIS,0
+		CODE,"N ","No Back Order"
+		CODE,"Y ","Back Order if Out of Stock"
+		CODE,"BK","Ship Partial - Balance Backorder"
+		CODE,"SP","Ship Partial - Cancel Backorder"
+	ENDIF
+
+ENDLOOP
+
+IFEQ,0011,0,4,"0011"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0011 (SAC)Service/Promo/Allownc/Charge Info
+;****************************************************************************
+LOOP,0011
+
+	IFNE,0011,10,1," "
+		FD,0,0,1,0011,10,1,ASIS,0
+		CODE,"A","Allowance"
+		 CODE,"C","Charge"
+	ENDIF
+
+	IFNE,0011,11,1," "
+		TX,0,0,0," - "
+		FD,0,0,0,0011,11,4,ASIS,0
+		CODE,"E750","New Store Discount"
+		 CODE,"D240","Freight"
+	ENDIF
+
+	IFNE,0011,27,1," "
+		TX,0,0,0," - $"
+		;FD,0,0,0,0011,27,16,LJBF,0
+		REGSAVE,0011,27,16,0,19
+		REGSET,100,18
+		REGDIV,18,19
+		REGPRINT,0,0,0,16,2,19
+	ENDIF
+	
+
+ENDLOOP
+
+IFEQ,0013,0,4,"0013"
+  	TX,0,0,1,"____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0013 (ITD)Terms of Sale/Deferred Terms of Sale
+;****************************************************************************
+LOOP,0013
+
+	IFNE,0013,83,1," "			;ITD12
+		FD,0,0,1,0013,83,80,SQUEEZE,0
+	ENDIF
+
+
+ENDLOOP
+
+IFEQ,0016,0,4,"0016"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+  ;***********************************
+  ;DTM Segment 0016
+  ;***********************************
+LOOP,0016
+
+	IFNE,0016,10,1," "
+		;FD,0,0,1,0016,10,3,ASIS,0
+		;CODE,"002","Delivery Requested: "
+		;CODE,"010","    Requested Ship: "
+		TREGSAVE,0016,10,3,20
+		CROSSREF,"$SYSDIR\REPORTS\CODES\374.COD","374",20,19,20
+		TREGPRINT,0,0,1,35,19
+		TX,0,0,0,": "
+	ENDIF
+	IFNE,0016,13,1," "
+		DATEFORMAT,"MM/DD/CCYY"
+		FD,0,0,0,0016,13,8,LJBF,0
+	ENDIF
+
+ENDLOOP
+
+IFEQ,0025,0,4,"0025"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0025 (TD5)Carr Detls(Routng Seqc/Trnst Time)
+;****************************************************************************
+LOOP,0025
+
+	IFNE,0025,10,1," "
+		TX,0,0,1,"Origin/Delivery Carrier "
+	ENDIF
+
+	IFNE,0025,12,1," "
+		FD,0,0,0,0025,12,2,ASIS,0
+		CODE,"2","SCAC:"
+		CODE,"92","- "
+	ENDIF
+
+	IFNE,0025,14,1," "
+		FD,0,0,0,0025,14,80,SQUEEZE,0
+	ENDIF
+
+	IFNE,0025,94,1," "
+		TX,0,0,1,"Transportation Method: "
+		;FD,0,0,0,0025,94,2,ASIS,0
+		;CODE,"A ","Air"
+		;CODE,"C ","Consolidation"
+		;CODE,"H ","Customer Pickup"
+		;CODE,"M ","Motor (Common Carrier)"
+		;CODE,"U ","Private Parcel Service"
+		TREGSAVE,0025,94,2,20
+		CROSSREF,"$SYSDIR\REPORTS\CODES\91.COD","91",20,19,20
+		TREGPRINT,0,0,0,35,19
+	ENDIF
+
+	IFNE,0025,96,1," "
+		TX,0,0,1,"Routing: "
+		FD,0,0,0,0025,96,35,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+
+IFEQ,0030,0,4,"0030"
+  	TX,0,0,1,"____________________________________________________________________________"
+ENDIF
+
+;****************************************************************************
+;	0030  (CTB) Restrictions/Conditions
+;****************************************************************************
+
+LOOP,0030
+
+	IFNE,0030,10,1," "
+		FD,1,0,1,0030,10,02,LJBF,0
+		CODE,"AA","Paperwork: "
+		CODE,"DO","Direct Only: "
+		CODE,"DW","Direct and Wholesaler: "
+		CODE,"NR","Nonreturnable: "
+		CODE,"NS","Nonservicable: "
+		CODE,"OR","Ordering: "
+		CODE,"SP","Special Order Only: "
+		CODE,"SR","Shipping: "
+		CODE,"WO","Wholesaler Only: "
+	ENDIF
+
+	IFNE,0030,12,1," "
+		FD,0,0,0,0030,12,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+IFEQ,0038,0,4,"0038"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0038 (N9)Ref. ID
+;****************************************************************************
+LOOP,0038
+
+; Revised to map from N903, 8/25/08
+;	IFNE,0038,13,1," "
+;		FD,0,0,1,0038,13,45,SQUEEZE,0
+;
+	IFNE,0038,10,1," "
+		FD,0,0,1,0038,13,30,SQUEEZE,0
+		FD,0,0,1,0038,43,45,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+
+;****************************************************************************
+;	0041 (N1)Name
+;****************************************************************************
+LOOP,0041
+TX,0,0,1,"____________________________________________________________________________"
+
+	IFNE,0041,10,1," "
+		FD,0,0,1,0041,10,3,ASIS,0
+		CODE,"BT ","         Bill To: "		
+		CODE,"BY ","    Buying Party: "
+		CODE,"OB ","      Ordered By:"
+		CODE,"ST ","         Ship To: "
+		CODE,"BS ","Bill and Ship To: "
+		CODE,"LW ","        Customer: "
+	ENDIF
+
+	IFNE,0041,13,1," "
+		FD,0,0,0,0041,13,60,SQUEEZE,0
+	ENDIF
+
+	IFNE,0041,73,1," "
+		FD,0,0,7,0041,73,2,ASIS,0
+		CODE,"92","Location #: "
+		CODE,"93","Location #: "
+	ENDIF
+
+	IFNE,0041,75,1," "
+		FD,0,0,0,0041,75,80,SQUEEZE,0
+	ENDIF
+
+  ;***********************************
+  ;N2 Segment 0042
+  ;***********************************
+IFEQ,0042,0,4,"0042"
+	IFNE,0042,10,1," "
+		FD,0,0,19,0042,10,60,SQUEEZE,0
+	ENDIF
+
+
+	IFNE,0042,70,1," "
+		FD,0,0,19,0042,70,60,SQUEEZE,0
+	ENDIF
+ENDIF
+
+  ;***********************************
+  ;N3 Segment 0043
+  ;***********************************
+IFEQ,0043,0,4,"0043"
+	IFNE,0043,10,1," "
+		FD,0,0,19,0043,10,55,SQUEEZE,0
+	ENDIF
+	IFNE,0043,65,1," "
+		FD,0,0,19,0043,65,55,SQUEEZE,0
+	ENDIF
+ENDIF
+
+
+  ;***********************************
+  ;N4 Segment 0044
+  ;***********************************
+
+IFEQ,0044,0,4,"0044"
+	IFNE,0044,10,1," "
+		FD,0,0,19,0044,10,30,SQUEEZE,0
+	ENDIF
+
+	IFNE,0044,40,1," "
+		TX,0,0,0,", "
+		FD,0,0,0,0044,40,2,SQUEEZE,0
+	ENDIF
+
+	IFNE,0044,42,1," "
+		TX,0,0,0," "
+		FD,0,0,0,0044,42,5,SQUEEZE,0
+		IFNE,0044,47,1," "
+			TX,0,0,0,"-"
+			FD,0,0,0,0044,47,4,SQUEEZE,0
+		ENDIF
+	ENDIF
+
+	IFNE,0044,57,1," "
+		TX,0,0,0," "
+		FD,0,0,0,0044,57,3,SQUEEZE,0
+	ENDIF
+ENDIF
+
+;****************************************************************************
+;	0047 (PER)Administrative Comm. Contact
+;****************************************************************************
+LOOP,0047
+
+	IFNE,0047,10,1," "
+		FD,0,0,1,0047,10,2,ASIS,0
+		CODE,"BD","Buyer Name/Department: "
+		CODE,"DC","Delivery Contact: "
+		CODE,"OC","Order Contact: "
+		CODE,"CN","General Contact: "
+		
+	ENDIF
+
+	IFNE,0047,12,1," "
+		FD,0,0,0,0047,12,60,SQUEEZE,0
+	ENDIF
+
+	IFNE,0047,72,1," "
+		FD,0,0,7,0047,72,2,ASIS,0
+		CODE,"EM","Electronic Mail: "
+		CODE,"TE","Telephone: "
+	ENDIF
+
+	IFNE,0047,74,1," "
+		FD,0,0,0,0047,74,80,SQUEEZE,0
+	ENDIF
+
+	IFNE,0047,154,1," "
+		FD,0,0,33,0047,154,2,ASIS,0
+		CODE,"EM","Electronic Mail: "
+		CODE,"FX","     Fax Number: "
+		CODE,"TE","   Phone Number: "
+	ENDIF
+
+	IFNE,0047,156,1," "
+		FD,0,0,0,0047,156,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+ENDLOOP
+REGZERO,12
+;****************************************************************************
+;	0076 (PO1)Baseline Item Data
+;****************************************************************************
+LOOP,0076
+
+
+IFEQ,0076,0,4,"0076"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+
+PAGE,5
+TX,0,0,20,"Unit"
+TX,0,0,1,"Line #"
+TX,0,0,9,"Quantity"
+TX,0,0,20,"Price"
+IFNE,0076,70,1," "
+	FD,0,0,30,0076,70,2,ASIS,0
+	CODE,"CB","Buyer's Cat #"
+	CODE,"IN","Buyer's Item #"
+	CODE,"VC","Vendor's Cat #"
+	CODE,"SK","SKU #"
+ENDIF
+
+IFNE,0076,120,1," "
+	FD,0,0,50,0076,120,2,ASIS,0
+	CODE,"CB","Buyer's Cat #"
+	CODE,"IN","Buyer's Item #"
+	CODE,"VC","Vendor's Cat #"
+	CODE,"SK","SKU #"
+ENDIF
+TX,0,0,1,"-------"
+TX,0,0,9,"--------"
+TX,0,0,20,"--------"
+IFNE,0076,70,1," "
+	TX,0,0,30,"------------------"
+ENDIF
+IFNE,0076,120,1," "
+	TX,0,0,50,"------------------"
+ENDIF
+	IFNE,0076,10,1," "
+		FD,0,0,1,0076,10,20,SQUEEZE,0	;LINE #
+	ENDIF
+
+	IFNE,0076,30,1," "
+		REGSAVE,0076,30,17,0,10		;SAVE QTY TO REG10
+		FD,0,0,9,0076,30,17,SQUEEZE,0	;qty
+	ENDIF
+
+	IFNE,0076,47,1," "
+		TX,0,0,0," "
+		FD,0,0,0,0076,47,2,ASIS,0
+	ENDIF
+
+	IFNE,0076,49,1," "
+		REGSAVE,0076,49,19,2,11		;SAVE PRICE TO REG11
+		REGMPY,10,11
+		REGADD,11,12
+		TX,0,0,20,"$"
+		FD,0,0,0,0076,49,19,SQUEEZE,0	;UNIT PRICE
+	ENDIF
+
+	IFNE,0076,72,1," "
+		FD,0,0,30,0076,72,48,SQUEEZE,0
+	ENDIF
+
+	IFNE,0076,122,1," "
+		FD,0,0,50,0076,122,48,SQUEEZE,0
+	ENDIF
+
+	IFNE,0076,68,1," "
+		TX,2,0,1,"Basis of Unit Price: "
+		FD,0,0,0,0076,68,2,ASIS,0
+		CODE,"NC","No Charge"
+		CODE,"NQ","No Quote"
+		CODE,"QT","Quoted"
+		CODE,"RT","Retail"
+		CODE,"FX","Cost"
+	ENDIF
+
+IFEQ,0081,0,4,"0081"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0086 (PID)Product/Item Desc.
+;****************************************************************************
+LOOP,0086
+
+	IFNE,0086,28,1," "
+		FD,2,0,1,0086,28,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+  ;***********************************
+  ;SDQ Segment 0102
+  ;***********************************
+LOOP,0102
+TX,0,0,1,"---------------------------------------------------------------------------"
+
+TX,0,0,1,"Store Number"
+TX,0,0,17,"Quantity"
+TX,0,0,33,"Store Number"
+TX,0,0,48,"Quantity"
+TX,0,0,1,"------------    --------        ------------   --------"
+
+IFNE,0102,14,1," "
+	FD,0,0,1,0102,14,80,SQUEEZE,0	;SDQ03
+ENDIF
+
+IFNE,0102,94,1," "
+	FD,0,0,17,0102,94,17,SQUEEZE,0	;SDQ04
+ENDIF
+
+IFNE,0102,111,1," "
+	FD,0,0,33,0102,111,80,SQUEEZE,0	;SDQ05
+ENDIF
+
+IFNE,0102,191,1," "
+	FD,0,0,48,0102,191,17,SQUEEZE,0	;SDQ06
+ENDIF
+
+IFNE,0102,208,1," "
+	FD,0,0,1,0102,208,80,SQUEEZE,0	;SDQ07
+ENDIF
+
+IFNE,0102,288,1," "
+	FD,0,0,17,0102,288,17,SQUEEZE,0	;SDQ08
+ENDIF
+
+IFNE,0102,305,1," "
+	FD,0,0,33,0102,305,80,SQUEEZE,0	;SDQ09
+ENDIF
+
+IFNE,0102,385,1," "
+	FD,0,0,48,0102,385,17,SQUEEZE,0	;SDQ10
+ENDIF
+
+IFNE,0102,402,1," "
+	FD,0,0,1,0102,402,80,SQUEEZE,0	;SDQ11
+ENDIF
+
+IFNE,0102,482,1," "
+	FD,0,0,17,0102,482,17,SQUEEZE,0	;SDQ12
+ENDIF
+
+IFNE,0102,499,1," "
+	FD,0,0,33,0102,499,80,SQUEEZE,0	;SDQ13
+ENDIF
+
+IFNE,0102,579,1," "
+	FD,0,0,48,0102,579,17,SQUEEZE,0	;SDQ14
+ENDIF
+
+IFNE,0102,596,1," "
+	FD,0,0,1,0102,596,80,SQUEEZE,0	;SDQ15
+ENDIF
+
+IFNE,0102,676,1," "
+	FD,0,0,17,0102,676,17,SQUEEZE,0	;SDQ16
+ENDIF
+
+IFNE,0102,693,1," "
+	FD,0,0,33,0102,693,80,SQUEEZE,0	;SDQ17
+ENDIF
+
+IFNE,0102,773,1," "
+	FD,0,0,48,0102,773,17,SQUEEZE,0	;SDQ18
+ENDIF
+
+IFNE,0102,790,1," "
+	FD,0,0,1,0102,790,80,SQUEEZE,0	;SDQ19
+ENDIF
+
+IFNE,0102,870,1," "
+	FD,0,0,17,0102,870,17,SQUEEZE,0	;SDQ20
+ENDIF
+
+IFNE,0102,887,1," "
+	FD,0,0,33,0102,887,80,SQUEEZE,0	;SDQ21
+ENDIF
+
+IFNE,0102,967,1," "
+	FD,0,0,48,0102,967,17,SQUEEZE,0	;SDQ22
+ENDIF
+
+ENDLOOP
+
+ENDLOOP
+
+IFEQ,0193,0,4,"0193"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0193 (CTT)Transaction Totals
+;****************************************************************************
+IFEQ,0193,0,4,"0193"
+
+	;TX,0,0,1,"Total (Excluding Charges and Allowances): $"
+	;REGPRINT,0,0,0,10,2,12
+	IFNE,0193,10,1," "
+		TX,0,0,24,"No. of Line Items: "
+		FD,0,0,0,0193,10,7,LJBF,0
+	ENDIF
+
+ENDIF

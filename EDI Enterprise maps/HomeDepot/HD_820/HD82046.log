@@ -1,0 +1,34 @@
+<MercatorMapAudit StartTime="17:08:25 October 24, 2014">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.0431" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HD_820\HD82046.mmc' -IE1S6886 %lt;data%gt; -aed -of1 20141024_HD82046.xml -ti</CommandLine>
+   <ObjectsFound>1858</ObjectsFound>
+   <ObjectsBuilt>0</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="6886"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>17:08:25 October 24, 2014</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="50331"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HD_820\20141024_HD82046.xml</Settings>
+   <TimeStamp>17:08:25 October 24, 2014</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HD_820\HD82046.I01" TimeStamp="17:08:25 October 24, 2014" bytes="99094"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>

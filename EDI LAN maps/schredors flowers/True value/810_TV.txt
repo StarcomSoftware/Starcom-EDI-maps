@@ -1,0 +1,262 @@
+N;
+^041112;101285;041012;FLATS
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;
+0;Invoice;041012;Posted;DELIVERY VAN;KEVIN;262-577-3340;KVN
+;;;360.00;50.00;0.00;360.00;0.00;0.00;
+8362;0
+18362;PRAIRIE SIDE TRUE VALUE-18682;3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      ;0
+TVCWHQ;TRUE VALUE COMPANY WORLD HEAD QTR;8600 W. BRYN MAWR AVE;KAREN RANDAZZO (ACCOUNTING);CHICAGO;IL;60631-3505 
+;;;;;;;;;
+1530 SOUTH WEBSTER  - BOX 1642;GREEN BAY;WI;54305-1642 
+3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      
+NEEDED
+1.0;042112;051112;10;30;1.0/10 N/30
+120411
+^5;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;50.00;0.00;0.00;;Y;;;;20320
+;                                                                                
+^6;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;60.00;0.00;0.00;;Y;;;;20325
+;                                                                                
+^5;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;50.00;0.00;0.00;;Y;;;;20345
+;                                                                                
+^5;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;50.00;0.00;0.00;;Y;;;;20550
+;                                                                                
+^5;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;50.00;0.00;0.00;;Y;;;;20551
+;                                                                                
+^5;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;50.00;0.00;0.00;;Y;;;;20552
+;                                                                                
+^5;10.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;50.00;0.00;0.00;;Y;;;;20553
+;                                                                                
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;101285
+^N;0.00;;
+^C;50.00;;     
+410.00
+36.00;36.00;36
+7;36.00
+@
+N;
+^042612;98528;081211;PROMO BASKETS
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;
+0;Invoice;081211;Order;DELIVERY VAN;KEVIN;262-577-3340;KVN
+;;;675.00;0.00;0.00;675.00;0.00;0.00;
+8362;0
+18362;PRAIRIE SIDE TRUE VALUE-18682;3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      ;0
+TVCWHQ;TRUE VALUE COMPANY WORLD HEAD QTR;8600 W. BRYN MAWR AVE;KAREN RANDAZZO (ACCOUNTING);CHICAGO;IL;60631-3505 
+;;;;;;;;;
+1530 SOUTH WEBSTER  - BOX 1642;GREEN BAY;WI;54305-1642 
+3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      
+NEEDED
+1.0;050612;052612;10;30;1.0/10 N/30
+120426
+^75;9.00;;;10" HANGING BASKETS ANNUALS
+;ANN10"HB;10" HANGING BASKETS ANNUALS;1;EACH;1;675.00;0.00;0.00;;Y;;;;40009
+;                                                                                
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;98528
+^N;0.00;;
+675.00
+75.00;75.00;75
+1;75.00
+@
+N;
+^042612;101727;042012;FLATS
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;
+0;Invoice;042012;Order;DELIVERY VAN;KEVIN;262-577-3340;KVN
+;;;1896.00;50.00;0.00;1896.00;0.00;0.00;
+8362;0
+18362;PRAIRIE SIDE TRUE VALUE-18682;3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      ;0
+TVCWHQ;TRUE VALUE COMPANY WORLD HEAD QTR;8600 W. BRYN MAWR AVE;KAREN RANDAZZO (ACCOUNTING);CHICAGO;IL;60631-3505 
+;;;;;;;;;
+1530 SOUTH WEBSTER  - BOX 1642;GREEN BAY;WI;54305-1642 
+3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      
+NEEDED
+1.0;050612;052612;10;30;1.0/10 N/30
+120426
+^2;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;;1;90.00;0.00;0.00;;Y;;;;26459
+;                                                                                
+^2;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;1801;1;90.00;0.00;0.00;;Y;;;;5030
+;                                                                                
+^2;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;1801;1;90.00;0.00;0.00;;Y;;;;5079
+;                                                                                
+^2;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;90.00;0.00;0.00;;Y;;;;5065
+;                                                                                
+^4;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;180.00;0.00;0.00;;Y;;;;26020
+;                                                                                
+^2;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;90.00;0.00;0.00;;Y;;;;26030
+;                                                                                
+^4;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;180.00;0.00;0.00;;Y;;;;26095
+;                                                                                
+^4;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;180.00;0.00;0.00;;Y;;;;2065
+;                                                                                
+^2;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;90.00;0.00;0.00;;Y;;;;26275
+;                                                                                
+^4;45.00;;;ANNUAL 1801 FLATS
+;ANN1801;ANNUAL 1801 FLATS;1;FLAT;1;180.00;0.00;0.00;;Y;;;;5074
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;1803;1;24.00;0.00;0.00;;Y;;;;20270
+;                                                                                
+^1;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;12.00;0.00;0.00;;Y;;;;20016
+;                                                                                
+^1;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;12.00;0.00;0.00;;Y;;;;20031
+;                                                                                
+^1;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;12.00;0.00;0.00;;Y;;;;20036
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20245
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20135
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20160
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20165
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20170
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20175
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20185
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20190
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20280
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20285
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20250
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20350
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20360
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20365
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20455
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20460
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20395
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20071
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20415
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20468
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20445
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20470
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20475
+;                                                                                
+^2;12.00;;;ANNUAL 1803 FLATS
+;ANN1803;ANNUAL 1803 FLATS;1;FLAT;1;24.00;0.00;0.00;;Y;;;;20435
+;                                                                                
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;101727
+^N;0.00;;
+^C;50.00;;     
+1946.00
+81.00;79.00;81
+38;81.00
+@
+N;
+^042612;101728;042012;POTS
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;
+0;Invoice;042012;Order;DELIVERY VAN;KEVIN;262-577-3340;KVN
+;;;384.00;0.00;0.00;384.00;0.00;0.00;
+8362;0
+18362;PRAIRIE SIDE TRUE VALUE-18682;3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      ;0
+TVCWHQ;TRUE VALUE COMPANY WORLD HEAD QTR;8600 W. BRYN MAWR AVE;KAREN RANDAZZO (ACCOUNTING);CHICAGO;IL;60631-3505 
+;;;;;;;;;
+1530 SOUTH WEBSTER  - BOX 1642;GREEN BAY;WI;54305-1642 
+3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      
+NEEDED
+1.0;050612;052612;10;30;1.0/10 N/30
+120426
+^8;20.00;;;ASSORTED ANNUAL POTS
+;ANNUALPOTS;ASSORTED ANNUAL POTS;1;EACH;1;160.00;0.00;0.00;;Y;;;;53010
+;                                                                                
+^4;27.00;;;ASSORTED ANNUAL POTS
+;ANNUALPOTS;ASSORTED ANNUAL POTS;1;EACH;1;108.00;0.00;0.00;;Y;;;;53015
+;                                                                                
+^4;29.00;;;ASSORTED ANNUAL POTS
+;ANNUALPOTS;ASSORTED ANNUAL POTS;1;EACH;1;116.00;0.00;0.00;;Y;;;;53016
+;                                                                                
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;101728
+^N;0.00;;
+384.00
+16.00;16.00;16
+3;16.00
+@
+N;
+^042612;101729;042012;BASKETS
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;
+0;Invoice;042012;Order;DELIVERY VAN;KEVIN;262-577-3340;KVN
+;;;296.00;0.00;0.00;296.00;0.00;0.00;
+8362;0
+18362;PRAIRIE SIDE TRUE VALUE-18682;3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      ;0
+TVCWHQ;TRUE VALUE COMPANY WORLD HEAD QTR;8600 W. BRYN MAWR AVE;KAREN RANDAZZO (ACCOUNTING);CHICAGO;IL;60631-3505 
+;;;;;;;;;
+1530 SOUTH WEBSTER  - BOX 1642;GREEN BAY;WI;54305-1642 
+3755 80TH STREET;GARY DICKES;KENOSHA;WI;53142      
+NEEDED
+1.0;050612;052612;10;30;1.0/10 N/30
+120426
+^2;20.00;;;PW 13"HB
+;PWHB13;PW 13"HB;1;HB12;1;40.00;0.00;0.00;;Y;;;;42073
+;                                                                                
+^2;20.00;;;PW 13"HB
+;PWHB13;PW 13"HB;1;HB12;1;40.00;0.00;0.00;;Y;;;;42098
+;                                                                                
+^2;20.00;;;PW 13"HB
+;PWHB13;PW 13"HB;1;HB12;1;40.00;0.00;0.00;;Y;;;;42067
+;                                                                                
+^8;22.00;;;PW 13"HB
+;PWHB13;PW 13"HB;1;HB12;1;176.00;0.00;0.00;;Y;;;;807
+;                                                                                
+SCHROEDER'S FLOWERS / WHOLESALE DIV.;101729
+^N;0.00;;
+296.00
+14.00;14.00;14
+4;14.00
+@
+|

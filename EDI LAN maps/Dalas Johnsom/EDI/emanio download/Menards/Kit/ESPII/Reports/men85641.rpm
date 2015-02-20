@@ -1,0 +1,362 @@
+;System Generated ReportWriter Task
+;Modified by CHS on 1/6/2006
+
+HEADER
+	SPECIAL,0,0,1,DATE
+	TX,0,0,24,"Menard's ASN report (856 v4010)"
+	TX,0,0,70,"Pg: "
+	SPECIAL,0,0,74,SETPAGE
+	TX,0,0,23,"Transmit Control Number: "
+	SPECIAL,0,0,0,CONTROL
+	TX,0,1,1,"============================================================================"
+ENDHEADER
+
+;****************************************************************************
+;	0001 (BSN)Ship Notice
+;****************************************************************************
+
+	IFNE,0001,12,1," "
+		TX,0,0,1,"Shipment ID: "
+		FD,0,0,0,0001,12,30,SQUEEZE,0
+	ENDIF
+
+	IFNE,0001,10,1," "
+		FD,0,0,35,0001,10,2,ASIS,0
+		CODE,"00","Original"
+		CODE,"07","Duplicate"
+		CODE,"14","Advance Notification"
+	ENDIF
+
+	IFNE,0001,42,1," "
+		TX,0,0,1,"Date: "
+		DATEFORMAT,"MM/DD/CCYY"
+		FD,0,0,0,0001,42,8,LJBF,0
+	ENDIF
+
+	IFNE,0001,50,1," "
+		TX,0,0,35,"Time: "
+		TIMEFORMAT,"HH:MM"
+		FD,0,0,0,0001,50,4,LJBF,0
+	ENDIF
+
+	IFNE,0001,58,1," "
+		TX,0,0,1,"Structure: "
+		FD,0,0,0,0001,58,4,ASIS,0
+		CODE,"0001","Shipment, Order, Package, Item"
+		CODE,"0002","Standard Pack Format"
+		CODE,"0004","No Pack Format"
+	ENDIF
+IFEQ,0002,0,4,"0002"
+  	TX,0,0,1,"____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0002 (DTM)Date/Time Ref.
+;****************************************************************************
+LOOP,0002
+
+	IFNE,0002,10,1," "			;DTM01
+		FD,0,0,1,0002,10,3,ASIS,0
+		 CODE,"011","Date Shipped: "
+	ENDIF
+
+
+	IFNE,0002,13,1," "			;DTM02
+		DATEFORMAT,"MM/DD/CCYY"
+		FD,0,0,0,0002,13,8,LJBF,0
+	ENDIF
+
+	IFNE,0002,21,1," "
+		TX,0,0,0," @ "
+		TIMEFORMAT, "HH:MM"
+		FD,0,0,0,0002,21,4,ASIS,0
+	ENDIF
+
+ENDLOOP
+
+;****************************************************************************
+;	0003 (HL)Hierarchical Level
+;****************************************************************************
+LOOP,0003
+
+	IFNE,0003,10,1," "
+		TX,0,0,1,"Hierarchical ID No.: "
+		FD,0,0,0,0003,10,12,SQUEEZE,0
+	ENDIF
+
+	IFNE,0003,34,1," "
+		FD,0,0,30,0003,34,2,ASIS,0
+		CODE,"S ","Shipment"
+		CODE,"O ","Order"
+		CODE,"I ","Item"
+		CODE,"P ","Pack"
+		CODE,"T ","Tare"
+		TX,0,0,0," Level"
+	ENDIF
+
+	IFNE,0003,22,1," "
+		TX,0,0,50,"Parent ID No.: "
+		FD,0,0,0,0003,22,12,SQUEEZE,0
+	ENDIF
+
+;	IFNE,0003,36,1," "
+;		TX,0,0,1,"Child ID: "
+;		;TREGSAVE,0003,36,1,20
+;		;CROSSREF,"$SysDir\Reports\Codes\736.cod","736",20,19,20
+;		;TREGPRINT,0,0,0,0,19
+;		FD,0,0,0,0003,36,1,SQUEEZE,0
+;	ENDIF
+IFEQ,0004,0,4,"0004"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0004 (LIN)Item ID
+;****************************************************************************
+IFEQ,0004,0,4,"0004"
+PAGE,6
+TX,0,0,10,"===============Item Info================="
+
+IFNE,0004,10,1," "
+	TX,0,0,1,"Item #"
+ENDIF
+
+IFNE,0004,30,1," "
+	FD,0,0,11,0004,30,2,ASIS,0
+	CODE,"CB","Buyer's Catalog #"
+	CODE,"UP","UPC Code"
+	CODE,"EN","EAN Number"
+	CODE,"VA","Vendor's Product #"
+	CODE,"IN","Buyer's Item #"
+	CODE,"SK","Menard's SKU #"
+	;TX,0,0,0,": "
+ENDIF
+
+IFNE,0004,80,1," "
+	FD,0,0,42,0004,80,2,ASIS,0
+	CODE,"CB","Buyer's Catalog #"
+	CODE,"UP","UPC Code"
+	CODE,"EN","EAN Number"
+	CODE,"VA","Vendor's Product #"
+	CODE,"IN","Buyer's Item #"
+ENDIF
+
+TX,0,0,1, "-------"
+
+TX,0,0,11,"--------------------"
+
+IFNE,0004,80,1," "
+	TX,0,0,42,"--------------------"
+ENDIF
+
+IFNE,0004,10,1," "
+	FD,0,0,1,0004,10,20,SQUEEZE,0
+ENDIF
+	IFNE,0004,32,1," "
+		FD,0,0,11,0004,32,48,SQUEEZE,0
+	ENDIF
+
+
+	IFNE,0004,82,1," "
+		FD,0,0,42,0004,82,48,SQUEEZE,0
+	ENDIF
+
+
+
+ENDIF
+IFEQ,0005,0,4,"0005"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+
+;****************************************************************************
+;	0005 (SN1)Item Detail (Shipment)
+;****************************************************************************
+IFEQ,0005,0,4,"0005"
+
+
+	IFNE,0005,10,1," "
+		TX,0,0,1,"Assigned ID: "
+		FD,0,0,0,0005,10,20,SQUEEZE,0
+	ENDIF
+
+	IFNE,0005,30,1," "
+		TX,0,0,1,"No. of Units Shipped: "
+		FD,0,0,0,0005,30,12,SQUEEZE,0
+	ENDIF
+
+	IFNE,0005,42,1," "
+		TX,0,0,0," "
+		FD,0,0,0,0005,42,2,ASIS,0
+		CODE,"CA","Case"
+		CODE,"EA","Each"
+		CODE,"DZ","Dozen"
+		CODE,"PR","Pair"
+	ENDIF
+
+	IFNE,0005,61,1," "
+		TX,0,0,45,"Quantity Ordered: "
+		FD,0,0,0,0005,61,17,SQUEEZE,0
+	ENDIF
+
+	IFNE,0005,78,1," "
+		TX,0,0,0," "
+		FD,0,0,0,0005,78,2,ASIS,0
+		CODE,"EA","Each"
+	ENDIF
+
+ENDIF
+IFEQ,0007,0,4,"0007"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+
+;****************************************************************************
+;	0007 (PRF)PO Ref.
+;****************************************************************************
+IFEQ,0007,0,4,"0007"
+
+	IFNE,0007,10,1," "
+		TX,0,0,1,"PO No.: "
+		FD,0,0,0,0007,10,22,LJBF,0
+	ENDIF
+
+ENDIF
+IFEQ,0014,0,4,"0014"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0014 (TD5)Carr Detls(Routng Seqc/Trnst Time)
+;****************************************************************************
+LOOP,0014
+
+	IFNE,0014,96,1," "
+		TX,0,0,1,"Routing: "
+		FD,0,0,0,0014,96,35,LJBF,0
+	ENDIF
+
+ENDLOOP
+IFEQ,0018,0,4,"0018"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+;****************************************************************************
+;	0018 (REF)Reference ID
+;****************************************************************************
+LOOP,0018
+
+
+	IFNE,0018,10,1," "
+		FD,0,0,1,0018,10,3,ASIS,0
+		CODE,"BM ","Bill of Lading Number: "
+		CODE,"CN ","Carrier's Ref (PRO) Number: "
+		CODE,"BT ","Batch Number: "
+		CODE,"CH ","Customer Catalog Number: "
+		CODE,"CO ","Customer Order Number: "
+		CODE,"DP ","Department Number: "
+		CODE,"IA ","Internal Vendor Number: "
+		CODE,"IT ","Internal Customer Number: "
+		CODE,"IV ","Seller's Invoice Number: "
+		CODE,"MR ","Merchandise Type Code: "
+		CODE,"PD ","Promotion/Deal Number: "
+		CODE,"SB ","Sales Region Number: "
+		CODE,"VN ","Vendor Order Number: "
+		CODE,"NB ","Letter of Credit Number: "
+		CODE,"SI ","Shipment Number: "
+		CODE,"HS ","Harmonized Code System: "
+		CODE,"TS ","Tariff Number: "
+		CODE,"MB ","Master Bill of Lading: "
+		CODE,"DP ","Department Number: "
+	ENDIF
+
+	IFNE,0018,13,1," "
+		FD,0,0,0,0018,13,30,LJBF,0
+	ENDIF
+
+ENDLOOP
+IFEQ,0033,0,4,"0033"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+
+;****************************************************************************
+;	0033 (MAN)Marks and Nos.
+;****************************************************************************
+LOOP,0033
+
+	IFNE,0033,10,1," "
+		FD,0,0,1,0033,10,2,ASIS,0
+		CODE,"GM"," UCC/EAN-128 Container Code: "
+		CODE,"UC","UPC Shipping Container Code: "
+		CODE,"UP","  UPC Consumer Package Code: "
+		CODE,"W ","              Pallet Number: "
+		CODE,"SR","Shipper Assigned roll Number: "
+	ENDIF
+
+	IFNE,0033,12,1," "
+		FD,0,0,0,0033,12,48,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+;****************************************************************************
+;	0037 (N1)Name
+;****************************************************************************
+LOOP,0037
+
+IFEQ,0037,0,4,"0037"
+	TX,1,0,1,"-----------------------------------------------------------------------------"
+ENDIF
+TREGSAVE,0037,10,2,1
+	IFNE,0037,10,1," "
+		FD,0,0,1,0037,10,3,ASIS,0
+		CODE,"SF ","       Ship From: "
+		CODE,"ST ","         Ship To: "
+		CODE,"BY ","Buying Party"
+		CODE,"BS ","  Bill and Ship To:"
+	ENDIF
+
+	IFNE,0037,13,1," "
+		FD,0,0,0,0037,13,60,SQUEEZE,0
+	ENDIF
+
+	IFEQ,0037,10,2,"SF"
+		FD,0,0,1,0037,73,2,ASIS,0
+		CODE,"92","Menard's Pay DUNS #: "
+		CODE,"1 ","Menard's Pay DUNS #: "
+	ENDIF
+
+	IFEQ,0037,10,2,"ST"
+		FD,0,0,1,0037,73,2,ASIS,0
+		CODE,"92","Menard's Location #: "
+		CODE,"1 ","Menard's Store/DC #: "
+		CODE,"9 ","            DUNS: "
+	ENDIF
+
+	IFEQ,0037,10,2,"BS"
+		FD,0,0,1,0037,73,2,ASIS,0
+		CODE,"92","Menard's Location #: "
+		CODE,"1 ","Menard's Store/DC #: "
+		CODE,"9 ","            DUNS: "
+	ENDIF
+
+	IFNE,0037,75,1," "
+		FD,0,0,0,0037,75,80,SQUEEZE,0
+	ENDIF
+
+ENDLOOP
+
+ENDLOOP
+IFEQ,0056,0,4,"0056"
+	TX,1,0,1,"_____________________________________________________________________________"
+ENDIF
+;****************************************************************************
+;	0056 (CTT)Transaction Totals
+;****************************************************************************
+IFEQ,0056,0,4,"0056"
+
+	IFNE,0056,10,1," "
+		TX,0,0,19,"No. of Line Items: "
+		FD,0,0,0,0056,10,7,LJBF,0
+	ENDIF
+
+	IFNE,0056,17,1," "
+		TX,0,0,26,"Hash Total: "
+		FD,0,0,0,0056,17,12,LJBF,0
+	ENDIF
+
+ENDIF

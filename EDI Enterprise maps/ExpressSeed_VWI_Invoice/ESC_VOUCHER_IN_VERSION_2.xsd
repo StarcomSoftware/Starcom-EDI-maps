@@ -1,0 +1,630 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="ESC_VOUCHER_IN" type="ESC_VOUCHER_INType"/>
+	<xsd:complexType name="ESC_VOUCHER_INType">
+		<xsd:sequence>
+			<xsd:element name="FieldTypes" type="FieldTypesType"/>
+			<xsd:element name="MsgData" type="MsgDataType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesType">
+		<xsd:all>
+			<xsd:element name="M_VCHR_HDR_VW" type="FieldTypesM_VCHR_HDR_VWType"/>
+			<xsd:element name="M_VCHR_HNTE_VW" type="FieldTypesM_VCHR_HNTE_VWType"/>
+			<xsd:element name="M_VCHR_LINE_VW" type="FieldTypesM_VCHR_LINE_VWType"/>
+			<xsd:element name="M_VCHR_LNTE_VW" type="FieldTypesM_VCHR_LNTE_VWType"/>
+			<xsd:element name="M_VCH_HCH_VW" type="FieldTypesM_VCH_HCH_VWType"/>
+			<xsd:element name="M_VCH_LCH_VW" type="FieldTypesM_VCH_LCH_VWType"/>
+			<xsd:element name="PSCAMA" type="FieldTypesPSCAMAType"/>
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesM_VCHR_HDR_VWType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="M_INVOICE_TYPE" type="FieldTypesCharFieldType"/>
+			<xsd:element name="PO_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_DT" type="FieldTypesDateFieldType"/>
+			<xsd:element name="PYMNT_TERMS_CD" type="FieldTypesCharFieldType"/>
+			<xsd:element name="SALETX_AMT" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="GROSS_AMT" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="SHIP_DATE" type="FieldTypesDateFieldType"/>
+			<xsd:element name="SHIP_TYPE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="TRACKING_NBR" type="FieldTypesCharFieldType"/>
+			<xsd:element name="CUSTOMER_PO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="SHIP_CUST_NAME" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ADDRESS1_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ADDRESS2_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ADDRESS3_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ADDRESS4_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="CITY_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="STATE_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="POSTAL_SHIPTO" type="FieldTypesCharFieldType"/>
+			<xsd:element name="SHIPTO_COUNTRY" type="FieldTypesCharFieldType"/>
+			<xsd:element name="CURRENCY_CD" type="FieldTypesCharFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesM_VCHR_HNTE_VWType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="SEQ_NUM" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="PO_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="TEXT254" type="FieldTypesCharFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesM_VCHR_LINE_VWType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_LINE" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="PO_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INV_ITEM_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ITM_ID_VNDR" type="FieldTypesCharFieldType"/>
+			<xsd:element name="DESCR60" type="FieldTypesCharFieldType"/>
+			<xsd:element name="QTY_VCHR" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="UNIT_PRICE" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="MERCHANDISE_AMT" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="UNIT_OF_MEASURE" type="FieldTypesCharFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesM_VCHR_LNTE_VWType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_LINE" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="SEQ_NUM" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="PO_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="TEXT254" type="FieldTypesCharFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesM_VCH_HCH_VWType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="SEQ_NUM" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="PO_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="MISC_CHARGE_CODE" type="FieldTypesCharFieldType"/>
+			<xsd:element name="DESCR" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ESC_DISC_FLAG" type="FieldTypesCharFieldType"/>
+			<xsd:element name="QTY_VCHR" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="UNIT_PRICE" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="MISC_CHRG_AMT" type="FieldTypesNumberFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesM_VCH_LCH_VWType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="INVOICE_LINE" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="SEQ_NUM" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="PO_ID" type="FieldTypesCharFieldType"/>
+			<xsd:element name="QTY_VCHR" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="MISC_CHARGE_CODE" type="FieldTypesCharFieldType"/>
+			<xsd:element name="DESCR" type="FieldTypesCharFieldType"/>
+			<xsd:element name="ESC_DISC_FLAG" type="FieldTypesCharFieldType"/>
+			<xsd:element name="UNIT_PRICE" type="FieldTypesNumberFieldType"/>
+			<xsd:element name="TOTAL_AMT" type="FieldTypesNumberFieldType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="PSCAMAMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="AUDIT_ACTN" type="AUDIT_ACTNType" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="AUDIT_ACTNType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesPSCAMAType">
+		<xsd:all>
+			<xsd:element name="LANGUAGE_CD" type="FieldTypesLANGUAGE_CDType"/>
+			<xsd:element name="AUDIT_ACTN" type="FieldTypesAUDIT_ACTNType"/>
+			<xsd:element name="BASE_LANGUAGE_CD" type="FieldTypesBASE_LANGUAGE_CDType"/>
+			<xsd:element name="MSG_SEQ_FLG" type="FieldTypesMSG_SEQ_FLGType"/>
+			<xsd:element name="PROCESS_INSTANCE" type="FieldTypesPROCESS_INSTANCEType"/>
+			<xsd:element name="PUBLISH_RULE_ID" type="FieldTypesPUBLISH_RULE_IDType"/>
+			<xsd:element name="MSGNODENAME" type="FieldTypesMSGNODENAMEType"/>
+		</xsd:all>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesLANGUAGE_CDType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesAUDIT_ACTNType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesBASE_LANGUAGE_CDType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesMSG_SEQ_FLGType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesPROCESS_INSTANCEType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesPUBLISH_RULE_IDType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesMSGNODENAMEType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="PSCAMAType">
+		<xsd:all>
+			<xsd:element name="LANGUAGE_CD" type="FieldTypesLANGUAGE_CDType"/>
+			<xsd:element name="AUDIT_ACTN" type="FieldTypesAUDIT_ACTNType"/>
+			<xsd:element name="BASE_LANGUAGE_CD" type="FieldTypesBASE_LANGUAGE_CDType"/>
+			<xsd:element name="MSG_SEQ_FLG" type="FieldTypesMSG_SEQ_FLGType"/>
+			<xsd:element name="PROCESS_INSTANCE" type="FieldTypesPROCESS_INSTANCEType"/>
+			<xsd:element name="PUBLISH_RULE_ID" type="FieldTypesPUBLISH_RULE_IDType"/>
+			<xsd:element name="MSGNODENAME" type="FieldTypesMSGNODENAMEType"/>
+		</xsd:all>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesFieldType">
+		<xsd:attribute name="type" type="fieldtypes" use="required"/>
+		<xsd:attribute name="format" type="fieldtypes" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesCharFieldType">
+		<xsd:attribute name="type" use="required" fixed="CHAR"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesNumberFieldType">
+		<xsd:attribute name="type" use="required" fixed="NUMBER"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesDateFieldType">
+		<xsd:attribute name="type" use="required" fixed="DATE"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesTimeFieldType">
+		<xsd:attribute name="type" use="required" fixed="TIME"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesDateTimeFieldType">
+		<xsd:attribute name="type" use="required" fixed="DATETIME"/>
+	</xsd:complexType>
+	<xsd:complexType name="FieldTypesImageFieldType">
+		<xsd:attribute name="type" use="required" fixed="IMAGE"/>
+		<xsd:attribute name="format" type="fieldtypes" use="required"/>
+	</xsd:complexType>
+	<xsd:simpleType name="fieldtypes">
+		<xsd:restriction base="xsd:string"/>
+	</xsd:simpleType>
+	<xsd:complexType name="MsgDataType">
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="Transaction" type="TransactionType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TransactionType">
+		<xsd:sequence>
+			<xsd:element name="M_VCHR_HDR_VW" type="M_VCHR_HDR_VWMsgDataRecordType"/>
+			<xsd:element name="PSCAMA" type="PSCAMAType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="M_VCHR_HDR_VWMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="BUSINESS_UNITType"/>
+			<xsd:element name="INVOICE_ID" type="INVOICE_IDType"/>
+			<xsd:element name="M_INVOICE_TYPE" type="M_INVOICE_TYPEType"/>
+			<xsd:element name="PO_ID" type="PO_IDType"/>
+			<xsd:element name="INVOICE_DT" type="INVOICE_DTType"/>
+			<xsd:element name="PYMNT_TERMS_CD" type="PYMNT_TERMS_CDType"/>
+			<xsd:element name="SALETX_AMT" type="SALETX_AMTType"/>
+			<xsd:element name="GROSS_AMT" type="GROSS_AMTType"/>
+			<xsd:element name="SHIP_DATE" type="SHIP_DATEType"/>
+			<xsd:element name="SHIP_TYPE_ID" type="SHIP_TYPE_IDType"/>
+			<xsd:element name="TRACKING_NBR" type="TRACKING_NBRType"/>
+			<xsd:element name="CUSTOMER_PO" type="CUSTOMER_POType"/>
+			<xsd:element name="SHIP_CUST_NAME" type="SHIP_CUST_NAMEType"/>
+			<xsd:element name="ADDRESS1_SHIPTO" type="ADDRESS1_SHIPTOType"/>
+			<xsd:element name="ADDRESS2_SHIPTO" type="ADDRESS2_SHIPTOType"/>
+			<xsd:element name="ADDRESS3_SHIPTO" type="ADDRESS3_SHIPTOType"/>
+			<xsd:element name="ADDRESS4_SHIPTO" type="ADDRESS4_SHIPTOType"/>
+			<xsd:element name="CITY_SHIPTO" type="CITY_SHIPTOType"/>
+			<xsd:element name="STATE_SHIPTO" type="STATE_SHIPTOType"/>
+			<xsd:element name="POSTAL_SHIPTO" type="POSTAL_SHIPTOType"/>
+			<xsd:element name="SHIPTO_COUNTRY" type="SHIPTO_COUNTRYType"/>
+			<xsd:element name="CURRENCY_CD" type="CURRENCY_CDType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="M_VCHR_HNTE_VWMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="BUSINESS_UNITType"/>
+			<xsd:element name="INVOICE_ID" type="INVOICE_IDType"/>
+			<xsd:element name="SEQ_NUM" type="SEQ_NUMType"/>
+			<xsd:element name="PO_ID" type="PO_IDType"/>
+			<xsd:element name="TEXT254" type="TEXT254Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="M_VCHR_LINE_VWMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="BUSINESS_UNITType"/>
+			<xsd:element name="INVOICE_ID" type="INVOICE_IDType"/>
+			<xsd:element name="INVOICE_LINE" type="INVOICE_LINEType"/>
+			<xsd:element name="PO_ID" type="PO_IDType"/>
+			<xsd:element name="INV_ITEM_ID" type="INV_ITEM_IDType"/>
+			<xsd:element name="ITM_ID_VNDR" type="ITM_ID_VNDRType"/>
+			<xsd:element name="DESCR60" type="DESCR60Type"/>
+			<xsd:element name="QTY_VCHR" type="QTY_VCHRType"/>
+			<xsd:element name="UNIT_PRICE" type="UNIT_PRICEType"/>
+			<xsd:element name="MERCHANDISE_AMT" type="MERCHANDISE_AMTType"/>
+			<xsd:element name="UNIT_OF_MEASURE" type="UNIT_OF_MEASUREType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="M_VCHR_LNTE_VWMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="BUSINESS_UNITType"/>
+			<xsd:element name="INVOICE_ID" type="INVOICE_IDType"/>
+			<xsd:element name="INVOICE_LINE" type="INVOICE_LINEType"/>
+			<xsd:element name="SEQ_NUM" type="SEQ_NUMType"/>
+			<xsd:element name="PO_ID" type="PO_IDType"/>
+			<xsd:element name="TEXT254" type="TEXT254Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="M_VCH_HCH_VWMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="BUSINESS_UNITType"/>
+			<xsd:element name="INVOICE_ID" type="INVOICE_IDType"/>
+			<xsd:element name="SEQ_NUM" type="SEQ_NUMType"/>
+			<xsd:element name="PO_ID" type="PO_IDType"/>
+			<xsd:element name="MISC_CHARGE_CODE" type="MISC_CHARGE_CODEType"/>
+			<xsd:element name="DESCR" type="DESCRType"/>
+			<xsd:element name="ESC_DISC_FLAG" type="ESC_DISC_FLAGType"/>
+			<xsd:element name="QTY_VCHR" type="QTY_VCHRType"/>
+			<xsd:element name="UNIT_PRICE" type="UNIT_PRICEType"/>
+			<xsd:element name="MISC_CHRG_AMT" type="MISC_CHRG_AMTType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="M_VCH_LCH_VWMsgDataRecordType">
+		<xsd:sequence>
+			<xsd:element name="BUSINESS_UNIT" type="BUSINESS_UNITType"/>
+			<xsd:element name="INVOICE_ID" type="INVOICE_IDType"/>
+			<xsd:element name="INVOICE_LINE" type="INVOICE_LINEType"/>
+			<xsd:element name="SEQ_NUM" type="SEQ_NUMType"/>
+			<xsd:element name="PO_ID" type="PO_IDType"/>
+			<xsd:element name="QTY_VCHR" type="QTY_VCHRType"/>
+			<xsd:element name="MISC_CHARGE_CODE" type="MISC_CHARGE_CODEType"/>
+			<xsd:element name="DESCR" type="DESCRType"/>
+			<xsd:element name="ESC_DISC_FLAG" type="ESC_DISC_FLAGType"/>
+			<xsd:element name="UNIT_PRICE" type="UNIT_PRICEType"/>
+			<xsd:element name="TOTAL_AMT" type="TOTAL_AMTType"/>
+		</xsd:sequence>
+		<xsd:attribute name="class" type="xsd:string" use="required" fixed="R"/>
+	</xsd:complexType>
+	<xsd:complexType name="BUSINESS_UNITType">
+		<xsd:annotation>
+			<xsd:documentation>BUSINESS_UNIT is a character of length 5</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="INVOICE_IDType">
+		<xsd:annotation>
+			<xsd:documentation>INVOICE_ID is a character of length 30</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="M_INVOICE_TYPEType">
+		<xsd:annotation>
+			<xsd:documentation>M_INVOICE_TYPE is a character of length 2</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="PO_IDType">
+		<xsd:annotation>
+			<xsd:documentation>PO_ID is a character of length 10</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="INVOICE_DTType">
+		<xsd:annotation>
+			<xsd:documentation>INVOICE_DT is a date.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="PYMNT_TERMS_CDType">
+		<xsd:annotation>
+			<xsd:documentation>PYMNT_TERMS_CD is a character of length 5</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="SALETX_AMTType">
+		<xsd:annotation>
+			<xsd:documentation>SALETX_AMT is a number of length 28 with a decimal position of 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="GROSS_AMTType">
+		<xsd:annotation>
+			<xsd:documentation>GROSS_AMT is a number of length 28 with a decimal position of 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="SHIP_DATEType">
+		<xsd:annotation>
+			<xsd:documentation>SHIP_DATE is a date.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="SHIP_TYPE_IDType">
+		<xsd:annotation>
+			<xsd:documentation>SHIP_TYPE_ID is a character of length 10</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TRACKING_NBRType">
+		<xsd:annotation>
+			<xsd:documentation>TRACKING_NBR is a character of length 30</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="CUSTOMER_POType">
+		<xsd:annotation>
+			<xsd:documentation>CUSTOMER_PO is a character of length 25</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="SHIP_CUST_NAMEType">
+		<xsd:annotation>
+			<xsd:documentation>SHIP_CUST_NAME is a character of length 40</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ADDRESS1_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>ADDRESS1_SHIPTO is a character of length 55</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ADDRESS2_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>ADDRESS2_SHIPTO is a character of length 55</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ADDRESS3_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>ADDRESS3_SHIPTO is a character of length 55</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ADDRESS4_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>ADDRESS4_SHIPTO is a character of length 55</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="CITY_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>CITY_SHIPTO is a character of length 30</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="STATE_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>STATE_SHIPTO is a character of length 6</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="POSTAL_SHIPTOType">
+		<xsd:annotation>
+			<xsd:documentation>POSTAL_SHIPTO is a character of length 12</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="SHIPTO_COUNTRYType">
+		<xsd:annotation>
+			<xsd:documentation>SHIPTO_COUNTRY is a character of length 30</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="CURRENCY_CDType">
+		<xsd:annotation>
+			<xsd:documentation>CURRENCY_CD is a character of length 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="SEQ_NUMType">
+		<xsd:annotation>
+			<xsd:documentation>SEQ_NUM is a number of length 3 with a decimal position of 0</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TEXT254Type">
+		<xsd:annotation>
+			<xsd:documentation>TEXT254 is a character of length 254</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="INVOICE_LINEType">
+		<xsd:annotation>
+			<xsd:documentation>INVOICE_LINE is a number of length 5 with a decimal position of 0</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="INV_ITEM_IDType">
+		<xsd:annotation>
+			<xsd:documentation>INV_ITEM_ID is a character of length 18</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ITM_ID_VNDRType">
+		<xsd:annotation>
+			<xsd:documentation>ITM_ID_VNDR is a character of length 50</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="DESCR60Type">
+		<xsd:annotation>
+			<xsd:documentation>DESCR60 is a character of length 60</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="QTY_VCHRType">
+		<xsd:annotation>
+			<xsd:documentation>QTY_VCHR is a number of length 17 with a decimal position of 4</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="UNIT_PRICEType">
+		<xsd:annotation>
+			<xsd:documentation>UNIT_PRICE is a number of length 17 with a decimal position of 7</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="MERCHANDISE_AMTType">
+		<xsd:annotation>
+			<xsd:documentation>MERCHANDISE_AMT is a number of length 28 with a decimal position of 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="UNIT_OF_MEASUREType">
+		<xsd:annotation>
+			<xsd:documentation>UNIT_OF_MEASURE is a character of length 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="MISC_CHARGE_CODEType">
+		<xsd:annotation>
+			<xsd:documentation>MISC_CHARGE_CODE is a character of length 10</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="DESCRType">
+		<xsd:annotation>
+			<xsd:documentation>DESCR is a character of length 30</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ESC_DISC_FLAGType">
+		<xsd:annotation>
+			<xsd:documentation>ESC_DISC_FLAG is a character of length 1</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="MISC_CHRG_AMTType">
+		<xsd:annotation>
+			<xsd:documentation>MISC_CHRG_AMT is a number of length 28 with a decimal position of 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TOTAL_AMTType">
+		<xsd:annotation>
+			<xsd:documentation>TOTAL_AMT is a number of length 28 with a decimal position of 3</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+</xsd:schema>

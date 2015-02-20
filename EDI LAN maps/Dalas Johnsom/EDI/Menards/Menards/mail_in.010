@@ -1,0 +1,93 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080506*0919*U*00401*000000792*0*P*>
+GS*PO*006203210*7123660407*20080506*0919*755*X*004010
+ST*850*0001
+BEG*00*SA*BISM72753424**20080506
+PER*OC*Matt Bowe*TE*7158762874
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080510
+TD5****SR*SUPPLIER TRUCK
+N9*KD**ORDER MUST SHIP TO ARRIVE BY
+N9*KD**DATE REQUIRED.  PACKING LIST
+N9*KD**MUST BE INCLUDED WITH EACH
+N9*KD**SHIPMENT.  CONTACT MENARDS
+N9*KD**WITH ANY PROBLEMS OR DELAYS. .
+N1*BS*3055*92*BISM
+N2*Menard, Inc.*BISMARCK
+N3*3300 STATE STREET
+N4*BISMARCK*ND*585038345
+PER*CN**TE*7012222700*FX*7012223116
+N1*OB*3055*92*BISM
+N2*Menard, Inc.*BISMARCK
+N3*3300 STATE STREET
+N4*BISMARCK*ND*585038345
+PER*CN**TE*7012222700*FX*7012223116
+PO1*1*1800*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*144*EA*1.1*FX*SK*2622001
+PID*F****606 VEGETABLES
+PID*F****6 PLANTS PER PK
+PO1*3*80*EA*6.65*FX*SK*2622111
+PID*F****10" COMBO PLANTER
+PID*F****ROUND POT
+PO1*4*400*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+PO1*5*300*EA*5*FX*SK*2622144
+PID*F****10" SELECT BASKETS
+PID*F****WHITE HANG BSKT
+CTT*5
+SE*40*0001
+GE*1*755
+IEA*1*000000792
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080506*0919*U*00401*000000793*0*P*>
+GS*FA*006203210*7123660407*20080506*0919*29*X*004010
+ST*997*0001
+AK1*IN*31
+AK2*810*0001
+AK3*IT1*9
+AK4*1*0*1
+AK5*R*5
+AK9*R*1*1*0
+SE*8*0001
+GE*1*29
+IEA*1*000000793
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080506*0937*U*00401*000000794*0*P*>
+GS*TX*006203210*7123660407*20080506*0937*10*X*004010
+ST*864*0001
+BMG*18*98579
+MIT*MSCA72534056*Invoice has been payment refused
+MSG*2nd refusal notice.
+MSG*Duplicate invoice number.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0001
+ST*864*0002
+BMG*18*98049
+MIT*DOLT72500912*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622144 Sequence: 3
+MSG*Qty Invoiced: 500.000 does NOT match our Qty Received: 0.000
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622144 Sequence: 3
+MSG*PO Price:$4.000  Invoice Price:$5.000
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0002
+ST*864*0003
+BMG*18*98386
+MIT*LINS72501127*Invoice has been payment refused
+MSG*Qty Invoiced does not equal Qty Received.
+MSG*Sku: 2622034 Sequence: 2
+MSG*Qty Invoiced: 168.000 does NOT match our Qty Received: 120.000
+MSG*Item cost on invoice does not match item cost on PO
+MSG*Sku: 2622034 Sequence: 2
+MSG*PO Price:$3.000  Invoice Price:$3.300
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0003
+GE*3*10
+IEA*1*000000794
+                                                                                                        

@@ -1,0 +1,64 @@
+<MercatorMapAudit StartTime="17:26:55 June 2, 2014">
+
+<Platform>Mercator Command Server for Windows - Version 6.7(306)</Platform>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="7.6122" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.mmc'</CommandLine>
+   <ObjectsFound>45350</ObjectsFound>
+   <ObjectsBuilt>3138</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="File"   bytes="745152"   adapterreturn="0">
+   <Message>Data read successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\855.xml</Settings>
+   <TimeStamp>13:10:00 June 2, 2014</TimeStamp>
+</SourceReport>
+
+<SourceReport   card="2"   adapter="File"   bytes="165"   adapterreturn="0">
+   <Message>Data read successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WM.INI</Settings>
+   <TimeStamp>17:27:03 June 2, 2014</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="7371"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\RPOList.TXT</Settings>
+   <TimeStamp>17:27:03 June 2, 2014</TimeStamp>
+</TargetReport>
+
+<TargetReport   card="2"   adapter="File"   bytes="81"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\UniqueRPOList.TXT</Settings>
+   <TimeStamp>17:27:03 June 2, 2014</TimeStamp>
+</TargetReport>
+
+<TargetReport   card="3"   adapter="File"   bytes="7489"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\Spreadsheet.TXT</Settings>
+   <TimeStamp>17:27:03 June 2, 2014</TimeStamp>
+</TargetReport>
+
+<TargetReport   card="4"   adapter="File"   bytes="10243"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\Mail_out.new</Settings>
+   <TimeStamp>17:27:03 June 2, 2014</TimeStamp>
+</TargetReport>
+
+<TargetReport   card="5"   adapter="File"   bytes="165"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WM.INI</Settings>
+   <TimeStamp>17:27:03 June 2, 2014</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.I01" TimeStamp="17:27:03 June 2, 2014" bytes="1485074"/>
+<inputarea  card="2"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.I02" TimeStamp="17:27:03 June 2, 2014" bytes="100894"/>
+<outputarea card="1"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.O01" TimeStamp="17:27:03 June 2, 2014" bytes="65536"/>
+<outputarea card="2"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.O02" TimeStamp="17:27:03 June 2, 2014" bytes="65536"/>
+<outputarea card="3"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.O03" TimeStamp="17:27:03 June 2, 2014" bytes="65536"/>
+<outputarea card="4"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\5010ReversePurchaseOrder\WalmartRPOSDQ5010.O04" TimeStamp="17:27:03 June 2, 2014" bytes="65536"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>

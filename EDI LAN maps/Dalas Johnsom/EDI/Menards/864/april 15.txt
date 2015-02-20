@@ -1,0 +1,31 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100415*1144*U*00401*000002846*0*P*>
+GS*TX*006203210*7123660407*20100415*1144*1398*X*004010
+ST*864*0001
+BMG*18*137927
+MIT*BELL73594766*Invoice has been payment refused
+MSG*Line item was not ordered
+MSG*This item was not ordered
+MSG*Sku: 2622001 Sequence: 8
+MSG*Sku: 2622144 Sequence: 6
+MSG*Sku: 2622156 Sequence: 5
+MSG*Sku: 2623132 Sequence: 7
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*12*0001
+ST*864*0002
+BMG*54*137922
+MIT*COUB73590517*Matched
+MSG*Matched
+SE*5*0002
+ST*864*0003
+BMG*54*137919
+MIT*EHRN73592373*Matched
+MSG*Matched
+SE*5*0003
+ST*864*0004
+BMG*54*137928
+MIT*OMAH73592330*Matched
+MSG*Matched
+SE*5*0004
+GE*4*1398
+IEA*1*000002846

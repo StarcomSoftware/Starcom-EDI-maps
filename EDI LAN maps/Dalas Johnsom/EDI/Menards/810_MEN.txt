@@ -1,0 +1,90 @@
+N;
+^041612;192447;041212;MSHT74448428
+DALLAS JOHNSON GREENHOUSES;022083117
+0;Invoice;041212;Posted;VENDOR TRUCK;MYSHELL;641.753.2355;
+;;;17851.12;0.00;0.00;15549.34;0.00;0.00;
+3284;0
+MEN3284;MENARDS     #3284 MARSHALLTOWN;504 IOWA AVENUE WEST;;MARSHALLTOWN;IA;50158      ;3284
+MENARDS;Menard, Inc.;5106 OLD MILL CENTER;;EAU CLAIRE;WI;54703-9625 
+;;;;;;;;;
+2802 TWIN CITY DRIVE;COUNCIL BLUFFS;IA;51501      
+504 IOWA AVENUE WEST;;MARSHALLTOWN;IA;50158      
+
+0.0;041612;051612;0;30;NET 30
+120416
+^648;1.21;2622001;735946300180;JUMBO VEGETABLE 6 PACK
+;VEG 606;JUMBO VEGETABLE 6 PACK;1;EA;1;784.08;0.00;0.00;;Y;;;1;2699
+;                                                                                
+^400;5.50;2622144;735946306939;10" BASIC HANGING BASKETS
+;10" HB BAS;10" BASIC HANGING BASKETS;1;EA;1;2200.00;0.00;0.00;;Y;;;10;3398
+;                                                                                
+^300;7.32;2622146;735946212346;10" PREM HANGING BASKETS
+;10" HB PRM;10" PREM HANGING BASKETS;1;EA;1;2196.00;0.00;0.00;;Y;;;11;3399
+;                                                                                
+^60;9.90;2622156;735946040406;12IN CONTAINER
+;12" CONTA;12IN CONTAINER;1;EA;1;594.00;0.00;0.00;;Y;;;12;4714
+;                                                                                
+^770;0.82;2622165;735946305352;4" SEED GERANIUM
+;4" GERAN;4" SEED GERANIUM;1;EA;1;631.40;0.00;0.00;;Y;;;13;3214
+;                                                                                
+^1008;1.05;2622190;735946315641;4" ACCENTS
+;4" ACCENT;4" ACCENTS;1;EA;1;1058.40;0.00;0.00;;Y;;;14;4469
+;                                                                                
+^448;1.71;2622812;735946300609;QUART PERENNIAL
+;QT PEREN;QUART PERENNIAL;1;EA;1;766.08;0.00;0.00;;Y;;;15;4484
+;                                                                                
+^126;5.23;2623050;735946121679;1GAL CLEMATIS
+;1GAL CLEM;1GAL CLEMATIS;1;EA;1;658.98;0.00;0.00;;N;;;16;9210
+;                                                                                
+^42;4.65;2623119;735946003272;1 POT CALLA LILY
+;1POT CALLA;1 POT CALLA LILY;1;EA;1;195.30;0.00;0.00;;N;;;17;10015
+;                                                                                
+^420;3.25;2625860;735946121457;1POT PERENNIAL ASSORTED
+;1POT PERE;1POT PERENNIAL ASSORTED;1;EA;1;1365.00;0.00;0.00;;Y;;;18;6006
+;                                                                                
+^84;3.85;2625862;735946121648;1GAL DAYLILY
+;1GAL DAYLI;1GAL DAYLILY;1;EA;1;323.40;0.00;0.00;;Y;;;19;9123
+;                                                                                
+^400;1.34;2622011;735946003142;4" BURPEE VEGETABLE
+;BURPEE VEG;4" BURPEE VEGETABLE;1;EA;1;536.00;0.00;0.00;;N;;;2;10017
+;                                                                                
+^84;4.65;2625865;735946121563;1GAL ASIATIC LILY
+;1GAL LILY;1GAL ASIATIC LILY;1;EA;1;390.60;0.00;0.00;;Y;;;20;9169
+;                                                                                
+^126;3.85;2625866;735946121655;1GAL HOSTA
+;1GAL HOST;1GAL HOSTA;1;EA;1;485.10;0.00;0.00;;Y;;;21;9131
+;                                                                                
+^192;1.80;2625890;735946300739;QT DAYLILY
+;QT DAYLILY;QT DAYLILY;1;EA;1;345.60;0.00;0.00;;Y;;;22;5580
+;                                                                                
+^256;1.80;2625896;735946300746;QT HOSTA
+;QT HOSTA;QT HOSTA;1;EA;1;460.80;0.00;0.00;;Y;;;23;5550
+;                                                                                
+^200;1.30;2622015;735946004477;4.5" FARMSTAND STRAWBERRY
+;4.5" FARMS;4.5" FARMSTAND STRAWBERRY;1;EA;1;260.00;0.00;0.00;;N;;;3;10288
+;                                                                                
+^100;1.34;2622017;735946003166;4" BURPEE HERB
+;BURPEE HRB;4" BURPEE HERB;1;EA;1;134.00;0.00;0.00;;N;;;4;10018
+;                                                                                
+^216;3.63;2622032;735946101480;306 WAVE
+;306 WAVE;306 WAVE;1;EA;1;784.08;0.00;0.00;;Y;;;5;9100
+;                                                                                
+^1296;1.21;2622040;735946300166;JUMBO ANNUALS 6 PACK
+;ANN606;JUMBO ANNUALS 6 PACK;1;EA;1;1568.16;0.00;0.00;;Y;;;6;2000
+;                                                                                
+^448;1.93;2622070;735946030308;5" PREMIUM ANNUAL
+;5" PREM AN;5" PREMIUM ANNUAL;1;EA;1;864.64;0.00;0.00;;Y;;;7;5100
+;                                                                                
+^100;7.32;2622111;735946300227;10" ANNUAL GARDEN
+;10" ANN GA;10" ANNUAL GARDEN;1;EA;1;732.00;0.00;0.00;;Y;;;8;3492
+;                                                                                
+^150;3.45;2622116;735946004484;8" PATIO TOMATO
+;8" PATIO T;8" PATIO TOMATO;1;EA;1;517.50;0.00;0.00;;N;;;9;10289
+;                                                                                
+DALLAS JOHNSON GREENHOUSES;192447
+^N;0.00;;
+17851.12
+7874.00;24.70;7874
+23;7874.00
+@
+|

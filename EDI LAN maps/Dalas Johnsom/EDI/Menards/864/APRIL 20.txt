@@ -1,0 +1,47 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *100420*1202*U*00401*000002858*0*P*>
+GS*TX*006203210*7123660407*20100420*1202*1401*X*004010
+ST*864*0001
+BMG*18*138285
+MIT*DUBQ73592322*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0001
+ST*864*0002
+BMG*54*137772
+MIT*EVAN73580277*Matched
+MSG*Matched
+SE*5*0002
+ST*864*0003
+BMG*54*137775
+MIT*MRIN73580268*Matched
+MSG*Matched
+SE*5*0003
+ST*864*0004
+BMG*54*138291
+MIT*MION73592312*Matched
+MSG*Matched
+SE*5*0004
+ST*864*0005
+BMG*54*138300
+MIT*SCTB73592382*Matched
+MSG*Matched
+SE*5*0005
+ST*864*0006
+BMG*54*138834
+MIT*CASP73592377*Matched
+MSG*Matched
+SE*5*0006
+ST*864*0007
+BMG*54*141530
+MIT*OMAH73598414*Matched
+MSG*Matched
+SE*5*0007
+ST*864*0008
+BMG*54*141531
+MIT*EHRN73598416*Matched
+MSG*Matched
+SE*5*0008
+GE*8*1401
+IEA*1*000002858

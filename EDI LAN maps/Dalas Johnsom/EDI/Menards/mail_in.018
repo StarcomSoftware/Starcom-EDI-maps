@@ -1,0 +1,466 @@
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080509*1538*U*00401*000000834*0*P*>
+GS*PO*006203210*7123660407*20080509*1538*764*X*004010
+ST*850*0001
+BEG*00*SA*OMAH72759417**20080509
+PER*OC*Rachel Myers*TE*7158762078
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080513
+TD5****SR*SUPPLIER TRUCK
+N9*KD**.
+N1*BS*3068*92*OMAH
+N2*Menard, Inc.*OMAHA
+N3*708 NORTH 120TH STREET
+N4*OMAHA*NE*68154
+PER*CN**TE*4024980845*FX*4024980936
+N1*OB*3068*92*OMAH
+N2*Menard, Inc.*OMAHA
+N3*708 NORTH 120TH STREET
+N4*OMAHA*NE*68154
+PER*CN**TE*4024980845*FX*4024980936
+PO1*1*2592*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*80*EA*6.65*FX*SK*2622111
+PID*F****10" COMBO PLANTER
+PID*F****ROUND POT
+PO1*3*500*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+PO1*4*100*EA*7.3*FX*SK*2621913
+PID*F****#2 GROUNDCOVER ROSE
+PID*F****84/RACK
+PO1*5*210*EA*2.95*FX*SK*2625860
+PID*F****#1 PREMIUM PERENNIAL
+PID*F****ASSTD VARIETIES
+PO1*6*210*EA*4.75*FX*SK*2621906
+PID*F****#1 GROUNDCOVER ROSE
+PID*F****270/RACK
+PO1*7*448*EA*1.75*FX*SK*2622070
+PID*F****5" PREM ANNUALS
+PID*F****384/RACK
+CTT*7
+SE*42*0001
+ST*850*0002
+BEG*00*SA*DESM72759419**20080509
+PER*OC*Rachel Myers*TE*7158762078
+FOB*PP*DE*MENARDS STORE
+CSH*SP
+ITD************NET 30 DAYS
+DTM*106*20080513
+TD5****SR*SUPPLIER TRUCK
+N9*KD**.
+N1*BS*3046*92*DESM
+N2*Menard, Inc.*DES MOINES
+N3*6000 SE 14TH STREET
+N4*DES MOINES*IA*50320
+PER*CN**TE*5152850005*FX*5152851735
+N1*OB*3046*92*DESM
+N2*Menard, Inc.*DES MOINES
+N3*6000 SE 14TH STREET
+N4*DES MOINES*IA*50320
+PER*CN**TE*5152850005*FX*5152851735
+PO1*1*648*EA*1.1*FX*SK*2622040
+PID*F****606 ANNUALS
+PID*F****BEDDING FLOWER
+PO1*2*80*EA*6.65*FX*SK*2622111
+PID*F****10" COMBO PLANTER
+PID*F****ROUND POT
+PO1*3*140*EA*6.5*FX*SK*2622120
+PID*F****10" COLOR BOWL COMBO
+PID*F****COMBO BOWL
+PO1*4*200*EA*6.65*FX*SK*2622146
+PID*F****10" PREMIUM BASKET
+PID*F****GREEN HANG BSKT
+CTT*4
+SE*33*0002
+GE*2*764
+IEA*1*000000834
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080509*1540*U*00401*000000835*0*P*>
+GS*FA*006203210*7123660407*20080509*1540*54*X*004010
+ST*997*0001
+AK1*IN*297
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK2*810*0007
+AK5*A
+AK2*810*0008
+AK5*A
+AK2*810*0009
+AK5*A
+AK2*810*0010
+AK5*A
+AK2*810*0011
+AK5*A
+AK2*810*0012
+AK5*A
+AK2*810*0013
+AK5*A
+AK2*810*0014
+AK5*A
+AK2*810*0015
+AK5*A
+AK2*810*0016
+AK5*A
+AK2*810*0017
+AK5*A
+AK2*810*0018
+AK5*A
+AK2*810*0019
+AK5*A
+AK2*810*0020
+AK5*A
+AK2*810*0021
+AK5*A
+AK2*810*0022
+AK5*A
+AK2*810*0023
+AK5*A
+AK2*810*0024
+AK5*A
+AK2*810*0025
+AK5*A
+AK2*810*0026
+AK5*A
+AK2*810*0027
+AK5*A
+AK2*810*0028
+AK5*A
+AK2*810*0029
+AK5*A
+AK2*810*0030
+AK5*A
+AK2*810*0031
+AK5*A
+AK2*810*0032
+AK5*A
+AK2*810*0033
+AK5*A
+AK2*810*0034
+AK5*A
+AK2*810*0035
+AK5*A
+AK2*810*0036
+AK5*A
+AK2*810*0037
+AK5*A
+AK2*810*0038
+AK5*A
+AK9*A*38*38*38
+SE*80*0001
+ST*997*0002
+AK1*IN*298
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK9*A*6*6*6
+SE*16*0002
+GE*2*54
+IEA*1*000000835
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080509*1613*U*00401*000000836*0*P*>
+GS*TX*006203210*7123660407*20080509*1613*18*X*004010
+ST*864*0001
+BMG*18*98825
+MIT*SPFD72516354*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0001
+ST*864*0002
+BMG*18*101900
+MIT*BISM72736062*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0002
+ST*864*0003
+BMG*18*97977
+MIT*COUB72501508*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0003
+ST*864*0004
+BMG*18*101901
+MIT*DETL72736067*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0004
+ST*864*0005
+BMG*18*101902
+MIT*MINO72736063*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0005
+ST*864*0006
+BMG*18*101903
+MIT*MPLG72736065*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0006
+ST*864*0007
+BMG*18*101904
+MIT*MRHD72736068*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0007
+ST*864*0008
+BMG*18*101912
+MIT*MTGO72737023*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0008
+ST*864*0009
+BMG*18*98812
+MIT*SCTY72501498*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0009
+ST*864*0010
+BMG*18*97773
+MIT*ALTO72501044*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0010
+ST*864*0011
+BMG*18*97808
+MIT*BATA72500931*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0011
+ST*864*0012
+BMG*18*99121
+MIT*CLIV72500567*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0012
+ST*864*0013
+BMG*18*98067
+MIT*DUBQ72501484*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0013
+ST*864*0014
+BMG*18*98100
+MIT*DVPT72516359*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0014
+ST*864*0015
+BMG*18*99220
+MIT*GISL72500813*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0015
+ST*864*0016
+BMG*18*98248
+MIT*HILL72516409*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0016
+ST*864*0017
+BMG*18*98278
+MIT*HOME72516394*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0017
+ST*864*0018
+BMG*18*98350
+MIT*KRNY72501636*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0018
+ST*864*0019
+BMG*18*98633
+MIT*MUND72516414*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0019
+ST*864*0020
+BMG*18*98656
+MIT*NPLA72501630*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0020
+ST*864*0021
+BMG*18*98709
+MIT*PALE72516374*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0021
+ST*864*0022
+BMG*18*98808
+MIT*SCHE72516399*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0022
+ST*864*0023
+BMG*18*98900
+MIT*STJO72501301*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0023
+ST*864*0024
+BMG*18*98974
+MIT*WBUR72516364*Invoice has been payment refused
+MSG*Duplicate invoice number.
+MSG*This invoice has already been paid.
+MSG*Fax your authorization to deduct/credit memo or concerns to the Electronic Payment Issues Team at 715-876-5964.  Thank You
+MSG*Alternatively, an email can be sent to PRFresponse@menard-inc.com.  All Authorizations to deduct are final.
+SE*8*0024
+GE*24*18
+IEA*1*000000836
+ISA*03*DALLA005  *01*DALLA005  *01*006203210P     *12*7123660407     *080509*1613*U*00401*000000837*0*P*>
+GS*FA*006203210*7123660407*20080509*1613*55*X*004010
+ST*997*0001
+AK1*IN*299
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK2*810*0007
+AK5*A
+AK2*810*0008
+AK5*A
+AK2*810*0009
+AK5*A
+AK2*810*0010
+AK5*A
+AK2*810*0011
+AK5*A
+AK2*810*0012
+AK5*A
+AK2*810*0013
+AK5*A
+AK2*810*0014
+AK5*A
+AK2*810*0015
+AK5*A
+AK2*810*0016
+AK5*A
+AK2*810*0017
+AK5*A
+AK2*810*0018
+AK5*A
+AK9*A*18*18*18
+SE*40*0001
+ST*997*0002
+AK1*IN*300
+AK2*810*0001
+AK5*A
+AK2*810*0002
+AK5*A
+AK2*810*0003
+AK5*A
+AK2*810*0004
+AK5*A
+AK2*810*0005
+AK5*A
+AK2*810*0006
+AK5*A
+AK2*810*0007
+AK5*A
+AK2*810*0008
+AK5*A
+AK2*810*0009
+AK5*A
+AK2*810*0010
+AK5*A
+AK2*810*0011
+AK5*A
+AK2*810*0012
+AK5*A
+AK2*810*0013
+AK5*A
+AK2*810*0014
+AK5*A
+AK2*810*0015
+AK5*A
+AK2*810*0016
+AK5*A
+AK2*810*0017
+AK5*A
+AK2*810*0018
+AK5*A
+AK2*810*0019
+AK5*A
+AK2*810*0020
+AK5*A
+AK2*810*0021
+AK5*A
+AK9*A*21*21*21
+SE*46*0002
+GE*2*55
+IEA*1*000000837
+                                                                         
