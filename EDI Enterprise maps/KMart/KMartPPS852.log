@@ -1,0 +1,42 @@
+<MercatorMapAudit StartTime="13:37:33 February 23, 2015">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.1016" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\KMartPPS852.mmc' -IE1S12318 %lt;data%gt; -aed -of2 .\KM852\20100722_1292_KM852.xml -ti</CommandLine>
+   <ObjectsFound>164250</ObjectsFound>
+   <ObjectsBuilt>0</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="12318"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>13:37:33 February 23, 2015</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="12190"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\PPSWork.out</Settings>
+   <TimeStamp>13:37:33 February 23, 2015</TimeStamp>
+</TargetReport>
+
+<TargetReport   card="2"   adapter="File"   bytes="106245"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\.\KM852\20100722_1292_KM852.xml</Settings>
+   <TimeStamp>13:37:33 February 23, 2015</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\KMartPPS852.I01" TimeStamp="13:37:33 February 23, 2015" bytes="146603"/>
+<outputarea card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\KMartPPS852.O01" TimeStamp="13:37:33 February 23, 2015" bytes="65536"/>
+<outputarea card="2"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\KMartPPS852.O02" TimeStamp="13:37:33 February 23, 2015" bytes="196608"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>

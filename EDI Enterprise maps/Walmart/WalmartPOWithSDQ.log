@@ -1,0 +1,35 @@
+<MercatorMapAudit StartTime="13:24:46 February 23, 2015">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Warning" mapreturn="28" ElapsedSec="0.0359" BurstRestartCount="0">
+   <Message>Input type contains errors</Message>
+   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPOWithSDQ.mmc' -IE1S2266 %lt;data%gt; -aed -of1 .\WM850\20120430_850000001_WM850STORE.xml -ti</CommandLine>
+   <ObjectsFound>18386</ObjectsFound>
+   <ObjectsBuilt>0</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="2266"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>13:24:46 February 23, 2015</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="8722"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\.\WM850\20120430_850000001_WM850STORE.xml</Settings>
+   <TimeStamp>13:24:46 February 23, 2015</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPOWithSDQ.I01" TimeStamp="13:24:46 February 23, 2015" bytes="79825"/>
+<outputarea card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPOWithSDQ.O01" TimeStamp="13:24:46 February 23, 2015" bytes="65536"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>
