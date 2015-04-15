@@ -1,0 +1,34 @@
+<MercatorMapAudit StartTime="16:20:49 April 14, 2015">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.0393" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\KM82041.mmc' -IE1S5213 %lt;data%gt; -aed -of1 .\KM820\20100719_1000890_KM820.xml -ti</CommandLine>
+   <ObjectsFound>164250</ObjectsFound>
+   <ObjectsBuilt>0</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="5213"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>16:20:49 April 14, 2015</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="33688"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\.\KM820\20100719_1000890_KM820.xml</Settings>
+   <TimeStamp>16:20:49 April 14, 2015</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\KMart\KM82041.I01" TimeStamp="16:20:49 April 14, 2015" bytes="99094"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>

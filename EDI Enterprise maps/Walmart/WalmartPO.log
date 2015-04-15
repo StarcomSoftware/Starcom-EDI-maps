@@ -1,4 +1,4 @@
-<MercatorMapAudit StartTime="13:37:07 February 23, 2015">
+<MercatorMapAudit StartTime="16:27:08 April 14, 2015">
 
 <Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
 
@@ -8,26 +8,26 @@
 
 </Burst>
 
-<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.3298" BurstRestartCount="0">
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.0344" BurstRestartCount="0">
    <Message>Map completed successfully</Message>
    <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPO.mmc' -IE1S4002 %lt;data%gt; -aed -of1 .\WM850\20040423_850000349_WM850DC.xml -ti</CommandLine>
-   <ObjectsFound>18352</ObjectsFound>
+   <ObjectsFound>18805</ObjectsFound>
    <ObjectsBuilt>0</ObjectsBuilt>
 
 <SourceReport   card="1"   adapter="Echo"   bytes="4002"   adapterreturn="0">
    <Message>Data retrieved successfully</Message>
-   <TimeStamp>13:37:07 February 23, 2015</TimeStamp>
+   <TimeStamp>16:27:08 April 14, 2015</TimeStamp>
 </SourceReport>
 
 <TargetReport   card="1"   adapter="File"   bytes="84"   adapterreturn="0">
    <Message>Data written successfully</Message>
    <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\.\WM850\20040423_850000349_WM850DC.xml</Settings>
-   <TimeStamp>13:37:08 February 23, 2015</TimeStamp>
+   <TimeStamp>16:27:08 April 14, 2015</TimeStamp>
 </TargetReport>
 
 <WorkArea type="File">
-<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPO.I01" TimeStamp="13:37:07 February 23, 2015" bytes="79825"/>
-<outputarea card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPO.O01" TimeStamp="13:37:07 February 23, 2015" bytes="65536"/>
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPO.I01" TimeStamp="16:27:08 April 14, 2015" bytes="79825"/>
+<outputarea card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WalmartPO.O01" TimeStamp="16:27:08 April 14, 2015" bytes="65536"/>
 </WorkArea>
 
 </ExecutionSummary>

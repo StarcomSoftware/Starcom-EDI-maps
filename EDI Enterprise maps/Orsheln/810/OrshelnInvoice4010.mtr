@@ -79,1807 +79,2727 @@ Data at offset 78 ('><DocumentType>O') was found to be of TYPE
 Data at offset 93 ('Order') was found to be of TYPE
    X'005F' (DocumentType Comp Document Element XSD).
 
-(Level 6: Offset 123, len 12, comp 2 of 41, #1, DI 00000006:)
-Data at offset 123 ('Test 2/19/15') was found to be of TYPE
-   X'0060' (PONumber Comp Document Element XSD).
+(Level 6: Offset 113, len 0, comp 2 of 41, #1, DI 00000006:)
+Data at offset 113 ('<VendorID>8635</...') does not match INITIATOR '<OWSP><PONumber<OWSP>>'
+  of TYPE X'0060' (PONumber Comp Document Element XSD).
 
-(Level 6: Offset 146, len 0, comp 3 of 41, #1, DI 00000007:)
-Data at offset 146 ('<VendorName>Barn...') does not match INITIATOR '<OWSP><VendorID<OWSP>>'
-  of TYPE X'0061' (VendorID Comp Document Element XSD).
-
-(Level 6: Offset 146, len 0, comp 3 of 41, #1, DI 00000007:)
-COMPONENT number 3 of TYPE X'005D' (Seq Document Element XSD):
+(Level 6: Offset 113, len 0, comp 2 of 41, #1, DI 00000006:)
+COMPONENT number 2 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 158, len 24, comp 4 of 41, #1, DI 00000007:)
-Data at offset 158 ('Barnes Greenhous') was found to be of TYPE
+(Level 6: Offset 123, len 4, comp 3 of 41, #1, DI 00000006:)
+Data at offset 123 ('8635') was found to be of TYPE
+   X'0061' (VendorID Comp Document Element XSD).
+
+(Level 6: Offset 150, len 24, comp 4 of 41, #1, DI 00000007:)
+Data at offset 150 ('Barnes Greenhous') was found to be of TYPE
    X'0062' (VendorName Comp Document Element XSD).
 
-(Level 6: Offset 195, len 0, comp 5 of 41, #1, DI 00000008:)
-Data at offset 195 ('<TaxIdNumber>43-...') does not match INITIATOR '<OWSP><DUNSNumber<OWSP>>'
+(Level 6: Offset 187, len 0, comp 5 of 41, #1, DI 00000008:)
+Data at offset 187 ('<TaxIdNumber>43-...') does not match INITIATOR '<OWSP><DUNSNumber<OWSP>>'
   of TYPE X'0063' (DUNSNumber Comp Document Element XSD).
 
-(Level 6: Offset 195, len 0, comp 5 of 41, #1, DI 00000008:)
+(Level 6: Offset 187, len 0, comp 5 of 41, #1, DI 00000008:)
 COMPONENT number 5 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 208, len 10, comp 6 of 41, #1, DI 00000008:)
-Data at offset 208 ('43-0975751') was found to be of TYPE
+(Level 6: Offset 200, len 10, comp 6 of 41, #1, DI 00000008:)
+Data at offset 200 ('43-0975751') was found to be of TYPE
    X'0064' (TaxIdNumber Comp Document Element XSD).
 
-(Level 6: Offset 247, len 6, comp 7 of 41, #1, DI 00000009:)
-Data at offset 247 ('100005') was found to be of TYPE
+(Level 6: Offset 239, len 6, comp 7 of 41, #1, DI 00000009:)
+Data at offset 239 ('100014') was found to be of TYPE
    X'0065' (InvoiceNumber Comp Document Element XSD).
 
-(Level 6: Offset 269, len 0, comp 8 of 41, #1, DI 0000000A:)
-Data at offset 269 ('<OrderStatus>App...') does not match INITIATOR '<OWSP><MemoNumber<OWSP>>'
+(Level 6: Offset 261, len 0, comp 8 of 41, #1, DI 0000000A:)
+Data at offset 261 ('<OrderStatus>App...') does not match INITIATOR '<OWSP><MemoNumber<OWSP>>'
   of TYPE X'0066' (MemoNumber Comp Document Element XSD).
 
-(Level 6: Offset 269, len 0, comp 8 of 41, #1, DI 0000000A:)
+(Level 6: Offset 261, len 0, comp 8 of 41, #1, DI 0000000A:)
 COMPONENT number 8 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 269, len 0, comp 9 of 41, #1, DI 0000000A:)
-Data at offset 269 ('<OrderStatus>App...') does not match INITIATOR '<OWSP><ReferenceNumber<OWSP>>'
+(Level 6: Offset 261, len 0, comp 9 of 41, #1, DI 0000000A:)
+Data at offset 261 ('<OrderStatus>App...') does not match INITIATOR '<OWSP><ReferenceNumber<OWSP>>'
   of TYPE X'0067' (ReferenceNumber Comp Document Element XSD).
 
-(Level 6: Offset 269, len 0, comp 9 of 41, #1, DI 0000000A:)
+(Level 6: Offset 261, len 0, comp 9 of 41, #1, DI 0000000A:)
 COMPONENT number 9 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 282, len 8, comp 10 of 41, #1, DI 0000000A:)
-Data at offset 282 ('Approved') was found to be of TYPE
+(Level 6: Offset 274, len 8, comp 10 of 41, #1, DI 0000000A:)
+Data at offset 274 ('Approved') was found to be of TYPE
    X'0068' (OrderStatus Comp Document Element XSD).
 
-(Level 10: Offset 315, len 0, comp 1 of 2, #1, DI 0000000B:)
-Data at offset 315 ('><Day>2015-02-19...') does not match INITIATOR '<WSP>xmlns'
+(Level 10: Offset 307, len 0, comp 1 of 2, #1, DI 0000000B:)
+Data at offset 307 ('><Day>2015-02-20...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 10: Offset 315, len 0, comp 1 of 2, #1, DI 0000000B:)
+(Level 10: Offset 307, len 0, comp 1 of 2, #1, DI 0000000B:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 9: Offset 315, len 0, comp 2 of 3, #1, DI 0000000B:)
-Data at offset 315 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 9: Offset 307, len 0, comp 2 of 3, #1, DI 0000000B:)
+Data at offset 307 ('><Day>2015-02-20...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 9: Offset 315, len 0, comp 3 of 3, #1, DI 0000000B:)
-Data at offset 315 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 9: Offset 307, len 0, comp 3 of 3, #1, DI 0000000B:)
+Data at offset 307 ('><Day>2015-02-20...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 8: Offset 315, len 0, comp 1 of 2, #1, DI 0000000B:)
-Data at offset 315 ('><Day>2015-02-19') was found to be of TYPE
+(Level 8: Offset 307, len 0, comp 1 of 2, #1, DI 0000000B:)
+Data at offset 307 ('><Day>2015-02-20') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 13: Offset 320, len 0, comp 1 of 2, #1, DI 0000000B:)
-Data at offset 320 ('>2015-02-19</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 312, len 0, comp 1 of 2, #1, DI 0000000B:)
+Data at offset 312 ('>2015-02-20</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 320, len 0, comp 1 of 2, #1, DI 0000000B:)
+(Level 13: Offset 312, len 0, comp 1 of 2, #1, DI 0000000B:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 320, len 0, comp 2 of 3, #1, DI 0000000B:)
-Data at offset 320 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 312, len 0, comp 2 of 3, #1, DI 0000000B:)
+Data at offset 312 ('>2015-02-20</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 320, len 0, comp 3 of 3, #1, DI 0000000B:)
-Data at offset 320 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 312, len 0, comp 3 of 3, #1, DI 0000000B:)
+Data at offset 312 ('>2015-02-20</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 320, len 0, comp 1 of 2, #1, DI 0000000B:)
-Data at offset 320 ('>2015-02-19</Day') was found to be of TYPE
+(Level 11: Offset 312, len 0, comp 1 of 2, #1, DI 0000000B:)
+Data at offset 312 ('>2015-02-20</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 11: Offset 321, len 10, comp 2 of 2, #1, DI 0000000B:)
-Data at offset 321 ('2015-02-19') was found to be of TYPE
+(Level 11: Offset 313, len 10, comp 2 of 2, #1, DI 0000000B:)
+Data at offset 313 ('2015-02-20') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 10: Offset 320, len 12, comp 1 of 1, #1, DI 0000000C:)
-Data at offset 320 ('>2015-02-19<') was found to be of TYPE
+(Level 10: Offset 312, len 12, comp 1 of 1, #1, DI 0000000C:)
+Data at offset 312 ('>2015-02-20<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 10: Offset 332, len 5, comp 2 of 1, #2, DI 0000000D:)
+(Level 10: Offset 324, len 5, comp 2 of 1, #2, DI 0000000D:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 10: Offset 332, len 5, comp 2 of 1, #2, DI 0000000D:)
-Data at offset 332 ('/Day>') was found to be of TYPE
+(Level 10: Offset 324, len 5, comp 2 of 1, #2, DI 0000000D:)
+Data at offset 324 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 9: Offset 320, len 12, comp 1 of 3, #1, DI 0000000E:)
-Data at offset 320 ('>2015-02-19<') was found to be of TYPE
+(Level 9: Offset 312, len 12, comp 1 of 3, #1, DI 0000000E:)
+Data at offset 312 ('>2015-02-20<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 9: Offset 337, len 0, comp 2 of 3, #1, DI 0000000F:)
-Data at offset 337 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 9: Offset 329, len 0, comp 2 of 3, #1, DI 0000000F:)
+Data at offset 329 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 9: Offset 337, len 0, comp 2 of 3, #1, DI 0000000F:)
+(Level 9: Offset 329, len 0, comp 2 of 3, #1, DI 0000000F:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 337, len 0, comp 3 of 3, #1, DI 0000000F:)
-Data at offset 337 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><Standard'
+(Level 9: Offset 329, len 0, comp 3 of 3, #1, DI 0000000F:)
+Data at offset 329 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 9: Offset 337, len 0, comp 3 of 3, #1, DI 0000000F:)
+(Level 9: Offset 329, len 0, comp 3 of 3, #1, DI 0000000F:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 337, len 0, comp 4 of 3, #1, DI 0000000F:)
-Data at offset 337 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><?'
+(Level 9: Offset 329, len 0, comp 4 of 3, #1, DI 0000000F:)
+Data at offset 329 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 9: Offset 337, len 0, comp 4 of 3, #1, DI 0000000F:)
-Data at offset 337 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><!--'
+(Level 9: Offset 329, len 0, comp 4 of 3, #1, DI 0000000F:)
+Data at offset 329 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 9: Offset 337, len 0, comp 4 of 3, #1, DI 0000000F:)
-Data at offset 337 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 9: Offset 329, len 0, comp 4 of 3, #1, DI 0000000F:)
+Data at offset 329 ('</CreateDate><Lo...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 9: Offset 337, len 0, comp 4 of 3, #1, DI 0000000F:)
-Data at offset 337 ('</CreateDate><Lo...') failed PARTITIONing for TYPE
+(Level 9: Offset 329, len 0, comp 4 of 3, #1, DI 0000000F:)
+Data at offset 329 ('</CreateDate><Lo...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 8: Offset 316, len 21, comp 2 of 2, #1, DI 0000000F:)
-Data at offset 316 ('<Day>2015-02-19<') was found to be of TYPE
+(Level 8: Offset 308, len 21, comp 2 of 2, #1, DI 0000000F:)
+Data at offset 308 ('<Day>2015-02-20<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 7: Offset 315, len 23, comp 1 of 1, #1, DI 00000010:)
-Data at offset 315 ('><Day>2015-02-19') was found to be of TYPE
+(Level 7: Offset 307, len 23, comp 1 of 1, #1, DI 00000010:)
+Data at offset 307 ('><Day>2015-02-20') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 7: Offset 338, len 12, comp 2 of 1, #2, DI 00000011:)
+(Level 7: Offset 330, len 12, comp 2 of 1, #2, DI 00000011:)
 TERMINATOR ('Terminator CreateDate Comp Document Element XSD') found; has value '/CreateDate<OWSP>>'.
 
-(Level 7: Offset 338, len 12, comp 2 of 1, #2, DI 00000011:)
-Data at offset 338 ('/CreateDate>') was found to be of TYPE
+(Level 7: Offset 330, len 12, comp 2 of 1, #2, DI 00000011:)
+Data at offset 330 ('/CreateDate>') was found to be of TYPE
    X'007B' (Terminator CreateDate Comp Document Element XSD).
 
-(Level 6: Offset 315, len 23, comp 11 of 41, #1, DI 00000012:)
-Data at offset 315 ('><Day>2015-02-19') was found to be of TYPE
+(Level 6: Offset 307, len 23, comp 11 of 41, #1, DI 00000012:)
+Data at offset 307 ('><Day>2015-02-20') was found to be of TYPE
    X'006A' (ElemDecl CreateDate Comp Document Element XSD).
 
-(Level 10: Offset 359, len 0, comp 1 of 2, #1, DI 00000013:)
-Data at offset 359 ('><Day>2015-02-19...') does not match INITIATOR '<WSP>xmlns'
+(Level 10: Offset 351, len 0, comp 1 of 2, #1, DI 00000013:)
+Data at offset 351 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 10: Offset 359, len 0, comp 1 of 2, #1, DI 00000013:)
+(Level 10: Offset 351, len 0, comp 1 of 2, #1, DI 00000013:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 9: Offset 359, len 0, comp 2 of 3, #1, DI 00000013:)
-Data at offset 359 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 9: Offset 351, len 0, comp 2 of 3, #1, DI 00000013:)
+Data at offset 351 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 9: Offset 359, len 0, comp 3 of 3, #1, DI 00000013:)
-Data at offset 359 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 9: Offset 351, len 0, comp 3 of 3, #1, DI 00000013:)
+Data at offset 351 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 8: Offset 359, len 0, comp 1 of 2, #1, DI 00000013:)
-Data at offset 359 ('><Day>2015-02-19') was found to be of TYPE
+(Level 8: Offset 351, len 0, comp 1 of 2, #1, DI 00000013:)
+Data at offset 351 ('><Day>2015-03-29') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 13: Offset 364, len 0, comp 1 of 2, #1, DI 00000013:)
-Data at offset 364 ('>2015-02-19</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 356, len 0, comp 1 of 2, #1, DI 00000013:)
+Data at offset 356 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 364, len 0, comp 1 of 2, #1, DI 00000013:)
+(Level 13: Offset 356, len 0, comp 1 of 2, #1, DI 00000013:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 364, len 0, comp 2 of 3, #1, DI 00000013:)
-Data at offset 364 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 356, len 0, comp 2 of 3, #1, DI 00000013:)
+Data at offset 356 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 364, len 0, comp 3 of 3, #1, DI 00000013:)
-Data at offset 364 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 356, len 0, comp 3 of 3, #1, DI 00000013:)
+Data at offset 356 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 364, len 0, comp 1 of 2, #1, DI 00000013:)
-Data at offset 364 ('>2015-02-19</Day') was found to be of TYPE
+(Level 11: Offset 356, len 0, comp 1 of 2, #1, DI 00000013:)
+Data at offset 356 ('>2015-03-29</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 11: Offset 365, len 10, comp 2 of 2, #1, DI 00000013:)
-Data at offset 365 ('2015-02-19') was found to be of TYPE
+(Level 11: Offset 357, len 10, comp 2 of 2, #1, DI 00000013:)
+Data at offset 357 ('2015-03-29') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 10: Offset 364, len 12, comp 1 of 1, #1, DI 00000014:)
-Data at offset 364 ('>2015-02-19<') was found to be of TYPE
+(Level 10: Offset 356, len 12, comp 1 of 1, #1, DI 00000014:)
+Data at offset 356 ('>2015-03-29<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 10: Offset 376, len 5, comp 2 of 1, #2, DI 00000015:)
+(Level 10: Offset 368, len 5, comp 2 of 1, #2, DI 00000015:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 10: Offset 376, len 5, comp 2 of 1, #2, DI 00000015:)
-Data at offset 376 ('/Day>') was found to be of TYPE
+(Level 10: Offset 368, len 5, comp 2 of 1, #2, DI 00000015:)
+Data at offset 368 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 9: Offset 364, len 12, comp 1 of 3, #1, DI 00000016:)
-Data at offset 364 ('>2015-02-19<') was found to be of TYPE
+(Level 9: Offset 356, len 12, comp 1 of 3, #1, DI 00000016:)
+Data at offset 356 ('>2015-03-29<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 9: Offset 381, len 0, comp 2 of 3, #1, DI 00000017:)
-Data at offset 381 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 9: Offset 373, len 0, comp 2 of 3, #1, DI 00000017:)
+Data at offset 373 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 9: Offset 381, len 0, comp 2 of 3, #1, DI 00000017:)
+(Level 9: Offset 373, len 0, comp 2 of 3, #1, DI 00000017:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 381, len 0, comp 3 of 3, #1, DI 00000017:)
-Data at offset 381 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><Standard'
+(Level 9: Offset 373, len 0, comp 3 of 3, #1, DI 00000017:)
+Data at offset 373 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 9: Offset 381, len 0, comp 3 of 3, #1, DI 00000017:)
+(Level 9: Offset 373, len 0, comp 3 of 3, #1, DI 00000017:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 381, len 0, comp 4 of 3, #1, DI 00000017:)
-Data at offset 381 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><?'
+(Level 9: Offset 373, len 0, comp 4 of 3, #1, DI 00000017:)
+Data at offset 373 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 9: Offset 381, len 0, comp 4 of 3, #1, DI 00000017:)
-Data at offset 381 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><!--'
+(Level 9: Offset 373, len 0, comp 4 of 3, #1, DI 00000017:)
+Data at offset 373 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 9: Offset 381, len 0, comp 4 of 3, #1, DI 00000017:)
-Data at offset 381 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 9: Offset 373, len 0, comp 4 of 3, #1, DI 00000017:)
+Data at offset 373 ('</LoadDate><Deli...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 9: Offset 381, len 0, comp 4 of 3, #1, DI 00000017:)
-Data at offset 381 ('</LoadDate><Deli...') failed PARTITIONing for TYPE
+(Level 9: Offset 373, len 0, comp 4 of 3, #1, DI 00000017:)
+Data at offset 373 ('</LoadDate><Deli...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 8: Offset 360, len 21, comp 2 of 2, #1, DI 00000017:)
-Data at offset 360 ('<Day>2015-02-19<') was found to be of TYPE
+(Level 8: Offset 352, len 21, comp 2 of 2, #1, DI 00000017:)
+Data at offset 352 ('<Day>2015-03-29<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 7: Offset 359, len 23, comp 1 of 1, #1, DI 00000018:)
-Data at offset 359 ('><Day>2015-02-19') was found to be of TYPE
+(Level 7: Offset 351, len 23, comp 1 of 1, #1, DI 00000018:)
+Data at offset 351 ('><Day>2015-03-29') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 7: Offset 382, len 10, comp 2 of 1, #2, DI 00000019:)
+(Level 7: Offset 374, len 10, comp 2 of 1, #2, DI 00000019:)
 TERMINATOR ('Terminator LoadDate Comp Document Element XSD') found; has value '/LoadDate<OWSP>>'.
 
-(Level 7: Offset 382, len 10, comp 2 of 1, #2, DI 00000019:)
-Data at offset 382 ('/LoadDate>') was found to be of TYPE
+(Level 7: Offset 374, len 10, comp 2 of 1, #2, DI 00000019:)
+Data at offset 374 ('/LoadDate>') was found to be of TYPE
    X'007E' (Terminator LoadDate Comp Document Element XSD).
 
-(Level 6: Offset 359, len 23, comp 12 of 41, #1, DI 0000001A:)
-Data at offset 359 ('><Day>2015-02-19') was found to be of TYPE
+(Level 6: Offset 351, len 23, comp 12 of 41, #1, DI 0000001A:)
+Data at offset 351 ('><Day>2015-03-29') was found to be of TYPE
    X'007D' (ElemDecl LoadDate Comp Document Element XSD).
 
-(Level 10: Offset 405, len 0, comp 1 of 2, #1, DI 0000001B:)
-Data at offset 405 ('><Day>2015-02-19...') does not match INITIATOR '<WSP>xmlns'
+(Level 10: Offset 397, len 0, comp 1 of 2, #1, DI 0000001B:)
+Data at offset 397 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 10: Offset 405, len 0, comp 1 of 2, #1, DI 0000001B:)
+(Level 10: Offset 397, len 0, comp 1 of 2, #1, DI 0000001B:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 9: Offset 405, len 0, comp 2 of 3, #1, DI 0000001B:)
-Data at offset 405 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 9: Offset 397, len 0, comp 2 of 3, #1, DI 0000001B:)
+Data at offset 397 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 9: Offset 405, len 0, comp 3 of 3, #1, DI 0000001B:)
-Data at offset 405 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 9: Offset 397, len 0, comp 3 of 3, #1, DI 0000001B:)
+Data at offset 397 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 8: Offset 405, len 0, comp 1 of 2, #1, DI 0000001B:)
-Data at offset 405 ('><Day>2015-02-19') was found to be of TYPE
+(Level 8: Offset 397, len 0, comp 1 of 2, #1, DI 0000001B:)
+Data at offset 397 ('><Day>2015-03-29') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 13: Offset 410, len 0, comp 1 of 2, #1, DI 0000001B:)
-Data at offset 410 ('>2015-02-19</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 402, len 0, comp 1 of 2, #1, DI 0000001B:)
+Data at offset 402 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 410, len 0, comp 1 of 2, #1, DI 0000001B:)
+(Level 13: Offset 402, len 0, comp 1 of 2, #1, DI 0000001B:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 410, len 0, comp 2 of 3, #1, DI 0000001B:)
-Data at offset 410 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 402, len 0, comp 2 of 3, #1, DI 0000001B:)
+Data at offset 402 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 410, len 0, comp 3 of 3, #1, DI 0000001B:)
-Data at offset 410 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 402, len 0, comp 3 of 3, #1, DI 0000001B:)
+Data at offset 402 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 410, len 0, comp 1 of 2, #1, DI 0000001B:)
-Data at offset 410 ('>2015-02-19</Day') was found to be of TYPE
+(Level 11: Offset 402, len 0, comp 1 of 2, #1, DI 0000001B:)
+Data at offset 402 ('>2015-03-29</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 11: Offset 411, len 10, comp 2 of 2, #1, DI 0000001B:)
-Data at offset 411 ('2015-02-19') was found to be of TYPE
+(Level 11: Offset 403, len 10, comp 2 of 2, #1, DI 0000001B:)
+Data at offset 403 ('2015-03-29') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 10: Offset 410, len 12, comp 1 of 1, #1, DI 0000001C:)
-Data at offset 410 ('>2015-02-19<') was found to be of TYPE
+(Level 10: Offset 402, len 12, comp 1 of 1, #1, DI 0000001C:)
+Data at offset 402 ('>2015-03-29<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 10: Offset 422, len 5, comp 2 of 1, #2, DI 0000001D:)
+(Level 10: Offset 414, len 5, comp 2 of 1, #2, DI 0000001D:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 10: Offset 422, len 5, comp 2 of 1, #2, DI 0000001D:)
-Data at offset 422 ('/Day>') was found to be of TYPE
+(Level 10: Offset 414, len 5, comp 2 of 1, #2, DI 0000001D:)
+Data at offset 414 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 9: Offset 410, len 12, comp 1 of 3, #1, DI 0000001E:)
-Data at offset 410 ('>2015-02-19<') was found to be of TYPE
+(Level 9: Offset 402, len 12, comp 1 of 3, #1, DI 0000001E:)
+Data at offset 402 ('>2015-03-29<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 9: Offset 427, len 0, comp 2 of 3, #1, DI 0000001F:)
-Data at offset 427 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 9: Offset 419, len 0, comp 2 of 3, #1, DI 0000001F:)
+Data at offset 419 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 9: Offset 427, len 0, comp 2 of 3, #1, DI 0000001F:)
+(Level 9: Offset 419, len 0, comp 2 of 3, #1, DI 0000001F:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 427, len 0, comp 3 of 3, #1, DI 0000001F:)
-Data at offset 427 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><Standard'
+(Level 9: Offset 419, len 0, comp 3 of 3, #1, DI 0000001F:)
+Data at offset 419 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 9: Offset 427, len 0, comp 3 of 3, #1, DI 0000001F:)
+(Level 9: Offset 419, len 0, comp 3 of 3, #1, DI 0000001F:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 427, len 0, comp 4 of 3, #1, DI 0000001F:)
-Data at offset 427 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><?'
+(Level 9: Offset 419, len 0, comp 4 of 3, #1, DI 0000001F:)
+Data at offset 419 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 9: Offset 427, len 0, comp 4 of 3, #1, DI 0000001F:)
-Data at offset 427 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><!--'
+(Level 9: Offset 419, len 0, comp 4 of 3, #1, DI 0000001F:)
+Data at offset 419 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 9: Offset 427, len 0, comp 4 of 3, #1, DI 0000001F:)
-Data at offset 427 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 9: Offset 419, len 0, comp 4 of 3, #1, DI 0000001F:)
+Data at offset 419 ('</DeliveryDate><...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 9: Offset 427, len 0, comp 4 of 3, #1, DI 0000001F:)
-Data at offset 427 ('</DeliveryDate><...') failed PARTITIONing for TYPE
+(Level 9: Offset 419, len 0, comp 4 of 3, #1, DI 0000001F:)
+Data at offset 419 ('</DeliveryDate><...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 8: Offset 406, len 21, comp 2 of 2, #1, DI 0000001F:)
-Data at offset 406 ('<Day>2015-02-19<') was found to be of TYPE
+(Level 8: Offset 398, len 21, comp 2 of 2, #1, DI 0000001F:)
+Data at offset 398 ('<Day>2015-03-29<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 7: Offset 405, len 23, comp 1 of 1, #1, DI 00000020:)
-Data at offset 405 ('><Day>2015-02-19') was found to be of TYPE
+(Level 7: Offset 397, len 23, comp 1 of 1, #1, DI 00000020:)
+Data at offset 397 ('><Day>2015-03-29') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 7: Offset 428, len 14, comp 2 of 1, #2, DI 00000021:)
+(Level 7: Offset 420, len 14, comp 2 of 1, #2, DI 00000021:)
 TERMINATOR ('Terminator DeliveryDate Comp Document Element XSD') found; has value '/DeliveryDate<OWSP>>'.
 
-(Level 7: Offset 428, len 14, comp 2 of 1, #2, DI 00000021:)
-Data at offset 428 ('/DeliveryDate>') was found to be of TYPE
+(Level 7: Offset 420, len 14, comp 2 of 1, #2, DI 00000021:)
+Data at offset 420 ('/DeliveryDate>') was found to be of TYPE
    X'0081' (Terminator DeliveryDate Comp Document Element XSD).
 
-(Level 6: Offset 405, len 23, comp 13 of 41, #1, DI 00000022:)
-Data at offset 405 ('><Day>2015-02-19') was found to be of TYPE
+(Level 6: Offset 397, len 23, comp 13 of 41, #1, DI 00000022:)
+Data at offset 397 ('><Day>2015-03-29') was found to be of TYPE
    X'0080' (ElemDecl DeliveryDate Comp Document Element XSD).
 
-(Level 10: Offset 451, len 0, comp 1 of 2, #1, DI 00000023:)
-Data at offset 451 ('><Day>2015-02-19...') does not match INITIATOR '<WSP>xmlns'
+(Level 10: Offset 443, len 0, comp 1 of 2, #1, DI 00000023:)
+Data at offset 443 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 10: Offset 451, len 0, comp 1 of 2, #1, DI 00000023:)
+(Level 10: Offset 443, len 0, comp 1 of 2, #1, DI 00000023:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 9: Offset 451, len 0, comp 2 of 3, #1, DI 00000023:)
-Data at offset 451 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 9: Offset 443, len 0, comp 2 of 3, #1, DI 00000023:)
+Data at offset 443 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 9: Offset 451, len 0, comp 3 of 3, #1, DI 00000023:)
-Data at offset 451 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 9: Offset 443, len 0, comp 3 of 3, #1, DI 00000023:)
+Data at offset 443 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 8: Offset 451, len 0, comp 1 of 2, #1, DI 00000023:)
-Data at offset 451 ('><Day>2015-02-19') was found to be of TYPE
+(Level 8: Offset 443, len 0, comp 1 of 2, #1, DI 00000023:)
+Data at offset 443 ('><Day>2015-03-29') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 13: Offset 456, len 0, comp 1 of 2, #1, DI 00000023:)
-Data at offset 456 ('>2015-02-19</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 448, len 0, comp 1 of 2, #1, DI 00000023:)
+Data at offset 448 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 456, len 0, comp 1 of 2, #1, DI 00000023:)
+(Level 13: Offset 448, len 0, comp 1 of 2, #1, DI 00000023:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 456, len 0, comp 2 of 3, #1, DI 00000023:)
-Data at offset 456 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 448, len 0, comp 2 of 3, #1, DI 00000023:)
+Data at offset 448 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 456, len 0, comp 3 of 3, #1, DI 00000023:)
-Data at offset 456 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 448, len 0, comp 3 of 3, #1, DI 00000023:)
+Data at offset 448 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 456, len 0, comp 1 of 2, #1, DI 00000023:)
-Data at offset 456 ('>2015-02-19</Day') was found to be of TYPE
+(Level 11: Offset 448, len 0, comp 1 of 2, #1, DI 00000023:)
+Data at offset 448 ('>2015-03-29</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 11: Offset 457, len 10, comp 2 of 2, #1, DI 00000023:)
-Data at offset 457 ('2015-02-19') was found to be of TYPE
+(Level 11: Offset 449, len 10, comp 2 of 2, #1, DI 00000023:)
+Data at offset 449 ('2015-03-29') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 10: Offset 456, len 12, comp 1 of 1, #1, DI 00000024:)
-Data at offset 456 ('>2015-02-19<') was found to be of TYPE
+(Level 10: Offset 448, len 12, comp 1 of 1, #1, DI 00000024:)
+Data at offset 448 ('>2015-03-29<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 10: Offset 468, len 5, comp 2 of 1, #2, DI 00000025:)
+(Level 10: Offset 460, len 5, comp 2 of 1, #2, DI 00000025:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 10: Offset 468, len 5, comp 2 of 1, #2, DI 00000025:)
-Data at offset 468 ('/Day>') was found to be of TYPE
+(Level 10: Offset 460, len 5, comp 2 of 1, #2, DI 00000025:)
+Data at offset 460 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 9: Offset 456, len 12, comp 1 of 3, #1, DI 00000026:)
-Data at offset 456 ('>2015-02-19<') was found to be of TYPE
+(Level 9: Offset 448, len 12, comp 1 of 3, #1, DI 00000026:)
+Data at offset 448 ('>2015-03-29<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 9: Offset 473, len 0, comp 2 of 3, #1, DI 00000027:)
-Data at offset 473 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 9: Offset 465, len 0, comp 2 of 3, #1, DI 00000027:)
+Data at offset 465 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 9: Offset 473, len 0, comp 2 of 3, #1, DI 00000027:)
+(Level 9: Offset 465, len 0, comp 2 of 3, #1, DI 00000027:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 473, len 0, comp 3 of 3, #1, DI 00000027:)
-Data at offset 473 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><Standard'
+(Level 9: Offset 465, len 0, comp 3 of 3, #1, DI 00000027:)
+Data at offset 465 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 9: Offset 473, len 0, comp 3 of 3, #1, DI 00000027:)
+(Level 9: Offset 465, len 0, comp 3 of 3, #1, DI 00000027:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 473, len 0, comp 4 of 3, #1, DI 00000027:)
-Data at offset 473 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><?'
+(Level 9: Offset 465, len 0, comp 4 of 3, #1, DI 00000027:)
+Data at offset 465 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 9: Offset 473, len 0, comp 4 of 3, #1, DI 00000027:)
-Data at offset 473 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><!--'
+(Level 9: Offset 465, len 0, comp 4 of 3, #1, DI 00000027:)
+Data at offset 465 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 9: Offset 473, len 0, comp 4 of 3, #1, DI 00000027:)
-Data at offset 473 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 9: Offset 465, len 0, comp 4 of 3, #1, DI 00000027:)
+Data at offset 465 ('</ShipDate><Rece...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 9: Offset 473, len 0, comp 4 of 3, #1, DI 00000027:)
-Data at offset 473 ('</ShipDate><Rece...') failed PARTITIONing for TYPE
+(Level 9: Offset 465, len 0, comp 4 of 3, #1, DI 00000027:)
+Data at offset 465 ('</ShipDate><Rece...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 8: Offset 452, len 21, comp 2 of 2, #1, DI 00000027:)
-Data at offset 452 ('<Day>2015-02-19<') was found to be of TYPE
+(Level 8: Offset 444, len 21, comp 2 of 2, #1, DI 00000027:)
+Data at offset 444 ('<Day>2015-03-29<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 7: Offset 451, len 23, comp 1 of 1, #1, DI 00000028:)
-Data at offset 451 ('><Day>2015-02-19') was found to be of TYPE
+(Level 7: Offset 443, len 23, comp 1 of 1, #1, DI 00000028:)
+Data at offset 443 ('><Day>2015-03-29') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 7: Offset 474, len 10, comp 2 of 1, #2, DI 00000029:)
+(Level 7: Offset 466, len 10, comp 2 of 1, #2, DI 00000029:)
 TERMINATOR ('Terminator ShipDate Comp Document Element XSD') found; has value '/ShipDate<OWSP>>'.
 
-(Level 7: Offset 474, len 10, comp 2 of 1, #2, DI 00000029:)
-Data at offset 474 ('/ShipDate>') was found to be of TYPE
+(Level 7: Offset 466, len 10, comp 2 of 1, #2, DI 00000029:)
+Data at offset 466 ('/ShipDate>') was found to be of TYPE
    X'0084' (Terminator ShipDate Comp Document Element XSD).
 
-(Level 6: Offset 451, len 23, comp 14 of 41, #1, DI 0000002A:)
-Data at offset 451 ('><Day>2015-02-19') was found to be of TYPE
+(Level 6: Offset 443, len 23, comp 14 of 41, #1, DI 0000002A:)
+Data at offset 443 ('><Day>2015-03-29') was found to be of TYPE
    X'0083' (ElemDecl ShipDate Comp Document Element XSD).
 
-(Level 10: Offset 496, len 0, comp 1 of 2, #1, DI 0000002B:)
-Data at offset 496 ('><Day>2015-02-19...') does not match INITIATOR '<WSP>xmlns'
+(Level 10: Offset 488, len 0, comp 1 of 2, #1, DI 0000002B:)
+Data at offset 488 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 10: Offset 496, len 0, comp 1 of 2, #1, DI 0000002B:)
+(Level 10: Offset 488, len 0, comp 1 of 2, #1, DI 0000002B:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 9: Offset 496, len 0, comp 2 of 3, #1, DI 0000002B:)
-Data at offset 496 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 9: Offset 488, len 0, comp 2 of 3, #1, DI 0000002B:)
+Data at offset 488 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 9: Offset 496, len 0, comp 3 of 3, #1, DI 0000002B:)
-Data at offset 496 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 9: Offset 488, len 0, comp 3 of 3, #1, DI 0000002B:)
+Data at offset 488 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 8: Offset 496, len 0, comp 1 of 2, #1, DI 0000002B:)
-Data at offset 496 ('><Day>2015-02-19') was found to be of TYPE
+(Level 8: Offset 488, len 0, comp 1 of 2, #1, DI 0000002B:)
+Data at offset 488 ('><Day>2015-03-29') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 13: Offset 501, len 0, comp 1 of 2, #1, DI 0000002B:)
-Data at offset 501 ('>2015-02-19</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 493, len 0, comp 1 of 2, #1, DI 0000002B:)
+Data at offset 493 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 501, len 0, comp 1 of 2, #1, DI 0000002B:)
+(Level 13: Offset 493, len 0, comp 1 of 2, #1, DI 0000002B:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 501, len 0, comp 2 of 3, #1, DI 0000002B:)
-Data at offset 501 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 493, len 0, comp 2 of 3, #1, DI 0000002B:)
+Data at offset 493 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 501, len 0, comp 3 of 3, #1, DI 0000002B:)
-Data at offset 501 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 493, len 0, comp 3 of 3, #1, DI 0000002B:)
+Data at offset 493 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 501, len 0, comp 1 of 2, #1, DI 0000002B:)
-Data at offset 501 ('>2015-02-19</Day') was found to be of TYPE
+(Level 11: Offset 493, len 0, comp 1 of 2, #1, DI 0000002B:)
+Data at offset 493 ('>2015-03-29</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 11: Offset 502, len 10, comp 2 of 2, #1, DI 0000002B:)
-Data at offset 502 ('2015-02-19') was found to be of TYPE
+(Level 11: Offset 494, len 10, comp 2 of 2, #1, DI 0000002B:)
+Data at offset 494 ('2015-03-29') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 10: Offset 501, len 12, comp 1 of 1, #1, DI 0000002C:)
-Data at offset 501 ('>2015-02-19<') was found to be of TYPE
+(Level 10: Offset 493, len 12, comp 1 of 1, #1, DI 0000002C:)
+Data at offset 493 ('>2015-03-29<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 10: Offset 513, len 5, comp 2 of 1, #2, DI 0000002D:)
+(Level 10: Offset 505, len 5, comp 2 of 1, #2, DI 0000002D:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 10: Offset 513, len 5, comp 2 of 1, #2, DI 0000002D:)
-Data at offset 513 ('/Day>') was found to be of TYPE
+(Level 10: Offset 505, len 5, comp 2 of 1, #2, DI 0000002D:)
+Data at offset 505 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 9: Offset 501, len 12, comp 1 of 3, #1, DI 0000002E:)
-Data at offset 501 ('>2015-02-19<') was found to be of TYPE
+(Level 9: Offset 493, len 12, comp 1 of 3, #1, DI 0000002E:)
+Data at offset 493 ('>2015-03-29<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 9: Offset 518, len 0, comp 2 of 3, #1, DI 0000002F:)
-Data at offset 518 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 9: Offset 510, len 0, comp 2 of 3, #1, DI 0000002F:)
+Data at offset 510 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 9: Offset 518, len 0, comp 2 of 3, #1, DI 0000002F:)
+(Level 9: Offset 510, len 0, comp 2 of 3, #1, DI 0000002F:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 518, len 0, comp 3 of 3, #1, DI 0000002F:)
-Data at offset 518 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><Standard'
+(Level 9: Offset 510, len 0, comp 3 of 3, #1, DI 0000002F:)
+Data at offset 510 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 9: Offset 518, len 0, comp 3 of 3, #1, DI 0000002F:)
+(Level 9: Offset 510, len 0, comp 3 of 3, #1, DI 0000002F:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 518, len 0, comp 4 of 3, #1, DI 0000002F:)
-Data at offset 518 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><?'
+(Level 9: Offset 510, len 0, comp 4 of 3, #1, DI 0000002F:)
+Data at offset 510 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 9: Offset 518, len 0, comp 4 of 3, #1, DI 0000002F:)
-Data at offset 518 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><!--'
+(Level 9: Offset 510, len 0, comp 4 of 3, #1, DI 0000002F:)
+Data at offset 510 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 9: Offset 518, len 0, comp 4 of 3, #1, DI 0000002F:)
-Data at offset 518 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 9: Offset 510, len 0, comp 4 of 3, #1, DI 0000002F:)
+Data at offset 510 ('</ReceiveDate><R...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 9: Offset 518, len 0, comp 4 of 3, #1, DI 0000002F:)
-Data at offset 518 ('</ReceiveDate><R...') failed PARTITIONing for TYPE
+(Level 9: Offset 510, len 0, comp 4 of 3, #1, DI 0000002F:)
+Data at offset 510 ('</ReceiveDate><R...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 8: Offset 497, len 21, comp 2 of 2, #1, DI 0000002F:)
-Data at offset 497 ('<Day>2015-02-19<') was found to be of TYPE
+(Level 8: Offset 489, len 21, comp 2 of 2, #1, DI 0000002F:)
+Data at offset 489 ('<Day>2015-03-29<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 7: Offset 496, len 23, comp 1 of 1, #1, DI 00000030:)
-Data at offset 496 ('><Day>2015-02-19') was found to be of TYPE
+(Level 7: Offset 488, len 23, comp 1 of 1, #1, DI 00000030:)
+Data at offset 488 ('><Day>2015-03-29') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 7: Offset 519, len 13, comp 2 of 1, #2, DI 00000031:)
+(Level 7: Offset 511, len 13, comp 2 of 1, #2, DI 00000031:)
 TERMINATOR ('Terminator ReceiveDate Comp Document Element XSD') found; has value '/ReceiveDate<OWSP>>'.
 
-(Level 7: Offset 519, len 13, comp 2 of 1, #2, DI 00000031:)
-Data at offset 519 ('/ReceiveDate>') was found to be of TYPE
+(Level 7: Offset 511, len 13, comp 2 of 1, #2, DI 00000031:)
+Data at offset 511 ('/ReceiveDate>') was found to be of TYPE
    X'0087' (Terminator ReceiveDate Comp Document Element XSD).
 
-(Level 6: Offset 496, len 23, comp 15 of 41, #1, DI 00000032:)
-Data at offset 496 ('><Day>2015-02-19') was found to be of TYPE
+(Level 6: Offset 488, len 23, comp 15 of 41, #1, DI 00000032:)
+Data at offset 488 ('><Day>2015-03-29') was found to be of TYPE
    X'0086' (ElemDecl ReceiveDate Comp Document Element XSD).
 
-(Level 6: Offset 545, len 5, comp 16 of 41, #1, DI 00000033:)
-Data at offset 545 ('12:00') was found to be of TYPE
+(Level 6: Offset 537, len 5, comp 16 of 41, #1, DI 00000033:)
+Data at offset 537 ('12:00') was found to be of TYPE
    X'0088' (ReceiveTime Comp Document Element XSD).
 
-(Level 10: Offset 577, len 0, comp 1 of 2, #1, DI 00000034:)
-Data at offset 577 ('><Day>2015-02-26...') does not match INITIATOR '<WSP>xmlns'
+(Level 10: Offset 569, len 0, comp 1 of 2, #1, DI 00000034:)
+Data at offset 569 ('><Day>2015-03-04...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 10: Offset 577, len 0, comp 1 of 2, #1, DI 00000034:)
+(Level 10: Offset 569, len 0, comp 1 of 2, #1, DI 00000034:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 9: Offset 577, len 0, comp 2 of 3, #1, DI 00000034:)
-Data at offset 577 ('><Day>2015-02-26...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 9: Offset 569, len 0, comp 2 of 3, #1, DI 00000034:)
+Data at offset 569 ('><Day>2015-03-04...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 9: Offset 577, len 0, comp 3 of 3, #1, DI 00000034:)
-Data at offset 577 ('><Day>2015-02-26...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 9: Offset 569, len 0, comp 3 of 3, #1, DI 00000034:)
+Data at offset 569 ('><Day>2015-03-04...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 8: Offset 577, len 0, comp 1 of 2, #1, DI 00000034:)
-Data at offset 577 ('><Day>2015-02-26') was found to be of TYPE
+(Level 8: Offset 569, len 0, comp 1 of 2, #1, DI 00000034:)
+Data at offset 569 ('><Day>2015-03-04') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 13: Offset 582, len 0, comp 1 of 2, #1, DI 00000034:)
-Data at offset 582 ('>2015-02-26</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 574, len 0, comp 1 of 2, #1, DI 00000034:)
+Data at offset 574 ('>2015-03-04</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 582, len 0, comp 1 of 2, #1, DI 00000034:)
+(Level 13: Offset 574, len 0, comp 1 of 2, #1, DI 00000034:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 582, len 0, comp 2 of 3, #1, DI 00000034:)
-Data at offset 582 ('>2015-02-26</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 574, len 0, comp 2 of 3, #1, DI 00000034:)
+Data at offset 574 ('>2015-03-04</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 582, len 0, comp 3 of 3, #1, DI 00000034:)
-Data at offset 582 ('>2015-02-26</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 574, len 0, comp 3 of 3, #1, DI 00000034:)
+Data at offset 574 ('>2015-03-04</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 582, len 0, comp 1 of 2, #1, DI 00000034:)
-Data at offset 582 ('>2015-02-26</Day') was found to be of TYPE
+(Level 11: Offset 574, len 0, comp 1 of 2, #1, DI 00000034:)
+Data at offset 574 ('>2015-03-04</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 11: Offset 583, len 10, comp 2 of 2, #1, DI 00000034:)
-Data at offset 583 ('2015-02-26') was found to be of TYPE
+(Level 11: Offset 575, len 10, comp 2 of 2, #1, DI 00000034:)
+Data at offset 575 ('2015-03-04') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 10: Offset 582, len 12, comp 1 of 1, #1, DI 00000035:)
-Data at offset 582 ('>2015-02-26<') was found to be of TYPE
+(Level 10: Offset 574, len 12, comp 1 of 1, #1, DI 00000035:)
+Data at offset 574 ('>2015-03-04<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 10: Offset 594, len 5, comp 2 of 1, #2, DI 00000036:)
+(Level 10: Offset 586, len 5, comp 2 of 1, #2, DI 00000036:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 10: Offset 594, len 5, comp 2 of 1, #2, DI 00000036:)
-Data at offset 594 ('/Day>') was found to be of TYPE
+(Level 10: Offset 586, len 5, comp 2 of 1, #2, DI 00000036:)
+Data at offset 586 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 9: Offset 582, len 12, comp 1 of 3, #1, DI 00000037:)
-Data at offset 582 ('>2015-02-26<') was found to be of TYPE
+(Level 9: Offset 574, len 12, comp 1 of 3, #1, DI 00000037:)
+Data at offset 574 ('>2015-03-04<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 9: Offset 599, len 0, comp 2 of 3, #1, DI 00000038:)
-Data at offset 599 ('</TransmitDate><...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 9: Offset 591, len 0, comp 2 of 3, #1, DI 00000038:)
+Data at offset 591 ('</TransmitDate><...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 9: Offset 599, len 0, comp 2 of 3, #1, DI 00000038:)
+(Level 9: Offset 591, len 0, comp 2 of 3, #1, DI 00000038:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 599, len 0, comp 3 of 3, #1, DI 00000038:)
-Data at offset 599 ('</TransmitDate><...') does not match INITIATOR '<OWSP><Standard'
+(Level 9: Offset 591, len 0, comp 3 of 3, #1, DI 00000038:)
+Data at offset 591 ('</TransmitDate><...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 9: Offset 599, len 0, comp 3 of 3, #1, DI 00000038:)
+(Level 9: Offset 591, len 0, comp 3 of 3, #1, DI 00000038:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 599, len 0, comp 4 of 3, #1, DI 00000038:)
-Data at offset 599 ('</TransmitDate><...') does not match INITIATOR '<OWSP><?'
+(Level 9: Offset 591, len 0, comp 4 of 3, #1, DI 00000038:)
+Data at offset 591 ('</TransmitDate><...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 9: Offset 599, len 0, comp 4 of 3, #1, DI 00000038:)
-Data at offset 599 ('</TransmitDate><...') does not match INITIATOR '<OWSP><!--'
+(Level 9: Offset 591, len 0, comp 4 of 3, #1, DI 00000038:)
+Data at offset 591 ('</TransmitDate><...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 9: Offset 599, len 0, comp 4 of 3, #1, DI 00000038:)
-Data at offset 599 ('</TransmitDate><...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 9: Offset 591, len 0, comp 4 of 3, #1, DI 00000038:)
+Data at offset 591 ('</TransmitDate><...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 9: Offset 599, len 0, comp 4 of 3, #1, DI 00000038:)
-Data at offset 599 ('</TransmitDate><...') failed PARTITIONing for TYPE
+(Level 9: Offset 591, len 0, comp 4 of 3, #1, DI 00000038:)
+Data at offset 591 ('</TransmitDate><...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 8: Offset 578, len 21, comp 2 of 2, #1, DI 00000038:)
-Data at offset 578 ('<Day>2015-02-26<') was found to be of TYPE
+(Level 8: Offset 570, len 21, comp 2 of 2, #1, DI 00000038:)
+Data at offset 570 ('<Day>2015-03-04<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 7: Offset 577, len 23, comp 1 of 1, #1, DI 00000039:)
-Data at offset 577 ('><Day>2015-02-26') was found to be of TYPE
+(Level 7: Offset 569, len 23, comp 1 of 1, #1, DI 00000039:)
+Data at offset 569 ('><Day>2015-03-04') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 7: Offset 600, len 14, comp 2 of 1, #2, DI 0000003A:)
+(Level 7: Offset 592, len 14, comp 2 of 1, #2, DI 0000003A:)
 TERMINATOR ('Terminator TransmitDate Comp Document Element XSD') found; has value '/TransmitDate<OWSP>>'.
 
-(Level 7: Offset 600, len 14, comp 2 of 1, #2, DI 0000003A:)
-Data at offset 600 ('/TransmitDate>') was found to be of TYPE
+(Level 7: Offset 592, len 14, comp 2 of 1, #2, DI 0000003A:)
+Data at offset 592 ('/TransmitDate>') was found to be of TYPE
    X'008B' (Terminator TransmitDate Comp Document Element XSD).
 
-(Level 6: Offset 577, len 23, comp 17 of 41, #1, DI 0000003B:)
-Data at offset 577 ('><Day>2015-02-26') was found to be of TYPE
+(Level 6: Offset 569, len 23, comp 17 of 41, #1, DI 0000003B:)
+Data at offset 569 ('><Day>2015-03-04') was found to be of TYPE
    X'008A' (ElemDecl TransmitDate Comp Document Element XSD).
 
-(Level 6: Offset 614, len 0, comp 18 of 41, #1, DI 0000003C:)
-Data at offset 614 ('<Buyer></Buyer><...') does not match INITIATOR '<OWSP><PullLoad<OWSP>>'
+(Level 6: Offset 606, len 0, comp 18 of 41, #1, DI 0000003C:)
+Data at offset 606 ('<Buyer></Buyer><...') does not match INITIATOR '<OWSP><PullLoad<OWSP>>'
   of TYPE X'008C' (PullLoad Comp Document Element XSD).
 
-(Level 6: Offset 614, len 0, comp 18 of 41, #1, DI 0000003C:)
+(Level 6: Offset 606, len 0, comp 18 of 41, #1, DI 0000003C:)
 COMPONENT number 18 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 614, len 0, comp 19 of 41, #1, DI 0000003C:)
-Data at offset 614 ('<Buyer></Buyer><...') does not match INITIATOR '<OWSP><SalesRep<OWSP>>'
+(Level 6: Offset 606, len 0, comp 19 of 41, #1, DI 0000003C:)
+Data at offset 606 ('<Buyer></Buyer><...') does not match INITIATOR '<OWSP><SalesRep<OWSP>>'
   of TYPE X'008D' (SalesRep Comp Document Element XSD).
 
-(Level 6: Offset 614, len 0, comp 19 of 41, #1, DI 0000003C:)
+(Level 6: Offset 606, len 0, comp 19 of 41, #1, DI 0000003C:)
 COMPONENT number 19 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 621, len 0, comp 20 of 41, #1, DI 0000003C:)
-Data at offset 621 ('</Buyer><Entered') was found to be of TYPE
+(Level 6: Offset 613, len 0, comp 20 of 41, #1, DI 0000003C:)
+Data at offset 613 ('</Buyer><Entered') was found to be of TYPE
    X'008E' (Buyer Comp Document Element XSD).
 
-(Level 6: Offset 640, len 0, comp 21 of 41, #1, DI 0000003D:)
-Data at offset 640 ('</EnteredBy><Dep') was found to be of TYPE
+(Level 6: Offset 632, len 0, comp 21 of 41, #1, DI 0000003D:)
+Data at offset 632 ('</EnteredBy><Dep') was found to be of TYPE
    X'008F' (EnteredBy Comp Document Element XSD).
 
-(Level 6: Offset 670, len 0, comp 22 of 41, #1, DI 0000003E:)
-Data at offset 670 ('</DepartmentNumb') was found to be of TYPE
+(Level 6: Offset 662, len 0, comp 22 of 41, #1, DI 0000003E:)
+Data at offset 662 ('</DepartmentNumb') was found to be of TYPE
    X'0090' (DepartmentNumber Comp Document Element XSD).
 
-(Level 6: Offset 702, len 0, comp 23 of 41, #1, DI 0000003F:)
-Data at offset 702 ('</CarrierCode><W') was found to be of TYPE
+(Level 6: Offset 694, len 0, comp 23 of 41, #1, DI 0000003F:)
+Data at offset 694 ('</CarrierCode><W') was found to be of TYPE
    X'0091' (CarrierCode Comp Document Element XSD).
 
-(Level 6: Offset 724, len 3, comp 24 of 41, #1, DI 00000040:)
-Data at offset 724 ('0.0') was found to be of TYPE
+(Level 6: Offset 716, len 3, comp 24 of 41, #1, DI 00000040:)
+Data at offset 716 ('0.0') was found to be of TYPE
    X'0092' (Weight Comp Document Element XSD).
 
-(Level 6: Offset 744, len 3, comp 25 of 41, #1, DI 00000041:)
-Data at offset 744 ('0.0') was found to be of TYPE
+(Level 6: Offset 736, len 3, comp 25 of 41, #1, DI 00000041:)
+Data at offset 736 ('2.0') was found to be of TYPE
    X'0093' (Volume Comp Document Element XSD).
 
-(Level 6: Offset 776, len 0, comp 26 of 41, #1, DI 00000042:)
-Data at offset 776 ('</TermsBasisDate') was found to be of TYPE
+(Level 6: Offset 768, len 0, comp 26 of 41, #1, DI 00000042:)
+Data at offset 768 ('</TermsBasisDate') was found to be of TYPE
    X'0094' (TermsBasisDateCode Comp Document Element XSD).
 
-(Level 6: Offset 819, len 1, comp 27 of 41, #1, DI 00000043:)
-Data at offset 819 ('Y') was found to be of TYPE
+(Level 6: Offset 811, len 1, comp 27 of 41, #1, DI 00000043:)
+Data at offset 811 ('Y') was found to be of TYPE
    X'0095' (OrderShippedComplete Comp Document Element XSD).
 
-(Level 7: Offset 849, len 0, comp 1 of 2, #1, DI 00000044:)
-Data at offset 849 ('><PartyType>SHIP') was found to be of TYPE
+(Level 7: Offset 841, len 0, comp 1 of 2, #1, DI 00000044:)
+Data at offset 841 ('><PartyType>SHIP') was found to be of TYPE
    X'0098' (AttrList Party Element XSD).
 
-(Level 12: Offset 860, len 0, comp 1 of 2, #1, DI 00000044:)
-Data at offset 860 ('>SHIP_TO</PartyT...') does not match INITIATOR '<WSP>xmlns'
+(Level 12: Offset 852, len 0, comp 1 of 2, #1, DI 00000044:)
+Data at offset 852 ('>SHIP_TO</PartyT...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 12: Offset 860, len 0, comp 1 of 2, #1, DI 00000044:)
+(Level 12: Offset 852, len 0, comp 1 of 2, #1, DI 00000044:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 11: Offset 860, len 0, comp 2 of 3, #1, DI 00000044:)
-Data at offset 860 ('>SHIP_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 11: Offset 852, len 0, comp 2 of 3, #1, DI 00000044:)
+Data at offset 852 ('>SHIP_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 11: Offset 860, len 0, comp 3 of 3, #1, DI 00000044:)
-Data at offset 860 ('>SHIP_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 11: Offset 852, len 0, comp 3 of 3, #1, DI 00000044:)
+Data at offset 852 ('>SHIP_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 10: Offset 860, len 0, comp 1 of 2, #1, DI 00000044:)
-Data at offset 860 ('>SHIP_TO</PartyT') was found to be of TYPE
+(Level 10: Offset 852, len 0, comp 1 of 2, #1, DI 00000044:)
+Data at offset 852 ('>SHIP_TO</PartyT') was found to be of TYPE
    X'009F' (AttrList PartyConstant Type XSD).
 
-(Level 10: Offset 861, len 7, comp 2 of 2, #1, DI 00000044:)
-Data at offset 861 ('SHIP_TO') was found to be of TYPE
+(Level 10: Offset 853, len 7, comp 2 of 2, #1, DI 00000044:)
+Data at offset 853 ('SHIP_TO') was found to be of TYPE
    X'00A0' (Value PartyConstant Type XSD).
 
-(Level 9: Offset 860, len 9, comp 1 of 1, #1, DI 00000045:)
-Data at offset 860 ('>SHIP_TO<') was found to be of TYPE
+(Level 9: Offset 852, len 9, comp 1 of 1, #1, DI 00000045:)
+Data at offset 852 ('>SHIP_TO<') was found to be of TYPE
    X'009E' (TypeDef PartyConstant Type XSD).
 
-(Level 9: Offset 869, len 11, comp 2 of 1, #2, DI 00000046:)
+(Level 9: Offset 861, len 11, comp 2 of 1, #2, DI 00000046:)
 TERMINATOR ('Terminator PartyType Comp Party Element XSD') found; has value '/PartyType<OWSP>>'.
 
-(Level 9: Offset 869, len 11, comp 2 of 1, #2, DI 00000046:)
-Data at offset 869 ('/PartyType>') was found to be of TYPE
+(Level 9: Offset 861, len 11, comp 2 of 1, #2, DI 00000046:)
+Data at offset 861 ('/PartyType>') was found to be of TYPE
    X'00A1' (Terminator PartyType Comp Party Element XSD).
 
-(Level 8: Offset 860, len 9, comp 1 of 13, #1, DI 00000047:)
-Data at offset 860 ('>SHIP_TO<') was found to be of TYPE
+(Level 8: Offset 852, len 9, comp 1 of 13, #1, DI 00000047:)
+Data at offset 852 ('>SHIP_TO<') was found to be of TYPE
    X'009C' (ElemDecl PartyType Comp Party Element XSD).
 
-(Level 8: Offset 889, len 6, comp 2 of 13, #1, DI 00000048:)
-Data at offset 889 ('OFH139') was found to be of TYPE
+(Level 8: Offset 881, len 4, comp 2 of 13, #1, DI 00000048:)
+Data at offset 881 ('OFH1') was found to be of TYPE
    X'00A2' (PartyID Comp Party Element XSD).
 
-(Level 8: Offset 917, len 0, comp 3 of 13, #1, DI 00000049:)
-Data at offset 917 ('</ExternalID><Na') was found to be of TYPE
+(Level 8: Offset 907, len 3, comp 3 of 13, #1, DI 00000049:)
+Data at offset 907 ('001') was found to be of TYPE
    X'00A3' (ExternalID Comp Party Element XSD).
 
-(Level 8: Offset 936, len 27, comp 4 of 13, #1, DI 0000004A:)
-Data at offset 936 ('ORSCHELN FARM &a') was found to be of TYPE
+(Level 8: Offset 929, len 25, comp 4 of 13, #1, DI 0000004A:)
+Data at offset 929 ('ORSCHELN FARM &a') was found to be of TYPE
    X'00A4' (Name Comp Party Element XSD).
 
-(Level 8: Offset 980, len 25, comp 5 of 13, #1, DI 0000004B:)
-Data at offset 980 ('1400 West Buchan') was found to be of TYPE
+(Level 8: Offset 971, len 23, comp 5 of 13, #1, DI 0000004B:)
+Data at offset 971 ('2424 South Limit') was found to be of TYPE
    X'00A5' (Address1 Comp Party Element XSD).
 
-(Level 8: Offset 1026, len 0, comp 6 of 13, #1, DI 0000004C:)
-Data at offset 1026 ('</Address2><City') was found to be of TYPE
+(Level 8: Offset 1015, len 0, comp 6 of 13, #1, DI 0000004C:)
+Data at offset 1015 ('</Address2><City') was found to be of TYPE
    X'00A6' (Address2 Comp Party Element XSD).
 
-(Level 8: Offset 1043, len 10, comp 7 of 13, #1, DI 0000004D:)
-Data at offset 1043 ('California') was found to be of TYPE
+(Level 8: Offset 1032, len 7, comp 7 of 13, #1, DI 0000004D:)
+Data at offset 1032 ('Sedalia') was found to be of TYPE
    X'00A7' (City Comp Party Element XSD).
 
-(Level 8: Offset 1067, len 2, comp 8 of 13, #1, DI 0000004E:)
-Data at offset 1067 ('MO') was found to be of TYPE
+(Level 8: Offset 1053, len 2, comp 8 of 13, #1, DI 0000004E:)
+Data at offset 1053 ('MO') was found to be of TYPE
    X'00A8' (State Comp Party Element XSD).
 
-(Level 8: Offset 1086, len 5, comp 9 of 13, #1, DI 0000004F:)
-Data at offset 1086 ('65018') was found to be of TYPE
+(Level 8: Offset 1072, len 5, comp 9 of 13, #1, DI 0000004F:)
+Data at offset 1072 ('65301') was found to be of TYPE
    X'00A9' (ZipCode Comp Party Element XSD).
 
-(Level 8: Offset 1101, len 0, comp 10 of 13, #1, DI 00000050:)
-Data at offset 1101 ('<Phone>573-796-2...') does not match INITIATOR '<OWSP><Country<OWSP>>'
+(Level 8: Offset 1087, len 0, comp 10 of 13, #1, DI 00000050:)
+Data at offset 1087 ('<Phone>660-826-6...') does not match INITIATOR '<OWSP><Country<OWSP>>'
   of TYPE X'00AA' (Country Comp Party Element XSD).
 
-(Level 8: Offset 1101, len 0, comp 10 of 13, #1, DI 00000050:)
+(Level 8: Offset 1087, len 0, comp 10 of 13, #1, DI 00000050:)
 COMPONENT number 10 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1108, len 12, comp 11 of 13, #1, DI 00000050:)
-Data at offset 1108 ('573-796-2340') was found to be of TYPE
+(Level 8: Offset 1094, len 12, comp 11 of 13, #1, DI 00000050:)
+Data at offset 1094 ('660-826-6092') was found to be of TYPE
    X'00AB' (Phone Comp Party Element XSD).
 
-(Level 8: Offset 1128, len 0, comp 12 of 13, #1, DI 00000051:)
-Data at offset 1128 ('</Party><Party><...') does not match INITIATOR '<OWSP><Contact<OWSP>>'
+(Level 8: Offset 1114, len 0, comp 12 of 13, #1, DI 00000051:)
+Data at offset 1114 ('</Party><Party><...') does not match INITIATOR '<OWSP><Contact<OWSP>>'
   of TYPE X'00AC' (Contact Comp Party Element XSD).
 
-(Level 8: Offset 1128, len 0, comp 12 of 13, #1, DI 00000051:)
+(Level 8: Offset 1114, len 0, comp 12 of 13, #1, DI 00000051:)
 COMPONENT number 12 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1128, len 0, comp 13 of 13, #1, DI 00000051:)
-Data at offset 1128 ('</Party><Party><...') does not match INITIATOR '<OWSP><Reference<OWSP>>'
+(Level 8: Offset 1114, len 0, comp 13 of 13, #1, DI 00000051:)
+Data at offset 1114 ('</Party><Party><...') does not match INITIATOR '<OWSP><Reference<OWSP>>'
   of TYPE X'00AD' (Reference Comp Party Element XSD).
 
-(Level 8: Offset 1128, len 0, comp 13 of 13, #1, DI 00000051:)
+(Level 8: Offset 1114, len 0, comp 13 of 13, #1, DI 00000051:)
 COMPONENT number 13 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1128, len 0, comp 14 of 13, #1, DI 00000051:)
-Data at offset 1128 ('</Party><Party><...') does not match INITIATOR '<OWSP><?'
+(Level 8: Offset 1114, len 0, comp 14 of 13, #1, DI 00000051:)
+Data at offset 1114 ('</Party><Party><...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 8: Offset 1128, len 0, comp 14 of 13, #1, DI 00000051:)
-Data at offset 1128 ('</Party><Party><...') does not match INITIATOR '<OWSP><!--'
+(Level 8: Offset 1114, len 0, comp 14 of 13, #1, DI 00000051:)
+Data at offset 1114 ('</Party><Party><...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 8: Offset 1128, len 0, comp 14 of 13, #1, DI 00000051:)
-Data at offset 1128 ('</Party><Party><...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 8: Offset 1114, len 0, comp 14 of 13, #1, DI 00000051:)
+Data at offset 1114 ('</Party><Party><...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 8: Offset 1128, len 0, comp 14 of 13, #1, DI 00000051:)
-Data at offset 1128 ('</Party><Party><...') failed PARTITIONing for TYPE
+(Level 8: Offset 1114, len 0, comp 14 of 13, #1, DI 00000051:)
+Data at offset 1114 ('</Party><Party><...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 7: Offset 850, len 278, comp 2 of 2, #1, DI 00000051:)
-Data at offset 850 ('<PartyType>SHIP_') was found to be of TYPE
+(Level 7: Offset 842, len 272, comp 2 of 2, #1, DI 00000051:)
+Data at offset 842 ('<PartyType>SHIP_') was found to be of TYPE
    X'0099' (Seq Party Element XSD).
 
-(Level 6: Offset 849, len 286, comp 28 of 41, #1, DI 00000052:)
-Data at offset 849 ('><PartyType>SHIP') was found to be of TYPE
+(Level 6: Offset 841, len 280, comp 28 of 41, #1, DI 00000052:)
+Data at offset 841 ('><PartyType>SHIP') was found to be of TYPE
    X'0097' (ElemDecl Party Element XSD).
 
-(Level 7: Offset 1142, len 0, comp 1 of 2, #1, DI 00000053:)
-Data at offset 1142 ('><PartyType>BILL') was found to be of TYPE
+(Level 7: Offset 1128, len 0, comp 1 of 2, #1, DI 00000053:)
+Data at offset 1128 ('><PartyType>BILL') was found to be of TYPE
    X'0098' (AttrList Party Element XSD).
 
-(Level 12: Offset 1153, len 0, comp 1 of 2, #1, DI 00000053:)
-Data at offset 1153 ('>BILL_TO</PartyT...') does not match INITIATOR '<WSP>xmlns'
+(Level 12: Offset 1139, len 0, comp 1 of 2, #1, DI 00000053:)
+Data at offset 1139 ('>BILL_TO</PartyT...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 12: Offset 1153, len 0, comp 1 of 2, #1, DI 00000053:)
+(Level 12: Offset 1139, len 0, comp 1 of 2, #1, DI 00000053:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 11: Offset 1153, len 0, comp 2 of 3, #1, DI 00000053:)
-Data at offset 1153 ('>BILL_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 11: Offset 1139, len 0, comp 2 of 3, #1, DI 00000053:)
+Data at offset 1139 ('>BILL_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 11: Offset 1153, len 0, comp 3 of 3, #1, DI 00000053:)
-Data at offset 1153 ('>BILL_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 11: Offset 1139, len 0, comp 3 of 3, #1, DI 00000053:)
+Data at offset 1139 ('>BILL_TO</PartyT...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 10: Offset 1153, len 0, comp 1 of 2, #1, DI 00000053:)
-Data at offset 1153 ('>BILL_TO</PartyT') was found to be of TYPE
+(Level 10: Offset 1139, len 0, comp 1 of 2, #1, DI 00000053:)
+Data at offset 1139 ('>BILL_TO</PartyT') was found to be of TYPE
    X'009F' (AttrList PartyConstant Type XSD).
 
-(Level 10: Offset 1154, len 7, comp 2 of 2, #1, DI 00000053:)
-Data at offset 1154 ('BILL_TO') was found to be of TYPE
+(Level 10: Offset 1140, len 7, comp 2 of 2, #1, DI 00000053:)
+Data at offset 1140 ('BILL_TO') was found to be of TYPE
    X'00A0' (Value PartyConstant Type XSD).
 
-(Level 9: Offset 1153, len 9, comp 1 of 1, #1, DI 00000054:)
-Data at offset 1153 ('>BILL_TO<') was found to be of TYPE
+(Level 9: Offset 1139, len 9, comp 1 of 1, #1, DI 00000054:)
+Data at offset 1139 ('>BILL_TO<') was found to be of TYPE
    X'009E' (TypeDef PartyConstant Type XSD).
 
-(Level 9: Offset 1162, len 11, comp 2 of 1, #2, DI 00000055:)
+(Level 9: Offset 1148, len 11, comp 2 of 1, #2, DI 00000055:)
 TERMINATOR ('Terminator PartyType Comp Party Element XSD') found; has value '/PartyType<OWSP>>'.
 
-(Level 9: Offset 1162, len 11, comp 2 of 1, #2, DI 00000055:)
-Data at offset 1162 ('/PartyType>') was found to be of TYPE
+(Level 9: Offset 1148, len 11, comp 2 of 1, #2, DI 00000055:)
+Data at offset 1148 ('/PartyType>') was found to be of TYPE
    X'00A1' (Terminator PartyType Comp Party Element XSD).
 
-(Level 8: Offset 1153, len 9, comp 1 of 13, #1, DI 00000056:)
-Data at offset 1153 ('>BILL_TO<') was found to be of TYPE
+(Level 8: Offset 1139, len 9, comp 1 of 13, #1, DI 00000056:)
+Data at offset 1139 ('>BILL_TO<') was found to be of TYPE
    X'009C' (ElemDecl PartyType Comp Party Element XSD).
 
-(Level 8: Offset 1182, len 6, comp 2 of 13, #1, DI 00000057:)
-Data at offset 1182 ('OFH978') was found to be of TYPE
+(Level 8: Offset 1168, len 6, comp 2 of 13, #1, DI 00000057:)
+Data at offset 1168 ('OFH978') was found to be of TYPE
    X'00A2' (PartyID Comp Party Element XSD).
 
-(Level 8: Offset 1198, len 0, comp 3 of 13, #1, DI 00000058:)
-Data at offset 1198 ('<Name>ORSCHELN F...') does not match INITIATOR '<OWSP><ExternalID<OWSP>>'
+(Level 8: Offset 1184, len 0, comp 3 of 13, #1, DI 00000058:)
+Data at offset 1184 ('<Name>ORSCHELN F...') does not match INITIATOR '<OWSP><ExternalID<OWSP>>'
   of TYPE X'00A3' (ExternalID Comp Party Element XSD).
 
-(Level 8: Offset 1198, len 0, comp 3 of 13, #1, DI 00000058:)
+(Level 8: Offset 1184, len 0, comp 3 of 13, #1, DI 00000058:)
 COMPONENT number 3 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1204, len 30, comp 4 of 13, #1, DI 00000058:)
-Data at offset 1204 ('ORSCHELN FARM &a') was found to be of TYPE
+(Level 8: Offset 1190, len 30, comp 4 of 13, #1, DI 00000058:)
+Data at offset 1190 ('ORSCHELN FARM &a') was found to be of TYPE
    X'00A4' (Name Comp Party Element XSD).
 
-(Level 8: Offset 1251, len 21, comp 5 of 13, #1, DI 00000059:)
-Data at offset 1251 ('1800 Overcenter ') was found to be of TYPE
+(Level 8: Offset 1237, len 21, comp 5 of 13, #1, DI 00000059:)
+Data at offset 1237 ('1800 Overcenter ') was found to be of TYPE
    X'00A5' (Address1 Comp Party Element XSD).
 
-(Level 8: Offset 1293, len 0, comp 6 of 13, #1, DI 0000005A:)
-Data at offset 1293 ('</Address2><City') was found to be of TYPE
+(Level 8: Offset 1279, len 0, comp 6 of 13, #1, DI 0000005A:)
+Data at offset 1279 ('</Address2><City') was found to be of TYPE
    X'00A6' (Address2 Comp Party Element XSD).
 
-(Level 8: Offset 1310, len 7, comp 7 of 13, #1, DI 0000005B:)
-Data at offset 1310 ('Moberly') was found to be of TYPE
+(Level 8: Offset 1296, len 7, comp 7 of 13, #1, DI 0000005B:)
+Data at offset 1296 ('Moberly') was found to be of TYPE
    X'00A7' (City Comp Party Element XSD).
 
-(Level 8: Offset 1331, len 2, comp 8 of 13, #1, DI 0000005C:)
-Data at offset 1331 ('MO') was found to be of TYPE
+(Level 8: Offset 1317, len 2, comp 8 of 13, #1, DI 0000005C:)
+Data at offset 1317 ('MO') was found to be of TYPE
    X'00A8' (State Comp Party Element XSD).
 
-(Level 8: Offset 1350, len 5, comp 9 of 13, #1, DI 0000005D:)
-Data at offset 1350 ('65270') was found to be of TYPE
+(Level 8: Offset 1336, len 5, comp 9 of 13, #1, DI 0000005D:)
+Data at offset 1336 ('65270') was found to be of TYPE
    X'00A9' (ZipCode Comp Party Element XSD).
 
-(Level 8: Offset 1365, len 0, comp 10 of 13, #1, DI 0000005E:)
-Data at offset 1365 ('<Phone>573-796-2...') does not match INITIATOR '<OWSP><Country<OWSP>>'
+(Level 8: Offset 1351, len 0, comp 10 of 13, #1, DI 0000005E:)
+Data at offset 1351 ('<Phone>660-826-6...') does not match INITIATOR '<OWSP><Country<OWSP>>'
   of TYPE X'00AA' (Country Comp Party Element XSD).
 
-(Level 8: Offset 1365, len 0, comp 10 of 13, #1, DI 0000005E:)
+(Level 8: Offset 1351, len 0, comp 10 of 13, #1, DI 0000005E:)
 COMPONENT number 10 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1372, len 12, comp 11 of 13, #1, DI 0000005E:)
-Data at offset 1372 ('573-796-2340') was found to be of TYPE
+(Level 8: Offset 1358, len 12, comp 11 of 13, #1, DI 0000005E:)
+Data at offset 1358 ('660-826-6092') was found to be of TYPE
    X'00AB' (Phone Comp Party Element XSD).
 
-(Level 8: Offset 1392, len 0, comp 12 of 13, #1, DI 0000005F:)
-Data at offset 1392 ('</Party><Payment...') does not match INITIATOR '<OWSP><Contact<OWSP>>'
+(Level 8: Offset 1378, len 0, comp 12 of 13, #1, DI 0000005F:)
+Data at offset 1378 ('</Party><Payment...') does not match INITIATOR '<OWSP><Contact<OWSP>>'
   of TYPE X'00AC' (Contact Comp Party Element XSD).
 
-(Level 8: Offset 1392, len 0, comp 12 of 13, #1, DI 0000005F:)
+(Level 8: Offset 1378, len 0, comp 12 of 13, #1, DI 0000005F:)
 COMPONENT number 12 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1392, len 0, comp 13 of 13, #1, DI 0000005F:)
-Data at offset 1392 ('</Party><Payment...') does not match INITIATOR '<OWSP><Reference<OWSP>>'
+(Level 8: Offset 1378, len 0, comp 13 of 13, #1, DI 0000005F:)
+Data at offset 1378 ('</Party><Payment...') does not match INITIATOR '<OWSP><Reference<OWSP>>'
   of TYPE X'00AD' (Reference Comp Party Element XSD).
 
-(Level 8: Offset 1392, len 0, comp 13 of 13, #1, DI 0000005F:)
+(Level 8: Offset 1378, len 0, comp 13 of 13, #1, DI 0000005F:)
 COMPONENT number 13 of TYPE X'0099' (Seq Party Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 1392, len 0, comp 14 of 13, #1, DI 0000005F:)
-Data at offset 1392 ('</Party><Payment...') does not match INITIATOR '<OWSP><?'
+(Level 8: Offset 1378, len 0, comp 14 of 13, #1, DI 0000005F:)
+Data at offset 1378 ('</Party><Payment...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 8: Offset 1392, len 0, comp 14 of 13, #1, DI 0000005F:)
-Data at offset 1392 ('</Party><Payment...') does not match INITIATOR '<OWSP><!--'
+(Level 8: Offset 1378, len 0, comp 14 of 13, #1, DI 0000005F:)
+Data at offset 1378 ('</Party><Payment...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 8: Offset 1392, len 0, comp 14 of 13, #1, DI 0000005F:)
-Data at offset 1392 ('</Party><Payment...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 8: Offset 1378, len 0, comp 14 of 13, #1, DI 0000005F:)
+Data at offset 1378 ('</Party><Payment...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 8: Offset 1392, len 0, comp 14 of 13, #1, DI 0000005F:)
-Data at offset 1392 ('</Party><Payment...') failed PARTITIONing for TYPE
+(Level 8: Offset 1378, len 0, comp 14 of 13, #1, DI 0000005F:)
+Data at offset 1378 ('</Party><Payment...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 7: Offset 1143, len 249, comp 2 of 2, #1, DI 0000005F:)
-Data at offset 1143 ('<PartyType>BILL_') was found to be of TYPE
+(Level 7: Offset 1129, len 249, comp 2 of 2, #1, DI 0000005F:)
+Data at offset 1129 ('<PartyType>BILL_') was found to be of TYPE
    X'0099' (Seq Party Element XSD).
 
-(Level 6: Offset 1142, len 257, comp 28 of 41, #2, DI 00000060:)
-Data at offset 1142 ('><PartyType>BILL') was found to be of TYPE
+(Level 6: Offset 1128, len 257, comp 28 of 41, #2, DI 00000060:)
+Data at offset 1128 ('><PartyType>BILL') was found to be of TYPE
    X'0097' (ElemDecl Party Element XSD).
 
-(Level 6: Offset 1400, len 0, comp 28 of 41, #3, DI 00000061:)
-Data at offset 1400 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><Party'
+(Level 6: Offset 1386, len 0, comp 28 of 41, #3, DI 00000061:)
+Data at offset 1386 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><Party'
   of TYPE X'0097' (ElemDecl Party Element XSD).
 
-(Level 6: Offset 1400, len 0, comp 28 of 41, #3, DI 00000061:)
+(Level 6: Offset 1386, len 0, comp 28 of 41, #3, DI 00000061:)
 COMPONENT number 28 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 3 is optional and does not exist.
 
-(Level 6: Offset 1400, len 0, comp 29 of 41, #1, DI 00000061:)
-Data at offset 1400 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><ShipVia'
+(Level 6: Offset 1386, len 0, comp 29 of 41, #1, DI 00000061:)
+Data at offset 1386 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><ShipVia'
   of TYPE X'00AF' (ElemDecl ShipVia Element XSD).
 
-(Level 6: Offset 1400, len 0, comp 29 of 41, #1, DI 00000061:)
+(Level 6: Offset 1386, len 0, comp 29 of 41, #1, DI 00000061:)
 COMPONENT number 29 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 1400, len 0, comp 30 of 41, #1, DI 00000061:)
-Data at offset 1400 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><Instructions'
+(Level 6: Offset 1386, len 0, comp 30 of 41, #1, DI 00000061:)
+Data at offset 1386 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><Instructions'
   of TYPE X'0042' (ElemDecl Instructions Element XSD).
 
-(Level 6: Offset 1400, len 0, comp 30 of 41, #1, DI 00000061:)
+(Level 6: Offset 1386, len 0, comp 30 of 41, #1, DI 00000061:)
 COMPONENT number 30 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 1400, len 0, comp 31 of 41, #1, DI 00000061:)
-Data at offset 1400 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><FOB<OWSP>>'
+(Level 6: Offset 1386, len 0, comp 31 of 41, #1, DI 00000061:)
+Data at offset 1386 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><FOB<OWSP>>'
   of TYPE X'00B5' (FOB Comp Document Element XSD).
 
-(Level 6: Offset 1400, len 0, comp 31 of 41, #1, DI 00000061:)
+(Level 6: Offset 1386, len 0, comp 31 of 41, #1, DI 00000061:)
 COMPONENT number 31 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 1400, len 0, comp 32 of 41, #1, DI 00000061:)
-Data at offset 1400 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><SalesRequirements'
+(Level 6: Offset 1386, len 0, comp 32 of 41, #1, DI 00000061:)
+Data at offset 1386 ('<PaymentTerms><T...') does not match INITIATOR '<OWSP><SalesRequirements'
   of TYPE X'0027' (ElemDecl SalesRequirements Element XSD).
 
-(Level 6: Offset 1400, len 0, comp 32 of 41, #1, DI 00000061:)
+(Level 6: Offset 1386, len 0, comp 32 of 41, #1, DI 00000061:)
 COMPONENT number 32 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 7: Offset 1413, len 0, comp 1 of 2, #1, DI 00000061:)
-Data at offset 1413 ('><TermsCode>Net ') was found to be of TYPE
+(Level 7: Offset 1399, len 0, comp 1 of 2, #1, DI 00000061:)
+Data at offset 1399 ('><TermsCode>Net ') was found to be of TYPE
    X'002E' (AttrList PaymentTerms Element XSD).
 
-(Level 8: Offset 1425, len 6, comp 1 of 6, #1, DI 00000061:)
-Data at offset 1425 ('Net 30') was found to be of TYPE
+(Level 8: Offset 1411, len 6, comp 1 of 6, #1, DI 00000061:)
+Data at offset 1411 ('Net 30') was found to be of TYPE
    X'0031' (TermsCode Comp PaymentTerms Element XSD).
 
-(Level 8: Offset 1460, len 3, comp 2 of 6, #1, DI 00000062:)
-Data at offset 1460 ('0.0') was found to be of TYPE
+(Level 8: Offset 1446, len 3, comp 2 of 6, #1, DI 00000062:)
+Data at offset 1446 ('0.0') was found to be of TYPE
    X'0032' (DiscountPercent Comp PaymentTerms Element XSD).
 
-(Level 8: Offset 1495, len 1, comp 3 of 6, #1, DI 00000063:)
-Data at offset 1495 ('0') was found to be of TYPE
+(Level 8: Offset 1481, len 1, comp 3 of 6, #1, DI 00000063:)
+Data at offset 1481 ('0') was found to be of TYPE
    X'0033' (DiscountDays Comp PaymentTerms Element XSD).
 
-(Level 8: Offset 1523, len 2, comp 4 of 6, #1, DI 00000064:)
-Data at offset 1523 ('30') was found to be of TYPE
+(Level 8: Offset 1509, len 2, comp 4 of 6, #1, DI 00000064:)
+Data at offset 1509 ('30') was found to be of TYPE
    X'0034' (NetDueDays Comp PaymentTerms Element XSD).
 
-(Level 12: Offset 1548, len 0, comp 1 of 2, #1, DI 00000065:)
-Data at offset 1548 ('>2015-02-19</Ter...') does not match INITIATOR '<WSP>xmlns'
+(Level 12: Offset 1534, len 0, comp 1 of 2, #1, DI 00000065:)
+Data at offset 1534 ('>2015-03-29</Ter...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 12: Offset 1548, len 0, comp 1 of 2, #1, DI 00000065:)
+(Level 12: Offset 1534, len 0, comp 1 of 2, #1, DI 00000065:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 11: Offset 1548, len 0, comp 2 of 3, #1, DI 00000065:)
-Data at offset 1548 ('>2015-02-19</Ter...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 11: Offset 1534, len 0, comp 2 of 3, #1, DI 00000065:)
+Data at offset 1534 ('>2015-03-29</Ter...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 11: Offset 1548, len 0, comp 3 of 3, #1, DI 00000065:)
-Data at offset 1548 ('>2015-02-19</Ter...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 11: Offset 1534, len 0, comp 3 of 3, #1, DI 00000065:)
+Data at offset 1534 ('>2015-03-29</Ter...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 10: Offset 1548, len 0, comp 1 of 2, #1, DI 00000065:)
-Data at offset 1548 ('>2015-02-19</Ter') was found to be of TYPE
+(Level 10: Offset 1534, len 0, comp 1 of 2, #1, DI 00000065:)
+Data at offset 1534 ('>2015-03-29</Ter') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 10: Offset 1549, len 10, comp 2 of 2, #1, DI 00000065:)
-Data at offset 1549 ('2015-02-19') was found to be of TYPE
+(Level 10: Offset 1535, len 10, comp 2 of 2, #1, DI 00000065:)
+Data at offset 1535 ('2015-03-29') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 9: Offset 1548, len 12, comp 1 of 1, #1, DI 00000066:)
-Data at offset 1548 ('>2015-02-19<') was found to be of TYPE
+(Level 9: Offset 1534, len 12, comp 1 of 1, #1, DI 00000066:)
+Data at offset 1534 ('>2015-03-29<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 9: Offset 1560, len 11, comp 2 of 1, #2, DI 00000067:)
+(Level 9: Offset 1546, len 11, comp 2 of 1, #2, DI 00000067:)
 TERMINATOR ('Terminator TermsDate Comp PaymentTerms Element XSD') found; has value '/TermsDate<OWSP>>'.
 
-(Level 9: Offset 1560, len 11, comp 2 of 1, #2, DI 00000067:)
-Data at offset 1560 ('/TermsDate>') was found to be of TYPE
+(Level 9: Offset 1546, len 11, comp 2 of 1, #2, DI 00000067:)
+Data at offset 1546 ('/TermsDate>') was found to be of TYPE
    X'003D' (Terminator TermsDate Comp PaymentTerms Element XSD).
 
-(Level 8: Offset 1548, len 12, comp 5 of 6, #1, DI 00000068:)
-Data at offset 1548 ('>2015-02-19<') was found to be of TYPE
+(Level 8: Offset 1534, len 12, comp 5 of 6, #1, DI 00000068:)
+Data at offset 1534 ('>2015-03-29<') was found to be of TYPE
    X'0036' (ElemDecl TermsDate Comp PaymentTerms Element XSD).
 
-(Level 12: Offset 1579, len 0, comp 1 of 2, #1, DI 00000069:)
-Data at offset 1579 ('>2015-03-21</Due...') does not match INITIATOR '<WSP>xmlns'
+(Level 12: Offset 1565, len 0, comp 1 of 2, #1, DI 00000069:)
+Data at offset 1565 ('>2015-04-28</Due...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 12: Offset 1579, len 0, comp 1 of 2, #1, DI 00000069:)
+(Level 12: Offset 1565, len 0, comp 1 of 2, #1, DI 00000069:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 11: Offset 1579, len 0, comp 2 of 3, #1, DI 00000069:)
-Data at offset 1579 ('>2015-03-21</Due...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 11: Offset 1565, len 0, comp 2 of 3, #1, DI 00000069:)
+Data at offset 1565 ('>2015-04-28</Due...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 11: Offset 1579, len 0, comp 3 of 3, #1, DI 00000069:)
-Data at offset 1579 ('>2015-03-21</Due...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 11: Offset 1565, len 0, comp 3 of 3, #1, DI 00000069:)
+Data at offset 1565 ('>2015-04-28</Due...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 10: Offset 1579, len 0, comp 1 of 2, #1, DI 00000069:)
-Data at offset 1579 ('>2015-03-21</Due') was found to be of TYPE
+(Level 10: Offset 1565, len 0, comp 1 of 2, #1, DI 00000069:)
+Data at offset 1565 ('>2015-04-28</Due') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 10: Offset 1580, len 10, comp 2 of 2, #1, DI 00000069:)
-Data at offset 1580 ('2015-03-21') was found to be of TYPE
+(Level 10: Offset 1566, len 10, comp 2 of 2, #1, DI 00000069:)
+Data at offset 1566 ('2015-04-28') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 9: Offset 1579, len 12, comp 1 of 1, #1, DI 0000006A:)
-Data at offset 1579 ('>2015-03-21<') was found to be of TYPE
+(Level 9: Offset 1565, len 12, comp 1 of 1, #1, DI 0000006A:)
+Data at offset 1565 ('>2015-04-28<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 9: Offset 1591, len 9, comp 2 of 1, #2, DI 0000006B:)
+(Level 9: Offset 1577, len 9, comp 2 of 1, #2, DI 0000006B:)
 TERMINATOR ('Terminator DueDate Comp PaymentTerms Element XSD') found; has value '/DueDate<OWSP>>'.
 
-(Level 9: Offset 1591, len 9, comp 2 of 1, #2, DI 0000006B:)
-Data at offset 1591 ('/DueDate>') was found to be of TYPE
+(Level 9: Offset 1577, len 9, comp 2 of 1, #2, DI 0000006B:)
+Data at offset 1577 ('/DueDate>') was found to be of TYPE
    X'0040' (Terminator DueDate Comp PaymentTerms Element XSD).
 
-(Level 8: Offset 1579, len 12, comp 6 of 6, #1, DI 0000006C:)
-Data at offset 1579 ('>2015-03-21<') was found to be of TYPE
+(Level 8: Offset 1565, len 12, comp 6 of 6, #1, DI 0000006C:)
+Data at offset 1565 ('>2015-04-28<') was found to be of TYPE
    X'003F' (ElemDecl DueDate Comp PaymentTerms Element XSD).
 
-(Level 8: Offset 1600, len 0, comp 7 of 6, #2, DI 0000006D:)
-Data at offset 1600 ('</PaymentTerms><...') does not match INITIATOR '<OWSP><?'
+(Level 8: Offset 1586, len 0, comp 7 of 6, #2, DI 0000006D:)
+Data at offset 1586 ('</PaymentTerms><...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 8: Offset 1600, len 0, comp 7 of 6, #2, DI 0000006D:)
-Data at offset 1600 ('</PaymentTerms><...') does not match INITIATOR '<OWSP><!--'
+(Level 8: Offset 1586, len 0, comp 7 of 6, #2, DI 0000006D:)
+Data at offset 1586 ('</PaymentTerms><...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 8: Offset 1600, len 0, comp 7 of 6, #2, DI 0000006D:)
-Data at offset 1600 ('</PaymentTerms><...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 8: Offset 1586, len 0, comp 7 of 6, #2, DI 0000006D:)
+Data at offset 1586 ('</PaymentTerms><...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 8: Offset 1600, len 0, comp 7 of 6, #2, DI 0000006D:)
-Data at offset 1600 ('</PaymentTerms><...') failed PARTITIONing for TYPE
+(Level 8: Offset 1586, len 0, comp 7 of 6, #2, DI 0000006D:)
+Data at offset 1586 ('</PaymentTerms><...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 7: Offset 1414, len 186, comp 2 of 2, #1, DI 0000006D:)
-Data at offset 1414 ('<TermsCode>Net 3') was found to be of TYPE
+(Level 7: Offset 1400, len 186, comp 2 of 2, #1, DI 0000006D:)
+Data at offset 1400 ('<TermsCode>Net 3') was found to be of TYPE
    X'002F' (Seq PaymentTerms Element XSD).
 
-(Level 6: Offset 1413, len 201, comp 33 of 41, #1, DI 0000006E:)
-Data at offset 1413 ('><TermsCode>Net ') was found to be of TYPE
+(Level 6: Offset 1399, len 201, comp 33 of 41, #1, DI 0000006E:)
+Data at offset 1399 ('><TermsCode>Net ') was found to be of TYPE
    X'002D' (ElemDecl PaymentTerms Element XSD).
 
-(Level 6: Offset 1615, len 0, comp 34 of 41, #1, DI 0000006F:)
-Data at offset 1615 ('<TaxableAmount>0...') does not match INITIATOR '<OWSP><Charge'
+(Level 6: Offset 1601, len 0, comp 34 of 41, #1, DI 0000006F:)
+Data at offset 1601 ('<TaxableAmount>0...') does not match INITIATOR '<OWSP><Charge'
   of TYPE X'0049' (ElemDecl Charge Element XSD).
 
-(Level 6: Offset 1615, len 0, comp 34 of 41, #1, DI 0000006F:)
+(Level 6: Offset 1601, len 0, comp 34 of 41, #1, DI 0000006F:)
 COMPONENT number 34 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 6: Offset 1630, len 3, comp 35 of 41, #1, DI 0000006F:)
-Data at offset 1630 ('0.0') was found to be of TYPE
+(Level 6: Offset 1616, len 3, comp 35 of 41, #1, DI 0000006F:)
+Data at offset 1616 ('0.0') was found to be of TYPE
    X'00B6' (TaxableAmount Comp Document Element XSD).
 
-(Level 6: Offset 1661, len 3, comp 36 of 41, #1, DI 00000070:)
-Data at offset 1661 ('0.0') was found to be of TYPE
+(Level 6: Offset 1647, len 3, comp 36 of 41, #1, DI 00000070:)
+Data at offset 1647 ('0.0') was found to be of TYPE
    X'00B7' (TaxPercent Comp Document Element XSD).
 
-(Level 6: Offset 1689, len 3, comp 37 of 41, #1, DI 00000071:)
-Data at offset 1689 ('0.0') was found to be of TYPE
+(Level 6: Offset 1675, len 3, comp 37 of 41, #1, DI 00000071:)
+Data at offset 1675 ('0.0') was found to be of TYPE
    X'00B8' (GSTPercent Comp Document Element XSD).
 
-(Level 6: Offset 1716, len 3, comp 38 of 41, #1, DI 00000072:)
-Data at offset 1716 ('0.0') was found to be of TYPE
+(Level 6: Offset 1702, len 3, comp 38 of 41, #1, DI 00000072:)
+Data at offset 1702 ('0.0') was found to be of TYPE
    X'00B9' (GSTAmount Comp Document Element XSD).
 
-(Level 6: Offset 1738, len 5, comp 39 of 41, #1, DI 00000073:)
-Data at offset 1738 ('147.6') was found to be of TYPE
+(Level 6: Offset 1724, len 6, comp 39 of 41, #1, DI 00000073:)
+Data at offset 1724 ('614.24') was found to be of TYPE
    X'00BA' (Total Comp Document Element XSD).
 
-(Level 7: Offset 1760, len 0, comp 1 of 2, #1, DI 00000074:)
-Data at offset 1760 ('><key>UCC128</ke') was found to be of TYPE
+(Level 7: Offset 1747, len 0, comp 1 of 2, #1, DI 00000074:)
+Data at offset 1747 ('><key>UCC128</ke') was found to be of TYPE
    X'00BD' (AttrList Property Element XSD).
 
-(Level 8: Offset 1766, len 6, comp 1 of 2, #1, DI 00000074:)
-Data at offset 1766 ('UCC128') was found to be of TYPE
+(Level 8: Offset 1753, len 6, comp 1 of 2, #1, DI 00000074:)
+Data at offset 1753 ('UCC128') was found to be of TYPE
    X'00C0' (key Comp Property Element XSD).
 
-(Level 8: Offset 1785, len 20, comp 2 of 2, #1, DI 00000075:)
-Data at offset 1785 ('0000000000000100') was found to be of TYPE
+(Level 8: Offset 1772, len 20, comp 2 of 2, #1, DI 00000075:)
+Data at offset 1772 ('0000000000000100') was found to be of TYPE
    X'00C1' (value Comp Property Element XSD).
 
-(Level 8: Offset 1813, len 0, comp 3 of 2, #2, DI 00000076:)
-Data at offset 1813 ('</Property><Line...') does not match INITIATOR '<OWSP><?'
+(Level 8: Offset 1800, len 0, comp 3 of 2, #2, DI 00000076:)
+Data at offset 1800 ('</Property><Line...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 8: Offset 1813, len 0, comp 3 of 2, #2, DI 00000076:)
-Data at offset 1813 ('</Property><Line...') does not match INITIATOR '<OWSP><!--'
+(Level 8: Offset 1800, len 0, comp 3 of 2, #2, DI 00000076:)
+Data at offset 1800 ('</Property><Line...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 8: Offset 1813, len 0, comp 3 of 2, #2, DI 00000076:)
-Data at offset 1813 ('</Property><Line...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 8: Offset 1800, len 0, comp 3 of 2, #2, DI 00000076:)
+Data at offset 1800 ('</Property><Line...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 8: Offset 1813, len 0, comp 3 of 2, #2, DI 00000076:)
-Data at offset 1813 ('</Property><Line...') failed PARTITIONing for TYPE
+(Level 8: Offset 1800, len 0, comp 3 of 2, #2, DI 00000076:)
+Data at offset 1800 ('</Property><Line...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 7: Offset 1761, len 52, comp 2 of 2, #1, DI 00000076:)
-Data at offset 1761 ('<key>UCC128</key') was found to be of TYPE
+(Level 7: Offset 1748, len 52, comp 2 of 2, #1, DI 00000076:)
+Data at offset 1748 ('<key>UCC128</key') was found to be of TYPE
    X'00BE' (Seq Property Element XSD).
 
-(Level 6: Offset 1760, len 63, comp 40 of 41, #1, DI 00000077:)
-Data at offset 1760 ('><key>UCC128</ke') was found to be of TYPE
+(Level 6: Offset 1747, len 63, comp 40 of 41, #1, DI 00000077:)
+Data at offset 1747 ('><key>UCC128</ke') was found to be of TYPE
    X'00BC' (ElemDecl Property Element XSD).
 
-(Level 6: Offset 1824, len 0, comp 40 of 41, #2, DI 00000078:)
-Data at offset 1824 ('<LineItem><PartN...') does not match INITIATOR '<OWSP><Property'
+(Level 6: Offset 1811, len 0, comp 40 of 41, #2, DI 00000078:)
+Data at offset 1811 ('<LineItem><PartN...') does not match INITIATOR '<OWSP><Property'
   of TYPE X'00BC' (ElemDecl Property Element XSD).
 
-(Level 6: Offset 1824, len 0, comp 40 of 41, #2, DI 00000078:)
+(Level 6: Offset 1811, len 0, comp 40 of 41, #2, DI 00000078:)
 COMPONENT number 40 of TYPE X'005D' (Seq Document Element XSD):
 occurrence 2 is optional and does not exist.
 
-(Level 7: Offset 1833, len 0, comp 1 of 2, #1, DI 00000078:)
-Data at offset 1833 ('><PartNumber><Ty') was found to be of TYPE
+(Level 7: Offset 1820, len 0, comp 1 of 2, #1, DI 00000078:)
+Data at offset 1820 ('><PartNumber><Ty') was found to be of TYPE
    X'00C4' (AttrList LineItem Element XSD).
 
-(Level 8: Offset 1834, len 0, comp 1 of 25, #1, DI 00000078:)
-Data at offset 1834 ('<PartNumber><Typ...') does not match INITIATOR '<OWSP><LineID<OWSP>>'
+(Level 8: Offset 1821, len 0, comp 1 of 25, #1, DI 00000078:)
+Data at offset 1821 ('<PartNumber><Typ...') does not match INITIATOR '<OWSP><LineID<OWSP>>'
   of TYPE X'00C7' (LineID Comp LineItem Element XSD).
 
-(Level 8: Offset 1834, len 0, comp 1 of 25, #1, DI 00000078:)
+(Level 8: Offset 1821, len 0, comp 1 of 25, #1, DI 00000078:)
 COMPONENT number 1 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 1845, len 0, comp 1 of 2, #1, DI 00000078:)
-Data at offset 1845 ('><Type>SKU</Type') was found to be of TYPE
+(Level 9: Offset 1832, len 0, comp 1 of 2, #1, DI 00000078:)
+Data at offset 1832 ('><Type>SKU</Type') was found to be of TYPE
    X'00CA' (AttrList PartNumber Element XSD).
 
-(Level 14: Offset 1851, len 0, comp 1 of 2, #1, DI 00000078:)
-Data at offset 1851 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
+(Level 14: Offset 1838, len 0, comp 1 of 2, #1, DI 00000078:)
+Data at offset 1838 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 14: Offset 1851, len 0, comp 1 of 2, #1, DI 00000078:)
+(Level 14: Offset 1838, len 0, comp 1 of 2, #1, DI 00000078:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 13: Offset 1851, len 0, comp 2 of 3, #1, DI 00000078:)
-Data at offset 1851 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 13: Offset 1838, len 0, comp 2 of 3, #1, DI 00000078:)
+Data at offset 1838 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 13: Offset 1851, len 0, comp 3 of 3, #1, DI 00000078:)
-Data at offset 1851 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 13: Offset 1838, len 0, comp 3 of 3, #1, DI 00000078:)
+Data at offset 1838 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 12: Offset 1851, len 0, comp 1 of 2, #1, DI 00000078:)
-Data at offset 1851 ('>SKU</Type><Numb') was found to be of TYPE
+(Level 12: Offset 1838, len 0, comp 1 of 2, #1, DI 00000078:)
+Data at offset 1838 ('>SKU</Type><Numb') was found to be of TYPE
    X'00D1' (AttrList PartNumberConstant Type XSD).
 
-(Level 12: Offset 1852, len 3, comp 2 of 2, #1, DI 00000078:)
-Data at offset 1852 ('SKU') was found to be of TYPE
+(Level 12: Offset 1839, len 3, comp 2 of 2, #1, DI 00000078:)
+Data at offset 1839 ('SKU') was found to be of TYPE
    X'00D2' (Value PartNumberConstant Type XSD).
 
-(Level 11: Offset 1851, len 5, comp 1 of 1, #1, DI 00000079:)
-Data at offset 1851 ('>SKU<') was found to be of TYPE
+(Level 11: Offset 1838, len 5, comp 1 of 1, #1, DI 00000079:)
+Data at offset 1838 ('>SKU<') was found to be of TYPE
    X'00D0' (TypeDef PartNumberConstant Type XSD).
 
-(Level 11: Offset 1856, len 6, comp 2 of 1, #2, DI 0000007A:)
+(Level 11: Offset 1843, len 6, comp 2 of 1, #2, DI 0000007A:)
 TERMINATOR ('Terminator Type Comp PartNumber Element XSD') found; has value '/Type<OWSP>>'.
 
-(Level 11: Offset 1856, len 6, comp 2 of 1, #2, DI 0000007A:)
-Data at offset 1856 ('/Type>') was found to be of TYPE
+(Level 11: Offset 1843, len 6, comp 2 of 1, #2, DI 0000007A:)
+Data at offset 1843 ('/Type>') was found to be of TYPE
    X'00D3' (Terminator Type Comp PartNumber Element XSD).
 
-(Level 10: Offset 1851, len 5, comp 1 of 2, #1, DI 0000007B:)
-Data at offset 1851 ('>SKU<') was found to be of TYPE
+(Level 10: Offset 1838, len 5, comp 1 of 2, #1, DI 0000007B:)
+Data at offset 1838 ('>SKU<') was found to be of TYPE
    X'00CE' (ElemDecl Type Comp PartNumber Element XSD).
 
-(Level 10: Offset 1870, len 9, comp 2 of 2, #1, DI 0000007C:)
-Data at offset 1870 ('107311874') was found to be of TYPE
+(Level 10: Offset 1857, len 9, comp 2 of 2, #1, DI 0000007C:)
+Data at offset 1857 ('107311851') was found to be of TYPE
    X'00D4' (Number Comp PartNumber Element XSD).
 
-(Level 10: Offset 1888, len 0, comp 3 of 2, #2, DI 0000007D:)
-Data at offset 1888 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><?'
+(Level 10: Offset 1875, len 0, comp 3 of 2, #2, DI 0000007D:)
+Data at offset 1875 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 10: Offset 1888, len 0, comp 3 of 2, #2, DI 0000007D:)
-Data at offset 1888 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><!--'
+(Level 10: Offset 1875, len 0, comp 3 of 2, #2, DI 0000007D:)
+Data at offset 1875 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 10: Offset 1888, len 0, comp 3 of 2, #2, DI 0000007D:)
-Data at offset 1888 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 10: Offset 1875, len 0, comp 3 of 2, #2, DI 0000007D:)
+Data at offset 1875 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 10: Offset 1888, len 0, comp 3 of 2, #2, DI 0000007D:)
-Data at offset 1888 ('</PartNumber><Pa...') failed PARTITIONing for TYPE
+(Level 10: Offset 1875, len 0, comp 3 of 2, #2, DI 0000007D:)
+Data at offset 1875 ('</PartNumber><Pa...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 9: Offset 1846, len 42, comp 2 of 2, #1, DI 0000007D:)
-Data at offset 1846 ('<Type>SKU</Type>') was found to be of TYPE
+(Level 9: Offset 1833, len 42, comp 2 of 2, #1, DI 0000007D:)
+Data at offset 1833 ('<Type>SKU</Type>') was found to be of TYPE
    X'00CB' (Seq PartNumber Element XSD).
 
-(Level 8: Offset 1845, len 55, comp 2 of 25, #1, DI 0000007E:)
-Data at offset 1845 ('><Type>SKU</Type') was found to be of TYPE
+(Level 8: Offset 1832, len 55, comp 2 of 25, #1, DI 0000007E:)
+Data at offset 1832 ('><Type>SKU</Type') was found to be of TYPE
    X'00C9' (ElemDecl PartNumber Element XSD).
 
-(Level 9: Offset 1912, len 0, comp 1 of 2, #1, DI 0000007F:)
-Data at offset 1912 ('><Type>UPC</Type') was found to be of TYPE
+(Level 9: Offset 1899, len 0, comp 1 of 2, #1, DI 0000007F:)
+Data at offset 1899 ('><Type>UPC</Type') was found to be of TYPE
    X'00CA' (AttrList PartNumber Element XSD).
 
-(Level 14: Offset 1918, len 0, comp 1 of 2, #1, DI 0000007F:)
-Data at offset 1918 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
+(Level 14: Offset 1905, len 0, comp 1 of 2, #1, DI 0000007F:)
+Data at offset 1905 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 14: Offset 1918, len 0, comp 1 of 2, #1, DI 0000007F:)
+(Level 14: Offset 1905, len 0, comp 1 of 2, #1, DI 0000007F:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 13: Offset 1918, len 0, comp 2 of 3, #1, DI 0000007F:)
-Data at offset 1918 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 13: Offset 1905, len 0, comp 2 of 3, #1, DI 0000007F:)
+Data at offset 1905 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 13: Offset 1918, len 0, comp 3 of 3, #1, DI 0000007F:)
-Data at offset 1918 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 13: Offset 1905, len 0, comp 3 of 3, #1, DI 0000007F:)
+Data at offset 1905 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 12: Offset 1918, len 0, comp 1 of 2, #1, DI 0000007F:)
-Data at offset 1918 ('>UPC</Type><Numb') was found to be of TYPE
+(Level 12: Offset 1905, len 0, comp 1 of 2, #1, DI 0000007F:)
+Data at offset 1905 ('>UPC</Type><Numb') was found to be of TYPE
    X'00D1' (AttrList PartNumberConstant Type XSD).
 
-(Level 12: Offset 1919, len 3, comp 2 of 2, #1, DI 0000007F:)
-Data at offset 1919 ('UPC') was found to be of TYPE
+(Level 12: Offset 1906, len 3, comp 2 of 2, #1, DI 0000007F:)
+Data at offset 1906 ('UPC') was found to be of TYPE
    X'00D2' (Value PartNumberConstant Type XSD).
 
-(Level 11: Offset 1918, len 5, comp 1 of 1, #1, DI 00000080:)
-Data at offset 1918 ('>UPC<') was found to be of TYPE
+(Level 11: Offset 1905, len 5, comp 1 of 1, #1, DI 00000080:)
+Data at offset 1905 ('>UPC<') was found to be of TYPE
    X'00D0' (TypeDef PartNumberConstant Type XSD).
 
-(Level 11: Offset 1923, len 6, comp 2 of 1, #2, DI 00000081:)
+(Level 11: Offset 1910, len 6, comp 2 of 1, #2, DI 00000081:)
 TERMINATOR ('Terminator Type Comp PartNumber Element XSD') found; has value '/Type<OWSP>>'.
 
-(Level 11: Offset 1923, len 6, comp 2 of 1, #2, DI 00000081:)
-Data at offset 1923 ('/Type>') was found to be of TYPE
+(Level 11: Offset 1910, len 6, comp 2 of 1, #2, DI 00000081:)
+Data at offset 1910 ('/Type>') was found to be of TYPE
    X'00D3' (Terminator Type Comp PartNumber Element XSD).
 
-(Level 10: Offset 1918, len 5, comp 1 of 2, #1, DI 00000082:)
-Data at offset 1918 ('>UPC<') was found to be of TYPE
+(Level 10: Offset 1905, len 5, comp 1 of 2, #1, DI 00000082:)
+Data at offset 1905 ('>UPC<') was found to be of TYPE
    X'00CE' (ElemDecl Type Comp PartNumber Element XSD).
 
-(Level 10: Offset 1937, len 15, comp 2 of 2, #1, DI 00000083:)
-Data at offset 1937 ('7 33531 29150 9') was found to be of TYPE
+(Level 10: Offset 1924, len 12, comp 2 of 2, #1, DI 00000083:)
+Data at offset 1924 ('733531100160') was found to be of TYPE
    X'00D4' (Number Comp PartNumber Element XSD).
 
-(Level 10: Offset 1961, len 0, comp 3 of 2, #2, DI 00000084:)
-Data at offset 1961 ('</PartNumber><De...') does not match INITIATOR '<OWSP><?'
+(Level 10: Offset 1945, len 0, comp 3 of 2, #2, DI 00000084:)
+Data at offset 1945 ('</PartNumber><De...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 10: Offset 1961, len 0, comp 3 of 2, #2, DI 00000084:)
-Data at offset 1961 ('</PartNumber><De...') does not match INITIATOR '<OWSP><!--'
+(Level 10: Offset 1945, len 0, comp 3 of 2, #2, DI 00000084:)
+Data at offset 1945 ('</PartNumber><De...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 10: Offset 1961, len 0, comp 3 of 2, #2, DI 00000084:)
-Data at offset 1961 ('</PartNumber><De...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 10: Offset 1945, len 0, comp 3 of 2, #2, DI 00000084:)
+Data at offset 1945 ('</PartNumber><De...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 10: Offset 1961, len 0, comp 3 of 2, #2, DI 00000084:)
-Data at offset 1961 ('</PartNumber><De...') failed PARTITIONing for TYPE
+(Level 10: Offset 1945, len 0, comp 3 of 2, #2, DI 00000084:)
+Data at offset 1945 ('</PartNumber><De...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 9: Offset 1913, len 48, comp 2 of 2, #1, DI 00000084:)
-Data at offset 1913 ('<Type>UPC</Type>') was found to be of TYPE
+(Level 9: Offset 1900, len 45, comp 2 of 2, #1, DI 00000084:)
+Data at offset 1900 ('<Type>UPC</Type>') was found to be of TYPE
    X'00CB' (Seq PartNumber Element XSD).
 
-(Level 8: Offset 1912, len 61, comp 2 of 25, #2, DI 00000085:)
-Data at offset 1912 ('><Type>UPC</Type') was found to be of TYPE
+(Level 8: Offset 1899, len 58, comp 2 of 25, #2, DI 00000085:)
+Data at offset 1899 ('><Type>UPC</Type') was found to be of TYPE
    X'00C9' (ElemDecl PartNumber Element XSD).
 
-(Level 8: Offset 1974, len 0, comp 2 of 25, #3, DI 00000086:)
-Data at offset 1974 ('<Description>OFH...') does not match INITIATOR '<OWSP><PartNumber'
+(Level 8: Offset 1958, len 0, comp 2 of 25, #3, DI 00000086:)
+Data at offset 1958 ('<Description>10 ...') does not match INITIATOR '<OWSP><PartNumber'
   of TYPE X'00C9' (ElemDecl PartNumber Element XSD).
 
-(Level 8: Offset 1974, len 0, comp 2 of 25, #3, DI 00000086:)
+(Level 8: Offset 1958, len 0, comp 2 of 25, #3, DI 00000086:)
 COMPONENT number 2 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 3 is optional and does not exist.
 
-(Level 8: Offset 1987, len 15, comp 3 of 25, #1, DI 00000086:)
-Data at offset 1987 ('OFH 1204 Annual') was found to be of TYPE
+(Level 8: Offset 1971, len 17, comp 3 of 25, #1, DI 00000086:)
+Data at offset 1971 ('10 Inch Select H') was found to be of TYPE
    X'00D5' (Description Comp LineItem Element XSD).
 
-(Level 8: Offset 2030, len 10, comp 4 of 25, #1, DI 00000087:)
-Data at offset 2030 ('1204Annual') was found to be of TYPE
+(Level 8: Offset 2016, len 10, comp 4 of 25, #1, DI 00000087:)
+Data at offset 2016 ('10SelectHB') was found to be of TYPE
    X'00D6' (CategoryCode Comp LineItem Element XSD).
 
-(Level 8: Offset 2076, len 10, comp 5 of 25, #1, DI 00000088:)
-Data at offset 2076 ('1204Annual') was found to be of TYPE
+(Level 8: Offset 2062, len 10, comp 5 of 25, #1, DI 00000088:)
+Data at offset 2062 ('10SelectHB') was found to be of TYPE
    X'00D7' (CategoryDescription Comp LineItem Element XSD).
 
-(Level 8: Offset 2124, len 15, comp 6 of 25, #1, DI 00000089:)
-Data at offset 2124 ('OFH 1204 Annual') was found to be of TYPE
+(Level 8: Offset 2110, len 16, comp 6 of 25, #1, DI 00000089:)
+Data at offset 2110 ('OFH 10 Select HB') was found to be of TYPE
    X'00D8' (SKUDescription Comp LineItem Element XSD).
 
-(Level 8: Offset 2166, len 0, comp 7 of 25, #1, DI 0000008A:)
-Data at offset 2166 ('</CaseCode><Quan') was found to be of TYPE
+(Level 8: Offset 2153, len 0, comp 7 of 25, #1, DI 0000008A:)
+Data at offset 2153 ('</CaseCode><Quan') was found to be of TYPE
    X'00D9' (CaseCode Comp LineItem Element XSD).
 
-(Level 8: Offset 2177, len 0, comp 8 of 25, #1, DI 0000008B:)
-Data at offset 2177 ('<Quantity>15</Qu...') does not match INITIATOR '<OWSP><Packs<OWSP>>'
+(Level 8: Offset 2164, len 0, comp 8 of 25, #1, DI 0000008B:)
+Data at offset 2164 ('<Quantity>40</Qu...') does not match INITIATOR '<OWSP><Packs<OWSP>>'
   of TYPE X'00DA' (Packs Comp LineItem Element XSD).
 
-(Level 8: Offset 2177, len 0, comp 8 of 25, #1, DI 0000008B:)
+(Level 8: Offset 2164, len 0, comp 8 of 25, #1, DI 0000008B:)
 COMPONENT number 8 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 2177, len 0, comp 9 of 25, #1, DI 0000008B:)
-Data at offset 2177 ('<Quantity>15</Qu...') does not match INITIATOR '<OWSP><PackSize<OWSP>>'
+(Level 8: Offset 2164, len 0, comp 9 of 25, #1, DI 0000008B:)
+Data at offset 2164 ('<Quantity>40</Qu...') does not match INITIATOR '<OWSP><PackSize<OWSP>>'
   of TYPE X'00DB' (PackSize Comp LineItem Element XSD).
 
-(Level 8: Offset 2177, len 0, comp 9 of 25, #1, DI 0000008B:)
+(Level 8: Offset 2164, len 0, comp 9 of 25, #1, DI 0000008B:)
 COMPONENT number 9 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 2187, len 2, comp 10 of 25, #1, DI 0000008B:)
-Data at offset 2187 ('15') was found to be of TYPE
+(Level 8: Offset 2174, len 2, comp 10 of 25, #1, DI 0000008B:)
+Data at offset 2174 ('40') was found to be of TYPE
    X'00DC' (Quantity Comp LineItem Element XSD).
 
-(Level 9: Offset 2206, len 0, comp 1 of 2, #1, DI 0000008C:)
-Data at offset 2206 ('><UnitOfMeasure>') was found to be of TYPE
+(Level 9: Offset 2193, len 0, comp 1 of 2, #1, DI 0000008C:)
+Data at offset 2193 ('><UnitOfMeasure>') was found to be of TYPE
    X'0019' (AttrList Units Element XSD).
 
-(Level 10: Offset 2222, len 4, comp 1 of 5, #1, DI 0000008C:)
-Data at offset 2222 ('Flat') was found to be of TYPE
+(Level 10: Offset 2209, len 4, comp 1 of 5, #1, DI 0000008C:)
+Data at offset 2209 ('Flat') was found to be of TYPE
    X'0021' (UnitOfMeasure Comp Units Element XSD).
 
-(Level 10: Offset 2256, len 1, comp 2 of 5, #1, DI 0000008D:)
-Data at offset 2256 ('1') was found to be of TYPE
+(Level 10: Offset 2243, len 1, comp 2 of 5, #1, DI 0000008D:)
+Data at offset 2243 ('1') was found to be of TYPE
    X'0022' (PackageCount Comp Units Element XSD).
 
-(Level 10: Offset 2283, len 2, comp 3 of 5, #1, DI 0000008E:)
-Data at offset 2283 ('12') was found to be of TYPE
+(Level 10: Offset 2270, len 1, comp 3 of 5, #1, DI 0000008E:)
+Data at offset 2270 ('1') was found to be of TYPE
    X'0023' (EachCount Comp Units Element XSD).
 
-(Level 10: Offset 2316, len 2, comp 4 of 5, #1, DI 0000008F:)
-Data at offset 2316 ('15') was found to be of TYPE
+(Level 10: Offset 2302, len 2, comp 4 of 5, #1, DI 0000008F:)
+Data at offset 2302 ('40') was found to be of TYPE
    X'0024' (InventoryQuantity Comp Units Element XSD).
 
-(Level 10: Offset 2352, len 3, comp 5 of 5, #1, DI 00000090:)
-Data at offset 2352 ('180') was found to be of TYPE
+(Level 10: Offset 2338, len 2, comp 5 of 5, #1, DI 00000090:)
+Data at offset 2338 ('40') was found to be of TYPE
    X'0025' (UnitQuantity Comp Units Element XSD).
 
-(Level 10: Offset 2370, len 0, comp 6 of 5, #2, DI 00000091:)
-Data at offset 2370 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><?'
+(Level 10: Offset 2355, len 0, comp 6 of 5, #2, DI 00000091:)
+Data at offset 2355 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 10: Offset 2370, len 0, comp 6 of 5, #2, DI 00000091:)
-Data at offset 2370 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><!--'
+(Level 10: Offset 2355, len 0, comp 6 of 5, #2, DI 00000091:)
+Data at offset 2355 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 10: Offset 2370, len 0, comp 6 of 5, #2, DI 00000091:)
-Data at offset 2370 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 10: Offset 2355, len 0, comp 6 of 5, #2, DI 00000091:)
+Data at offset 2355 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 10: Offset 2370, len 0, comp 6 of 5, #2, DI 00000091:)
-Data at offset 2370 ('</Units><Taxed>f...') failed PARTITIONing for TYPE
+(Level 10: Offset 2355, len 0, comp 6 of 5, #2, DI 00000091:)
+Data at offset 2355 ('</Units><Taxed>f...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 9: Offset 2207, len 163, comp 2 of 2, #1, DI 00000091:)
-Data at offset 2207 ('<UnitOfMeasure>F') was found to be of TYPE
+(Level 9: Offset 2194, len 161, comp 2 of 2, #1, DI 00000091:)
+Data at offset 2194 ('<UnitOfMeasure>F') was found to be of TYPE
    X'001F' (Seq Units Element XSD).
 
-(Level 8: Offset 2206, len 171, comp 11 of 25, #1, DI 00000092:)
-Data at offset 2206 ('><UnitOfMeasure>') was found to be of TYPE
+(Level 8: Offset 2193, len 169, comp 11 of 25, #1, DI 00000092:)
+Data at offset 2193 ('><UnitOfMeasure>') was found to be of TYPE
    X'0018' (ElemDecl Units Element XSD).
 
-(Level 8: Offset 2385, len 5, comp 12 of 25, #1, DI 00000093:)
-Data at offset 2385 ('false') was found to be of TYPE
+(Level 8: Offset 2370, len 5, comp 12 of 25, #1, DI 00000093:)
+Data at offset 2370 ('false') was found to be of TYPE
    X'00DD' (Taxed Comp LineItem Element XSD).
 
-(Level 8: Offset 2405, len 4, comp 13 of 25, #1, DI 00000094:)
-Data at offset 2405 ('0.82') was found to be of TYPE
+(Level 8: Offset 2390, len 3, comp 13 of 25, #1, DI 00000094:)
+Data at offset 2390 ('6.5') was found to be of TYPE
    X'00DE' (Price Comp LineItem Element XSD).
 
-(Level 8: Offset 2428, len 5, comp 14 of 25, #1, DI 00000095:)
-Data at offset 2428 ('147.6') was found to be of TYPE
+(Level 8: Offset 2412, len 5, comp 14 of 25, #1, DI 00000095:)
+Data at offset 2412 ('260.0') was found to be of TYPE
    X'00DF' (Extension Comp LineItem Element XSD).
 
-(Level 8: Offset 2464, len 3, comp 15 of 25, #1, DI 00000096:)
-Data at offset 2464 ('0.0') was found to be of TYPE
+(Level 8: Offset 2448, len 3, comp 15 of 25, #1, DI 00000096:)
+Data at offset 2448 ('0.0') was found to be of TYPE
    X'00E0' (AdjustmentPercent Comp LineItem Element XSD).
 
-(Level 8: Offset 2487, len 0, comp 16 of 25, #1, DI 00000097:)
-Data at offset 2487 ('<DiscountPercent...') does not match INITIATOR '<OWSP><AdjustmentAmount<OWSP>>'
+(Level 8: Offset 2471, len 0, comp 16 of 25, #1, DI 00000097:)
+Data at offset 2471 ('<DiscountPercent...') does not match INITIATOR '<OWSP><AdjustmentAmount<OWSP>>'
   of TYPE X'00E1' (AdjustmentAmount Comp LineItem Element XSD).
 
-(Level 8: Offset 2487, len 0, comp 16 of 25, #1, DI 00000097:)
+(Level 8: Offset 2471, len 0, comp 16 of 25, #1, DI 00000097:)
 COMPONENT number 16 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 2504, len 3, comp 17 of 25, #1, DI 00000097:)
-Data at offset 2504 ('0.0') was found to be of TYPE
+(Level 8: Offset 2488, len 3, comp 17 of 25, #1, DI 00000097:)
+Data at offset 2488 ('0.0') was found to be of TYPE
    X'00E2' (DiscountPercent Comp LineItem Element XSD).
 
-(Level 8: Offset 2541, len 3, comp 18 of 25, #1, DI 00000098:)
-Data at offset 2541 ('0.0') was found to be of TYPE
+(Level 8: Offset 2525, len 3, comp 18 of 25, #1, DI 00000098:)
+Data at offset 2525 ('0.0') was found to be of TYPE
    X'00E3' (DiscountAmount Comp LineItem Element XSD).
 
-(Level 8: Offset 2580, len 1, comp 19 of 25, #1, DI 00000099:)
-Data at offset 2580 ('5') was found to be of TYPE
+(Level 8: Offset 2564, len 2, comp 19 of 25, #1, DI 00000099:)
+Data at offset 2564 ('10') was found to be of TYPE
    X'00E4' (RequestedQuantity Comp LineItem Element XSD).
 
-(Level 8: Offset 2618, len 2, comp 20 of 25, #1, DI 0000009A:)
-Data at offset 2618 ('15') was found to be of TYPE
+(Level 8: Offset 2603, len 2, comp 20 of 25, #1, DI 0000009A:)
+Data at offset 2603 ('40') was found to be of TYPE
    X'00E5' (ShippedQuantity Comp LineItem Element XSD).
 
-(Level 8: Offset 2667, len 2, comp 21 of 25, #1, DI 0000009B:)
-Data at offset 2667 ('15') was found to be of TYPE
+(Level 8: Offset 2652, len 2, comp 21 of 25, #1, DI 0000009B:)
+Data at offset 2652 ('40') was found to be of TYPE
    X'00E6' (AccumulativeShippedQuantity Comp LineItem Element XSD).
 
-(Level 8: Offset 2699, len 0, comp 22 of 25, #1, DI 0000009C:)
-Data at offset 2699 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Property'
+(Level 8: Offset 2684, len 0, comp 22 of 25, #1, DI 0000009C:)
+Data at offset 2684 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Property'
   of TYPE X'00BC' (ElemDecl Property Element XSD).
 
-(Level 8: Offset 2699, len 0, comp 22 of 25, #1, DI 0000009C:)
+(Level 8: Offset 2684, len 0, comp 22 of 25, #1, DI 0000009C:)
 COMPONENT number 22 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 2699, len 0, comp 23 of 25, #1, DI 0000009C:)
-Data at offset 2699 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Comments<OWSP>>'
+(Level 8: Offset 2684, len 0, comp 23 of 25, #1, DI 0000009C:)
+Data at offset 2684 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Comments<OWSP>>'
   of TYPE X'00E7' (Comments Comp LineItem Element XSD).
 
-(Level 8: Offset 2699, len 0, comp 23 of 25, #1, DI 0000009C:)
+(Level 8: Offset 2684, len 0, comp 23 of 25, #1, DI 0000009C:)
 COMPONENT number 23 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 8: Offset 2699, len 0, comp 24 of 25, #1, DI 0000009C:)
-Data at offset 2699 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ValueAdds'
+(Level 8: Offset 2684, len 0, comp 24 of 25, #1, DI 0000009C:)
+Data at offset 2684 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ValueAdds'
   of TYPE X'00E9' (ElemDecl ValueAdds Element XSD).
 
-(Level 8: Offset 2699, len 0, comp 24 of 25, #1, DI 0000009C:)
+(Level 8: Offset 2684, len 0, comp 24 of 25, #1, DI 0000009C:)
 COMPONENT number 24 of TYPE X'00C5' (Seq LineItem Element XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 9: Offset 2699, len 0, comp 1 of 2, #1, DI 0000009C:)
-Data at offset 2699 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ReceiveDate'
+(Level 9: Offset 2684, len 0, comp 1 of 2, #1, DI 0000009C:)
+Data at offset 2684 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ReceiveDate'
   of TYPE X'00EF' (ElemDecl ReceiveDate Comp Comp LineItem Element XSD).
 
-(Level 13: Offset 2708, len 0, comp 1 of 2, #1, DI 0000009C:)
-Data at offset 2708 ('><Day>2015-02-19...') does not match INITIATOR '<WSP>xmlns'
+(Level 13: Offset 2693, len 0, comp 1 of 2, #1, DI 0000009C:)
+Data at offset 2693 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 13: Offset 2708, len 0, comp 1 of 2, #1, DI 0000009C:)
+(Level 13: Offset 2693, len 0, comp 1 of 2, #1, DI 0000009C:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 12: Offset 2708, len 0, comp 2 of 3, #1, DI 0000009C:)
-Data at offset 2708 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 12: Offset 2693, len 0, comp 2 of 3, #1, DI 0000009C:)
+Data at offset 2693 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 12: Offset 2708, len 0, comp 3 of 3, #1, DI 0000009C:)
-Data at offset 2708 ('><Day>2015-02-19...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 12: Offset 2693, len 0, comp 3 of 3, #1, DI 0000009C:)
+Data at offset 2693 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 11: Offset 2708, len 0, comp 1 of 2, #1, DI 0000009C:)
-Data at offset 2708 ('><Day>2015-02-19') was found to be of TYPE
+(Level 11: Offset 2693, len 0, comp 1 of 2, #1, DI 0000009C:)
+Data at offset 2693 ('><Day>2015-03-29') was found to be of TYPE
    X'006D' (AttrList DateType Type XSD).
 
-(Level 16: Offset 2713, len 0, comp 1 of 2, #1, DI 0000009C:)
-Data at offset 2713 ('>2015-02-19</Day...') does not match INITIATOR '<WSP>xmlns'
+(Level 16: Offset 2698, len 0, comp 1 of 2, #1, DI 0000009C:)
+Data at offset 2698 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
   of TYPE X'001C' (Prefix XMLS XSD).
 
-(Level 16: Offset 2713, len 0, comp 1 of 2, #1, DI 0000009C:)
+(Level 16: Offset 2698, len 0, comp 1 of 2, #1, DI 0000009C:)
 COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
   is required, but does not exist.
 
-(Level 15: Offset 2713, len 0, comp 2 of 3, #1, DI 0000009C:)
-Data at offset 2713 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+(Level 15: Offset 2698, len 0, comp 2 of 3, #1, DI 0000009C:)
+Data at offset 2698 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
   of TYPE X'001E' (Nnsl XMLS XSD).
 
-(Level 15: Offset 2713, len 0, comp 3 of 3, #1, DI 0000009C:)
-Data at offset 2713 ('>2015-02-19</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+(Level 15: Offset 2698, len 0, comp 3 of 3, #1, DI 0000009C:)
+Data at offset 2698 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
   of TYPE X'003B' (Nil XMLS XSD).
 
-(Level 14: Offset 2713, len 0, comp 1 of 2, #1, DI 0000009C:)
-Data at offset 2713 ('>2015-02-19</Day') was found to be of TYPE
+(Level 14: Offset 2698, len 0, comp 1 of 2, #1, DI 0000009C:)
+Data at offset 2698 ('>2015-03-29</Day') was found to be of TYPE
    X'003A' (AttrList CustomDate Type XSD).
 
-(Level 14: Offset 2714, len 10, comp 2 of 2, #1, DI 0000009C:)
-Data at offset 2714 ('2015-02-19') was found to be of TYPE
+(Level 14: Offset 2699, len 10, comp 2 of 2, #1, DI 0000009C:)
+Data at offset 2699 ('2015-03-29') was found to be of TYPE
    X'003C' (Value CustomDate Type XSD).
 
-(Level 13: Offset 2713, len 12, comp 1 of 1, #1, DI 0000009D:)
-Data at offset 2713 ('>2015-02-19<') was found to be of TYPE
+(Level 13: Offset 2698, len 12, comp 1 of 1, #1, DI 0000009D:)
+Data at offset 2698 ('>2015-03-29<') was found to be of TYPE
    X'0039' (TypeDef CustomDate Type XSD).
 
-(Level 13: Offset 2725, len 5, comp 2 of 1, #2, DI 0000009E:)
+(Level 13: Offset 2710, len 5, comp 2 of 1, #2, DI 0000009E:)
 TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
 
-(Level 13: Offset 2725, len 5, comp 2 of 1, #2, DI 0000009E:)
-Data at offset 2725 ('/Day>') was found to be of TYPE
+(Level 13: Offset 2710, len 5, comp 2 of 1, #2, DI 0000009E:)
+Data at offset 2710 ('/Day>') was found to be of TYPE
    X'0072' (Terminator Day Comp DateType Type XSD).
 
-(Level 12: Offset 2713, len 12, comp 1 of 3, #1, DI 0000009F:)
-Data at offset 2713 ('>2015-02-19<') was found to be of TYPE
+(Level 12: Offset 2698, len 12, comp 1 of 3, #1, DI 0000009F:)
+Data at offset 2698 ('>2015-03-29<') was found to be of TYPE
    X'0071' (ElemDecl Day Comp DateType Type XSD).
 
-(Level 12: Offset 2730, len 0, comp 2 of 3, #1, DI 000000A0:)
-Data at offset 2730 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+(Level 12: Offset 2715, len 0, comp 2 of 3, #1, DI 000000A0:)
+Data at offset 2715 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Week<OWSP>>'
   of TYPE X'0073' (Week Comp DateType Type XSD).
 
-(Level 12: Offset 2730, len 0, comp 2 of 3, #1, DI 000000A0:)
+(Level 12: Offset 2715, len 0, comp 2 of 3, #1, DI 000000A0:)
 COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 12: Offset 2730, len 0, comp 3 of 3, #1, DI 000000A0:)
-Data at offset 2730 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Standard'
+(Level 12: Offset 2715, len 0, comp 3 of 3, #1, DI 000000A0:)
+Data at offset 2715 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Standard'
   of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
 
-(Level 12: Offset 2730, len 0, comp 3 of 3, #1, DI 000000A0:)
+(Level 12: Offset 2715, len 0, comp 3 of 3, #1, DI 000000A0:)
 COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
 occurrence 1 is optional and does not exist.
 
-(Level 12: Offset 2730, len 0, comp 4 of 3, #1, DI 000000A0:)
-Data at offset 2730 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><?'
+(Level 12: Offset 2715, len 0, comp 4 of 3, #1, DI 000000A0:)
+Data at offset 2715 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 12: Offset 2730, len 0, comp 4 of 3, #1, DI 000000A0:)
-Data at offset 2730 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><!--'
+(Level 12: Offset 2715, len 0, comp 4 of 3, #1, DI 000000A0:)
+Data at offset 2715 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 12: Offset 2730, len 0, comp 4 of 3, #1, DI 000000A0:)
-Data at offset 2730 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 12: Offset 2715, len 0, comp 4 of 3, #1, DI 000000A0:)
+Data at offset 2715 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 12: Offset 2730, len 0, comp 4 of 3, #1, DI 000000A0:)
-Data at offset 2730 ('</ShipDate></Lin...') failed PARTITIONing for TYPE
+(Level 12: Offset 2715, len 0, comp 4 of 3, #1, DI 000000A0:)
+Data at offset 2715 ('</ShipDate></Lin...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 11: Offset 2709, len 21, comp 2 of 2, #1, DI 000000A0:)
-Data at offset 2709 ('<Day>2015-02-19<') was found to be of TYPE
+(Level 11: Offset 2694, len 21, comp 2 of 2, #1, DI 000000A0:)
+Data at offset 2694 ('<Day>2015-03-29<') was found to be of TYPE
    X'006E' (Seq DateType Type XSD).
 
-(Level 10: Offset 2708, len 23, comp 1 of 1, #1, DI 000000A1:)
-Data at offset 2708 ('><Day>2015-02-19') was found to be of TYPE
+(Level 10: Offset 2693, len 23, comp 1 of 1, #1, DI 000000A1:)
+Data at offset 2693 ('><Day>2015-03-29') was found to be of TYPE
    X'006C' (TypeDef DateType Type XSD).
 
-(Level 10: Offset 2731, len 10, comp 2 of 1, #2, DI 000000A2:)
+(Level 10: Offset 2716, len 10, comp 2 of 1, #2, DI 000000A2:)
 TERMINATOR ('Terminator ShipDate Comp Comp LineItem Element XSD') found; has value '/ShipDate<OWSP>>'.
 
-(Level 10: Offset 2731, len 10, comp 2 of 1, #2, DI 000000A2:)
-Data at offset 2731 ('/ShipDate>') was found to be of TYPE
+(Level 10: Offset 2716, len 10, comp 2 of 1, #2, DI 000000A2:)
+Data at offset 2716 ('/ShipDate>') was found to be of TYPE
    X'00F3' (Terminator ShipDate Comp Comp LineItem Element XSD).
 
-(Level 9: Offset 2708, len 23, comp 2 of 2, #1, DI 000000A3:)
-Data at offset 2708 ('><Day>2015-02-19') was found to be of TYPE
+(Level 9: Offset 2693, len 23, comp 2 of 2, #1, DI 000000A3:)
+Data at offset 2693 ('><Day>2015-03-29') was found to be of TYPE
    X'00F2' (ElemDecl ShipDate Comp Comp LineItem Element XSD).
 
-(Level 8: Offset 2699, len 42, comp 25 of 25, #1, DI 000000A4:)
-Data at offset 2699 ('<ShipDate><Day>2') was found to be of TYPE
+(Level 8: Offset 2684, len 42, comp 25 of 25, #1, DI 000000A4:)
+Data at offset 2684 ('<ShipDate><Day>2') was found to be of TYPE
    X'00EC' (Choice Comp LineItem Element XSD).
 
-(Level 8: Offset 2741, len 0, comp 26 of 25, #2, DI 000000A5:)
-Data at offset 2741 ('</LineItem></Doc...') does not match INITIATOR '<OWSP><?'
+(Level 8: Offset 2726, len 0, comp 26 of 25, #2, DI 000000A5:)
+Data at offset 2726 ('</LineItem><Line...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 8: Offset 2741, len 0, comp 26 of 25, #2, DI 000000A5:)
-Data at offset 2741 ('</LineItem></Doc...') does not match INITIATOR '<OWSP><!--'
+(Level 8: Offset 2726, len 0, comp 26 of 25, #2, DI 000000A5:)
+Data at offset 2726 ('</LineItem><Line...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 8: Offset 2741, len 0, comp 26 of 25, #2, DI 000000A5:)
-Data at offset 2741 ('</LineItem></Doc...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 8: Offset 2726, len 0, comp 26 of 25, #2, DI 000000A5:)
+Data at offset 2726 ('</LineItem><Line...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 8: Offset 2741, len 0, comp 26 of 25, #2, DI 000000A5:)
-Data at offset 2741 ('</LineItem></Doc...') failed PARTITIONing for TYPE
+(Level 8: Offset 2726, len 0, comp 26 of 25, #2, DI 000000A5:)
+Data at offset 2726 ('</LineItem><Line...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 7: Offset 1834, len 907, comp 2 of 2, #1, DI 000000A5:)
-Data at offset 1834 ('<PartNumber><Typ') was found to be of TYPE
+(Level 7: Offset 1821, len 905, comp 2 of 2, #1, DI 000000A5:)
+Data at offset 1821 ('<PartNumber><Typ') was found to be of TYPE
    X'00C5' (Seq LineItem Element XSD).
 
-(Level 6: Offset 1833, len 918, comp 41 of 41, #1, DI 000000A6:)
-Data at offset 1833 ('><PartNumber><Ty') was found to be of TYPE
+(Level 6: Offset 1820, len 916, comp 41 of 41, #1, DI 000000A6:)
+Data at offset 1820 ('><PartNumber><Ty') was found to be of TYPE
    X'00C3' (ElemDecl LineItem Element XSD).
 
-(Level 6: Offset 2752, len 0, comp 41 of 41, #2, DI 000000A7:)
-Data at offset 2752 ('</Document><Elem...') does not match INITIATOR '<OWSP><LineItem'
-  of TYPE X'00C3' (ElemDecl LineItem Element XSD).
+(Level 7: Offset 2746, len 0, comp 1 of 2, #1, DI 000000A7:)
+Data at offset 2746 ('><PartNumber><Ty') was found to be of TYPE
+   X'00C4' (AttrList LineItem Element XSD).
 
-(Level 6: Offset 2752, len 0, comp 41 of 41, #2, DI 000000A7:)
-COMPONENT number 41 of TYPE X'005D' (Seq Document Element XSD):
-occurrence 2 is optional and does not exist.
+(Level 8: Offset 2747, len 0, comp 1 of 25, #1, DI 000000A7:)
+Data at offset 2747 ('<PartNumber><Typ...') does not match INITIATOR '<OWSP><LineID<OWSP>>'
+  of TYPE X'00C7' (LineID Comp LineItem Element XSD).
 
-(Level 6: Offset 2752, len 0, comp 42 of 41, #2, DI 000000A7:)
-Data at offset 2752 ('</Document><Elem...') does not match INITIATOR '<OWSP><?'
+(Level 8: Offset 2747, len 0, comp 1 of 25, #1, DI 000000A7:)
+COMPONENT number 1 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 9: Offset 2758, len 0, comp 1 of 2, #1, DI 000000A7:)
+Data at offset 2758 ('><Type>SKU</Type') was found to be of TYPE
+   X'00CA' (AttrList PartNumber Element XSD).
+
+(Level 14: Offset 2764, len 0, comp 1 of 2, #1, DI 000000A7:)
+Data at offset 2764 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 14: Offset 2764, len 0, comp 1 of 2, #1, DI 000000A7:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 13: Offset 2764, len 0, comp 2 of 3, #1, DI 000000A7:)
+Data at offset 2764 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 13: Offset 2764, len 0, comp 3 of 3, #1, DI 000000A7:)
+Data at offset 2764 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 12: Offset 2764, len 0, comp 1 of 2, #1, DI 000000A7:)
+Data at offset 2764 ('>SKU</Type><Numb') was found to be of TYPE
+   X'00D1' (AttrList PartNumberConstant Type XSD).
+
+(Level 12: Offset 2765, len 3, comp 2 of 2, #1, DI 000000A7:)
+Data at offset 2765 ('SKU') was found to be of TYPE
+   X'00D2' (Value PartNumberConstant Type XSD).
+
+(Level 11: Offset 2764, len 5, comp 1 of 1, #1, DI 000000A8:)
+Data at offset 2764 ('>SKU<') was found to be of TYPE
+   X'00D0' (TypeDef PartNumberConstant Type XSD).
+
+(Level 11: Offset 2769, len 6, comp 2 of 1, #2, DI 000000A9:)
+TERMINATOR ('Terminator Type Comp PartNumber Element XSD') found; has value '/Type<OWSP>>'.
+
+(Level 11: Offset 2769, len 6, comp 2 of 1, #2, DI 000000A9:)
+Data at offset 2769 ('/Type>') was found to be of TYPE
+   X'00D3' (Terminator Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 2764, len 5, comp 1 of 2, #1, DI 000000AA:)
+Data at offset 2764 ('>SKU<') was found to be of TYPE
+   X'00CE' (ElemDecl Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 2783, len 9, comp 2 of 2, #1, DI 000000AB:)
+Data at offset 2783 ('107311874') was found to be of TYPE
+   X'00D4' (Number Comp PartNumber Element XSD).
+
+(Level 10: Offset 2801, len 0, comp 3 of 2, #2, DI 000000AC:)
+Data at offset 2801 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 6: Offset 2752, len 0, comp 42 of 41, #2, DI 000000A7:)
-Data at offset 2752 ('</Document><Elem...') does not match INITIATOR '<OWSP><!--'
+(Level 10: Offset 2801, len 0, comp 3 of 2, #2, DI 000000AC:)
+Data at offset 2801 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 6: Offset 2752, len 0, comp 42 of 41, #2, DI 000000A7:)
-Data at offset 2752 ('</Document><Elem...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 10: Offset 2801, len 0, comp 3 of 2, #2, DI 000000AC:)
+Data at offset 2801 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 6: Offset 2752, len 0, comp 42 of 41, #2, DI 000000A7:)
-Data at offset 2752 ('</Document><Elem...') failed PARTITIONing for TYPE
+(Level 10: Offset 2801, len 0, comp 3 of 2, #2, DI 000000AC:)
+Data at offset 2801 ('</PartNumber><Pa...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 5: Offset 79, len 2673, comp 2 of 2, #1, DI 000000A7:)
+(Level 9: Offset 2759, len 42, comp 2 of 2, #1, DI 000000AC:)
+Data at offset 2759 ('<Type>SKU</Type>') was found to be of TYPE
+   X'00CB' (Seq PartNumber Element XSD).
+
+(Level 8: Offset 2758, len 55, comp 2 of 25, #1, DI 000000AD:)
+Data at offset 2758 ('><Type>SKU</Type') was found to be of TYPE
+   X'00C9' (ElemDecl PartNumber Element XSD).
+
+(Level 9: Offset 2825, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 2825 ('><Type>UPC</Type') was found to be of TYPE
+   X'00CA' (AttrList PartNumber Element XSD).
+
+(Level 14: Offset 2831, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 2831 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 14: Offset 2831, len 0, comp 1 of 2, #1, DI 000000AE:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 13: Offset 2831, len 0, comp 2 of 3, #1, DI 000000AE:)
+Data at offset 2831 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 13: Offset 2831, len 0, comp 3 of 3, #1, DI 000000AE:)
+Data at offset 2831 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 12: Offset 2831, len 0, comp 1 of 2, #1, DI 000000AE:)
+Data at offset 2831 ('>UPC</Type><Numb') was found to be of TYPE
+   X'00D1' (AttrList PartNumberConstant Type XSD).
+
+(Level 12: Offset 2832, len 3, comp 2 of 2, #1, DI 000000AE:)
+Data at offset 2832 ('UPC') was found to be of TYPE
+   X'00D2' (Value PartNumberConstant Type XSD).
+
+(Level 11: Offset 2831, len 5, comp 1 of 1, #1, DI 000000AF:)
+Data at offset 2831 ('>UPC<') was found to be of TYPE
+   X'00D0' (TypeDef PartNumberConstant Type XSD).
+
+(Level 11: Offset 2836, len 6, comp 2 of 1, #2, DI 000000B0:)
+TERMINATOR ('Terminator Type Comp PartNumber Element XSD') found; has value '/Type<OWSP>>'.
+
+(Level 11: Offset 2836, len 6, comp 2 of 1, #2, DI 000000B0:)
+Data at offset 2836 ('/Type>') was found to be of TYPE
+   X'00D3' (Terminator Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 2831, len 5, comp 1 of 2, #1, DI 000000B1:)
+Data at offset 2831 ('>UPC<') was found to be of TYPE
+   X'00CE' (ElemDecl Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 2850, len 12, comp 2 of 2, #1, DI 000000B2:)
+Data at offset 2850 ('733531291509') was found to be of TYPE
+   X'00D4' (Number Comp PartNumber Element XSD).
+
+(Level 10: Offset 2871, len 0, comp 3 of 2, #2, DI 000000B3:)
+Data at offset 2871 ('</PartNumber><De...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 10: Offset 2871, len 0, comp 3 of 2, #2, DI 000000B3:)
+Data at offset 2871 ('</PartNumber><De...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 10: Offset 2871, len 0, comp 3 of 2, #2, DI 000000B3:)
+Data at offset 2871 ('</PartNumber><De...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 10: Offset 2871, len 0, comp 3 of 2, #2, DI 000000B3:)
+Data at offset 2871 ('</PartNumber><De...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 9: Offset 2826, len 45, comp 2 of 2, #1, DI 000000B3:)
+Data at offset 2826 ('<Type>UPC</Type>') was found to be of TYPE
+   X'00CB' (Seq PartNumber Element XSD).
+
+(Level 8: Offset 2825, len 58, comp 2 of 25, #2, DI 000000B4:)
+Data at offset 2825 ('><Type>UPC</Type') was found to be of TYPE
+   X'00C9' (ElemDecl PartNumber Element XSD).
+
+(Level 8: Offset 2884, len 0, comp 2 of 25, #3, DI 000000B5:)
+Data at offset 2884 ('<Description>120...') does not match INITIATOR '<OWSP><PartNumber'
+  of TYPE X'00C9' (ElemDecl PartNumber Element XSD).
+
+(Level 8: Offset 2884, len 0, comp 2 of 25, #3, DI 000000B5:)
+COMPONENT number 2 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 3 is optional and does not exist.
+
+(Level 8: Offset 2897, len 12, comp 3 of 25, #1, DI 000000B5:)
+Data at offset 2897 ('1204 Annuals') was found to be of TYPE
+   X'00D5' (Description Comp LineItem Element XSD).
+
+(Level 8: Offset 2937, len 10, comp 4 of 25, #1, DI 000000B6:)
+Data at offset 2937 ('1204Annual') was found to be of TYPE
+   X'00D6' (CategoryCode Comp LineItem Element XSD).
+
+(Level 8: Offset 2983, len 10, comp 5 of 25, #1, DI 000000B7:)
+Data at offset 2983 ('1204Annual') was found to be of TYPE
+   X'00D7' (CategoryDescription Comp LineItem Element XSD).
+
+(Level 8: Offset 3031, len 15, comp 6 of 25, #1, DI 000000B8:)
+Data at offset 3031 ('OFH 1204 Annual') was found to be of TYPE
+   X'00D8' (SKUDescription Comp LineItem Element XSD).
+
+(Level 8: Offset 3073, len 0, comp 7 of 25, #1, DI 000000B9:)
+Data at offset 3073 ('</CaseCode><Quan') was found to be of TYPE
+   X'00D9' (CaseCode Comp LineItem Element XSD).
+
+(Level 8: Offset 3084, len 0, comp 8 of 25, #1, DI 000000BA:)
+Data at offset 3084 ('<Quantity>18</Qu...') does not match INITIATOR '<OWSP><Packs<OWSP>>'
+  of TYPE X'00DA' (Packs Comp LineItem Element XSD).
+
+(Level 8: Offset 3084, len 0, comp 8 of 25, #1, DI 000000BA:)
+COMPONENT number 8 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 3084, len 0, comp 9 of 25, #1, DI 000000BA:)
+Data at offset 3084 ('<Quantity>18</Qu...') does not match INITIATOR '<OWSP><PackSize<OWSP>>'
+  of TYPE X'00DB' (PackSize Comp LineItem Element XSD).
+
+(Level 8: Offset 3084, len 0, comp 9 of 25, #1, DI 000000BA:)
+COMPONENT number 9 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 3094, len 2, comp 10 of 25, #1, DI 000000BA:)
+Data at offset 3094 ('18') was found to be of TYPE
+   X'00DC' (Quantity Comp LineItem Element XSD).
+
+(Level 9: Offset 3113, len 0, comp 1 of 2, #1, DI 000000BB:)
+Data at offset 3113 ('><UnitOfMeasure>') was found to be of TYPE
+   X'0019' (AttrList Units Element XSD).
+
+(Level 10: Offset 3129, len 4, comp 1 of 5, #1, DI 000000BB:)
+Data at offset 3129 ('Flat') was found to be of TYPE
+   X'0021' (UnitOfMeasure Comp Units Element XSD).
+
+(Level 10: Offset 3163, len 1, comp 2 of 5, #1, DI 000000BC:)
+Data at offset 3163 ('1') was found to be of TYPE
+   X'0022' (PackageCount Comp Units Element XSD).
+
+(Level 10: Offset 3190, len 2, comp 3 of 5, #1, DI 000000BD:)
+Data at offset 3190 ('12') was found to be of TYPE
+   X'0023' (EachCount Comp Units Element XSD).
+
+(Level 10: Offset 3223, len 2, comp 4 of 5, #1, DI 000000BE:)
+Data at offset 3223 ('18') was found to be of TYPE
+   X'0024' (InventoryQuantity Comp Units Element XSD).
+
+(Level 10: Offset 3259, len 3, comp 5 of 5, #1, DI 000000BF:)
+Data at offset 3259 ('216') was found to be of TYPE
+   X'0025' (UnitQuantity Comp Units Element XSD).
+
+(Level 10: Offset 3277, len 0, comp 6 of 5, #2, DI 000000C0:)
+Data at offset 3277 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 10: Offset 3277, len 0, comp 6 of 5, #2, DI 000000C0:)
+Data at offset 3277 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 10: Offset 3277, len 0, comp 6 of 5, #2, DI 000000C0:)
+Data at offset 3277 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 10: Offset 3277, len 0, comp 6 of 5, #2, DI 000000C0:)
+Data at offset 3277 ('</Units><Taxed>f...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 9: Offset 3114, len 163, comp 2 of 2, #1, DI 000000C0:)
+Data at offset 3114 ('<UnitOfMeasure>F') was found to be of TYPE
+   X'001F' (Seq Units Element XSD).
+
+(Level 8: Offset 3113, len 171, comp 11 of 25, #1, DI 000000C1:)
+Data at offset 3113 ('><UnitOfMeasure>') was found to be of TYPE
+   X'0018' (ElemDecl Units Element XSD).
+
+(Level 8: Offset 3292, len 5, comp 12 of 25, #1, DI 000000C2:)
+Data at offset 3292 ('false') was found to be of TYPE
+   X'00DD' (Taxed Comp LineItem Element XSD).
+
+(Level 8: Offset 3312, len 4, comp 13 of 25, #1, DI 000000C3:)
+Data at offset 3312 ('0.82') was found to be of TYPE
+   X'00DE' (Price Comp LineItem Element XSD).
+
+(Level 8: Offset 3335, len 6, comp 14 of 25, #1, DI 000000C4:)
+Data at offset 3335 ('177.12') was found to be of TYPE
+   X'00DF' (Extension Comp LineItem Element XSD).
+
+(Level 8: Offset 3372, len 3, comp 15 of 25, #1, DI 000000C5:)
+Data at offset 3372 ('0.0') was found to be of TYPE
+   X'00E0' (AdjustmentPercent Comp LineItem Element XSD).
+
+(Level 8: Offset 3395, len 0, comp 16 of 25, #1, DI 000000C6:)
+Data at offset 3395 ('<DiscountPercent...') does not match INITIATOR '<OWSP><AdjustmentAmount<OWSP>>'
+  of TYPE X'00E1' (AdjustmentAmount Comp LineItem Element XSD).
+
+(Level 8: Offset 3395, len 0, comp 16 of 25, #1, DI 000000C6:)
+COMPONENT number 16 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 3412, len 3, comp 17 of 25, #1, DI 000000C6:)
+Data at offset 3412 ('0.0') was found to be of TYPE
+   X'00E2' (DiscountPercent Comp LineItem Element XSD).
+
+(Level 8: Offset 3449, len 3, comp 18 of 25, #1, DI 000000C7:)
+Data at offset 3449 ('0.0') was found to be of TYPE
+   X'00E3' (DiscountAmount Comp LineItem Element XSD).
+
+(Level 8: Offset 3488, len 1, comp 19 of 25, #1, DI 000000C8:)
+Data at offset 3488 ('1') was found to be of TYPE
+   X'00E4' (RequestedQuantity Comp LineItem Element XSD).
+
+(Level 8: Offset 3526, len 2, comp 20 of 25, #1, DI 000000C9:)
+Data at offset 3526 ('18') was found to be of TYPE
+   X'00E5' (ShippedQuantity Comp LineItem Element XSD).
+
+(Level 8: Offset 3575, len 2, comp 21 of 25, #1, DI 000000CA:)
+Data at offset 3575 ('18') was found to be of TYPE
+   X'00E6' (AccumulativeShippedQuantity Comp LineItem Element XSD).
+
+(Level 8: Offset 3607, len 0, comp 22 of 25, #1, DI 000000CB:)
+Data at offset 3607 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Property'
+  of TYPE X'00BC' (ElemDecl Property Element XSD).
+
+(Level 8: Offset 3607, len 0, comp 22 of 25, #1, DI 000000CB:)
+COMPONENT number 22 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 3607, len 0, comp 23 of 25, #1, DI 000000CB:)
+Data at offset 3607 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Comments<OWSP>>'
+  of TYPE X'00E7' (Comments Comp LineItem Element XSD).
+
+(Level 8: Offset 3607, len 0, comp 23 of 25, #1, DI 000000CB:)
+COMPONENT number 23 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 3607, len 0, comp 24 of 25, #1, DI 000000CB:)
+Data at offset 3607 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ValueAdds'
+  of TYPE X'00E9' (ElemDecl ValueAdds Element XSD).
+
+(Level 8: Offset 3607, len 0, comp 24 of 25, #1, DI 000000CB:)
+COMPONENT number 24 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 9: Offset 3607, len 0, comp 1 of 2, #1, DI 000000CB:)
+Data at offset 3607 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ReceiveDate'
+  of TYPE X'00EF' (ElemDecl ReceiveDate Comp Comp LineItem Element XSD).
+
+(Level 13: Offset 3616, len 0, comp 1 of 2, #1, DI 000000CB:)
+Data at offset 3616 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 13: Offset 3616, len 0, comp 1 of 2, #1, DI 000000CB:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 12: Offset 3616, len 0, comp 2 of 3, #1, DI 000000CB:)
+Data at offset 3616 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 12: Offset 3616, len 0, comp 3 of 3, #1, DI 000000CB:)
+Data at offset 3616 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 11: Offset 3616, len 0, comp 1 of 2, #1, DI 000000CB:)
+Data at offset 3616 ('><Day>2015-03-29') was found to be of TYPE
+   X'006D' (AttrList DateType Type XSD).
+
+(Level 16: Offset 3621, len 0, comp 1 of 2, #1, DI 000000CB:)
+Data at offset 3621 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 16: Offset 3621, len 0, comp 1 of 2, #1, DI 000000CB:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 15: Offset 3621, len 0, comp 2 of 3, #1, DI 000000CB:)
+Data at offset 3621 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 15: Offset 3621, len 0, comp 3 of 3, #1, DI 000000CB:)
+Data at offset 3621 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 14: Offset 3621, len 0, comp 1 of 2, #1, DI 000000CB:)
+Data at offset 3621 ('>2015-03-29</Day') was found to be of TYPE
+   X'003A' (AttrList CustomDate Type XSD).
+
+(Level 14: Offset 3622, len 10, comp 2 of 2, #1, DI 000000CB:)
+Data at offset 3622 ('2015-03-29') was found to be of TYPE
+   X'003C' (Value CustomDate Type XSD).
+
+(Level 13: Offset 3621, len 12, comp 1 of 1, #1, DI 000000CC:)
+Data at offset 3621 ('>2015-03-29<') was found to be of TYPE
+   X'0039' (TypeDef CustomDate Type XSD).
+
+(Level 13: Offset 3633, len 5, comp 2 of 1, #2, DI 000000CD:)
+TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
+
+(Level 13: Offset 3633, len 5, comp 2 of 1, #2, DI 000000CD:)
+Data at offset 3633 ('/Day>') was found to be of TYPE
+   X'0072' (Terminator Day Comp DateType Type XSD).
+
+(Level 12: Offset 3621, len 12, comp 1 of 3, #1, DI 000000CE:)
+Data at offset 3621 ('>2015-03-29<') was found to be of TYPE
+   X'0071' (ElemDecl Day Comp DateType Type XSD).
+
+(Level 12: Offset 3638, len 0, comp 2 of 3, #1, DI 000000CF:)
+Data at offset 3638 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+  of TYPE X'0073' (Week Comp DateType Type XSD).
+
+(Level 12: Offset 3638, len 0, comp 2 of 3, #1, DI 000000CF:)
+COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 12: Offset 3638, len 0, comp 3 of 3, #1, DI 000000CF:)
+Data at offset 3638 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Standard'
+  of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
+
+(Level 12: Offset 3638, len 0, comp 3 of 3, #1, DI 000000CF:)
+COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 12: Offset 3638, len 0, comp 4 of 3, #1, DI 000000CF:)
+Data at offset 3638 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 12: Offset 3638, len 0, comp 4 of 3, #1, DI 000000CF:)
+Data at offset 3638 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 12: Offset 3638, len 0, comp 4 of 3, #1, DI 000000CF:)
+Data at offset 3638 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 12: Offset 3638, len 0, comp 4 of 3, #1, DI 000000CF:)
+Data at offset 3638 ('</ShipDate></Lin...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 11: Offset 3617, len 21, comp 2 of 2, #1, DI 000000CF:)
+Data at offset 3617 ('<Day>2015-03-29<') was found to be of TYPE
+   X'006E' (Seq DateType Type XSD).
+
+(Level 10: Offset 3616, len 23, comp 1 of 1, #1, DI 000000D0:)
+Data at offset 3616 ('><Day>2015-03-29') was found to be of TYPE
+   X'006C' (TypeDef DateType Type XSD).
+
+(Level 10: Offset 3639, len 10, comp 2 of 1, #2, DI 000000D1:)
+TERMINATOR ('Terminator ShipDate Comp Comp LineItem Element XSD') found; has value '/ShipDate<OWSP>>'.
+
+(Level 10: Offset 3639, len 10, comp 2 of 1, #2, DI 000000D1:)
+Data at offset 3639 ('/ShipDate>') was found to be of TYPE
+   X'00F3' (Terminator ShipDate Comp Comp LineItem Element XSD).
+
+(Level 9: Offset 3616, len 23, comp 2 of 2, #1, DI 000000D2:)
+Data at offset 3616 ('><Day>2015-03-29') was found to be of TYPE
+   X'00F2' (ElemDecl ShipDate Comp Comp LineItem Element XSD).
+
+(Level 8: Offset 3607, len 42, comp 25 of 25, #1, DI 000000D3:)
+Data at offset 3607 ('<ShipDate><Day>2') was found to be of TYPE
+   X'00EC' (Choice Comp LineItem Element XSD).
+
+(Level 8: Offset 3649, len 0, comp 26 of 25, #2, DI 000000D4:)
+Data at offset 3649 ('</LineItem><Line...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 8: Offset 3649, len 0, comp 26 of 25, #2, DI 000000D4:)
+Data at offset 3649 ('</LineItem><Line...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 8: Offset 3649, len 0, comp 26 of 25, #2, DI 000000D4:)
+Data at offset 3649 ('</LineItem><Line...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 8: Offset 3649, len 0, comp 26 of 25, #2, DI 000000D4:)
+Data at offset 3649 ('</LineItem><Line...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 7: Offset 2747, len 902, comp 2 of 2, #1, DI 000000D4:)
+Data at offset 2747 ('<PartNumber><Typ') was found to be of TYPE
+   X'00C5' (Seq LineItem Element XSD).
+
+(Level 6: Offset 2746, len 913, comp 41 of 41, #2, DI 000000D5:)
+Data at offset 2746 ('><PartNumber><Ty') was found to be of TYPE
+   X'00C3' (ElemDecl LineItem Element XSD).
+
+(Level 7: Offset 3669, len 0, comp 1 of 2, #1, DI 000000D6:)
+Data at offset 3669 ('><PartNumber><Ty') was found to be of TYPE
+   X'00C4' (AttrList LineItem Element XSD).
+
+(Level 8: Offset 3670, len 0, comp 1 of 25, #1, DI 000000D6:)
+Data at offset 3670 ('<PartNumber><Typ...') does not match INITIATOR '<OWSP><LineID<OWSP>>'
+  of TYPE X'00C7' (LineID Comp LineItem Element XSD).
+
+(Level 8: Offset 3670, len 0, comp 1 of 25, #1, DI 000000D6:)
+COMPONENT number 1 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 9: Offset 3681, len 0, comp 1 of 2, #1, DI 000000D6:)
+Data at offset 3681 ('><Type>SKU</Type') was found to be of TYPE
+   X'00CA' (AttrList PartNumber Element XSD).
+
+(Level 14: Offset 3687, len 0, comp 1 of 2, #1, DI 000000D6:)
+Data at offset 3687 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 14: Offset 3687, len 0, comp 1 of 2, #1, DI 000000D6:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 13: Offset 3687, len 0, comp 2 of 3, #1, DI 000000D6:)
+Data at offset 3687 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 13: Offset 3687, len 0, comp 3 of 3, #1, DI 000000D6:)
+Data at offset 3687 ('>SKU</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 12: Offset 3687, len 0, comp 1 of 2, #1, DI 000000D6:)
+Data at offset 3687 ('>SKU</Type><Numb') was found to be of TYPE
+   X'00D1' (AttrList PartNumberConstant Type XSD).
+
+(Level 12: Offset 3688, len 3, comp 2 of 2, #1, DI 000000D6:)
+Data at offset 3688 ('SKU') was found to be of TYPE
+   X'00D2' (Value PartNumberConstant Type XSD).
+
+(Level 11: Offset 3687, len 5, comp 1 of 1, #1, DI 000000D7:)
+Data at offset 3687 ('>SKU<') was found to be of TYPE
+   X'00D0' (TypeDef PartNumberConstant Type XSD).
+
+(Level 11: Offset 3692, len 6, comp 2 of 1, #2, DI 000000D8:)
+TERMINATOR ('Terminator Type Comp PartNumber Element XSD') found; has value '/Type<OWSP>>'.
+
+(Level 11: Offset 3692, len 6, comp 2 of 1, #2, DI 000000D8:)
+Data at offset 3692 ('/Type>') was found to be of TYPE
+   X'00D3' (Terminator Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 3687, len 5, comp 1 of 2, #1, DI 000000D9:)
+Data at offset 3687 ('>SKU<') was found to be of TYPE
+   X'00CE' (ElemDecl Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 3706, len 9, comp 2 of 2, #1, DI 000000DA:)
+Data at offset 3706 ('107317134') was found to be of TYPE
+   X'00D4' (Number Comp PartNumber Element XSD).
+
+(Level 10: Offset 3724, len 0, comp 3 of 2, #2, DI 000000DB:)
+Data at offset 3724 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 10: Offset 3724, len 0, comp 3 of 2, #2, DI 000000DB:)
+Data at offset 3724 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 10: Offset 3724, len 0, comp 3 of 2, #2, DI 000000DB:)
+Data at offset 3724 ('</PartNumber><Pa...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 10: Offset 3724, len 0, comp 3 of 2, #2, DI 000000DB:)
+Data at offset 3724 ('</PartNumber><Pa...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 9: Offset 3682, len 42, comp 2 of 2, #1, DI 000000DB:)
+Data at offset 3682 ('<Type>SKU</Type>') was found to be of TYPE
+   X'00CB' (Seq PartNumber Element XSD).
+
+(Level 8: Offset 3681, len 55, comp 2 of 25, #1, DI 000000DC:)
+Data at offset 3681 ('><Type>SKU</Type') was found to be of TYPE
+   X'00C9' (ElemDecl PartNumber Element XSD).
+
+(Level 9: Offset 3748, len 0, comp 1 of 2, #1, DI 000000DD:)
+Data at offset 3748 ('><Type>UPC</Type') was found to be of TYPE
+   X'00CA' (AttrList PartNumber Element XSD).
+
+(Level 14: Offset 3754, len 0, comp 1 of 2, #1, DI 000000DD:)
+Data at offset 3754 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 14: Offset 3754, len 0, comp 1 of 2, #1, DI 000000DD:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 13: Offset 3754, len 0, comp 2 of 3, #1, DI 000000DD:)
+Data at offset 3754 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 13: Offset 3754, len 0, comp 3 of 3, #1, DI 000000DD:)
+Data at offset 3754 ('>UPC</Type><Numb...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 12: Offset 3754, len 0, comp 1 of 2, #1, DI 000000DD:)
+Data at offset 3754 ('>UPC</Type><Numb') was found to be of TYPE
+   X'00D1' (AttrList PartNumberConstant Type XSD).
+
+(Level 12: Offset 3755, len 3, comp 2 of 2, #1, DI 000000DD:)
+Data at offset 3755 ('UPC') was found to be of TYPE
+   X'00D2' (Value PartNumberConstant Type XSD).
+
+(Level 11: Offset 3754, len 5, comp 1 of 1, #1, DI 000000DE:)
+Data at offset 3754 ('>UPC<') was found to be of TYPE
+   X'00D0' (TypeDef PartNumberConstant Type XSD).
+
+(Level 11: Offset 3759, len 6, comp 2 of 1, #2, DI 000000DF:)
+TERMINATOR ('Terminator Type Comp PartNumber Element XSD') found; has value '/Type<OWSP>>'.
+
+(Level 11: Offset 3759, len 6, comp 2 of 1, #2, DI 000000DF:)
+Data at offset 3759 ('/Type>') was found to be of TYPE
+   X'00D3' (Terminator Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 3754, len 5, comp 1 of 2, #1, DI 000000E0:)
+Data at offset 3754 ('>UPC<') was found to be of TYPE
+   X'00CE' (ElemDecl Type Comp PartNumber Element XSD).
+
+(Level 10: Offset 3773, len 12, comp 2 of 2, #1, DI 000000E1:)
+Data at offset 3773 ('733531382009') was found to be of TYPE
+   X'00D4' (Number Comp PartNumber Element XSD).
+
+(Level 10: Offset 3794, len 0, comp 3 of 2, #2, DI 000000E2:)
+Data at offset 3794 ('</PartNumber><De...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 10: Offset 3794, len 0, comp 3 of 2, #2, DI 000000E2:)
+Data at offset 3794 ('</PartNumber><De...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 10: Offset 3794, len 0, comp 3 of 2, #2, DI 000000E2:)
+Data at offset 3794 ('</PartNumber><De...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 10: Offset 3794, len 0, comp 3 of 2, #2, DI 000000E2:)
+Data at offset 3794 ('</PartNumber><De...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 9: Offset 3749, len 45, comp 2 of 2, #1, DI 000000E2:)
+Data at offset 3749 ('<Type>UPC</Type>') was found to be of TYPE
+   X'00CB' (Seq PartNumber Element XSD).
+
+(Level 8: Offset 3748, len 58, comp 2 of 25, #2, DI 000000E3:)
+Data at offset 3748 ('><Type>UPC</Type') was found to be of TYPE
+   X'00C9' (ElemDecl PartNumber Element XSD).
+
+(Level 8: Offset 3807, len 0, comp 2 of 25, #3, DI 000000E4:)
+Data at offset 3807 ('<Description>120...') does not match INITIATOR '<OWSP><PartNumber'
+  of TYPE X'00C9' (ElemDecl PartNumber Element XSD).
+
+(Level 8: Offset 3807, len 0, comp 2 of 25, #3, DI 000000E4:)
+COMPONENT number 2 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 3 is optional and does not exist.
+
+(Level 8: Offset 3820, len 15, comp 3 of 25, #1, DI 000000E4:)
+Data at offset 3820 ('1204 Vegetables') was found to be of TYPE
+   X'00D5' (Description Comp LineItem Element XSD).
+
+(Level 8: Offset 3863, len 7, comp 4 of 25, #1, DI 000000E5:)
+Data at offset 3863 ('1204Veg') was found to be of TYPE
+   X'00D6' (CategoryCode Comp LineItem Element XSD).
+
+(Level 8: Offset 3906, len 7, comp 5 of 25, #1, DI 000000E6:)
+Data at offset 3906 ('1204Veg') was found to be of TYPE
+   X'00D7' (CategoryDescription Comp LineItem Element XSD).
+
+(Level 8: Offset 3951, len 19, comp 6 of 25, #1, DI 000000E7:)
+Data at offset 3951 ('OFH 1204 Vegetab') was found to be of TYPE
+   X'00D8' (SKUDescription Comp LineItem Element XSD).
+
+(Level 8: Offset 3997, len 0, comp 7 of 25, #1, DI 000000E8:)
+Data at offset 3997 ('</CaseCode><Quan') was found to be of TYPE
+   X'00D9' (CaseCode Comp LineItem Element XSD).
+
+(Level 8: Offset 4008, len 0, comp 8 of 25, #1, DI 000000E9:)
+Data at offset 4008 ('<Quantity>18</Qu...') does not match INITIATOR '<OWSP><Packs<OWSP>>'
+  of TYPE X'00DA' (Packs Comp LineItem Element XSD).
+
+(Level 8: Offset 4008, len 0, comp 8 of 25, #1, DI 000000E9:)
+COMPONENT number 8 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 4008, len 0, comp 9 of 25, #1, DI 000000E9:)
+Data at offset 4008 ('<Quantity>18</Qu...') does not match INITIATOR '<OWSP><PackSize<OWSP>>'
+  of TYPE X'00DB' (PackSize Comp LineItem Element XSD).
+
+(Level 8: Offset 4008, len 0, comp 9 of 25, #1, DI 000000E9:)
+COMPONENT number 9 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 4018, len 2, comp 10 of 25, #1, DI 000000E9:)
+Data at offset 4018 ('18') was found to be of TYPE
+   X'00DC' (Quantity Comp LineItem Element XSD).
+
+(Level 9: Offset 4037, len 0, comp 1 of 2, #1, DI 000000EA:)
+Data at offset 4037 ('><UnitOfMeasure>') was found to be of TYPE
+   X'0019' (AttrList Units Element XSD).
+
+(Level 10: Offset 4053, len 4, comp 1 of 5, #1, DI 000000EA:)
+Data at offset 4053 ('Flat') was found to be of TYPE
+   X'0021' (UnitOfMeasure Comp Units Element XSD).
+
+(Level 10: Offset 4087, len 1, comp 2 of 5, #1, DI 000000EB:)
+Data at offset 4087 ('1') was found to be of TYPE
+   X'0022' (PackageCount Comp Units Element XSD).
+
+(Level 10: Offset 4114, len 2, comp 3 of 5, #1, DI 000000EC:)
+Data at offset 4114 ('12') was found to be of TYPE
+   X'0023' (EachCount Comp Units Element XSD).
+
+(Level 10: Offset 4147, len 2, comp 4 of 5, #1, DI 000000ED:)
+Data at offset 4147 ('18') was found to be of TYPE
+   X'0024' (InventoryQuantity Comp Units Element XSD).
+
+(Level 10: Offset 4183, len 3, comp 5 of 5, #1, DI 000000EE:)
+Data at offset 4183 ('216') was found to be of TYPE
+   X'0025' (UnitQuantity Comp Units Element XSD).
+
+(Level 10: Offset 4201, len 0, comp 6 of 5, #2, DI 000000EF:)
+Data at offset 4201 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 10: Offset 4201, len 0, comp 6 of 5, #2, DI 000000EF:)
+Data at offset 4201 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 10: Offset 4201, len 0, comp 6 of 5, #2, DI 000000EF:)
+Data at offset 4201 ('</Units><Taxed>f...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 10: Offset 4201, len 0, comp 6 of 5, #2, DI 000000EF:)
+Data at offset 4201 ('</Units><Taxed>f...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 9: Offset 4038, len 163, comp 2 of 2, #1, DI 000000EF:)
+Data at offset 4038 ('<UnitOfMeasure>F') was found to be of TYPE
+   X'001F' (Seq Units Element XSD).
+
+(Level 8: Offset 4037, len 171, comp 11 of 25, #1, DI 000000F0:)
+Data at offset 4037 ('><UnitOfMeasure>') was found to be of TYPE
+   X'0018' (ElemDecl Units Element XSD).
+
+(Level 8: Offset 4216, len 5, comp 12 of 25, #1, DI 000000F1:)
+Data at offset 4216 ('false') was found to be of TYPE
+   X'00DD' (Taxed Comp LineItem Element XSD).
+
+(Level 8: Offset 4236, len 4, comp 13 of 25, #1, DI 000000F2:)
+Data at offset 4236 ('0.82') was found to be of TYPE
+   X'00DE' (Price Comp LineItem Element XSD).
+
+(Level 8: Offset 4259, len 6, comp 14 of 25, #1, DI 000000F3:)
+Data at offset 4259 ('177.12') was found to be of TYPE
+   X'00DF' (Extension Comp LineItem Element XSD).
+
+(Level 8: Offset 4296, len 3, comp 15 of 25, #1, DI 000000F4:)
+Data at offset 4296 ('0.0') was found to be of TYPE
+   X'00E0' (AdjustmentPercent Comp LineItem Element XSD).
+
+(Level 8: Offset 4319, len 0, comp 16 of 25, #1, DI 000000F5:)
+Data at offset 4319 ('<DiscountPercent...') does not match INITIATOR '<OWSP><AdjustmentAmount<OWSP>>'
+  of TYPE X'00E1' (AdjustmentAmount Comp LineItem Element XSD).
+
+(Level 8: Offset 4319, len 0, comp 16 of 25, #1, DI 000000F5:)
+COMPONENT number 16 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 4336, len 3, comp 17 of 25, #1, DI 000000F5:)
+Data at offset 4336 ('0.0') was found to be of TYPE
+   X'00E2' (DiscountPercent Comp LineItem Element XSD).
+
+(Level 8: Offset 4373, len 3, comp 18 of 25, #1, DI 000000F6:)
+Data at offset 4373 ('0.0') was found to be of TYPE
+   X'00E3' (DiscountAmount Comp LineItem Element XSD).
+
+(Level 8: Offset 4412, len 1, comp 19 of 25, #1, DI 000000F7:)
+Data at offset 4412 ('2') was found to be of TYPE
+   X'00E4' (RequestedQuantity Comp LineItem Element XSD).
+
+(Level 8: Offset 4450, len 2, comp 20 of 25, #1, DI 000000F8:)
+Data at offset 4450 ('18') was found to be of TYPE
+   X'00E5' (ShippedQuantity Comp LineItem Element XSD).
+
+(Level 8: Offset 4499, len 2, comp 21 of 25, #1, DI 000000F9:)
+Data at offset 4499 ('18') was found to be of TYPE
+   X'00E6' (AccumulativeShippedQuantity Comp LineItem Element XSD).
+
+(Level 8: Offset 4531, len 0, comp 22 of 25, #1, DI 000000FA:)
+Data at offset 4531 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Property'
+  of TYPE X'00BC' (ElemDecl Property Element XSD).
+
+(Level 8: Offset 4531, len 0, comp 22 of 25, #1, DI 000000FA:)
+COMPONENT number 22 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 4531, len 0, comp 23 of 25, #1, DI 000000FA:)
+Data at offset 4531 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><Comments<OWSP>>'
+  of TYPE X'00E7' (Comments Comp LineItem Element XSD).
+
+(Level 8: Offset 4531, len 0, comp 23 of 25, #1, DI 000000FA:)
+COMPONENT number 23 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 8: Offset 4531, len 0, comp 24 of 25, #1, DI 000000FA:)
+Data at offset 4531 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ValueAdds'
+  of TYPE X'00E9' (ElemDecl ValueAdds Element XSD).
+
+(Level 8: Offset 4531, len 0, comp 24 of 25, #1, DI 000000FA:)
+COMPONENT number 24 of TYPE X'00C5' (Seq LineItem Element XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 9: Offset 4531, len 0, comp 1 of 2, #1, DI 000000FA:)
+Data at offset 4531 ('<ShipDate><Day>2...') does not match INITIATOR '<OWSP><ReceiveDate'
+  of TYPE X'00EF' (ElemDecl ReceiveDate Comp Comp LineItem Element XSD).
+
+(Level 13: Offset 4540, len 0, comp 1 of 2, #1, DI 000000FA:)
+Data at offset 4540 ('><Day>2015-03-29...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 13: Offset 4540, len 0, comp 1 of 2, #1, DI 000000FA:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 12: Offset 4540, len 0, comp 2 of 3, #1, DI 000000FA:)
+Data at offset 4540 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 12: Offset 4540, len 0, comp 3 of 3, #1, DI 000000FA:)
+Data at offset 4540 ('><Day>2015-03-29...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 11: Offset 4540, len 0, comp 1 of 2, #1, DI 000000FA:)
+Data at offset 4540 ('><Day>2015-03-29') was found to be of TYPE
+   X'006D' (AttrList DateType Type XSD).
+
+(Level 16: Offset 4545, len 0, comp 1 of 2, #1, DI 000000FA:)
+Data at offset 4545 ('>2015-03-29</Day...') does not match INITIATOR '<WSP>xmlns'
+  of TYPE X'001C' (Prefix XMLS XSD).
+
+(Level 16: Offset 4545, len 0, comp 1 of 2, #1, DI 000000FA:)
+COMPONENT number 1 of TYPE X'001B' (Xmlns XMLS XSD)
+  is required, but does not exist.
+
+(Level 15: Offset 4545, len 0, comp 2 of 3, #1, DI 000000FA:)
+Data at offset 4545 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>noNamespaceSchemaLocation<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><OWSP><U'
+  of TYPE X'001E' (Nnsl XMLS XSD).
+
+(Level 15: Offset 4545, len 0, comp 3 of 3, #1, DI 000000FA:)
+Data at offset 4545 ('>2015-03-29</Day...') does not match INITIATOR '<WSP><IGNORE...>nil<OWSP>=<OWSP><ANYQUOTE><NULL><NULL><NULL><NULL><OWSP>'
+  of TYPE X'003B' (Nil XMLS XSD).
+
+(Level 14: Offset 4545, len 0, comp 1 of 2, #1, DI 000000FA:)
+Data at offset 4545 ('>2015-03-29</Day') was found to be of TYPE
+   X'003A' (AttrList CustomDate Type XSD).
+
+(Level 14: Offset 4546, len 10, comp 2 of 2, #1, DI 000000FA:)
+Data at offset 4546 ('2015-03-29') was found to be of TYPE
+   X'003C' (Value CustomDate Type XSD).
+
+(Level 13: Offset 4545, len 12, comp 1 of 1, #1, DI 000000FB:)
+Data at offset 4545 ('>2015-03-29<') was found to be of TYPE
+   X'0039' (TypeDef CustomDate Type XSD).
+
+(Level 13: Offset 4557, len 5, comp 2 of 1, #2, DI 000000FC:)
+TERMINATOR ('Terminator Day Comp DateType Type XSD') found; has value '/Day<OWSP>>'.
+
+(Level 13: Offset 4557, len 5, comp 2 of 1, #2, DI 000000FC:)
+Data at offset 4557 ('/Day>') was found to be of TYPE
+   X'0072' (Terminator Day Comp DateType Type XSD).
+
+(Level 12: Offset 4545, len 12, comp 1 of 3, #1, DI 000000FD:)
+Data at offset 4545 ('>2015-03-29<') was found to be of TYPE
+   X'0071' (ElemDecl Day Comp DateType Type XSD).
+
+(Level 12: Offset 4562, len 0, comp 2 of 3, #1, DI 000000FE:)
+Data at offset 4562 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Week<OWSP>>'
+  of TYPE X'0073' (Week Comp DateType Type XSD).
+
+(Level 12: Offset 4562, len 0, comp 2 of 3, #1, DI 000000FE:)
+COMPONENT number 2 of TYPE X'006E' (Seq DateType Type XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 12: Offset 4562, len 0, comp 3 of 3, #1, DI 000000FE:)
+Data at offset 4562 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><Standard'
+  of TYPE X'0075' (ElemDecl Standard Comp DateType Type XSD).
+
+(Level 12: Offset 4562, len 0, comp 3 of 3, #1, DI 000000FE:)
+COMPONENT number 3 of TYPE X'006E' (Seq DateType Type XSD):
+occurrence 1 is optional and does not exist.
+
+(Level 12: Offset 4562, len 0, comp 4 of 3, #1, DI 000000FE:)
+Data at offset 4562 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 12: Offset 4562, len 0, comp 4 of 3, #1, DI 000000FE:)
+Data at offset 4562 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 12: Offset 4562, len 0, comp 4 of 3, #1, DI 000000FE:)
+Data at offset 4562 ('</ShipDate></Lin...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 12: Offset 4562, len 0, comp 4 of 3, #1, DI 000000FE:)
+Data at offset 4562 ('</ShipDate></Lin...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 11: Offset 4541, len 21, comp 2 of 2, #1, DI 000000FE:)
+Data at offset 4541 ('<Day>2015-03-29<') was found to be of TYPE
+   X'006E' (Seq DateType Type XSD).
+
+(Level 10: Offset 4540, len 23, comp 1 of 1, #1, DI 000000FF:)
+Data at offset 4540 ('><Day>2015-03-29') was found to be of TYPE
+   X'006C' (TypeDef DateType Type XSD).
+
+(Level 10: Offset 4563, len 10, comp 2 of 1, #2, DI 00000100:)
+TERMINATOR ('Terminator ShipDate Comp Comp LineItem Element XSD') found; has value '/ShipDate<OWSP>>'.
+
+(Level 10: Offset 4563, len 10, comp 2 of 1, #2, DI 00000100:)
+Data at offset 4563 ('/ShipDate>') was found to be of TYPE
+   X'00F3' (Terminator ShipDate Comp Comp LineItem Element XSD).
+
+(Level 9: Offset 4540, len 23, comp 2 of 2, #1, DI 00000101:)
+Data at offset 4540 ('><Day>2015-03-29') was found to be of TYPE
+   X'00F2' (ElemDecl ShipDate Comp Comp LineItem Element XSD).
+
+(Level 8: Offset 4531, len 42, comp 25 of 25, #1, DI 00000102:)
+Data at offset 4531 ('<ShipDate><Day>2') was found to be of TYPE
+   X'00EC' (Choice Comp LineItem Element XSD).
+
+(Level 8: Offset 4573, len 0, comp 26 of 25, #2, DI 00000103:)
+Data at offset 4573 ('</LineItem></Doc...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 8: Offset 4573, len 0, comp 26 of 25, #2, DI 00000103:)
+Data at offset 4573 ('</LineItem></Doc...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 8: Offset 4573, len 0, comp 26 of 25, #2, DI 00000103:)
+Data at offset 4573 ('</LineItem></Doc...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 8: Offset 4573, len 0, comp 26 of 25, #2, DI 00000103:)
+Data at offset 4573 ('</LineItem></Doc...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 7: Offset 3670, len 903, comp 2 of 2, #1, DI 00000103:)
+Data at offset 3670 ('<PartNumber><Typ') was found to be of TYPE
+   X'00C5' (Seq LineItem Element XSD).
+
+(Level 6: Offset 3669, len 914, comp 41 of 41, #3, DI 00000104:)
+Data at offset 3669 ('><PartNumber><Ty') was found to be of TYPE
+   X'00C3' (ElemDecl LineItem Element XSD).
+
+(Level 6: Offset 4584, len 0, comp 41 of 41, #4, DI 00000105:)
+Data at offset 4584 ('</Document><Elem...') does not match INITIATOR '<OWSP><LineItem'
+  of TYPE X'00C3' (ElemDecl LineItem Element XSD).
+
+(Level 6: Offset 4584, len 0, comp 41 of 41, #4, DI 00000105:)
+COMPONENT number 41 of TYPE X'005D' (Seq Document Element XSD):
+occurrence 4 is optional and does not exist.
+
+(Level 6: Offset 4584, len 0, comp 42 of 41, #4, DI 00000105:)
+Data at offset 4584 ('</Document><Elem...') does not match INITIATOR '<OWSP><?'
+  of TYPE X'0004' (PI NonDocData XSD).
+
+(Level 6: Offset 4584, len 0, comp 42 of 41, #4, DI 00000105:)
+Data at offset 4584 ('</Document><Elem...') does not match INITIATOR '<OWSP><!--'
+  of TYPE X'0005' (Comment NonDocData XSD).
+
+(Level 6: Offset 4584, len 0, comp 42 of 41, #4, DI 00000105:)
+Data at offset 4584 ('</Document><Elem...') does not match INITIATOR '<OWSP><![CDATA['
+  of TYPE X'0006' (CDATA NonDocData XSD).
+
+(Level 6: Offset 4584, len 0, comp 42 of 41, #4, DI 00000105:)
+Data at offset 4584 ('</Document><Elem...') failed PARTITIONing for TYPE
+   X'0003' (NonDocData XSD).
+
+(Level 5: Offset 79, len 4505, comp 2 of 2, #1, DI 00000105:)
 Data at offset 79 ('<DocumentType>Or') was found to be of TYPE
    X'005D' (Seq Document Element XSD).
 
-(Level 4: Offset 78, len 2684, comp 1 of 5, #1, DI 000000A8:)
+(Level 4: Offset 78, len 4516, comp 1 of 5, #1, DI 00000106:)
 Data at offset 78 ('><DocumentType>O') was found to be of TYPE
    X'005B' (ElemDecl Document Element XSD).
 
-(Level 4: Offset 2763, len 0, comp 1 of 5, #2, DI 000000A9:)
-Data at offset 2763 ('<ElementDelimite...') does not match INITIATOR '<OWSP><Document'
+(Level 4: Offset 4595, len 0, comp 1 of 5, #2, DI 00000107:)
+Data at offset 4595 ('<ElementDelimite...') does not match INITIATOR '<OWSP><Document'
   of TYPE X'005B' (ElemDecl Document Element XSD).
 
-(Level 4: Offset 2763, len 0, comp 1 of 5, #2, DI 000000A9:)
+(Level 4: Offset 4595, len 0, comp 1 of 5, #2, DI 00000107:)
 COMPONENT number 1 of TYPE X'0059' (Seq DocumentData Element XSD):
 occurrence 2 is optional and does not exist.
 
-(Level 4: Offset 2781, len 1, comp 2 of 5, #1, DI 000000A9:)
-Data at offset 2781 ('*') was found to be of TYPE
+(Level 4: Offset 4613, len 1, comp 2 of 5, #1, DI 00000107:)
+Data at offset 4613 ('*') was found to be of TYPE
    X'00F5' (ElementDelimiter Comp DocumentData Element XSD).
 
-(Level 4: Offset 2821, len 4, comp 3 of 5, #1, DI 000000AA:)
-Data at offset 2821 ('&gt;') was found to be of TYPE
+(Level 4: Offset 4653, len 4, comp 3 of 5, #1, DI 00000108:)
+Data at offset 4653 ('&gt;') was found to be of TYPE
    X'00F6' (CompositeDelimiter Comp DocumentData Element XSD).
 
-(Level 4: Offset 2867, len 23, comp 4 of 5, #1, DI 000000AB:)
-Data at offset 2867 ('symbol(13) + sym') was found to be of TYPE
+(Level 4: Offset 4699, len 23, comp 4 of 5, #1, DI 00000109:)
+Data at offset 4699 ('symbol(13) + sym') was found to be of TYPE
    X'00F7' (TerminatorDelimiter Comp DocumentData Element XSD).
 
-(Level 4: Offset 2928, len 23, comp 5 of 5, #1, DI 000000AC:)
-Data at offset 2928 ('symbol(13) + sym') was found to be of TYPE
+(Level 4: Offset 4760, len 23, comp 5 of 5, #1, DI 0000010A:)
+Data at offset 4760 ('symbol(13) + sym') was found to be of TYPE
    X'00F8' (LineTerminatorDelimiter Comp DocumentData Element XSD).
 
-(Level 4: Offset 2968, len 0, comp 6 of 5, #2, DI 000000AD:)
-Data at offset 2968 ('</DocumentData>...') does not match INITIATOR '<OWSP><?'
+(Level 4: Offset 4800, len 0, comp 6 of 5, #2, DI 0000010B:)
+Data at offset 4800 ('</DocumentData>...') does not match INITIATOR '<OWSP><?'
   of TYPE X'0004' (PI NonDocData XSD).
 
-(Level 4: Offset 2968, len 0, comp 6 of 5, #2, DI 000000AD:)
-Data at offset 2968 ('</DocumentData>...') does not match INITIATOR '<OWSP><!--'
+(Level 4: Offset 4800, len 0, comp 6 of 5, #2, DI 0000010B:)
+Data at offset 4800 ('</DocumentData>...') does not match INITIATOR '<OWSP><!--'
   of TYPE X'0005' (Comment NonDocData XSD).
 
-(Level 4: Offset 2968, len 0, comp 6 of 5, #2, DI 000000AD:)
-Data at offset 2968 ('</DocumentData>...') does not match INITIATOR '<OWSP><![CDATA['
+(Level 4: Offset 4800, len 0, comp 6 of 5, #2, DI 0000010B:)
+Data at offset 4800 ('</DocumentData>...') does not match INITIATOR '<OWSP><![CDATA['
   of TYPE X'0006' (CDATA NonDocData XSD).
 
-(Level 4: Offset 2968, len 0, comp 6 of 5, #2, DI 000000AD:)
-Data at offset 2968 ('</DocumentData>...') failed PARTITIONing for TYPE
+(Level 4: Offset 4800, len 0, comp 6 of 5, #2, DI 0000010B:)
+Data at offset 4800 ('</DocumentData>...') failed PARTITIONing for TYPE
    X'0003' (NonDocData XSD).
 
-(Level 3: Offset 69, len 2899, comp 2 of 2, #1, DI 000000AD:)
+(Level 3: Offset 69, len 4731, comp 2 of 2, #1, DI 0000010B:)
 Data at offset 69 ('<Document><Docum') was found to be of TYPE
    X'0059' (Seq DocumentData Element XSD).
 
-(Level 2: Offset 68, len 2914, comp 6 of 13, #1, DI 000000AE:)
+(Level 2: Offset 68, len 4746, comp 6 of 13, #1, DI 0000010C:)
 Data at offset 68 ('><Document><Docu') was found to be of TYPE
    X'0057' (ElemDecl DocumentData Element XSD).
 
-(Level 1: Offset 55, len 2928, comp 3 of 3, #1, DI 000000AF:)
+(Level 1: Offset 55, len 4760, comp 3 of 3, #1, DI 0000010D:)
 Data at offset 55 ('<DocumentData><D') was found to be of TYPE
    X'0015' (Global XSD).
 
-(Level 0: Offset 0, len 2983, comp 1 of 0, #1, DI 000000B0:)
+(Level 0: Offset 0, len 4815, comp 1 of 0, #1, DI 0000010E:)
 Data at offset 0 ('<?xml version="1') was found to be of TYPE
    X'0002' (Doc XSD).
 
@@ -1908,7 +2828,7 @@ Data at offset 36 ('InterchangeContr') was found to be of TYPE
    X'0100' (InterchangeControl# Fields Variable_Table).
 
 (Level 1: Offset 56, len 1, comp 6 of 16, #1, DI 00000006:)
-Data at offset 56 ('3') was found to be of TYPE
+Data at offset 56 ('6') was found to be of TYPE
    X'0101' (Answer3 Fields Variable_Table).
 
 (Level 1: Offset 59, len 13, comp 7 of 16, #1, DI 00000007:)
@@ -1924,7 +2844,7 @@ Data at offset 76 ('GroupControl#') was found to be of TYPE
    X'0104' (GroupControl# Fields Variable_Table).
 
 (Level 1: Offset 90, len 1, comp 10 of 16, #1, DI 0000000A:)
-Data at offset 90 ('3') was found to be of TYPE
+Data at offset 90 ('6') was found to be of TYPE
    X'0105' (Answer5 Fields Variable_Table).
 
 (Level 1: Offset 93, len 10, comp 11 of 16, #1, DI 0000000B:)

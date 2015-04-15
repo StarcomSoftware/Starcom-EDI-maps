@@ -1,0 +1,34 @@
+<MercatorMapAudit StartTime="16:27:08 April 14, 2015">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.2389" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WM82051.mmc' -IE1S1296 %lt;data%gt; -aed -of1 .\WM820\20121126_100000001_WM820.xml -ti</CommandLine>
+   <ObjectsFound>18805</ObjectsFound>
+   <ObjectsBuilt>0</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="1296"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>16:27:08 April 14, 2015</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="4386"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\.\WM820\20121126_100000001_WM820.xml</Settings>
+   <TimeStamp>16:27:08 April 14, 2015</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Walmart\WM82051.I01" TimeStamp="16:27:08 April 14, 2015" bytes="99094"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>
