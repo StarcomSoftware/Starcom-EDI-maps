@@ -1,0 +1,35 @@
+<MercatorMapAudit StartTime="11:22:48 May 6, 2015">
+
+<Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
+
+<Burst count="1">
+
+<DataLog></DataLog>
+
+</Burst>
+
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.0166" BurstRestartCount="0">
+   <Message>Map completed successfully</Message>
+   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\RiteAid\RiteAidPO.mmc' -IE1S807 %lt;data%gt; -aed -of1 .\RA850\20100725_1194_RA850.xml -ti</CommandLine>
+   <ObjectsFound>259</ObjectsFound>
+   <ObjectsBuilt>0</ObjectsBuilt>
+
+<SourceReport   card="1"   adapter="Echo"   bytes="807"   adapterreturn="0">
+   <Message>Data retrieved successfully</Message>
+   <TimeStamp>11:22:48 May 6, 2015</TimeStamp>
+</SourceReport>
+
+<TargetReport   card="1"   adapter="File"   bytes="1517"   adapterreturn="0">
+   <Message>Data written successfully</Message>
+   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\RiteAid\.\RA850\20100725_1194_RA850.xml</Settings>
+   <TimeStamp>11:22:48 May 6, 2015</TimeStamp>
+</TargetReport>
+
+<WorkArea type="File">
+<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\RiteAid\RiteAidPO.I01" TimeStamp="11:22:48 May 6, 2015" bytes="71284"/>
+<outputarea card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\RiteAid\RiteAidPO.O01" TimeStamp="11:22:48 May 6, 2015" bytes="65536"/>
+</WorkArea>
+
+</ExecutionSummary>
+
+</MercatorMapAudit>
