@@ -1,0 +1,42 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SyngentaAvailability_V1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identification">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="Reference_ID"/>
+                <xs:attribute type="xs:string" name="ToOrg_ID"/>
+                <xs:attribute type="xs:string" name="FromOrg_ID"/>
+                <xs:attribute type="xs:string" name="SenderOrg_ID"/>
+                <xs:attribute type="xs:string" name="MessageProtocol_ID"/>
+                <xs:attribute type="xs:dateTime" name="Date"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AvailabilityData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:int" name="VendorID" use="optional"/>
+                      <xs:attribute type="xs:long" name="SyngentaMaterialID" use="optional"/>
+                      <xs:attribute type="xs:byte" name="BlanketQty" use="optional"/>
+                      <xs:attribute type="xs:date" name="ShipWeekMonday" use="optional"/>
+                      <xs:attribute type="xs:short" name="VendorMaterialID" use="optional"/>
+                      <xs:attribute type="xs:short" name="GeneralAvailabilityQty" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

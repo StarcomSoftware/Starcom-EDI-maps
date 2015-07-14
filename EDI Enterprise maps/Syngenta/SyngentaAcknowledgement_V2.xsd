@@ -1,0 +1,112 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SyngentaAcknowledgement_V2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Identification">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="Reference_ID"/>
+                <xs:attribute type="xs:dateTime" name="Date"/>
+                <xs:attribute type="xs:string" name="MessageProtocol_ID"/>
+                <xs:attribute type="xs:string" name="FromOrg_ID"/>
+                <xs:attribute type="xs:string" name="ToOrg_ID"/>
+                <xs:attribute type="xs:string" name="SenderOrg_ID"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OrderHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SoldTo">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="Address_Line_1"/>
+                      <xs:attribute type="xs:string" name="Address_Line_2"/>
+                      <xs:attribute type="xs:string" name="Name"/>
+                      <xs:attribute type="xs:string" name="City"/>
+                      <xs:attribute type="xs:string" name="State"/>
+                      <xs:attribute type="xs:string" name="Country"/>
+                      <xs:attribute type="xs:int" name="Postal_Code"/>
+                      <xs:attribute type="xs:string" name="Fax"/>
+                      <xs:attribute type="xs:string" name="Phone"/>
+                      <xs:attribute type="xs:string" name="Email"/>
+                      <xs:attribute type="xs:int" name="Broker_Customer_ID"/>
+                      <xs:attribute type="xs:int" name="Broker_Address_ID"/>
+                      <xs:attribute type="xs:string" name="Vendor_Customer_ID"/>
+                      <xs:attribute type="xs:int" name="Vendor_Address_ID"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ShipTo">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="Address_Line_1"/>
+                      <xs:attribute type="xs:string" name="Address_Line_2"/>
+                      <xs:attribute type="xs:string" name="Name"/>
+                      <xs:attribute type="xs:string" name="City"/>
+                      <xs:attribute type="xs:string" name="State"/>
+                      <xs:attribute type="xs:string" name="Country"/>
+                      <xs:attribute type="xs:int" name="Postal_Code"/>
+                      <xs:attribute type="xs:string" name="Fax"/>
+                      <xs:attribute type="xs:string" name="Phone"/>
+                      <xs:attribute type="xs:string" name="Email"/>
+                      <xs:attribute type="xs:int" name="Broker_Customer_ID"/>
+                      <xs:attribute type="xs:int" name="Broker_Address_ID"/>
+                      <xs:attribute type="xs:string" name="Vendor_Customer_ID"/>
+                      <xs:attribute type="xs:int" name="Vendor_Address_ID"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="Vendor_Customer_ID"/>
+            <xs:attribute type="xs:date" name="Order_Date"/>
+            <xs:attribute type="xs:date" name="Requested_Ship_Date"/>
+            <xs:attribute type="xs:int" name="Vendor_Order_ID"/>
+            <xs:attribute type="xs:string" name="Vendor_Notes"/>
+            <xs:attribute type="xs:string" name="Vendor_Status"/>
+            <xs:attribute type="xs:int" name="Broker_Customer_ID"/>
+            <xs:attribute type="xs:int" name="Broker_Vendor_ID"/>
+            <xs:attribute type="xs:int" name="Broker_Order_ID"/>
+            <xs:attribute type="xs:string" name="Broker_CustomerName"/>
+            <xs:attribute type="xs:string" name="Broker_Status"/>
+            <xs:attribute type="xs:short" name="Broker_Sales_Rep_ID"/>
+            <xs:attribute type="xs:string" name="Broker_Sales_Rep_Name"/>
+            <xs:attribute type="xs:short" name="Total_Qty"/>
+            <xs:attribute type="xs:byte" name="Total_Line_Items"/>
+            <xs:attribute type="xs:byte" name="ShipMethod_Code"/>
+            <xs:attribute type="xs:string" name="Order_Instructions"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OrderDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:short" name="LineNumber" use="optional"/>
+                      <xs:attribute type="xs:long" name="Vendor_Material" use="optional"/>
+                      <xs:attribute type="xs:long" name="Broker_Material" use="optional"/>
+                      <xs:attribute type="xs:string" name="Material_Description" use="optional"/>
+                      <xs:attribute type="xs:byte" name="Qty_Ordered" use="optional"/>
+                      <xs:attribute type="xs:byte" name="Qty_Confirmed" use="optional"/>
+                      <xs:attribute type="xs:byte" name="Qty_Shipped" use="optional"/>
+                      <xs:attribute type="xs:string" name="Line_Comment" use="optional"/>
+                      <xs:attribute type="xs:string" name="Rejection_Code" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
