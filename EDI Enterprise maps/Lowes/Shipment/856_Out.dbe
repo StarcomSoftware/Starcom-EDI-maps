@@ -1,0 +1,9 @@
+
+L201 - Different data objects of COMPONENT 33 may not be distinguishable in
+ TYPE 'Order LoopHL #856 Outbound Partner Set V4010 ANSI EDI' (warning)
+
+L201 - Different data objects of COMPONENT 33 may not be distinguishable in
+ TYPE 'Shipment LoopHL #856 Outbound Partner Set V4010 ANSI EDI' (warning)
+
+
+   End of Analysis Messages.

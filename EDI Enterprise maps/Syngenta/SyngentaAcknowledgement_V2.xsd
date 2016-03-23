@@ -1,112 +1,902 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="SyngentaAcknowledgement_V2">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="Identification">
-          <xs:complexType>
-            <xs:simpleContent>
-              <xs:extension base="xs:string">
-                <xs:attribute type="xs:string" name="Reference_ID"/>
-                <xs:attribute type="xs:dateTime" name="Date"/>
-                <xs:attribute type="xs:string" name="MessageProtocol_ID"/>
-                <xs:attribute type="xs:string" name="FromOrg_ID"/>
-                <xs:attribute type="xs:string" name="ToOrg_ID"/>
-                <xs:attribute type="xs:string" name="SenderOrg_ID"/>
-              </xs:extension>
-            </xs:simpleContent>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="OrderHeader">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="SoldTo">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="Address_Line_1"/>
-                      <xs:attribute type="xs:string" name="Address_Line_2"/>
-                      <xs:attribute type="xs:string" name="Name"/>
-                      <xs:attribute type="xs:string" name="City"/>
-                      <xs:attribute type="xs:string" name="State"/>
-                      <xs:attribute type="xs:string" name="Country"/>
-                      <xs:attribute type="xs:int" name="Postal_Code"/>
-                      <xs:attribute type="xs:string" name="Fax"/>
-                      <xs:attribute type="xs:string" name="Phone"/>
-                      <xs:attribute type="xs:string" name="Email"/>
-                      <xs:attribute type="xs:int" name="Broker_Customer_ID"/>
-                      <xs:attribute type="xs:int" name="Broker_Address_ID"/>
-                      <xs:attribute type="xs:string" name="Vendor_Customer_ID"/>
-                      <xs:attribute type="xs:int" name="Vendor_Address_ID"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="ShipTo">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="Address_Line_1"/>
-                      <xs:attribute type="xs:string" name="Address_Line_2"/>
-                      <xs:attribute type="xs:string" name="Name"/>
-                      <xs:attribute type="xs:string" name="City"/>
-                      <xs:attribute type="xs:string" name="State"/>
-                      <xs:attribute type="xs:string" name="Country"/>
-                      <xs:attribute type="xs:int" name="Postal_Code"/>
-                      <xs:attribute type="xs:string" name="Fax"/>
-                      <xs:attribute type="xs:string" name="Phone"/>
-                      <xs:attribute type="xs:string" name="Email"/>
-                      <xs:attribute type="xs:int" name="Broker_Customer_ID"/>
-                      <xs:attribute type="xs:int" name="Broker_Address_ID"/>
-                      <xs:attribute type="xs:string" name="Vendor_Customer_ID"/>
-                      <xs:attribute type="xs:int" name="Vendor_Address_ID"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute type="xs:string" name="Vendor_Customer_ID"/>
-            <xs:attribute type="xs:date" name="Order_Date"/>
-            <xs:attribute type="xs:date" name="Requested_Ship_Date"/>
-            <xs:attribute type="xs:int" name="Vendor_Order_ID"/>
-            <xs:attribute type="xs:string" name="Vendor_Notes"/>
-            <xs:attribute type="xs:string" name="Vendor_Status"/>
-            <xs:attribute type="xs:int" name="Broker_Customer_ID"/>
-            <xs:attribute type="xs:int" name="Broker_Vendor_ID"/>
-            <xs:attribute type="xs:int" name="Broker_Order_ID"/>
-            <xs:attribute type="xs:string" name="Broker_CustomerName"/>
-            <xs:attribute type="xs:string" name="Broker_Status"/>
-            <xs:attribute type="xs:short" name="Broker_Sales_Rep_ID"/>
-            <xs:attribute type="xs:string" name="Broker_Sales_Rep_Name"/>
-            <xs:attribute type="xs:short" name="Total_Qty"/>
-            <xs:attribute type="xs:byte" name="Total_Line_Items"/>
-            <xs:attribute type="xs:byte" name="ShipMethod_Code"/>
-            <xs:attribute type="xs:string" name="Order_Instructions"/>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="OrderDetails">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Item" maxOccurs="unbounded" minOccurs="0">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:short" name="LineNumber" use="optional"/>
-                      <xs:attribute type="xs:long" name="Vendor_Material" use="optional"/>
-                      <xs:attribute type="xs:long" name="Broker_Material" use="optional"/>
-                      <xs:attribute type="xs:string" name="Material_Description" use="optional"/>
-                      <xs:attribute type="xs:byte" name="Qty_Ordered" use="optional"/>
-                      <xs:attribute type="xs:byte" name="Qty_Confirmed" use="optional"/>
-                      <xs:attribute type="xs:byte" name="Qty_Shipped" use="optional"/>
-                      <xs:attribute type="xs:string" name="Line_Comment" use="optional"/>
-                      <xs:attribute type="xs:string" name="Rejection_Code" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003" version="1.0" b:BizTalkServerEditorTool_Version="1.5" b:root_reference="SyngentaAcknowledgement_V2" b:standard="XML">
+	<xs:annotation>
+		<xs:documentation>Schema name: SyngentaAcknowledgement_V2</xs:documentation>
+		<xs:appinfo>
+			<b:SelectionFields xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+		</xs:appinfo>
+	</xs:annotation>
+	<xs:element name="SyngentaAcknowledgement_V2">
+		<xs:annotation>
+			<xs:appinfo>
+				<b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Identification">
+					<xs:annotation>
+						<xs:appinfo>
+							<b:RecordInfo tag_name="Identification" xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+						</xs:appinfo>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:attribute name="Reference_ID" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Date" type="xs:date">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<!-- type="dateTime" -->
+						</xs:attribute>
+						<xs:attribute name="MessageProtocol_ID">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="30"/>
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="FromOrg_ID">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="30"/>
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="ToOrg_ID">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="30"/>
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="SenderOrg_ID">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="30"/>
+									<xs:minLength value="1"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OrderHeader">
+					<xs:annotation>
+						<xs:appinfo>
+							<b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+						</xs:appinfo>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SoldTo" minOccurs="0">
+								<xs:annotation>
+									<xs:appinfo>
+										<b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+									</xs:appinfo>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="Broker_Customer_ID" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Broker_Address_ID" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Vendor_Customer_ID">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="40"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Vendor_Address_ID">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="40"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Name">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="100"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Contact">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="30"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Address_Line_1">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="64"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Address_Line_2">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="64"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="City">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="25"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="State">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="3"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Country">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="3"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Postal_Code">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="12"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Fax">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="24"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Phone">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="24"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Email">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="64"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ShipTo">
+								<xs:annotation>
+									<xs:appinfo>
+										<b:RecordInfo tag_name="ShipTo" xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+									</xs:appinfo>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="Broker_Customer_ID" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Broker_Address_ID" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Vendor_Customer_ID">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="12"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Vendor_Address_ID">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="40"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Name">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="100"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Contact">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="30"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Address_Line_1">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="64"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Address_Line_2">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="64"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="City">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="25"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="State">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="3"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Country">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="3"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Postal_Code">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="12"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Fax">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="24"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Phone">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="24"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Email">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="64"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="Vendor_Customer_ID">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="12"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Vendor_Order_ID">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="10"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Vendor_CustomerName">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="24"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Vendor_Notes" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Vendor_Status">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="12"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Broker_Customer_ID" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Broker_Vendor_ID" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<!--"xs:float" > -->
+						</xs:attribute>
+						<xs:attribute name="Broker_Order_ID" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Broker_CustomerName" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Broker_Notes" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Broker_Status">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="Delivery_Blocked"/>
+									<xs:enumeration value="Credit_Blocked"/>
+									<xs:enumeration value="Open_Order"/>
+									<xs:enumeration value="Partially_Billed"/>
+									<xs:enumeration value="Complete_Billed"/>
+									<xs:enumeration value="Cancelled_Order"/>
+									<xs:enumeration value="Quoted_Order"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Broker_Sales_Rep_ID" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Broker_Sales_Rep_Name" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Rejection_Code">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:length value="2"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Rejection_Reason" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="CustomerPO">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="24"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Order_Date" type="xs:date">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<!--type="date"-->
+						</xs:attribute>
+						<xs:attribute name="Requested_Ship_Date" type="xs:date">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<!--type="date"-->
+						</xs:attribute>
+						<xs:attribute name="SubstitutionOK" type="xs:boolean">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="BackOrderOK" type="xs:boolean">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Total_Qty" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Total_Line_Items" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="ShipMethod_Code">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:length value="2"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="ShipMethod_Name" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="AirportCode">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:length value="3"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="Carrier_ID" type="xs:integer">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Carrier_Name">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="30"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+						<xs:attribute name="FreightPaymentMethod" type="xs:string">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="Order_Instructions">
+							<xs:annotation>
+								<xs:appinfo>
+									<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+								</xs:appinfo>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:maxLength value="2160"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OrderDetails">
+					<xs:annotation>
+						<xs:appinfo>
+							<b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+						</xs:appinfo>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Item" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:appinfo>
+										<b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+									</xs:appinfo>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="LineNumber" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Vendor_Material">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="128"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Broker_Material">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="18"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Material_Description">
+										<xs:annotation>
+											<xs:documentation>Product Description</xs:documentation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="90"/>
+												<xs:minLength value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Status">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="A"/>
+												<xs:enumeration value="B"/>
+												<xs:enumeration value="C"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Scheduled_Ship_Date">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<!--type="date"-->
+									</xs:attribute>
+									<xs:attribute name="Qty_Ordered" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Qty_Confirmed" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Qty_Shipped" type="xs:integer">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Rejection_Code">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:length value="2"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Rejection_Reason" type="xs:string">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="Line_Comment">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="255"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Broker_Allotment">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="255"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Broker_Unlisted_Flag" type="xs:boolean">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="WeekCode">
+										<xs:annotation>
+											<xs:appinfo>
+												<b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer"/>
+											</xs:appinfo>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:maxLength value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 </xs:schema>

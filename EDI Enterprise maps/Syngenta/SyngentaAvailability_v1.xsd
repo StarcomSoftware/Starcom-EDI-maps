@@ -1,42 +1,294 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" version="1.0" b:BizTalkServerEditorTool_Version="1.5" b:root_reference="SyngentaAvailability_V1" b:standard="XML" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>Schema name: SyngentaAvailability_V1</xs:documentation>
+    <xs:appinfo>
+      <b:SelectionFields xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+    </xs:appinfo>
+  </xs:annotation>
   <xs:element name="SyngentaAvailability_V1">
+    <xs:annotation>
+      <xs:appinfo>
+        <b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+      </xs:appinfo>
+    </xs:annotation>
     <xs:complexType>
-      <xs:sequence>
-        <xs:element name="Identification">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element minOccurs="1" maxOccurs="1" name="Identification">
+          <xs:annotation>
+            <xs:appinfo>
+              <b:RecordInfo tag_name="Identification" xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+            </xs:appinfo>
+          </xs:annotation>
           <xs:complexType>
-            <xs:simpleContent>
-              <xs:extension base="xs:string">
-                <xs:attribute type="xs:string" name="Reference_ID"/>
-                <xs:attribute type="xs:string" name="ToOrg_ID"/>
-                <xs:attribute type="xs:string" name="FromOrg_ID"/>
-                <xs:attribute type="xs:string" name="SenderOrg_ID"/>
-                <xs:attribute type="xs:string" name="MessageProtocol_ID"/>
-                <xs:attribute type="xs:dateTime" name="Date"/>
-              </xs:extension>
-            </xs:simpleContent>
+            <xs:attribute name="Reference_ID" use="required">
+              <xs:annotation>
+                <xs:documentation>The unique identifier for each document instance</xs:documentation>
+                <xs:appinfo>
+                  <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                </xs:appinfo>
+              </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="Date"  use="required"> <!-- type="dateTime" -->
+              <xs:annotation>
+                <xs:documentation>Date &amp; Time of when the document was created - format is YYYY-MM-DDTHH:MM:SS AMPM</xs:documentation>
+                <xs:appinfo>
+                  <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                </xs:appinfo>
+              </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="MessageProtocol_ID" use="required">
+              <xs:annotation>
+                <xs:documentation>The version of the document, default to SyngentaAvailability_V1</xs:documentation>
+                <xs:appinfo>
+                  <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                </xs:appinfo>
+              </xs:annotation>
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="30" />
+                  <xs:minLength value="1" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="FromOrg_ID" use="required">
+              <xs:annotation>
+                <xs:documentation>The organization from which the data came</xs:documentation>
+                <xs:appinfo>
+                  <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                </xs:appinfo>
+              </xs:annotation>
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="30" />
+                  <xs:minLength value="1" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="ToOrg_ID" use="required">
+              <xs:annotation>
+                <xs:documentation>The organization to where the data is going</xs:documentation>
+                <xs:appinfo>
+                  <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                </xs:appinfo>
+              </xs:annotation>
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="30" />
+                  <xs:minLength value="1" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="SenderOrg_ID" use="required">
+              <xs:annotation>
+                <xs:documentation>The organization who actually send the document on behalf of the from organization</xs:documentation>
+                <xs:appinfo>
+                  <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                </xs:appinfo>
+              </xs:annotation>
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="30" />
+                  <xs:minLength value="1" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
           </xs:complexType>
         </xs:element>
-        <xs:element name="AvailabilityData">
+        <xs:element minOccurs="1" maxOccurs="1" name="AvailabilityData">
+          <xs:annotation>
+            <xs:appinfo>
+              <b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+            </xs:appinfo>
+          </xs:annotation>
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Item" maxOccurs="unbounded" minOccurs="0">
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Item">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                  </xs:appinfo>
+                </xs:annotation>
                 <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:int" name="VendorID" use="optional"/>
-                      <xs:attribute type="xs:long" name="SyngentaMaterialID" use="optional"/>
-                      <xs:attribute type="xs:byte" name="BlanketQty" use="optional"/>
-                      <xs:attribute type="xs:date" name="ShipWeekMonday" use="optional"/>
-                      <xs:attribute type="xs:short" name="VendorMaterialID" use="optional"/>
-                      <xs:attribute type="xs:short" name="GeneralAvailabilityQty" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
+                  <xs:attribute name="VendorID" use="required">
+                    <xs:annotation>
+                      <xs:documentation>The vendor's Syngenta SAP partner ID - usually an 8 digit number starting with a 9</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+            <!--         <xs:simpleType>
+                      <xs:restriction base="xs:float">
+                        <xs:pattern value="([0-9]|\+|\-|E|e|\.){8,10}" />
+                      </xs:restriction>
+                    </xs:simpleType>  -->
+                  </xs:attribute>
+                  <xs:attribute name="ShipWeekMonday" use="required">
+                    <xs:annotation>
+                      <xs:documentation>Must be a monday - Format is YYYY-MM-DD</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="SyngentaMaterialID">
+                    <xs:annotation>
+                      <xs:documentation>The Syngenta SAP Material number for the product</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+<!--                     <xs:simpleType>
+                      <xs:restriction base="xs:float">
+                        <xs:pattern value="([0-9]|\+|\-|E|e|\.){1,18}" />
+                      </xs:restriction>
+                    </xs:simpleType>-->
+                  </xs:attribute>  
+                  <xs:attribute name="VendorMaterialID">
+                    <xs:annotation>
+                      <xs:documentation>The vendors unique identifier for the product - The value that was sent in the product Map</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="128" />
+                        <xs:minLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute name="GeneralAvailabilityQty" type="xs:integer">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="PurchaserReserveQty" type="xs:integer">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="BlanketQty" type="xs:integer">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute default="Call" name="DisplayMessage">
+                    <xs:annotation>
+                      <xs:documentation>Message to display of the sum of the quantities are zero, ONLY DISPLAYED IF SUM OF QUANTITIES IS ZERO</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="Call" />
+                        <xs:enumeration value="Sold_Out" />
+                        <xs:enumeration value="Unlimited" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute name="Location">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="128" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute default="pieces" name="QtyType">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="pieces" />
+                        <xs:enumeration value="trays" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute name="PiecesPerTray" type="xs:integer">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="SoldOutWeek">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <b:RecordInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:attribute name="VendorID" use="required">
+                    <xs:annotation>
+                      <xs:documentation>The vendor's Syngenta SAP partner ID - usually an 8 digit number starting with a 9</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+<!--                     <xs:simpleType>
+                      <xs:restriction base="xs:float">
+                        <xs:pattern value="([0-9]|\+|\-|E|e|\.){8,10}" />
+                      </xs:restriction>
+                    </xs:simpleType> -->
+                  </xs:attribute>
+                  <xs:attribute name="ShipWeekMonday" use="required"> <!-- type="date" -->
+                    <xs:annotation>
+                      <xs:documentation>The Monday of the week that is completely sold out</xs:documentation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="Location">
+                    <xs:annotation>
+                      <xs:appinfo>
+                        <b:FieldInfo xmlns="urn:schemas-microsoft-com:xml-data" xmlns:d="urn:schemas-microsoft-com:datatypes" xmlns:ns="urn:greendemon.net" xmlns:b="urn:schemas-microsoft-com:BizTalkServer" />
+                      </xs:appinfo>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="128" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-      </xs:sequence>
+      </xs:choice>
     </xs:complexType>
   </xs:element>
+  <xs:simpleType name="date">
+    <xs:restriction base="xs:date">
+      <xs:pattern value="\d*-\d\d-\d\d" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dateTime">
+    <xs:restriction base="xs:dateTime">
+      <xs:pattern value="\d*-\d\d-\d\dT\d\d:\d\d(:\d\d(\.\d{0,9})?)?" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="uuid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-Fa-f]{8}\-?[0-9A-Fa-f]{4}\-?[0-9A-Fa-f]{4}\-?[0-9A-Fa-f]{4}\-?[0-9A-Fa-f]{12}" />
+    </xs:restriction>
+  </xs:simpleType>
 </xs:schema>

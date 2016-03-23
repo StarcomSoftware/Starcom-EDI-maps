@@ -1,0 +1,12 @@
+### ShopKo Properties
+### 
+### Last Updated: 2/22/2016
+### Version 1.0
+### 
+### Directory Structure
+###   .\Archive - inbound data archive
+###   .\SH820 - inbound 820 XML file timestamped with GS segment date and time
+### 
+### Map Inventory
+###   SHInbound.mmc - runs all inbound maps
+###   SH82041.mmc - inbound 820 map

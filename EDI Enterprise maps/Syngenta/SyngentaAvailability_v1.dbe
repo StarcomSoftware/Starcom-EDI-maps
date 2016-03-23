@@ -1,0 +1,12 @@
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl Identification Comp Comp SyngentaAvailability_V1 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl Item AvailabilityData Comp Comp SyngentaAvailability_V1 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl SoldOutWeek AvailabilityData Comp Comp SyngentaAvailability_V1 Element XSD' (warning)
+
+
+   End of Analysis Messages.

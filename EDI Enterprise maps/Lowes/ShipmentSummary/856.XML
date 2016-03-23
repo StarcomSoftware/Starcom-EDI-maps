@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DocumentData>
+	<Document>
+		<DocumentType>Order</DocumentType>
+		<PONumber>15720623</PONumber>
+		<VendorID>10024</VendorID>
+		<VendorName>Battlefield Farms Inc.</VendorName>
+		<DUNSNumber>192177335</DUNSNumber>
+		<TaxIdNumber/>
+		<InvoiceNumber>161646</InvoiceNumber>
+		<OrderStatus>Shipped</OrderStatus>
+		<CreateDate>
+			<Day>2015-08-10</Day>
+		</CreateDate>
+		<LoadDate>
+			<Day>2015-08-20</Day>
+		</LoadDate>
+		<DeliveryDate>
+			<Day>2015-08-20</Day>
+		</DeliveryDate>
+		<ShipDate>
+			<Day>2015-08-20</Day>
+		</ShipDate>
+		<ReceiveDate>
+			<Day>2015-08-20</Day>
+		</ReceiveDate>
+		<ReceiveTime>12:00</ReceiveTime>
+		<TransmitDate>
+			<Day>2015-08-20</Day>
+		</TransmitDate>
+		<Buyer/>
+		<EnteredBy>rtr co 8-17</EnteredBy>
+		<DepartmentNumber/>
+		<CarrierCode/>
+		<Weight>0.0</Weight>
+		<Volume>8.0</Volume>
+		<TermsBasisDateCode/>
+		<OrderShippedComplete>Y</OrderShippedComplete>
+		<Party>
+			<PartyType>SHIP_TO</PartyType>
+			<PartyID>ALW0139</PartyID>
+			<ExternalID>0139</ExternalID>
+			<Name>LOWE'S # 0139</Name>
+			<Address1>3000 GLIMCHER BLVD</Address1>
+			<Address2/>
+			<City>HERMITAGE</City>
+			<State>PA</State>
+			<ZipCode>16148</ZipCode>
+			<Phone>(724) 983-5360</Phone>
+		</Party>
+		<Party>
+			<PartyType>BILL_TO</PartyType>
+			<PartyID>LOWES</PartyID>
+			<Name>Lowes Stores</Name>
+			<Address1>PO BOX 1111</Address1>
+			<Address2>ATTN CORPORATE TRADE PAYABLES</Address2>
+			<City>NORTH WILKESBORO</City>
+			<State>NC</State>
+			<ZipCode>28656</ZipCode>
+			<Phone>(724) 983-5360</Phone>
+		</Party>
+		<Instructions>
+			<Short>revised</Short>
+			<Long/>
+		</Instructions>
+		<PaymentTerms>
+			<TermsCode>0.0/0 N/45</TermsCode>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountDays>0</DiscountDays>
+			<NetDueDays>45</NetDueDays>
+			<TermsDate>2015-08-20</TermsDate>
+			<DueDate>2015-10-04</DueDate>
+		</PaymentTerms>
+		<TaxableAmount>266.0</TaxableAmount>
+		<TaxPercent>0.0</TaxPercent>
+		<GSTPercent>0.0</GSTPercent>
+		<GSTAmount>0.0</GSTAmount>
+		<Total>2210.2</Total>
+		<Property>
+			<key>UCC128</key>
+			<value>00007250470001616463</value>
+		</Property>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>105565</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047011177</Number>
+			</PartNumber>
+			<Description>3.00-QT ACORN PLANTER</Description>
+			<CategoryCode>8 MUM</CategoryCode>
+			<CategoryDescription>8 MUM</CategoryDescription>
+			<SKUDescription>3.00-QT ACORN PLANTER</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>60</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>60</InventoryQuantity>
+				<UnitQuantity>60</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>4.0</Price>
+			<Extension>240.0</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>60</RequestedQuantity>
+			<ShippedQuantity>60</ShippedQuantity>
+			<AccumulativeShippedQuantity>60</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>122355</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047001062</Number>
+			</PartNumber>
+			<Description>1.50-GAL MUM HARVEST BASKET</Description>
+			<CategoryCode>11 MUM</CategoryCode>
+			<CategoryDescription>11 MUM</CategoryDescription>
+			<SKUDescription>1.50-GAL MUM HARVEST BASKET</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>20</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>20</InventoryQuantity>
+				<UnitQuantity>20</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>6.32</Price>
+			<Extension>126.4</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>20</RequestedQuantity>
+			<ShippedQuantity>20</ShippedQuantity>
+			<AccumulativeShippedQuantity>20</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>200358</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047008498</Number>
+			</PartNumber>
+			<Description>1.50-GAL MUM WHISKEY BARREL</Description>
+			<CategoryCode>11 MUM</CategoryCode>
+			<CategoryDescription>11 MUM</CategoryDescription>
+			<SKUDescription>1.50-GAL MUM WHISKEY BARREL</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>30</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>30</InventoryQuantity>
+				<UnitQuantity>30</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>7.34</Price>
+			<Extension>220.2</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>30</RequestedQuantity>
+			<ShippedQuantity>30</ShippedQuantity>
+			<AccumulativeShippedQuantity>30</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>395007</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047013447</Number>
+			</PartNumber>
+			<Description>1.50-GAL MUM COLORBOWL</Description>
+			<CategoryCode>12 MUM</CategoryCode>
+			<CategoryDescription>12 MUM</CategoryDescription>
+			<SKUDescription>1.50-GAL MUM COLORBOWL</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>60</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>60</InventoryQuantity>
+				<UnitQuantity>60</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>5.36</Price>
+			<Extension>321.6</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>60</RequestedQuantity>
+			<ShippedQuantity>60</ShippedQuantity>
+			<AccumulativeShippedQuantity>60</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>412003</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047019067</Number>
+			</PartNumber>
+			<Description>1.63-PINT MUM</Description>
+			<CategoryCode>5 MUM</CategoryCode>
+			<CategoryDescription>5 MUM</CategoryDescription>
+			<SKUDescription>1.63-PINT MUM</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>280</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>280</InventoryQuantity>
+				<UnitQuantity>280</UnitQuantity>
+			</Units>
+			<Taxed>true</Taxed>
+			<Price>0.95</Price>
+			<Extension>266.0</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>280</RequestedQuantity>
+			<ShippedQuantity>280</ShippedQuantity>
+			<AccumulativeShippedQuantity>280</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>4276</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047350474</Number>
+			</PartNumber>
+			<Description>1.50-GAL MUM HB</Description>
+			<CategoryCode>10 MUM HB</CategoryCode>
+			<CategoryDescription>10 MUM HB</CategoryDescription>
+			<SKUDescription>1.50-GAL MUM HB</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>50</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>50</InventoryQuantity>
+				<UnitQuantity>50</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>5.5</Price>
+			<Extension>275.0</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>50</RequestedQuantity>
+			<ShippedQuantity>50</ShippedQuantity>
+			<AccumulativeShippedQuantity>50</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>86944</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047350528</Number>
+			</PartNumber>
+			<Description>1.50-GAL MUM GARDEN PLANTER</Description>
+			<CategoryCode>10 MUM</CategoryCode>
+			<CategoryDescription>10 MUM</CategoryDescription>
+			<SKUDescription>1.50-GAL MUM GARDEN PLANTER</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>50</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>50</InventoryQuantity>
+				<UnitQuantity>50</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>5.42</Price>
+			<Extension>271.0</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>50</RequestedQuantity>
+			<ShippedQuantity>50</ShippedQuantity>
+			<AccumulativeShippedQuantity>50</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+		<LineItem>
+			<PartNumber>
+				<Type>SKU</Type>
+				<Number>93245</Number>
+			</PartNumber>
+			<PartNumber>
+				<Type>UPC</Type>
+				<Number>725047350467</Number>
+			</PartNumber>
+			<Description>3.00-QT MUM GARDEN</Description>
+			<CategoryCode>8 MUM</CategoryCode>
+			<CategoryDescription>8 MUM</CategoryDescription>
+			<SKUDescription>3.00-QT MUM GARDEN</SKUDescription>
+			<CaseCode>20387</CaseCode>
+			<Quantity>200</Quantity>
+			<Units>
+				<UnitOfMeasure>Flat</UnitOfMeasure>
+				<PackageCount>1</PackageCount>
+				<EachCount>1</EachCount>
+				<InventoryQuantity>200</InventoryQuantity>
+				<UnitQuantity>200</UnitQuantity>
+			</Units>
+			<Taxed>false</Taxed>
+			<Price>2.45</Price>
+			<Extension>490.0</Extension>
+			<AdjustmentPercent>0.0</AdjustmentPercent>
+			<DiscountPercent>0.0</DiscountPercent>
+			<DiscountAmount>0.0</DiscountAmount>
+			<RequestedQuantity>100</RequestedQuantity>
+			<ShippedQuantity>200</ShippedQuantity>
+			<AccumulativeShippedQuantity>200</AccumulativeShippedQuantity>
+			<ShipDate>
+				<Day>2015-08-20</Day>
+			</ShipDate>
+		</LineItem>
+	</Document>
+	<ElementDelimiter>*</ElementDelimiter>
+	<CompositeDelimiter>&gt;</CompositeDelimiter>
+	<TerminatorDelimiter>symbol(13) + symbol(10)</TerminatorDelimiter>
+	<LineTerminator>symbol(13) + symbol(10)</LineTerminator>
+</DocumentData>

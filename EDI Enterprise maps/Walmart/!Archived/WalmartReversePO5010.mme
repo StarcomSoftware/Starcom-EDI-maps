@@ -2,19 +2,7 @@ M200	WARNING:
 	Map: WalmartReversePO5010   Output: GroupCtrl# Element:GS Segment V4010:#855<>F4010<>Outbound Partner Funct'lGroup ANSI [1]:Out855
 	Size of input item is greater than size of output item.
 
-M115	ERROR:
-	Map: F_MapTransaction   Output: PO Date Element:BAK Segment:TransactionOut
-	Output argument of rule does not match output item sub-class:
-	=Value:TypeDef CustomDate:ElemDecl Day Comp:Seq:TypeDef DateType Type:ElemDecl CreateDate Comp:Seq:DocumentElementXML
-
-M115	ERROR:
-	Map: F_MapTransaction   Output: Date Element:DTM Segment [1]:TransactionOut
-	Output argument of rule does not match output item sub-class:
-	=Value:TypeDef CustomDate:ElemDecl Day Comp:Seq:TypeDef DateType Type:ElemDecl ShipDate Comp:Seq:DocumentElementXML
-
 M200	WARNING:
 	Map: WalmartReversePO5010   Output: GroupCtrl# Element:GE Segment V4010:#855<>F4010<>Outbound Partner Funct'lGroup ANSI [1]:Out855
 	Size of input item is greater than size of output item.
 
-
-Total errors: 2.   Total warnings: 2.

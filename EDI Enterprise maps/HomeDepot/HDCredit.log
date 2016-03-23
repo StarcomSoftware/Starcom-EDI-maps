@@ -1,4 +1,4 @@
-<MercatorMapAudit StartTime="10:12:38 November 24, 2014">
+<MercatorMapAudit StartTime="22:17:43 March 2, 2016">
 
 <Platform>Mercator RUN Function for Windows - Version 6.7(306)</Platform>
 
@@ -8,26 +8,24 @@
 
 </Burst>
 
-<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.1199" BurstRestartCount="0">
+<ExecutionSummary MapStatus="Valid" mapreturn="0" ElapsedSec="0.2109" BurstRestartCount="0">
    <Message>Map completed successfully</Message>
-   <CommandLine>'P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HDCredit.mmc' -IE1S24779 %lt;data%gt; -aed -of1 .\HD812\20140901_1265_HD812.xml -ti</CommandLine>
-   <ObjectsFound>64796</ObjectsFound>
-   <ObjectsBuilt>0</ObjectsBuilt>
+   <CommandLine>'C:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HDCredit.mmc' -IE1S15929 %lt;data%gt; -aed -of1 .\HD812\20110526_5951_HD812.xml -ti</CommandLine>
 
-<SourceReport   card="1"   adapter="Echo"   bytes="24779"   adapterreturn="0">
+<SourceReport   card="1"   adapter="Echo"   bytes="15929"   adapterreturn="0">
    <Message>Data retrieved successfully</Message>
-   <TimeStamp>10:12:38 November 24, 2014</TimeStamp>
+   <TimeStamp>22:17:43 March 2, 2016</TimeStamp>
 </SourceReport>
 
-<TargetReport   card="1"   adapter="File"   bytes="68436"   adapterreturn="0">
+<TargetReport   card="1"   adapter="File"   bytes="49166"   adapterreturn="0">
    <Message>Data written successfully</Message>
-   <Settings>P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\.\HD812\20140901_1265_HD812.xml</Settings>
-   <TimeStamp>10:12:38 November 24, 2014</TimeStamp>
+   <Settings>C:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\.\HD812\20110526_5951_HD812.xml</Settings>
+   <TimeStamp>22:17:43 March 2, 2016</TimeStamp>
 </TargetReport>
 
 <WorkArea type="File">
-<inputarea  card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HDCredit.I01" TimeStamp="10:12:38 November 24, 2014" bytes="230355"/>
-<outputarea card="1"   Path="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HDCredit.O01" TimeStamp="10:12:38 November 24, 2014" bytes="196608"/>
+<inputarea  card="1"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HDCredit.I01" TimeStamp="22:17:43 March 2, 2016" bytes="164819"/>
+<outputarea card="1"   Path="C:\Starcom\Starcom EDI maps\EDI Enterprise maps\HomeDepot\HDCredit.O01" TimeStamp="22:17:43 March 2, 2016" bytes="131072"/>
 </WorkArea>
 
 </ExecutionSummary>

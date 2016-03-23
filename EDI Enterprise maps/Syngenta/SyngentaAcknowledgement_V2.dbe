@@ -1,0 +1,33 @@
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl Identification Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'Broker_Customer_ID Attr'
+ in TYPE: 'AttrList SoldTo Comp OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'Vendor_Customer_ID Attr'
+ in TYPE: 'AttrList SoldTo Comp OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl SoldTo Comp OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'Broker_Customer_ID Attr'
+ in TYPE: 'AttrList ShipTo Comp OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'Vendor_Customer_ID Attr'
+ in TYPE: 'AttrList ShipTo Comp OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl ShipTo Comp OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'Seq'
+ in TYPE: 'ElemDecl OrderHeader Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+L251 - COMPONENT NAME could apply to more than one type: 'AttrList'
+ in TYPE: 'ElemDecl Item OrderDetails Comp SyngentaAcknowledgement_V2 Element XSD' (warning)
+
+
+   End of Analysis Messages.

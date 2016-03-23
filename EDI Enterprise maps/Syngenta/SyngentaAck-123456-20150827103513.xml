@@ -1,0 +1,11 @@
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by david lee (private) -->
+<SyngentaAcknowledgement_V2 xmlns:b="urn:schemas-microsoft-com:BizTalkServer" xmlns:ns0="http://schemas.microsoft.com/BizTalk/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P:\Starcom\Starcom EDI maps\EDI Enterprise maps\Syngenta\SyngentaAcknowledgement_V2.xsd">
+	<Identification Reference_ID="75018f52-5129-4040-9051-1ccf057e7f1b" Date="2015-08-27T10:35:13" MessageProtocol_ID="SyngentaAcknowledgement_V2" FromOrg_ID="Starcom" ToOrg_ID="Syngenta" SenderOrg_ID="Starcom"/>
+	<OrderHeader Vendor_Order_ID="4757" Vendor_Status="Approved" Broker_Customer_ID="111111" Broker_Vendor_ID="77665544" Broker_Order_ID="123456" Broker_CustomerName="Syngetna Horticultureal Services" Broker_Sales_Rep_Name="" CustomerPO="" Requested_Ship_Date="2015-08-28" Total_Qty="200" Total_Line_Items="2">
+		<ShipTo Name="Syngetna Horticultureal Services" Address_Line_1="4343 Commerce Court" Address_Line_2="" City="Lisle" State="IL" Country="US" Postal_Code="60532"/>
+	</OrderHeader>
+	<OrderDetails>
+		<Item LineNumber="0" Vendor_Material="1000" Broker_Material="" Material_Description="Alyssum-lavendar" Qty_Ordered="100" Qty_Confirmed="1800" Qty_Shipped="0"/>
+		<Item LineNumber="0" Vendor_Material="1010" Material_Description="Alyssum-Pink" Qty_Ordered="100" Qty_Confirmed="1800" Qty_Shipped="0"/>
+	</OrderDetails>
+</SyngentaAcknowledgement_V2>
